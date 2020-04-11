@@ -1,5 +1,6 @@
 import { DateTime } from 'luxon';
 import React from 'react';
+import { withAssetPrefix, withPrefix } from 'gatsby';
 
 export const capitalize = s => `${s[0].toUpperCase()}${s.substr(1)}`;
 export const getFileName = s => s.replace(/\s/g, '_').toLowerCase();
@@ -242,3 +243,6 @@ export const createCritterLink = critter =>
     .toLowerCase()
     .replace(/\s/g, '_')
     .replace(/[^a-zA-Z0-9-_]/g, '')}`;
+
+export const createCritterImageSrc = ({ type, name }) =>
+  withPrefix(`/${type}/${name[0]}${name.slice(1).toLowerCase()}.png`);
