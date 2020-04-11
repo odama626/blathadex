@@ -168,6 +168,8 @@ nav.bottom[data-mobile] {
   --success-background: #eafaed;
 
   --secondary: #aa66ce;
+  --secondary-hover: #d085f9;
+  --secondary-click: #74269d;
 
   --calendar-accent: var(--secondary);
   --calendar: white;
@@ -402,4 +404,26 @@ nav.bottom[data-mobile] {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+button {
+  color: white;
+  background-color: var(--secondary);
+  border-radius: var(--border-radius);
+  padding: 12px 34px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  line-height: 29px;
+  cursor: pointer;
+  box-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
+
+  &:hover {
+    background-color: var(--secondary-hover);
+    box-shadow: 0px 0px 4px var(--primary);
+  }
+
+  &:active {
+    background-color: var(--secondary-click);
+  }
 }

@@ -2,12 +2,21 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Icon from '../images/inline/Icon404.svg';
+import { Link } from 'gatsby';
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <SEO title="404 HOOO WHOO" />
+    <section>
+      <h2>404 HOOO WHOO</h2>
+      <p style={{ textAlign: 'center' }}>HOW DID WE GET HERE!?!</p>
+      <Icon />
+      <p />
+      <Link to="/">
+        <button>Back to Safety!</button>
+      </Link>
+    </section>
   </Layout>
 );
 
