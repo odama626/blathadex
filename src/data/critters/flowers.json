@@ -1,0 +1,194 @@
+[
+  {
+    "type": "Rose",
+    "color": "Pink",
+    "a": "Red",
+    "b": "White"
+  },
+  {
+    "type": "Rose",
+    "color": "Orange",
+    "a": "Red",
+    "b": "Yellow"
+  },
+  {
+    "type": "Rose",
+    "color": "Black",
+    "a": "Red",
+    "b": "Red"
+  },
+  {
+    "type": "Rose",
+    "color": "Purple",
+    "a": "White",
+    "b": "White"
+  },
+  {
+    "type": "Rose",
+    "color": "Special Red (Sp. Red)",
+    "a": "White",
+    "b": "Orange"
+  },
+  {
+    "type": "Rose",
+    "color": "Blue",
+    "a": "Sp. Red",
+    "b": "Sp. Red"
+  },
+  {
+    "type": "Hyacinth",
+    "color": "Pink",
+    "a": "Red",
+    "b": "White"
+  },
+  {
+    "type": "Hyacinth",
+    "color": "Orange",
+    "a": "Red",
+    "b": "Yellow"
+  },
+  {
+    "type": "Hyacinth",
+    "color": "Blue",
+    "a": "White",
+    "b": "White"
+  },
+  {
+    "type": "Hyacinth",
+    "color": "Purple",
+    "a": "Orange",
+    "b": "Orange"
+  },
+  {
+    "type": "Tulip",
+    "color": "Pink",
+    "a": "Red",
+    "b": "White"
+  },
+  {
+    "type": "Tulip",
+    "color": "Orange",
+    "a": "Red",
+    "b": "Yellow"
+  },
+  {
+    "type": "Tulip",
+    "color": "Black",
+    "a": "Red",
+    "b": "Red"
+  },
+  {
+    "type": "Tulip",
+    "color": "Purple",
+    "a": "Orange",
+    "b": "Orange"
+  },
+  {
+    "type": "Lily",
+    "color": "Pink",
+    "a": "Red",
+    "b": "White"
+  },
+  {
+    "type": "Lily",
+    "color": "Orange",
+    "a": "Red",
+    "b": "Yellow"
+  },
+  {
+    "type": "Lily",
+    "color": "Black",
+    "a": "Red",
+    "b": "Red"
+  },
+  {
+    "type": "Cosmos",
+    "color": "Pink",
+    "a": "Red",
+    "b": "White"
+  },
+  {
+    "type": "Cosmos",
+    "color": "Orange",
+    "a": "Red",
+    "b": "Yellow"
+  },
+  {
+    "type": "Cosmos",
+    "color": "Black",
+    "a": "Orange",
+    "b": "Orange"
+  },
+  {
+    "type": "Pansy",
+    "color": "Orange",
+    "a": "Red",
+    "b": "Yellow"
+  },
+  {
+    "type": "Pansy",
+    "color": "Blue",
+    "a": "White",
+    "b": "White"
+  },
+  {
+    "type": "Pansy",
+    "color": "Special (Sp.) Red",
+    "a": "Red",
+    "b": "Blue"
+  },
+  {
+    "type": "Pansy",
+    "color": "Sp. Orange",
+    "a": "Orange",
+    "b": "Blue"
+  },
+  {
+    "type": "Pansy",
+    "color": "Purple",
+    "a": "Sp. Red",
+    "b": "Sp. Red"
+  },
+  {
+    "type": "Pansy",
+    "color": "Purple",
+    "a": "Sp. Orange",
+    "b": "Sp. Orange"
+  },
+  {
+    "type": "Windflower",
+    "color": "Pink",
+    "a": "Red",
+    "b": "White"
+  },
+  {
+    "type": "Windflower",
+    "color": "Blue",
+    "a": "White",
+    "b": "White"
+  },
+  {
+    "type": "Windflower",
+    "color": "Purple",
+    "a": "Blue",
+    "b": "Blue"
+  },
+  {
+    "type": "Mum",
+    "color": "Pink",
+    "a": "Red",
+    "b": "White"
+  },
+  {
+    "type": "Mum",
+    "color": "Purple",
+    "a": "White",
+    "b": "White"
+  },
+  {
+    "type": "Mum",
+    "color": "Green",
+    "a": "Purple",
+    "b": "Purple"
+  }
+]
