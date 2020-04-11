@@ -62,7 +62,7 @@ export default function IndexPage(props) {
       }
       navBar={<></>}
     >
-      <SEO title="Blathapedia" />
+      <SEO title="Blathadex" />
       <FilterWidget />
       {sections
         .filter(s => s.critters.length)
