@@ -4,6 +4,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Location } from '@reach/router';
 import { Link } from 'gatsby';
 
+function exportData(location) {
+  console.log(location);
+}
+
 const links = [
   { label: 'Bugs & Fish', url: '/' },
   { label: 'About', url: '/about' },
@@ -33,7 +37,8 @@ function Nav(props) {
             {content}
             {links.map(link => (
               <Link
-                to={link.url}
+                to={link.url || ''}
+                onClick={link.onClick}
                 key={link.label}
                 className={classnames('item', {
                   active: link.url === location.pathname,
@@ -42,6 +47,9 @@ function Nav(props) {
                 {link.label}
               </Link>
             ))}
+            {/* <Link onClick={() => exportData(location)} className="item">
+              Export Data
+            </Link> */}
           </motion.nav>
         </>
       )}

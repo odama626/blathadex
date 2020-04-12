@@ -1,0 +1,37 @@
+import React, { useCallback } from 'react';
+import { useSelectedContext } from '../app/context';
+import { AnimatePresence, motion } from 'framer-motion';
+
+export default function SelectionWidget({ onSelect }) {
+  const { selected, clear } = useSelectedContext();
+
+  const handleSelect = () => {
+    onSelect(selected);
+    clear();
+  };
+
+  return (
+    <AnimatePresence>
+      {selected.length > 0 && (
+        <motion.nav
+          initial={{ y: '100%' }}
+          animate={{ y: 0 }}
+          exit={{ y: '100%' }}
+          key="selected"
+          data-mobile
+          data-selection
+          className="bottom"
+        >
+          <header>
+            <button className="error" onClick={clear}>
+              Cancel
+            </button>
+            <button className="success" onClick={handleSelect}>
+              Mark {selected.length} Caught!
+            </button>
+          </header>
+        </motion.nav>
+      )}
+    </AnimatePresence>
+  );
+}

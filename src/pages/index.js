@@ -1,4 +1,5 @@
 import { graphql } from 'gatsby';
+import orderBy from 'lodash.orderby';
 import React, { useLayoutEffect, useMemo, useState } from 'react';
 import useAppContext, { updateFilter } from '../app/context';
 import db from '../app/database';
@@ -6,12 +7,12 @@ import { filterCritters, getCritterSections } from '../app/utils';
 import { CritterCollection } from '../components/Critter';
 import FilterWidget from '../components/FilterWidget';
 import Layout from '../components/layout';
+import Section from '../components/Section';
 import SEO from '../components/seo';
 import Switcher from '../components/Switcher';
 import DaySvg from '../images/inline/day.svg';
 import MonthSvg from '../images/inline/month.svg';
-import orderBy from 'lodash.orderby';
-import Section from '../components/Section';
+import SelectionWidget from '../components/SelectionWidget';
 
 export default function IndexPage(props) {
   const availableCritters = useMemo(
@@ -44,6 +45,15 @@ export default function IndexPage(props) {
     );
   }, [filter, caught, loading]);
 
+  const handleMultiSelect = ids => {
+    let newCaught = ids.map(id => {
+      let { type, no } = availableCritters.find(c => c.id === id);
+      return { type, no };
+    });
+    db.caught.bulkPut(newCaught);
+    setCaught([...caught, ...newCaught]);
+  };
+
   return (
     <Layout
       actions={
@@ -64,6 +74,7 @@ export default function IndexPage(props) {
     >
       <SEO title="Blathadex" />
       <FilterWidget />
+      <SelectionWidget onSelect={handleMultiSelect} />
       {sections
         .filter(s => s.critters.length)
         .map((section, i) => (

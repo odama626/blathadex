@@ -1,5 +1,5 @@
 import { DateTime } from 'luxon';
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { withAssetPrefix, withPrefix } from 'gatsby';
 
 export const capitalize = s => `${s[0].toUpperCase()}${s.substr(1)}`;
@@ -246,3 +246,21 @@ export const createCritterLink = critter =>
 
 export const createCritterImageSrc = ({ type, name }) =>
   withPrefix(`/${type}/${name[0]}${name.slice(1).toLowerCase()}.png`);
+
+export const useEventListener = (event, callback) => {
+  const target = useRef();
+  const listener = useRef();
+
+  useEffect(() => (listener.current = callback), [callback]);
+  useEffect(() => {
+    if (!target.current) return;
+    const component = target.current;
+    const e = e => listener.current(e);
+    component.addEventListener(event, e);
+    return () => {
+      component.removeEventListener(event, e);
+    };
+  }, [event, target]);
+
+  return target;
+};

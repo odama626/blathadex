@@ -1,26 +1,54 @@
 import classnames from 'classnames';
-import { Link } from 'gatsby';
-import React from 'react';
-import { createCritterImageSrc, createCritterLink } from '../app/utils';
+import { Link, navigate } from 'gatsby';
+import React, { useRef, useCallback } from 'react';
+import {
+  createCritterImageSrc,
+  createCritterLink,
+  useEventListener,
+} from '../app/utils';
 import Checkmark from '../images/inline/checkmark.svg';
 import WarningIcon from '../images/inline/warningIcon.svg';
+import { useSelectedContext } from '../app/context';
+import LongPressableDiv, { useLongPressable } from './LongPressableDiv';
 
 export const CritterImage = ({ type, name, ...rest }) => (
   <img {...rest} alt={name} src={createCritterImageSrc({ type, name })} />
 );
 
 export const CritterBlock = critter => {
-  const { name, type, caught, no, leaving } = critter;
+  const { name, type, caught, leaving } = critter;
+  const { selected, toggle } = useSelectedContext();
+
+  const handleClick = useCallback(
+    e => {
+      if (!selected.length) {
+        navigate(createCritterLink(critter));
+      } else {
+        toggle(critter);
+      }
+    },
+    [selected.length, critter]
+  );
+
+  const lpProps = useLongPressable({
+    onClick: handleClick,
+    onLongPress: () => toggle(critter),
+  });
+
   return (
-    <Link to={createCritterLink(critter)}>
-      <div className={classnames('critter block', { caught, leaving })}>
-        <div className="stack">
-          <CritterImage type={type} name={name} />
-          {caught && <Checkmark />}
-          {leaving && <WarningIcon className="critter badge" />}
-        </div>
+    // <Link to={createCritterLink(critter)}>
+    <div
+      {...lpProps}
+      data-selected={!!~selected.indexOf(critter.id)}
+      className={classnames('critter block', { caught, leaving })}
+    >
+      <div className="stack">
+        <CritterImage type={type} name={name} />
+        {caught && <Checkmark />}
+        {leaving && <WarningIcon className="critter badge" />}
       </div>
-    </Link>
+    </div>
+    // </Link>
   );
 };
 

@@ -12,10 +12,11 @@ import Bells from '../images/inline/bagOfBells.svg';
 import BackButton from '../images/inline/back.svg';
 import WarningIcon from '../images/inline/warningIcon.svg';
 import SEO from '../components/seo';
+import { AnimatePresence, motion } from 'framer-motion';
 
 export default function CritterPage({ pageContext }) {
   const { critter } = pageContext;
-  const { name, desc, bells, type, no } = critter;
+  const { name, desc, bells, type, no, loc } = critter;
   const [caught, setCaught] = useState(false);
 
   useEffect(() => {
@@ -81,7 +82,11 @@ export default function CritterPage({ pageContext }) {
               />
             </div>
           </div>
-          <p style={{ textAlign: 'left' }}>{desc}</p>
+          <p>
+            Location:{' '}
+            <span style={{ color: 'var(--calendar-accent)' }}>{loc}</span>
+          </p>
+          <p>{desc}</p>
         </section>
         <section>
           <h3 style={{ marginTop: '16px' }}>Dates Available</h3>
@@ -101,9 +106,18 @@ export default function CritterPage({ pageContext }) {
       </article>
       <nav data-mobile className="bottom">
         <div className="bottom nav menu">
-          <div className="nav fab" onClick={() => navigate('/')}>
-            <BackButton />
-          </div>
+          <AnimatePresence>
+            <motion.div
+              initial={{ x: '-50%', y: '-70%', scale: 0.01 }}
+              animate={{ x: '-50%', y: '-70%', scale: 1 }}
+              exit={{ x: '-50%', y: '-70%', scale: 0.01 }}
+              whileTap={{ scale: 0.8 }}
+              className="nav fab"
+              onClick={() => navigate('/')}
+            >
+              <BackButton />
+            </motion.div>
+          </AnimatePresence>
         </div>
       </nav>
     </Layout>
