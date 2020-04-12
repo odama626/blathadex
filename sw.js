@@ -40,7 +40,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "4637c19e2ceeb2c6d62bf5acc255d0da"
+    "revision": "9505d60d46c1f5ce2e28ebb1e9f33084"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-91a022372b62de765b2c.js"
@@ -55,7 +55,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d8e122b569afb7a27df70b7b5194ad5d"
+    "revision": "4e233eee5d9974aed5b10c39fd911182"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
