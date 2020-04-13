@@ -7,6 +7,8 @@ export default function ToggleImage(props) {
 
   return (
     <div
+      role="switch"
+      aria-checked={checked}
       className={classnames('toggle image', { checked })}
       onClick={() => onChange && onChange(!checked)}
     >

@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
-import classnames from 'classnames';
-import { motion, AnimatePresence } from 'framer-motion';
 import { Location } from '@reach/router';
+import classnames from 'classnames';
+import { AnimatePresence, motion } from 'framer-motion';
 import { Link } from 'gatsby';
-
-function exportData(location) {
-  console.log(location);
-}
+import React from 'react';
 
 const links = [
   { label: 'Bugs & Fish', url: '/' },
@@ -31,7 +27,6 @@ function Nav(props) {
             initial={{ transform: 'translate(-100%)' }}
             animate={{ transform: 'translate(0%)' }}
             exit={{ transform: 'translate(-100%' }}
-            // layoutTransition
             className={classnames('nav side', { open })}
           >
             {content}
@@ -47,9 +42,6 @@ function Nav(props) {
                 {link.label}
               </Link>
             ))}
-            {/* <Link onClick={() => exportData(location)} className="item">
-              Export Data
-            </Link> */}
           </motion.nav>
         </>
       )}

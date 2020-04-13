@@ -16,7 +16,7 @@ const LocalStorageWrapper = ({ children }) => {
   useMemo(() => {
     let load = loadLocally('pedia-state');
     if (load) dispatch({ type: 'load', state: load });
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     saveLocally('pedia-state', state);

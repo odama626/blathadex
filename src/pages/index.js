@@ -1,35 +1,74 @@
 import { graphql } from 'gatsby';
 import orderBy from 'lodash.orderby';
-import React, { useLayoutEffect, useMemo, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import useAppContext, { updateFilter } from '../app/context';
 import db from '../app/database';
-import { filterCritters, getCritterSections } from '../app/utils';
+import {
+  filterCritters,
+  getCritterSectionGroups,
+  getNearestTimeDiff,
+} from '../app/utils';
 import { CritterCollection } from '../components/Critter';
 import FilterWidget from '../components/FilterWidget';
 import Layout from '../components/layout';
 import Section from '../components/Section';
+import SelectionWidget from '../components/SelectionWidget';
 import SEO from '../components/seo';
 import Switcher from '../components/Switcher';
 import DaySvg from '../images/inline/day.svg';
 import MonthSvg from '../images/inline/month.svg';
-import SelectionWidget from '../components/SelectionWidget';
 
-export default function IndexPage(props) {
+export default function IndexPageContainer(props) {
+  console.time('render');
   const availableCritters = useMemo(
     () => props.data.allCrittersJson.edges.map(edge => edge.node),
-    []
+    [props.data.allCrittersJson.edges]
   );
 
-  const [state, dispatch] = useAppContext();
+  const [state] = useAppContext();
+  const sort = state.sort;
+  const hemisphere = state?.filter?.hemisphere;
   const sortedCritters = useMemo(
-    () => orderBy(availableCritters, [state.sort, 'bells'], ['desc', 'desc']),
-    [state.sort, availableCritters]
+    () => orderBy(availableCritters, [sort, 'bells'], ['desc', 'desc']),
+    [sort, availableCritters]
+  );
+
+  const initialGroups = useMemo(
+    () => getCritterSectionGroups(sortedCritters, hemisphere),
+    [sortedCritters, hemisphere]
+  );
+
+  const [groups, setGroups] = useState(initialGroups);
+
+  useEffect(() => {
+    console.log(' effect');
+    let timer = setTimeout(() => {
+      setGroups(getCritterSectionGroups(sortedCritters, hemisphere));
+    }, getNearestTimeDiff());
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [groups, hemisphere, sortedCritters]);
+
+  console.timeEnd('render');
+  return <IndexPage sectionGroups={groups} critters={sortedCritters} />;
+}
+
+function IndexPage({ sectionGroups, critters }) {
+  const [state, dispatch] = useAppContext();
+
+  const today = state?.filter?.today;
+
+  const rawSections = useMemo(
+    () => (today ? sectionGroups.days : sectionGroups.months),
+    [sectionGroups, today]
   );
   const filter = state.filter;
   const [loading, setLoading] = useState(true);
 
   const [caught, setCaught] = useState([]);
-  const [sections, setSections] = useState([]);
+  const [sections, setSections] = useState(rawSections);
 
   useLayoutEffect(() => {
     db.caught
@@ -41,13 +80,16 @@ export default function IndexPage(props) {
   useLayoutEffect(() => {
     if (loading) return;
     setSections(
-      getCritterSections(filterCritters(sortedCritters, caught, filter), state)
+      rawSections.map(section => ({
+        ...section,
+        critters: filterCritters(section.critters, caught, filter),
+      }))
     );
-  }, [filter, caught, loading]);
+  }, [filter, caught, loading, rawSections]);
 
   const handleMultiSelect = ids => {
     let newCaught = ids.map(id => {
-      let { type, no } = availableCritters.find(c => c.id === id);
+      let { type, no } = critters.find(c => c.id === id);
       return { type, no };
     });
     db.caught.bulkPut(newCaught);

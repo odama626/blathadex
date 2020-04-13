@@ -7,6 +7,8 @@ export default function Checkbox(props) {
 
   return (
     <div
+      role="checkbox"
+      aria-checked={checked}
       className={classnames('checkbox', { checked })}
       onClick={() => onChange && onChange(!checked)}
     >

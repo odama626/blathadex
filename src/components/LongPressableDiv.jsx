@@ -28,13 +28,14 @@ export const useLongPressable = ({ onClick, onLongPress, time = 750 }) => {
     [onClick]
   );
 
+  const onLongPressImplemented = !!onLongPress;
   const handleContextMenu = useCallback(
     e => {
-      if (onLongPress) {
+      if (onLongPressImplemented) {
         e.preventDefault();
       }
     },
-    [!!onLongPress]
+    [onLongPressImplemented]
   );
 
   return {

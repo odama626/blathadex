@@ -1,15 +1,11 @@
 import classnames from 'classnames';
-import { Link, navigate } from 'gatsby';
-import React, { useRef, useCallback } from 'react';
-import {
-  createCritterImageSrc,
-  createCritterLink,
-  useEventListener,
-} from '../app/utils';
+import { navigate } from 'gatsby';
+import React, { useCallback } from 'react';
+import { useSelectedContext } from '../app/context';
+import { createCritterImageSrc, createCritterLink } from '../app/utils';
 import Checkmark from '../images/inline/checkmark.svg';
 import WarningIcon from '../images/inline/warningIcon.svg';
-import { useSelectedContext } from '../app/context';
-import LongPressableDiv, { useLongPressable } from './LongPressableDiv';
+import { useLongPressable } from './LongPressableDiv';
 
 export const CritterImage = ({ type, name, ...rest }) => (
   <img {...rest} alt={name} src={createCritterImageSrc({ type, name })} />
@@ -27,7 +23,7 @@ export const CritterBlock = critter => {
         toggle(critter);
       }
     },
-    [selected.length, critter]
+    [selected.length, critter, toggle]
   );
 
   const lpProps = useLongPressable({
@@ -36,7 +32,6 @@ export const CritterBlock = critter => {
   });
 
   return (
-    // <Link to={createCritterLink(critter)}>
     <div
       {...lpProps}
       data-selected={!!~selected.indexOf(critter.id)}
@@ -48,7 +43,6 @@ export const CritterBlock = critter => {
         {leaving && <WarningIcon className="critter badge" />}
       </div>
     </div>
-    // </Link>
   );
 };
 

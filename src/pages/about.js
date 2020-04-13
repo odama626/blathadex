@@ -40,7 +40,10 @@ export default function AboutPage({ data }) {
         </p>
         <p />
         <p>
-          PS: It isn’t Comic Sans it’s Comic Nue which is entirely different. 😉
+          PS: It isn’t Comic Sans it’s Comic Nue which is entirely different.{' '}
+          <span role="img" aria-label="wink">
+            😉
+          </span>
         </p>
         <p />
         <p />

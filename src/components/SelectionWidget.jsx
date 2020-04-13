@@ -1,6 +1,6 @@
-import React, { useCallback } from 'react';
-import { useSelectedContext } from '../app/context';
 import { AnimatePresence, motion } from 'framer-motion';
+import React from 'react';
+import { useSelectedContext } from '../app/context';
 
 export default function SelectionWidget({ onSelect }) {
   const { selected, clear } = useSelectedContext();

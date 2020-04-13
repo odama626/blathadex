@@ -1,6 +1,6 @@
+import { withPrefix } from 'gatsby';
 import { DateTime } from 'luxon';
-import React, { useRef, useEffect } from 'react';
-import { withAssetPrefix, withPrefix } from 'gatsby';
+import React, { useEffect, useRef } from 'react';
 
 export const capitalize = s => `${s[0].toUpperCase()}${s.substr(1)}`;
 export const getFileName = s => s.replace(/\s/g, '_').toLowerCase();
@@ -155,10 +155,43 @@ export function calculateDeltaDiffs(
 // All the hours that have fish / bug spawn changes
 const critterTimes = [4, 8, 9, 16, 17, 18, 19, 21, 23];
 
-export const getCritterSections = (critters, state) => {
-  if (state.filter?.today) return getCritterSectionsToday(critters, state);
+export function getNearestTimeDiff() {
+  const now = DateTime.local().set({ minute: 0 });
+  // let minDeltaIndex = 0;
+  let minDelta = Infinity;
 
-  const { hemisphere } = state.filter;
+  critterTimes.forEach((time, i) => {
+    let diff = time - now.hour;
+    if (diff > 0 && diff < minDelta) {
+      minDelta = diff;
+      // minDeltaIndex = i;
+    }
+  });
+
+  if (minDelta === Infinity) {
+    // 11pm - 4am gap
+    minDelta = 5;
+  }
+
+  // convert hours to milliseconds
+  return minDelta * 3600000;
+}
+
+export const getCritterSectionGroups = (critters, hemisphere) => {
+  console.time('calc critter');
+  let groups = {};
+  groups.months = getCritterSectionsMonths(critters, hemisphere);
+
+  groups.days = getCritterSectionsToday(critters, hemisphere).map(section => ({
+    ...section,
+    leaving: groups.months[0].leaving,
+  }));
+  console.timeEnd('calc critter');
+
+  return groups;
+};
+
+const getCritterSectionsMonths = (critters, hemisphere) => {
   const now = DateTime.local();
   const deltas = [{ months: 1 }, { months: 2 }, { months: 3 }];
 
@@ -184,8 +217,7 @@ export const getCritterSections = (critters, state) => {
   );
 };
 
-const getCritterSectionsToday = (critters, state) => {
-  const { hemisphere } = state.filter;
+const getCritterSectionsToday = (critters, hemisphere) => {
   const now = DateTime.local().set({ minute: 0 });
 
   let minDeltaIndex = 0;
