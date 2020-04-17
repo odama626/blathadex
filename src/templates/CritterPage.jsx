@@ -3,20 +3,20 @@ import { navigate } from 'gatsby';
 import { DateTime } from 'luxon';
 import React, { useEffect, useState } from 'react';
 import db from '../app/database';
-import { isCritterAvailableInMonth } from '../app/utils';
+import { isCritterAvailableInMonth, capitalize } from '../app/utils';
 import Checkbox from '../components/Checkbox';
-import { CritterImage } from '../components/Critter';
+import { CritterImage } from '../components/critters/Critter';
 import { HourRange, MonthRange } from '../components/DateRange';
 import Layout from '../components/layout';
-import Bells from '../images/inline/bagOfBells.svg';
-import BackButton from '../images/inline/back.svg';
-import WarningIcon from '../images/inline/warningIcon.svg';
+import Bells from 'images/inline/bagOfBells.svg';
+import BackButton from 'images/inline/back.svg';
+import WarningIcon from 'images/inline/warningIcon.svg';
 import SEO from '../components/seo';
 import { AnimatePresence, motion } from 'framer-motion';
 
 export default function CritterPage({ pageContext }) {
   const { critter } = pageContext;
-  const { name, desc, bells, type, no, loc } = critter;
+  const { name, desc, bells, type, no, loc, rarity, quote } = critter;
   const [caught, setCaught] = useState(false);
 
   useEffect(() => {
@@ -86,22 +86,39 @@ export default function CritterPage({ pageContext }) {
             Location:{' '}
             <span style={{ color: 'var(--calendar-accent)' }}>{loc}</span>
           </p>
+          {rarity && (
+            <p>
+              Rarity:{' '}
+              <span style={{ color: 'var(--calendar-accent' }}>
+                {capitalize(rarity)}
+              </span>
+            </p>
+          )}
+          {caught && quote && (
+            <blockquote>
+              <h3>
+                <i>{quote}</i>
+              </h3>
+            </blockquote>
+          )}
           <p>{desc}</p>
         </section>
         <section>
-          <h3 style={{ marginTop: '16px' }}>Dates Available</h3>
-          <MonthRange
-            ranges={[
-              [critter.smonth, critter.emonth],
-              [critter.smonth2, critter.emonth2],
-            ]}
-          />
-          <HourRange
-            ranges={[
-              [critter.stime, critter.etime],
-              [critter.stime2, critter.etime2],
-            ]}
-          />
+          <h3 style={{ marginTop: '16px' }}>Availability</h3>
+          <div className="date container">
+            <MonthRange
+              ranges={[
+                [critter.smonth, critter.emonth],
+                [critter.smonth2, critter.emonth2],
+              ]}
+            />
+            <HourRange
+              ranges={[
+                [critter.stime, critter.etime],
+                [critter.stime2, critter.etime2],
+              ]}
+            />
+          </div>
         </section>
       </article>
       <nav data-mobile className="bottom">
@@ -113,7 +130,7 @@ export default function CritterPage({ pageContext }) {
               exit={{ x: '-50%', y: '-70%', scale: 0.01 }}
               whileTap={{ scale: 0.8 }}
               className="nav fab"
-              onClick={() => navigate('/')}
+              onClick={() => window.history.back()}
             >
               <BackButton />
             </motion.div>

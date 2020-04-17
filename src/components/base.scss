@@ -1,7 +1,47 @@
+:root {
+  --primary: #5382de;
+  --accent: #cbdaf5;
+  --accent-outline: #74cde9;
+  --accent-background: #bbefff;
+
+  --error: #ed4b92;
+
+  --success: #00b905;
+  --success-outline: #71d084;
+  --success-background: #eafaed;
+
+  --basic-outline: #cccccc;
+  --basic-background: #eee;
+  --basic: #cccccc;
+
+  --secondary: #aa66ce;
+  --secondary-hover: #d085f9;
+  --secondary-click: #53276a;
+
+  --calendar-accent: var(--secondary);
+  --calendar-dark: var(--secondary-click);
+  --calendar: white;
+
+  --header-background: var(--primary);
+  --border-radius: 10px;
+  --max-site-width: 966px;
+
+  --hover-shadow: 0px 0px 4px var(--primary);
+  --section-shadow: 0px 0px 6px rgba(83, 130, 222, 0.14);
+  --item-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
+
+  --pattern-background: var(--success-background);
+  --pattern-color-1: var(--success-outline);
+  --pattern-color-2: var(--success-outline);
+  --pattern-animation-from: 0 0;
+  --pattern-animation-to: 1000 -1000;
+  --pattern-animation-dur: 60s;
+}
+
 section {
   margin: 18px;
   margin-bottom: 21px;
-  box-shadow: 0px 0px 6px rgba(83, 130, 222, 0.14);
+  box-shadow: var(--section-shadow);
   border-radius: var(--border-radius);
   padding: 16px;
   color: var(--primary);
@@ -42,7 +82,7 @@ nav.side {
   background-color: white;
   top: 73px;
   bottom: 0;
-  box-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
+  box-shadow: var(--section-shadow);
 
   .item {
     display: block;
@@ -53,7 +93,7 @@ nav.side {
     line-height: 35px;
     padding: 20px 35px;
     min-width: 250px;
-    box-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
+    box-shadow: var(--item-shadow);
     background: white;
     &:not(.active) {
       cursor: pointer;
@@ -63,7 +103,7 @@ nav.side {
     }
 
     &:hover {
-      box-shadow: 0px 0px 6px var(--primary);
+      box-shadow: var(--hover-shadow);
     }
   }
 }
@@ -82,7 +122,7 @@ nav.bottom {
   }
   text-align: center;
   background-color: white;
-  box-shadow: 0px 0px 6px rgba(83, 130, 222, 0.14);
+  box-shadow: var(--section-shadow);
 
   .title {
     padding: 0.75em;
@@ -155,41 +195,17 @@ nav.bottom[data-mobile] {
   }
 }
 
-:root {
-  --primary: #5382de;
-  --accent: #cbdaf5;
-  --accent-outline: #74cde9;
-  --accent-background: #bbefff;
-
-  --error: #ed4b92;
-
-  --success: #00b905;
-  --success-outline: #71d084;
-  --success-background: #eafaed;
-
-  --secondary: #aa66ce;
-  --secondary-hover: #d085f9;
-  --secondary-click: #74269d;
-
-  --calendar-accent: var(--secondary);
-  --calendar: white;
-
-  --header-background: var(--primary);
-  --border-radius: 10px;
-  --max-site-width: 966px;
-}
-
 .critter.block {
   cursor: pointer;
   width: 100px;
   padding: 0.25em;
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
-  box-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
+  box-shadow: var(--item-shadow);
   background-color: white;
   &:hover {
     // background-color: var(--accent);
-    box-shadow: 0px 0px 4px var(--primary);
+    box-shadow: var(--hover-shadow);
   }
 }
 
@@ -225,7 +241,7 @@ nav.bottom[data-mobile] {
   border-radius: var(--border-radius);
   background-color: white;
   overflow: hidden;
-  box-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
+  box-shadow: var(--item-shadow);
   > div {
     font-size: 9px;
     line-height: 13px;
@@ -276,11 +292,11 @@ nav.bottom[data-mobile] {
   }
 
   &:not(.checked) {
-    box-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
+    box-shadow: var(--item-shadow);
   }
 
   &:hover {
-    box-shadow: 0px 0px 4px var(--primary);
+    box-shadow: var(--hover-shadow);
   }
 
   &.checked {
@@ -290,81 +306,103 @@ nav.bottom[data-mobile] {
   }
 }
 
+.date.container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: stretch;
+  gap: 1em;
+  margin: auto;
+  max-width: 26em;
+}
+
 .date.range.month {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 0.5em;
+  gap: 1em;
+
   margin: 2em 0;
   .date.month {
     text-align: center;
-  }
-}
+    border-radius: 4px;
+    border: 1.75px solid var(--basic-outline);
+    color: var(--basic);
+    &:hover {
+    }
 
-.date.range.hour {
-  display: flex;
-  justify-content: stretch;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  row-gap: 0.5em;
-
-  .date.hour {
-    flex-grow: 1;
-    text-align: center;
-  }
-}
-
-.date.month,
-.date.hour {
-  padding: 0.5em 0;
-  &.active {
-    background-color: var(--calendar-accent);
-    color: var(--calendar);
-  }
-
-  &:first-child,
-  .first {
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-  }
-
-  &:last-child,
-  .last {
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-  }
-
-  &.now {
-    position: relative;
-    &:after {
-      content: attr(data-content);
-      position: absolute;
-      width: 60px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      left: 0;
-      top: 0;
-      margin: auto;
-      right: 0;
-      bottom: 0;
-      border: 4px solid white;
-      border-radius: 50%;
-      color: var(--calendar);
+    &.active {
       background-color: var(--calendar-accent);
+      border-color: var(--calendar-accent);
+      color: var(--calendar);
+    }
+    &.now {
     }
   }
 }
 
-@media only screen and (max-width: 1852px) {
-  [data-desktop] {
-    display: none;
+.date.range.hour {
+  --large-border: 4px;
+  --small-border: 2px;
+  .flex-container {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    justify-content: stretch;
   }
-}
+  margin: 2em 0;
+  justify-self: center;
 
-@media only screen and (min-width: 1853px) {
-  [data-mobile] {
-    display: none;
+  --dot-size: 10px;
+  .static.label {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+    color: var(--basic);
+  }
+
+  .date.hour {
+    text-align: center;
+    padding: var(--large-border) var(--small-border);
+    border-width: 1px 0;
+    box-sizing: content-box;
+    flex-grow: 1;
+
+    > div {
+      width: var(--dot-size);
+      height: var(--dot-size);
+      border-radius: 50%;
+      background-color: var(--basic-background);
+      box-sizing: border-box;
+    }
+
+    &.active {
+      > div {
+        border: 0;
+        background-color: var(--calendar-accent);
+      }
+    }
+
+    &:last-child {
+      padding-right: var(--large-border);
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      border-right-width: 1px;
+    }
+    &:first-child {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      padding-left: var(--large-border);
+      border-left-width: 1px;
+    }
+
+    &.first,
+    &.last {
+      &:before {
+        position: absolute;
+        content: attr(data-content);
+        padding: 8px;
+        transform: translate(-50%, -100%);
+      }
+    }
   }
 }
 
@@ -417,11 +455,11 @@ button {
   font-weight: bold;
   line-height: 29px;
   cursor: pointer;
-  box-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
+  box-shadow: var(--item-shadow);
 
   &:hover {
     background-color: var(--secondary-hover);
-    box-shadow: 0px 0px 4px var(--primary);
+    box-shadow: var(--hover-shadow);
   }
 
   &:active {
@@ -458,46 +496,17 @@ a {
   }
 }
 
-.critter.block[data-selected="true"] {
-  background-color: var(--accent-background);
-  // animation: shake;
-  animation-delay: 0;
-  animation-duration: 0.33s;
-}
-
-.critter.block[data-selected="true"]:nth-child(2n) {
-  animation-name: keyframes1;
-  animation-iteration-count: infinite;
-  transform-origin: 50% 10%;
-}
-
-.critter.block[data-selected="true"]:nth-child(2n-1) {
-  animation-name: keyframes2;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  transform-origin: 30% 5%;
-}
-
-@keyframes keyframes1 {
-  0% {
-    transform: rotate(-1deg);
-    animation-timing-function: ease-in;
+@media only screen and (max-width: 1852px) {
+  [data-desktop] {
+    display: none;
   }
-
-  50% {
-    transform: rotate(1.5deg);
-    animation-timing-function: ease-out;
+  .date.container {
+    grid-template-columns: 1fr;
   }
 }
 
-@keyframes keyframes2 {
-  0% {
-    transform: rotate(1deg);
-    animation-timing-function: ease-in;
-  }
-
-  50% {
-    transform: rotate(-1.5deg);
-    animation-timing-function: ease-out;
+@media only screen and (min-width: 1853px) {
+  [data-mobile] {
+    display: none;
   }
 }

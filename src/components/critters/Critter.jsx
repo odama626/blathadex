@@ -1,14 +1,15 @@
 import classnames from 'classnames';
 import { navigate } from 'gatsby';
 import React, { useCallback } from 'react';
-import { useSelectedContext } from '../app/context';
-import { createCritterImageSrc, createCritterLink } from '../app/utils';
-import Checkmark from '../images/inline/checkmark.svg';
-import WarningIcon from '../images/inline/warningIcon.svg';
-import { useLongPressable } from './LongPressableDiv';
+import { useSelectedContext } from 'app/context';
+import { createImgSrc, createCritterLink } from 'app/utils';
+import Checkmark from 'images/inline/checkmark.svg';
+import WarningIcon from 'images/inline/warningIcon.svg';
+import { useLongPressable } from '../LongPressableDiv';
+import './critter.scss';
 
 export const CritterImage = ({ type, name, ...rest }) => (
-  <img {...rest} alt={name} src={createCritterImageSrc({ type, name })} />
+  <img {...rest} alt={name} src={createImgSrc({ type, name })} />
 );
 
 export const CritterBlock = critter => {

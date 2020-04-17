@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   pathPrefix: '/blathadex',
   siteMetadata: {
@@ -45,6 +47,18 @@ module.exports = {
       options: {
         trackingId: 'UA-81658884-6',
         head: true,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-alias-imports',
+      options: {
+        alias: {
+          app: path.resolve(__dirname, 'src/app'),
+          components: path.resolve(__dirname, 'src/components'),
+          pages: path.resolve(__dirname, 'src/pages'),
+          templates: path.resolve(__dirname, 'src/templates'),
+          images: path.resolve(__dirname, 'src/images'),
+        },
       },
     },
     {

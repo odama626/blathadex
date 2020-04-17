@@ -9,7 +9,12 @@
     "etime": 19,
     "loc": "Flying",
     "bells": 160,
-    "desc": "The common butterfly would have you believe it is but a beautiful friend flitting prettily about the flowers. Bah, I say! They may seem innocent things with their pretty white wings, but they hide a dark side! The common butterfly caterpillar is called a cabbage worm, you see, and it's a most voracious pest. The ravenous beasts chew through cabbage, broccoli, kale and the like with a devastating gusto. And my feathers! Their green coloring is truly GROSS! A hoo-rrific hue, I say."
+    "desc": "The common butterfly would have you believe it is but a beautiful friend flitting prettily about the flowers. Bah, I say! They may seem innocent things with their pretty white wings, but they hide a dark side! The common butterfly caterpillar is called a cabbage worm, you see, and it's a most voracious pest. The ravenous beasts chew through cabbage, broccoli, kale and the like with a devastating gusto. And my feathers! Their green coloring is truly GROSS! A hoo-rrific hue, I say.",
+    "quote": "I caught a common butterfly! They often flutter by!",
+    "family": "Pieridae (White butterflies)",
+    "size": "50 mm",
+    "sci": "Pieris rapae",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -23,7 +28,12 @@
     "etime": 19,
     "loc": "Flying",
     "bells": 160,
-    "desc": "Allow me to enlighten you... The yellow butterfly is named for its yellow wings. Need I say more? If I must, then allow me to note that the female yellow butterfly can lay up to 600 eggs at a time! Bleech! And their creepy crawly caterpillars just love to chomp on clover plants. A recipe for disaster, I say. Just imagine reaching for a four-leaf clover, only to touch a larva instead! Yuck! The worst of luck!"
+    "desc": "Allow me to enlighten you... The yellow butterfly is named for its yellow wings. Need I say more? If I must, then allow me to note that the female yellow butterfly can lay up to 600 eggs at a time! Bleech! And their creepy crawly caterpillars just love to chomp on clover plants. A recipe for disaster, I say. Just imagine reaching for a four-leaf clover, only to touch a larva instead! Yuck! The worst of luck!",
+    "quote": "I caught a yellow butterfly! Shouldn't all BUTTERflies be yellow?",
+    "family": "Pieridae - White butterflies",
+    "size": "50 mm",
+    "sci": "Colias erate",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -35,7 +45,12 @@
     "etime": 19,
     "loc": "Flying",
     "bells": 240,
-    "desc": "Tiger butterflies are known for their majestic wings, which many consider quite beautiful. Truth be told, I find them monstrous! Those strange striped patterns... They give this owl the goose bumps! And while you may imagine young tiger butterfly larvae to look like lovely green caterpillars... it's not so! Why, when tiger butterflies are but babes, they're covered in unsightly white, brown, and black spots. In this way, they camouflage themselves as...as...bird droppings! Putrid pests, indeed!"
+    "desc": "Tiger butterflies are known for their majestic wings, which many consider quite beautiful. Truth be told, I find them monstrous! Those strange striped patterns... They give this owl the goose bumps! And while you may imagine young tiger butterfly larvae to look like lovely green caterpillars... it's not so! Why, when tiger butterflies are but babes, they're covered in unsightly white, brown, and black spots. In this way, they camouflage themselves as...as...bird droppings! Putrid pests, indeed!",
+    "quote": "I caught a tiger butterfly! I've earned my stripes!",
+    "family": "Papilionidae- Swallowtail Butterflies",
+    "size": "90 mm",
+    "sci": "Papilio machaon",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -47,7 +62,12 @@
     "etime": 19,
     "loc": "Flying",
     "bells": 2500,
-    "desc": "Pretty as a peacock? Bah, I say! The wings of the peacock butterfly may have a pattern similar to that of the beautiful bird... But its forewings are also covered in a dark, velvety hair! You heard right! HAIRY wings! A hair-raising revelation indeed!"
+    "desc": "Pretty as a peacock? Bah, I say! The wings of the peacock butterfly may have a pattern similar to that of the beautiful bird... But its forewings are also covered in a dark, velvety hair! You heard right! HAIRY wings! A hair-raising revelation indeed!",
+    "quote": "I caught a peacock butterfly! Now it's my turn to strut my stuff!",
+    "family": "Papilionidae",
+    "size": "105 mm",
+    "sci": "Papilio bianor",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -59,7 +79,12 @@
     "etime": 19,
     "loc": "Flying",
     "bells": 300,
-    "desc": "The common bluebottle is a type of swallowtail butterfly with a bright blue line running down its wings. They fly quite nimbly, it seems, and are thus quite difficult to catch. But seeing as how they've been known to slurp nutrients from MUD puddles... I simply CAN'T imagine wanting to catch one myself. What awful breath!"
+    "desc": "The common bluebottle is a type of swallowtail butterfly with a bright blue line running down its wings. They fly quite nimbly, it seems, and are thus quite difficult to catch. But seeing as how they've been known to slurp nutrients from MUD puddles... I simply CAN'T imagine wanting to catch one myself. What awful breath!",
+    "quote": "I caught a common bluebottle! I'll put it in a rare green jar!",
+    "family": "Papilionidae- Swallowtail Butterflies",
+    "size": "Unknown",
+    "sci": "Graphium sarpedon",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -71,7 +96,12 @@
     "etime": 19,
     "loc": "Flying",
     "bells": 1000,
-    "desc": "With its black-and-white-striped wing pattern, the paper kite butterfly is both elegant and pretty... PRETTY POISONOUS I MEAN! Hoo dear! Where was I? Oh yes... Even this butterfly's black-and-white-striped larva and little golden pupae are toxic to predators. Indeed, the paper kite butterfly's foul flavor is famous, and thus birds, in particular, steer clear of the fiends. THIS bird most of all!"
+    "desc": "With its black-and-white-striped wing pattern, the paper kite butterfly is both elegant and pretty... PRETTY POISONOUS I MEAN! Hoo dear! Where was I? Oh yes... Even this butterfly's black-and-white-striped larva and little golden pupae are toxic to predators. Indeed, the paper kite butterfly's foul flavor is famous, and thus birds, in particular, steer clear of the fiends. THIS bird most of all!",
+    "quote": "I caught a paper kite butterfly! Do I read it, fly it, or spread it on toast?",
+    "family": "Nymphalidae",
+    "size": "Unknown",
+    "sci": "Idea leuconoe",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -83,7 +113,12 @@
     "etime": 19,
     "loc": "Flying",
     "bells": 3000,
-    "desc": "The great purple emperor lives high in the treetops and is renowned for its pretty purple-hues wings. It’s impressive bird-like wingspan and elusive nature have made it a favorite amount butterfly aficionados. But truth be told, the so-called great purple emperor has some not-so-great personal peculiarities. For one...it has two horrid HORNS upon its head when it is in its caterpillar form. For two...it has been known to dine on feces and animal carcasses! Hoo! That’s why I call it the Emperor of EWWW!"
+    "desc": "The great purple emperor lives high in the treetops and is renowned for its pretty purple-hues wings. It’s impressive bird-like wingspan and elusive nature have made it a favorite amount butterfly aficionados. But truth be told, the so-called great purple emperor has some not-so-great personal peculiarities. For one...it has two horrid HORNS upon its head when it is in its caterpillar form. For two...it has been known to dine on feces and animal carcasses! Hoo! That’s why I call it the Emperor of EWWW!",
+    "quote": null,
+    "family": "Nymphalidae - The Brush-foots",
+    "size": "50-65 mm",
+    "sci": "Sasakia charonda",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -95,7 +130,12 @@
     "etime": 17,
     "loc": "Flying",
     "bells": 140,
-    "desc": "Monarch butterflies are quite colorful, aren't they? ... As it happens, the colors indicate they're poisonous! I certainly start to feel queasy when I look at one. Though that happens with all bugs."
+    "desc": "Monarch butterflies are quite colorful, aren't they? ... As it happens, the colors indicate they're poisonous! I certainly start to feel queasy when I look at one. Though that happens with all bugs.",
+    "quote": "I caught a monarch butterfly! Guess the butterflies are a democracy now!",
+    "family": "Nymphalidae - Admirals",
+    "size": "85 mm",
+    "sci": "Danaus plexippus",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -109,7 +149,12 @@
     "etime": 8,
     "loc": "Flying",
     "bells": 4000,
-    "desc": "The emperor butterfly is called the jewel of the forest. But its vivid blue hue... Ewww, let me tell you! The color does not come from a dye, but rather from light reflecting off layers of translucent scales. Yes, butterfly wings are covered in tiny scales! SCALES! Butterfly? Bah! More like snake of the sky!"
+    "desc": "The emperor butterfly is called the jewel of the forest. But its vivid blue hue... Ewww, let me tell you! The color does not come from a dye, but rather from light reflecting off layers of translucent scales. Yes, butterfly wings are covered in tiny scales! SCALES! Butterfly? Bah! More like snake of the sky!",
+    "quote": "I caught an emperor butterfly! It's not your average monarch!",
+    "family": "Nymphalidae",
+    "size": "115 mm",
+    "sci": "Morpho menelaus",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -121,7 +166,12 @@
     "etime": 17,
     "loc": "Flying",
     "bells": 3000,
-    "desc": "Some say the agrias butterfly is one of the most beautiful butterflies in the world. Bah, I say! BAH! They may have brightly colored wings, but the way they flutter and flitter...SO FOUL! In fact, the agrias butterfly flies so fast, it is quite a feat to catch one. I suppose I should congratulate you on your good fortune... But catching any bug seems a misfortune to me."
+    "desc": "Some say the agrias butterfly is one of the most beautiful butterflies in the world. Bah, I say! BAH! They may have brightly colored wings, but the way they flutter and flitter...SO FOUL! In fact, the agrias butterfly flies so fast, it is quite a feat to catch one. I suppose I should congratulate you on your good fortune... But catching any bug seems a misfortune to me.",
+    "quote": "I caught an agrias butterfly! I wonder if it finds me disagrias-able?",
+    "family": "Nymphalidae- Brush-Footed Butterflies",
+    "size": "42 mm",
+    "sci": "Agrias claudina sardanapalus",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -135,7 +185,12 @@
     "etime": 17,
     "loc": "Flying",
     "bells": 3000,
-    "desc": "...I must say, I'm quite impressed with your ability to catch such an impressive butterfly... The Raja Brooke butterfly, I must tell you, is one of the larger tiger butterflies. Naturally, its antennae and proboscis also rank as some of the largest around. Be not proud, vile beast! Your cute red collar and fancy name do not fool Blathers!"
+    "desc": "...I must say, I'm quite impressed with your ability to catch such an impressive butterfly... The Raja Brooke butterfly, I must tell you, is one of the larger tiger butterflies. Naturally, its antennae and proboscis also rank as some of the largest around. Be not proud, vile beast! Your cute red collar and fancy name do not fool Blathers!",
+    "quote": "I caught a Rajah Brooke birdwing! Nothing else I'd rajah be doing!",
+    "family": "Papilionidae - Butterflies",
+    "size": "140 mm",
+    "sci": "Trogonoptera brookiana",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -147,7 +202,12 @@
     "etime": 16,
     "loc": "Flying",
     "bells": 2500,
-    "desc": "Hoo! The horror! This behemoth butterfly may be a Queen Alexandra’s birdwing... But I call it Queen of My Nightmares! It is huge! Indeed, the world’s hugest. No butterfly can beat its foot-long wingspan. The larvae alone grow to more than 4 inches. As if it weren’t appalling enough...they’re poisonous! Murderous monsters, indeed!"
+    "desc": "Hoo! The horror! This behemoth butterfly may be a Queen Alexandra’s birdwing... But I call it Queen of My Nightmares! It is huge! Indeed, the world’s hugest. No butterfly can beat its foot-long wingspan. The larvae alone grow to more than 4 inches. As if it weren’t appalling enough...they’re poisonous! Murderous monsters, indeed!",
+    "quote": "I caught a Queen Alexandra’s birdwing! That‘s a feather in my cap!",
+    "family": "Swallowtail butterfly",
+    "size": "Unknown",
+    "sci": "Ornithoptera alexandrae",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -159,7 +219,12 @@
     "etime": 4,
     "loc": "Flying (Light)",
     "bells": 130,
-    "desc": "Many think the moth is strictly a nocturnal creature. Alas, no! These frightful fluttering beasts have been known to haunt the daylight and twilight hours too. Thus, there is no time of day one might escape the moth trait I dislike most of all—those feathery antennae! The mere thought of them gives my feathers goosebumps. And I'm no goose."
+    "desc": "Many think the moth is strictly a nocturnal creature. Alas, no! These frightful fluttering beasts have been known to haunt the daylight and twilight hours too. Thus, there is no time of day one might escape the moth trait I dislike most of all—those feathery antennae! The mere thought of them gives my feathers goosebumps. And I'm no goose.",
+    "quote": "I caught a moth! And I had a ball doing it!",
+    "family": "Saturniidae",
+    "size": "60 mm",
+    "sci": "Aglia japonica microtau",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -171,7 +236,12 @@
     "etime": 4,
     "loc": "Tree Trunks",
     "bells": 3000,
-    "desc": "The Atlas moth is a monstrous thing! Not only is it one of the largest moths in the world... The tips of its wings look rather like the heads of venomous snakes! Despite its largeness and loathsome looks, the adult Atlas moth lives only for a few days. It emerges from its cocoon without a mouth, you see...and so cannot eat. I feel for the poor thing...but it is still foul!"
+    "desc": "The Atlas moth is a monstrous thing! Not only is it one of the largest moths in the world... The tips of its wings look rather like the heads of venomous snakes! Despite its largeness and loathsome looks, the adult Atlas moth lives only for a few days. It emerges from its cocoon without a mouth, you see...and so cannot eat. I feel for the poor thing...but it is still foul!",
+    "quote": "I caught an Atlas moth! I bet it never gets lost!",
+    "family": "Saturniidae",
+    "size": "Unknown",
+    "sci": "Attacus atlas",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -183,7 +253,12 @@
     "etime": 16,
     "loc": "Flying",
     "bells": 2500,
-    "desc": "Description is not available at this time..."
+    "desc": "Description is not available at this time...",
+    "quote": "I caught a Madagascan sunset moth! Wow, you're not from around here!",
+    "family": "Uraniidae",
+    "size": "Unknown",
+    "sci": "Chrysiridia rhipheus",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -195,7 +270,12 @@
     "etime": 19,
     "loc": "Ground",
     "bells": 200,
-    "desc": "As if the average locust weren't large enough...we must suffer the long locust too! The wretched beasts are known for their unusually long hind legs as well as their elongated heads. But that is hardly the long locusts' worst trait... I tell you, they spit brown goo when they're scared! Revolting behavior indeed! Ugh and ewww!"
+    "desc": "As if the average locust weren't large enough...we must suffer the long locust too! The wretched beasts are known for their unusually long hind legs as well as their elongated heads. But that is hardly the long locusts' worst trait... I tell you, they spit brown goo when they're scared! Revolting behavior indeed! Ugh and ewww!",
+    "quote": "I caught a long locust! Or, as I call it, looooocust.",
+    "family": "Acrididae",
+    "size": "73 mm",
+    "sci": "Acrida cinerea",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -207,7 +287,12 @@
     "etime": 19,
     "loc": "Ground",
     "bells": 600,
-    "desc": "Ah, hoo, migratory locusts. As their name suggests, they fly far...quite far, in point of fact. These insects will fly as a group into fields, devour all the crops, and completely devastate the land. Just one of these beasts is sufficiently horrifying, so imagine how abominable a swarm would be... Blech!"
+    "desc": "Ah, hoo, migratory locusts. As their name suggests, they fly far...quite far, in point of fact. These insects will fly as a group into fields, devour all the crops, and completely devastate the land. Just one of these beasts is sufficiently horrifying, so imagine how abominable a swarm would be... Blech!",
+    "quote": null,
+    "family": "Acrididae - Grasshoppers",
+    "size": "58 mm",
+    "sci": "Locusta migratoria",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -219,7 +304,12 @@
     "etime": 19,
     "loc": "Ground",
     "bells": 160,
-    "desc": "Rice grasshoppers are typically known as pests that eat farmers' crop, making them undesirable. But they're also edible, and boiling them in soy sauce is a typical way to prepare them in certain regions. While they are generally green, their shells will turn a darker color when heavily crowded in groups."
+    "desc": "Rice grasshoppers are typically known as pests that eat farmers' crop, making them undesirable. But they're also edible, and boiling them in soy sauce is a typical way to prepare them in certain regions. While they are generally green, their shells will turn a darker color when heavily crowded in groups.",
+    "quote": null,
+    "family": "Acrididae",
+    "size": "25mm",
+    "sci": "Oxya japonica",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -231,7 +321,12 @@
     "etime": 17,
     "loc": "Ground",
     "bells": 160,
-    "desc": "Have you ever noticed that these little fellows have a tendency to easily lose or break a leg? Hoo, yes, you catch one in your net, but in doing so you pop off a leg. Then you grow sad and nauseated. And then the broken-off leg keeps kicking despite being no longer attached! And then you flee in terror!"
+    "desc": "Have you ever noticed that these little fellows have a tendency to easily lose or break a leg? Hoo, yes, you catch one in your net, but in doing so you pop off a leg. Then you grow sad and nauseated. And then the broken-off leg keeps kicking despite being no longer attached! And then you flee in terror!",
+    "quote": "I caught a grasshopper! They're a grass act!",
+    "family": "Acrididae",
+    "size": "43 mm",
+    "sci": "Melanoplus sanguinipes",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -243,7 +338,12 @@
     "etime": 8,
     "loc": "Underground",
     "bells": 130,
-    "desc": "Ah, hoo...indeed. Crickets do have a lovely chirp, I must grudgingly admit. Still, that black body, those long feelers... How do people love these when they resemble...THOSE? I bet one couldn't even tell the difference between a cricket and a cockroach in the dark of night..."
+    "desc": "Ah, hoo...indeed. Crickets do have a lovely chirp, I must grudgingly admit. Still, that black body, those long feelers... How do people love these when they resemble...THOSE? I bet one couldn't even tell the difference between a cricket and a cockroach in the dark of night...",
+    "quote": null,
+    "family": "Gryllidae",
+    "size": "28 mm",
+    "sci": "Teleogryllus emma",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -255,7 +355,12 @@
     "etime": 5,
     "loc": "Ground",
     "bells": 430,
-    "desc": "Bell crickets top my list of insects one should never look at directly... Such a vision of horror! A slick black body, long antennae, and foul wings that shake when it chirps! Blech! How can one be expected to abide such an odious monster?!"
+    "desc": "Bell crickets top my list of insects one should never look at directly... Such a vision of horror! A slick black body, long antennae, and foul wings that shake when it chirps! Blech! How can one be expected to abide such an odious monster?!",
+    "quote": "I caught a bell cricket! It would make a great bellhop!",
+    "family": "Gryllidae",
+    "size": "18 mm",
+    "sci": "Homoeogryllus japonicus",
+    "rarity": "rare"
   },
   {
     "type": "bug",
@@ -267,7 +372,12 @@
     "etime": 17,
     "loc": "Flowers",
     "bells": 430,
-    "desc": "Hoo! Don't let the mantis's angelic pose fool you...for it is truly monstrous. The mantis is known for its large size and tremendous strength...and for sickle-like arms that pack a punch. And though they tend to eat bugs and spiders...mantises have been known to dine on small animals too! And those eerie eyes! Oh my! Did you know it has five of them! Two big ones and three small! I shall faint if I think on it further... "
+    "desc": "Hoo! Don't let the mantis's angelic pose fool you...for it is truly monstrous. The mantis is known for its large size and tremendous strength...and for sickle-like arms that pack a punch. And though they tend to eat bugs and spiders...mantises have been known to dine on small animals too! And those eerie eyes! Oh my! Did you know it has five of them! Two big ones and three small! I shall faint if I think on it further... ",
+    "quote": "I caught a mantis! Man, 'tis so cool!",
+    "family": "Mantidae - Mantids",
+    "size": "82mm",
+    "sci": "Hierodula patellifera",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -279,7 +389,12 @@
     "etime": 17,
     "loc": "Flowers (White)",
     "bells": 2400,
-    "desc": "The orchid mantis is a bug whose brilliant colors and petal-shaped limbs give it the look of a flower. This masterful mimicry allows it to hide from predators in among the orchids. But oh this fraudulent flower! It lures other insects in to drink its nectar... And makes a meal of them instead! Imagine! To behold a beautiful bud... only to discover it's a bug instead! A repulsive revelation indeed!"
+    "desc": "The orchid mantis is a bug whose brilliant colors and petal-shaped limbs give it the look of a flower. This masterful mimicry allows it to hide from predators in among the orchids. But oh this fraudulent flower! It lures other insects in to drink its nectar... And makes a meal of them instead! Imagine! To behold a beautiful bud... only to discover it's a bug instead! A repulsive revelation indeed!",
+    "quote": "I caught an orchid mantis! Our friendship is blooming!",
+    "family": "Hymenopodidae - Mantids",
+    "size": "35 mm",
+    "sci": "Hymenopus coronatus",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -291,7 +406,12 @@
     "etime": 17,
     "loc": "Flying",
     "bells": 200,
-    "desc": "Did you know it takes a team of honeybees working together to transform flower nectar into honey? Indeed, forager bees suck nectar from flowers into their \"honey stomachs\" and then fly it to the hive. Hive bees then chew the substance and spit it into the honeycomb, fluttering their wings to dry it out. Yes, you could say honey is a tasty tribute to the hard work of the humble honeybee. Oh! Oh my! You mustn't confuse my lengthy description for admiration! At the end of the day, honeybees are still insects, and thus still ghastly! A wee bit less ghastly than most, I admit."
+    "desc": "Did you know it takes a team of honeybees working together to transform flower nectar into honey? Indeed, forager bees suck nectar from flowers into their \"honey stomachs\" and then fly it to the hive. Hive bees then chew the substance and spit it into the honeycomb, fluttering their wings to dry it out. Yes, you could say honey is a tasty tribute to the hard work of the humble honeybee. Oh! Oh my! You mustn't confuse my lengthy description for admiration! At the end of the day, honeybees are still insects, and thus still ghastly! A wee bit less ghastly than most, I admit.",
+    "quote": "I caught a honeybee! Ah, sweet success!",
+    "family": "Apidae- Various Bees",
+    "size": "13 mm",
+    "sci": "Apis cerana",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -303,7 +423,12 @@
     "etime": 23,
     "loc": "Shaken Trees",
     "bells": 2500,
-    "desc": "Hoo! Allow me to share a fact with you! Wasps are sometimes called \"meat bees\" because... They. Eat. MEAT! MEAT! Of almost any sort! Surely you've seen what a menace they make of themselves at picnics. 'Tis hardly the worst of it, wot wot! Aggressive predators with venomous stingers, wasps not only hunt and eat other insects...they paralyze their prey, then drag their victims home ALIVE, leaving them for their larva to feed upon. Suddenly a simple sting seems quite tolerable."
+    "desc": "Hoo! Allow me to share a fact with you! Wasps are sometimes called \"meat bees\" because... They. Eat. MEAT! MEAT! Of almost any sort! Surely you've seen what a menace they make of themselves at picnics. 'Tis hardly the worst of it, wot wot! Aggressive predators with venomous stingers, wasps not only hunt and eat other insects...they paralyze their prey, then drag their victims home ALIVE, leaving them for their larva to feed upon. Suddenly a simple sting seems quite tolerable.",
+    "quote": "I caught a wasp! That's gotta sting...",
+    "family": "Vespidae- The social wasps",
+    "size": "38 mm",
+    "sci": "Vespa mandarinia japonica",
+    "rarity": "limited per day"
   },
   {
     "type": "bug",
@@ -315,7 +440,12 @@
     "etime": 17,
     "loc": "Tree Trunks",
     "bells": 200,
-    "desc": "Ah, hoo, the brown cicada. The call of this creature is said to sound like hot oil sputtering, eh wot? I'm rather not sure that hearing the sound of deep-frying on a hot summer night is a pleasant thing..."
+    "desc": "Ah, hoo, the brown cicada. The call of this creature is said to sound like hot oil sputtering, eh wot? I'm rather not sure that hearing the sound of deep-frying on a hot summer night is a pleasant thing...",
+    "quote": null,
+    "family": "Cicadidae - Cicadas",
+    "size": "58 mm",
+    "sci": "Graptopsaltria nigrofuscata",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -327,7 +457,12 @@
     "etime": 17,
     "loc": "Tree Trunks",
     "bells": 300,
-    "desc": "Fittingly enough, the robust cicada can issue a robust, loud chirp...and it does so quite often. I've heard this beastie's impertinent cry so often that I've grown rather good at imitating it. Listen! Chiiirp! CHIIIRP! CHIIir..."
+    "desc": "Fittingly enough, the robust cicada can issue a robust, loud chirp...and it does so quite often. I've heard this beastie's impertinent cry so often that I've grown rather good at imitating it. Listen! Chiiirp! CHIIIRP! CHIIir...",
+    "quote": null,
+    "family": "Cicadidae - Cicadas",
+    "size": "60 mm",
+    "sci": "Oncotympana maculaticollis, Synonym: Hyalessa maculaticollis",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -339,7 +474,12 @@
     "etime": 17,
     "loc": "Tree Trunks",
     "bells": 500,
-    "desc": "As the name might indicate, giant cicadas are one of the largest species of cicada in the world. They used to live mostly in warmer western Japan, but they've now also moved to urban eastern Japan. Though they're now common in these areas, they aren't well known in other parts of the world."
+    "desc": "As the name might indicate, giant cicadas are one of the largest species of cicada in the world. They used to live mostly in warmer western Japan, but they've now also moved to urban eastern Japan. Though they're now common in these areas, they aren't well known in other parts of the world.",
+    "quote": null,
+    "family": "Cicadidae - Cicadas",
+    "size": "62mm",
+    "sci": "Cryptotympana fascialis",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -351,7 +491,12 @@
     "etime": 17,
     "loc": "Tree Trunks",
     "bells": 400,
-    "desc": "Apparently, walker cicadas cry out in an attempt to obscure the calls of other, similar cicadas. I should think that to the average fellow, it just sounds like the cicadas are merely singing together. In any case, I don't suggest looking for them. Their voices may fascinate, but their faces nauseate!"
+    "desc": "Apparently, walker cicadas cry out in an attempt to obscure the calls of other, similar cicadas. I should think that to the average fellow, it just sounds like the cicadas are merely singing together. In any case, I don't suggest looking for them. Their voices may fascinate, but their faces nauseate!",
+    "quote": "I caught a walker cicada! It must hate getting its feet wet!",
+    "family": "Cicadidae - cicadas",
+    "size": "44 mm",
+    "sci": "Meimuna opalifera.",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -365,7 +510,12 @@
     "etime2": 19,
     "loc": "Tree Trunks",
     "bells": 550,
-    "desc": "Evening cicadas got their name from their tendency to start crying once it starts getting dark out. Interestingly enough, these creatures apparently will also cry on an overcast day if it gets dark enough. Don't be fooled by their lovely voices, however. They are quite disgusting to gaze upon..."
+    "desc": "Evening cicadas got their name from their tendency to start crying once it starts getting dark out. Interestingly enough, these creatures apparently will also cry on an overcast day if it gets dark enough. Don't be fooled by their lovely voices, however. They are quite disgusting to gaze upon...",
+    "quote": null,
+    "family": "Cicadidae - Cicadas",
+    "size": "45 mm",
+    "sci": "Tanna japonensis",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -377,7 +527,12 @@
     "etime": 23,
     "loc": "Tree Trunks",
     "bells": 100,
-    "desc": "Cicada larvae emerge from the ground in the evening and molt on trees, leaving behind empty shells. It's possible to find out the species of cicadas just be looking at these shells. Collecting the shells will tell you how many and what kind of cicadas inhabit a certain area."
+    "desc": "Cicada larvae emerge from the ground in the evening and molt on trees, leaving behind empty shells. It's possible to find out the species of cicadas just be looking at these shells. Collecting the shells will tell you how many and what kind of cicadas inhabit a certain area.",
+    "quote": null,
+    "family": "Cicadidae - Cicadas",
+    "size": "18mm",
+    "sci": "Cicadidae sp.",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -389,7 +544,12 @@
     "etime": 19,
     "loc": "Flying",
     "bells": 180,
-    "desc": "Since red dragonflies can't regulate their body temperatures, they only come out in the fall. They actually perish when the heat climbs over 86 degrees Fahrenheit. No summer fun for them, wot?"
+    "desc": "Since red dragonflies can't regulate their body temperatures, they only come out in the fall. They actually perish when the heat climbs over 86 degrees Fahrenheit. No summer fun for them, wot?",
+    "quote": "I caught a red dragonfly! Didn't even have to roll for initiative!",
+    "family": "Libellulidae",
+    "size": "38 mm",
+    "sci": "Sympetrum frequens",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -401,7 +561,12 @@
     "etime": 17,
     "loc": "Flying",
     "bells": 230,
-    "desc": "At first glance, the darner dragonfly, like all dragonflies, appears to be quite a sleek bug, wot? But in its larval stage, this bug is a beastly little carnivore... I suppose if one were being eaten, one wouldn't care if whoever was doing the devouring looked sleek..."
+    "desc": "At first glance, the darner dragonfly, like all dragonflies, appears to be quite a sleek bug, wot? But in its larval stage, this bug is a beastly little carnivore... I suppose if one were being eaten, one wouldn't care if whoever was doing the devouring looked sleek...",
+    "quote": "I caught a darner dragonfly! It better watch its mouth!",
+    "family": "Aeshnidae",
+    "size": "76 mm",
+    "sci": "Anax parthenope",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -413,7 +578,12 @@
     "etime": 17,
     "loc": "Flying",
     "bells": 4500,
-    "desc": "Banded dragonflies are rather flashy... Just look at those piercing green eyes. The black and yellow body! Not to mention their sheer size and--OH, HORRORS! The beast is looking right at me! Look away, fiend!"
+    "desc": "Banded dragonflies are rather flashy... Just look at those piercing green eyes. The black and yellow body! Not to mention their sheer size and--OH, HORRORS! The beast is looking right at me! Look away, fiend!",
+    "quote": "I did it! Did you see that? I caught a banded dragonfly!",
+    "family": "Cordulegastridae - Spiketails",
+    "size": "90 mm",
+    "sci": "Anotogaster sieboldii",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -425,7 +595,12 @@
     "etime": 23,
     "loc": "Flying",
     "bells": 500,
-    "desc": "Not Available at this time..."
+    "desc": "Not Available at this time...",
+    "quote": "I caught a damselfly! Now it's a damselfly in distress!",
+    "family": "Coenagrionidae",
+    "size": "Unknown",
+    "sci": "Ischnura senegalensis",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -437,7 +612,12 @@
     "etime": 4,
     "loc": "Flying",
     "bells": 300,
-    "desc": "Many theories exist as to why fireflies can glow, but we've yet to find a clear answer, eh wot? The answer is not nearly so relevant as the fact they are bugs, and therefore wretched."
+    "desc": "Many theories exist as to why fireflies can glow, but we've yet to find a clear answer, eh wot? The answer is not nearly so relevant as the fact they are bugs, and therefore wretched.",
+    "quote": null,
+    "family": "Lampyridae - Fireflies",
+    "size": "15 mm",
+    "sci": "Luciola lateralis",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -449,7 +629,12 @@
     "etime": 23,
     "loc": "Underground",
     "bells": 500,
-    "desc": "Be warned, there is nowhere one might hide from the mole cricket. This plump pest has powerful front claws made for digging holes, and oh how it loves to burrow underground! A cousin to the grasshopper, it also has wings and can easily take to the air. And I swear this on my pinfeathers... Some have even been seen walking on water! Oh mercy, I may need a moment. This is making me feel rather woozy..."
+    "desc": "Be warned, there is nowhere one might hide from the mole cricket. This plump pest has powerful front claws made for digging holes, and oh how it loves to burrow underground! A cousin to the grasshopper, it also has wings and can easily take to the air. And I swear this on my pinfeathers... Some have even been seen walking on water! Oh mercy, I may need a moment. This is making me feel rather woozy...",
+    "quote": "I caught a mole cricket! I really dug it!",
+    "family": "Gryllotalpidae - Mole crickets",
+    "size": "35 mm",
+    "sci": "Gryllotalpidae",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -461,7 +646,12 @@
     "etime": 19,
     "loc": "Pond",
     "bells": 130,
-    "desc": "Do you know how pondskaters keep themselves above water, wot? The oil on the hairs of their feet repel water! Thusly they stay afloat. Which begs the question, if one were to shave their feet, would they sink? I daresay, I cannot think of a worse job than being the shaver of insect feet."
+    "desc": "Do you know how pondskaters keep themselves above water, wot? The oil on the hairs of their feet repel water! Thusly they stay afloat. Which begs the question, if one were to shave their feet, would they sink? I daresay, I cannot think of a worse job than being the shaver of insect feet.",
+    "quote": "I caught a pondskater! Wonder if it can do a pond ollie...",
+    "family": "Gerridae",
+    "size": "14 mm",
+    "sci": "Aquarius paludum paludum",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -473,7 +663,12 @@
     "etime": 19,
     "loc": "Pond/River",
     "bells": 800,
-    "desc": "While they're marginally less odious as adults...dive beetles are horrific in their larval stage! These wretched youths are twice the size of the adults and wield a large poison barb. Foul villainy! Then again, I suppose the adults aren't much better. They're both completely objectionable, really..."
+    "desc": "While they're marginally less odious as adults...dive beetles are horrific in their larval stage! These wretched youths are twice the size of the adults and wield a large poison barb. Foul villainy! Then again, I suppose the adults aren't much better. They're both completely objectionable, really...",
+    "quote": "I caught a diving beetle! Now I'm making a splash!",
+    "family": "Dytiscidae - Predaceous Diving Beetles",
+    "size": "38 mm",
+    "sci": "Cybister japonicus",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -485,7 +680,12 @@
     "etime": 8,
     "loc": "Pond/River",
     "bells": 2000,
-    "desc": "How to put this gently? Ah yes... BEWARE the giant water bug. I tell you, this vicious predator has been known to attack fish, bugs, frogs, and even snakes! SNAKES! Truth be told, no one is safe! Its nickname is \"the toe-biter,\" for goodness sakes! Now, one final fact before I faint... The gruesome bug uses its nose...to inject its prey...with digestive juices."
+    "desc": "How to put this gently? Ah yes... BEWARE the giant water bug. I tell you, this vicious predator has been known to attack fish, bugs, frogs, and even snakes! SNAKES! Truth be told, no one is safe! Its nickname is \"the toe-biter,\" for goodness sakes! Now, one final fact before I faint... The gruesome bug uses its nose...to inject its prey...with digestive juices.",
+    "quote": "I caught a giant water bug! It should've stayed in the water!",
+    "family": "Belostomatidae",
+    "size": "Unknown",
+    "sci": "Lethocerus americanus",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -497,7 +697,12 @@
     "etime": 23,
     "loc": "Flowers",
     "bells": 120,
-    "desc": "I daresay the name says it all... Stinkbugs are known for their stench. Hoo! Peeyew! As it happens, these crop-eating pests use straw-like mouths to pierce plants and drink the juices. And when threatened, they use a smelly chemical in their belly to release their odious odor! Hoo! How DO they live with themselves? "
+    "desc": "I daresay the name says it all... Stinkbugs are known for their stench. Hoo! Peeyew! As it happens, these crop-eating pests use straw-like mouths to pierce plants and drink the juices. And when threatened, they use a smelly chemical in their belly to release their odious odor! Hoo! How DO they live with themselves? ",
+    "quote": "I caught a stinkbug! It lives up to its name!",
+    "family": "Pentatomidae",
+    "size": "15mm",
+    "sci": "Pentatoma japonica",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -507,7 +712,12 @@
     "emonth": 11,
     "loc": "Flowers",
     "bells": 1000,
-    "desc": "Never mind this stink bug's smell. What you have here is a bug...with a FACE...on its BACK!! Wot-wot! Simply put, the man-faced stink bug has markings on its shell that resemble a human face. Once you notice this face, you cannot UN-notice it. Indeed, this face might haunt you forever. At least the face will distract you from the stink."
+    "desc": "Never mind this stink bug's smell. What you have here is a bug...with a FACE...on its BACK!! Wot-wot! Simply put, the man-faced stink bug has markings on its shell that resemble a human face. Once you notice this face, you cannot UN-notice it. Indeed, this face might haunt you forever. At least the face will distract you from the stink.",
+    "quote": "I caught a man-faced stink bug! Reminds me of my uncle!",
+    "family": "Pentatomidae",
+    "size": "Unknown",
+    "sci": "Catacanthus incarnatus",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -521,7 +731,12 @@
     "etime": 17,
     "loc": "Flowers",
     "bells": 200,
-    "desc": "Ladybugs are one insect I thought might appeal to me. Then I made the grievous error of tosisterlyng one. This vile fluid appeared from someplace and.. Oh, it was everywhere! Blech! Utterly appalling!"
+    "desc": "Ladybugs are one insect I thought might appeal to me. Then I made the grievous error of tosisterlyng one. This vile fluid appeared from someplace and.. Oh, it was everywhere! Blech! Utterly appalling!",
+    "quote": "I caught a ladybug! Sorry to disturb you, ma'am.",
+    "family": "Coccinellidae- Ladybugs",
+    "size": "5 mm",
+    "sci": "Chilocorus bivulnerus",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -533,7 +748,12 @@
     "etime": 23,
     "loc": "Ground",
     "bells": 1500,
-    "desc": "The tiger beetle is extremely fleet of foot, though it runs in a rather peculiar way. That is, it sprints, then stops, then sprints again...using these speedy maneuvers to run down its prey. You see, the tiger beetle―like a real tiger―is a powerful predator. The mere thought of it giving chase gives me the willies. Tigers are terrifying at any size."
+    "desc": "The tiger beetle is extremely fleet of foot, though it runs in a rather peculiar way. That is, it sprints, then stops, then sprints again...using these speedy maneuvers to run down its prey. You see, the tiger beetle―like a real tiger―is a powerful predator. The mere thought of it giving chase gives me the willies. Tigers are terrifying at any size.",
+    "quote": "I caught a tiger beetle! I pounced first!",
+    "family": "Carabidae- Ground Beetles",
+    "size": "18mm",
+    "sci": "Cicindela japonica",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -545,7 +765,12 @@
     "etime": 23,
     "loc": "Tree Trunks",
     "bells": 2400,
-    "desc": "The Japanese name for the jewel beetle inspired their word for iridescence. Makes sense, I suppose... Since the beetles keep their color after death, it's said their bodies were worn as jewelry long ago. Do you suppose they left the legs and antennae on the bodies when they wore them? ...Blech."
+    "desc": "The Japanese name for the jewel beetle inspired their word for iridescence. Makes sense, I suppose... Since the beetles keep their color after death, it's said their bodies were worn as jewelry long ago. Do you suppose they left the legs and antennae on the bodies when they wore them? ...Blech.",
+    "quote": null,
+    "family": "Buprestidae - Jewel Beetles",
+    "size": "35 mm",
+    "sci": "Chrysochroa fulgidissima",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -559,7 +784,12 @@
     "etime": 23,
     "loc": "Tree Stumps",
     "bells": 450,
-    "desc": "I've heard this bug got its name because its body resembles a violin... I'm not so sure though. All slick and black and shiny... If you were to ask me, it looks rather more like an awful locust..."
+    "desc": "I've heard this bug got its name because its body resembles a violin... I'm not so sure though. All slick and black and shiny... If you were to ask me, it looks rather more like an awful locust...",
+    "quote": null,
+    "family": "Carabidae - Ground Beetles",
+    "size": "40 mm",
+    "sci": "Mormolyce phyllodes",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -571,7 +801,12 @@
     "etime": 23,
     "loc": "Tree Stumps",
     "bells": 350,
-    "desc": "The citrus long-horned beetle is a putrid pest and a grave threat to trees. Hoo! It's true! Adults possess powerful jaws and use them to chomp through hardwood and plant fibers with ease. The little larvae are no better, boring bullet-like holes into innocent trees with gusto—citrus trees especially. Voracious and vile, indeed! "
+    "desc": "The citrus long-horned beetle is a putrid pest and a grave threat to trees. Hoo! It's true! Adults possess powerful jaws and use them to chomp through hardwood and plant fibers with ease. The little larvae are no better, boring bullet-like holes into innocent trees with gusto—citrus trees especially. Voracious and vile, indeed! ",
+    "quote": "I caught a citrus long-horned beetle! Orange you happy for me?",
+    "family": "Cerambycidae",
+    "size": "Unknown",
+    "sci": "Anoplophora chinensis",
+    "rarity": "unknown"
   },
   {
     "type": "bug",
@@ -583,7 +818,12 @@
     "etime": 23,
     "loc": "Tree Stumps",
     "bells": 3000,
-    "desc": "Insert Blathers Quote"
+    "desc": "Insert Blathers Quote",
+    "quote": "'",
+    "family": "Cerambycidae",
+    "size": "Unknown",
+    "sci": "Rosalia batesi",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -595,7 +835,12 @@
     "etime": 23,
     "loc": "Tree Trunks",
     "bells": 800,
-    "desc": "Insert Blathers Quote"
+    "desc": "Insert Blathers Quote",
+    "quote": "'",
+    "family": "Curculionidae",
+    "size": "Unknown",
+    "sci": "Eupholus schoenherrii",
+    "rarity": "unknown"
   },
   {
     "type": "bug",
@@ -607,7 +852,12 @@
     "etime": 8,
     "loc": "Snowballs",
     "bells": 800,
-    "desc": "Dung beetles are famous for the exact thing you'd assume they're famous for. In fact, they use their namesake both as a source of food and a place to lay their eggs. Dung beetles are very strong and can roll things 10 times the weight of their bodies. One species can even pull objects 1,141 times its weight, which is like a human pulling 6 packed buses!"
+    "desc": "Dung beetles are famous for the exact thing you'd assume they're famous for. In fact, they use their namesake both as a source of food and a place to lay their eggs. Dung beetles are very strong and can roll things 10 times the weight of their bodies. One species can even pull objects 1,141 times its weight, which is like a human pulling 6 packed buses!",
+    "quote": null,
+    "family": "Scarabaeidae - Dung Beetles",
+    "size": "35 mm",
+    "sci": "Copris pecuarius",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -619,7 +869,12 @@
     "etime": 23,
     "loc": "Ground",
     "bells": 300,
-    "desc": "Insert Blathers Quote"
+    "desc": "Insert Blathers Quote",
+    "quote": "I caught an earth-boring dung beetle! It's not boring at all!",
+    "family": "Geotrupidae",
+    "size": "Unknown",
+    "sci": "Phelotrupes auratus",
+    "rarity": "unknown"
   },
   {
     "type": "bug",
@@ -631,7 +886,12 @@
     "etime": 8,
     "loc": "Tree Trunks",
     "bells": 6000,
-    "desc": "Scarab beetles have elegant, metallic-looking bodies and are shinier even than fruit beetles. They're so shiny that they're said to gleam like gold. They're very rare and can be sold for high prices. Like all beetles in the scarab family, the outer shell provides a very thick layer of protection from predators. The high value and golden shell do make them more vulnerable when it comes to Bell hunters, though."
+    "desc": "Scarab beetles have elegant, metallic-looking bodies and are shinier even than fruit beetles. They're so shiny that they're said to gleam like gold. They're very rare and can be sold for high prices. Like all beetles in the scarab family, the outer shell provides a very thick layer of protection from predators. The high value and golden shell do make them more vulnerable when it comes to Bell hunters, though.",
+    "quote": null,
+    "family": "Scarabaeidae - Scarab Beetles",
+    "size": "25 mm",
+    "sci": "Chrysina resplendens",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -643,7 +903,12 @@
     "etime": 23,
     "loc": "Tree Trunks",
     "bells": 80,
-    "desc": "They're called beetles, wot? The lugs of the insect world. Insects with armor plating on their backs, you know. Their armor, it...opens up, revealing wings, which they use to fly. It's really quite unnatural. Then, there's that thin membrane-like covering where their heads connect to their bodies. Most foul!"
+    "desc": "They're called beetles, wot? The lugs of the insect world. Insects with armor plating on their backs, you know. Their armor, it...opens up, revealing wings, which they use to fly. It's really quite unnatural. Then, there's that thin membrane-like covering where their heads connect to their bodies. Most foul!",
+    "quote": null,
+    "family": "Scarabaeidae - Scarab Beetles",
+    "size": "54 mm",
+    "sci": "Rhomborrhina japonica",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -655,7 +920,12 @@
     "etime": 8,
     "loc": "Palm Tree Trunks",
     "bells": 6000,
-    "desc": "Goliath beetles are a variety of fruit beetle with a very long scientific name. As stands to reason, given their name, these beetles are incredibly strong. Beyond that morsel of knowledge, I know little, because they utterly REPULSE me..."
+    "desc": "Goliath beetles are a variety of fruit beetle with a very long scientific name. As stands to reason, given their name, these beetles are incredibly strong. Beyond that morsel of knowledge, I know little, because they utterly REPULSE me...",
+    "quote": null,
+    "family": "Scarabaeidae",
+    "size": "90 mm",
+    "sci": "Goliathus goliatus",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -667,7 +937,12 @@
     "etime": 23,
     "loc": "Tree Trunks",
     "bells": 2000,
-    "desc": "The saw stag beetle's most distinguishing feature is its large, curved jaw, wot? The larger the specimen, the more teeth in its jaw. Among collectors, the teeth settle a specimen's worth. I don't suppose bugs have dentists... Hoo, I'm quite sure that would be the worst job of all time."
+    "desc": "The saw stag beetle's most distinguishing feature is its large, curved jaw, wot? The larger the specimen, the more teeth in its jaw. Among collectors, the teeth settle a specimen's worth. I don't suppose bugs have dentists... Hoo, I'm quite sure that would be the worst job of all time.",
+    "quote": null,
+    "family": "Lucanidae - Stag Beetles",
+    "size": "65 mm",
+    "sci": "Prosopocoilus inclinatus",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -679,7 +954,12 @@
     "etime": 23,
     "loc": "Tree Trunks",
     "bells": 1000,
-    "desc": "Miyama stags look strong, with their thick, bumpy exoskeletons and yellow hair covering their bodies. They're active during the day but really don't prefer the heat during the summer. Contrary to their appearance, they are rather delicate insects, so be sure to handle with care."
+    "desc": "Miyama stags look strong, with their thick, bumpy exoskeletons and yellow hair covering their bodies. They're active during the day but really don't prefer the heat during the summer. Contrary to their appearance, they are rather delicate insects, so be sure to handle with care.",
+    "quote": null,
+    "family": "Lucanidae - Stag Beetles",
+    "size": "60 mm",
+    "sci": "Lucanus maculifermoratus",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -691,7 +971,12 @@
     "etime": 8,
     "loc": "Tree Trunks",
     "bells": 10000,
-    "desc": "The giant beetle boasts a massive horn, and yet it's said this bug is actually something of a milquetoast. Apparently this bug would prefer to stay inside where other creatures won't bother it. How precious. Even I could handle being near such a shy insect! I shan't be tosisterlyng it, though..."
+    "desc": "The giant beetle boasts a massive horn, and yet it's said this bug is actually something of a milquetoast. Apparently this bug would prefer to stay inside where other creatures won't bother it. How precious. Even I could handle being near such a shy insect! I shan't be tosisterlyng it, though...",
+    "quote": null,
+    "family": "Lucanidae - Stag Beetles",
+    "size": "60 mm",
+    "sci": "Dorcus hopei binodulosus",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -703,7 +988,12 @@
     "etime": 8,
     "loc": "Tree Trunks",
     "bells": 10000,
-    "desc": "Rainbow stags are called the most beautiful of stag beetles because of their metallic-rainbow color.  Not only are their wings a pretty rainbow color, but their bellies are as well.  They are quite laid back, but they can be seen every now and then fighting to protect their territories."
+    "desc": "Rainbow stags are called the most beautiful of stag beetles because of their metallic-rainbow color.  Not only are their wings a pretty rainbow color, but their bellies are as well.  They are quite laid back, but they can be seen every now and then fighting to protect their territories.",
+    "quote": "I caught a rainbow stag! Its rainbow armor is so shiny!",
+    "family": "Lucanidae - stag beetles",
+    "size": "59 mm",
+    "sci": "Phalacrognathus muelleri",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -715,7 +1005,12 @@
     "etime": 8,
     "loc": "Palm Tree Trunks",
     "bells": 8000,
-    "desc": "Cyclommatus stags are identified by their long pairs of mandibles, which can be as long as their bodies. Their large mandibles are actually already formed when they're in the pupal stage of life. Although these beetles are mostly easygoing, those living in mountains really can't stand the heat."
+    "desc": "Cyclommatus stags are identified by their long pairs of mandibles, which can be as long as their bodies. Their large mandibles are actually already formed when they're in the pupal stage of life. Although these beetles are mostly easygoing, those living in mountains really can't stand the heat.",
+    "quote": null,
+    "family": "Lucanidae- Stag Beetles",
+    "size": "105 mm",
+    "sci": "Cyclommatus elaphus",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -727,7 +1022,12 @@
     "etime": 8,
     "loc": "Palm Tree Trunks",
     "bells": 12000,
-    "desc": "Cyclommatus stags are identified by their long pairs of mandibles, which can be as long as their bodies. Their large mandibles are actually already formed when they're in the pupal stage of life. Although these beetles are mostly easygoing, those living in mountains really can't stand the heat."
+    "desc": "Cyclommatus stags are identified by their long pairs of mandibles, which can be as long as their bodies. Their large mandibles are actually already formed when they're in the pupal stage of life. Although these beetles are mostly easygoing, those living in mountains really can't stand the heat.",
+    "quote": null,
+    "family": "Scaribidae - Scarab Beetles",
+    "size": "80 mm",
+    "sci": "Allotopus rosenbergi",
+    "rarity": "rare"
   },
   {
     "type": "bug",
@@ -739,7 +1039,12 @@
     "etime": 8,
     "loc": "Palm Tree Trunks",
     "bells": 12000,
-    "desc": "Insert Blathers Quote"
+    "desc": "Insert Blathers Quote",
+    "quote": null,
+    "family": "Lucanidae",
+    "size": "Large",
+    "sci": "Unknown",
+    "rarity": "unknown"
   },
   {
     "type": "bug",
@@ -751,7 +1056,12 @@
     "etime": 8,
     "loc": "Tree Trunks",
     "bells": 1350,
-    "desc": "Horned dynastids are part of the scarab family. Their horns are actually part of their exoskeleton. Horned dynastids don't have a nose or ears, but they can sense smells with their antennae. They are also able to feel the minor vibrations of sounds traveling in the air using thin hair on their bodies. They are fairly loud when flying, plus they emit a rather sour odor, so they are hard not to notice."
+    "desc": "Horned dynastids are part of the scarab family. Their horns are actually part of their exoskeleton. Horned dynastids don't have a nose or ears, but they can sense smells with their antennae. They are also able to feel the minor vibrations of sounds traveling in the air using thin hair on their bodies. They are fairly loud when flying, plus they emit a rather sour odor, so they are hard not to notice.",
+    "quote": null,
+    "family": "Scarabaeidae - Scarab beetles",
+    "size": "80 mm",
+    "sci": "Trypoxylus dichotomus politus",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -763,7 +1073,12 @@
     "etime": 8,
     "loc": "Palm Tree Trunks",
     "bells": 8000,
-    "desc": "Crowned with three horns, the atlas beetle is known as the strongest of the dynastid beetles. Blech, I wonder if it had three horns when it was in its larval form... I simply loathe larvae. All squishy and squirmy... Nightmarish, really."
+    "desc": "Crowned with three horns, the atlas beetle is known as the strongest of the dynastid beetles. Blech, I wonder if it had three horns when it was in its larval form... I simply loathe larvae. All squishy and squirmy... Nightmarish, really.",
+    "quote": null,
+    "family": "Scarabaeidae - Scarab beetles",
+    "size": "120 mm",
+    "sci": "Chalcosoma atlas",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -775,7 +1090,12 @@
     "etime": 8,
     "loc": "Palm Tree Trunks",
     "bells": 8000,
-    "desc": "True to its namesake, the elephant beetle is among the heaviest of all the dynastid beetles. As you might imagine, with parents that big, the babies are also accordingly huge. About the size of your fist! Such foulness! Just think of those monstrous larvae! The horror of it all!"
+    "desc": "True to its namesake, the elephant beetle is among the heaviest of all the dynastid beetles. As you might imagine, with parents that big, the babies are also accordingly huge. About the size of your fist! Such foulness! Just think of those monstrous larvae! The horror of it all!",
+    "quote": null,
+    "family": "Scarabaeidae - Scarab Beetlessub.Dynastinae",
+    "size": "115 mm",
+    "sci": "Megasoma elephas",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -787,7 +1107,12 @@
     "etime": 8,
     "loc": "Palm Tree Trunks",
     "bells": 12000,
-    "desc": "Hoo now... The largest dynastid beetle around! I must say, those horns are simply magnificent! Dynastid beetles move fairly slowly, so you're free to view them at your own pace, eh wot? I must heartily endorse any insect that has the decency to move slowly and predictably. Well done!"
+    "desc": "Hoo now... The largest dynastid beetle around! I must say, those horns are simply magnificent! Dynastid beetles move fairly slowly, so you're free to view them at your own pace, eh wot? I must heartily endorse any insect that has the decency to move slowly and predictably. Well done!",
+    "quote": null,
+    "family": "Scaribidae - Scarab BeetlesSubfamily - Dynastinae",
+    "size": "160 mm",
+    "sci": "Dynastes hercules",
+    "rarity": "rare"
   },
   {
     "type": "bug",
@@ -801,7 +1126,12 @@
     "etime2": 20,
     "loc": "Shaken Trees",
     "bells": 600,
-    "desc": "Walkingsticks can skillfully disguise themselves as twigs or thin branches. What deceptive wretches! Just imagine going to grab what you thought was a twig and having it go SQUISH in your hand... Such epic foulness! Just thinking about that dark day gives me owl bumps!"
+    "desc": "Walkingsticks can skillfully disguise themselves as twigs or thin branches. What deceptive wretches! Just imagine going to grab what you thought was a twig and having it go SQUISH in your hand... Such epic foulness! Just thinking about that dark day gives me owl bumps!",
+    "quote": null,
+    "family": "Phasmatidae",
+    "size": "85 mm",
+    "sci": "Neohirasea japonica",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -813,7 +1143,12 @@
     "etime": 23,
     "loc": "Ground",
     "bells": 600,
-    "desc": "As you can see, walking leafs are extremely proficient at mimicking the appearance of leaves. What torments me is this: they also EAT leaves... Do they look at one another and think, \"mmmmmmmm\"?"
+    "desc": "As you can see, walking leafs are extremely proficient at mimicking the appearance of leaves. What torments me is this: they also EAT leaves... Do they look at one another and think, \"mmmmmmmm\"?",
+    "quote": null,
+    "family": "Phyliidae- Walking leaves/leaf insects",
+    "size": "70 mm",
+    "sci": "Phyllium bioculatum (pulchrifolium)",
+    "rarity": "clear weather: scarce"
   },
   {
     "type": "bug",
@@ -825,7 +1160,12 @@
     "etime": 23,
     "loc": "Shaken Trees",
     "bells": 600,
-    "desc": "The bagworm is, in fact, not a worm at all, but a caterpillar instead. The filthy fraud uses silk and leaves to spin a cozy bag for it to hide inside - hence the name. Some find it cute the way bagworms dangle from trees. But the truth is they're gluttonous monsters. These beasts love to stuff their bug-gullets full of leaves, devouring the very trees they hang upon. (Wretched villains is what they are.)"
+    "desc": "The bagworm is, in fact, not a worm at all, but a caterpillar instead. The filthy fraud uses silk and leaves to spin a cozy bag for it to hide inside - hence the name. Some find it cute the way bagworms dangle from trees. But the truth is they're gluttonous monsters. These beasts love to stuff their bug-gullets full of leaves, devouring the very trees they hang upon. (Wretched villains is what they are.)",
+    "quote": "I caught a bagworm! Guess I'm a bragworm!",
+    "family": "Psychidae- Bagworm moths",
+    "size": "50 mm",
+    "sci": "Eumeta japonica",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -837,7 +1177,12 @@
     "etime": 23,
     "loc": "Rotten Food",
     "bells": 80,
-    "desc": "Most people seem to regard ants as peaceful creatures, but the truth is that they're quite savage insects, wot? Indeed, when I was but a fledgling, I once sat on an ant nest by accident. The wretched things set upon me within moments. My poor tail feathers took forever to grow back."
+    "desc": "Most people seem to regard ants as peaceful creatures, but the truth is that they're quite savage insects, wot? Indeed, when I was but a fledgling, I once sat on an ant nest by accident. The wretched things set upon me within moments. My poor tail feathers took forever to grow back.",
+    "quote": "I caught an ant! TELL ME WHERE THE QUEEN IS!",
+    "family": "Formicidae- Ants",
+    "size": "5 mm",
+    "sci": "Formica sp.",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -849,7 +1194,12 @@
     "etime": 8,
     "loc": "Beach",
     "bells": 1000,
-    "desc": "The hermit crab is not an insect... Though it most certainly resembles one. Blech! It looks much like a spider- what with its creepy eyes and crawly legs- but is, in fact, a crustacean. As such, the hermit crab has 10 legs and also wears a shell. But it doesn't grow this shell itself. It slips its soft body into shells left behind by snails, you see, and moves into ever-larger ones as it grows. (Talk about a strange way to make a home.)"
+    "desc": "The hermit crab is not an insect... Though it most certainly resembles one. Blech! It looks much like a spider- what with its creepy eyes and crawly legs- but is, in fact, a crustacean. As such, the hermit crab has 10 legs and also wears a shell. But it doesn't grow this shell itself. It slips its soft body into shells left behind by snails, you see, and moves into ever-larger ones as it grows. (Talk about a strange way to make a home.)",
+    "quote": "I caught a hermit crab! I think it wanted to be left alone!",
+    "family": "Conenobitidae",
+    "size": "45 mm",
+    "sci": "Coenobita cavipes",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -861,7 +1211,12 @@
     "etime": 23,
     "loc": "Beach (Rocks)",
     "bells": 200,
-    "desc": "The wharf roach is an omnivore, which is merely a polite way of saying it will eat almost anything. This skittering scavenger and its uncouth appetite help keep beaches clean, it's said. But I dare say, their long antenna and bulging eyes turn MY stomach. Unappetizing indeed... "
+    "desc": "The wharf roach is an omnivore, which is merely a polite way of saying it will eat almost anything. This skittering scavenger and its uncouth appetite help keep beaches clean, it's said. But I dare say, their long antenna and bulging eyes turn MY stomach. Unappetizing indeed... ",
+    "quote": "I caught a wharf roach! This water-loving roach has no pier!",
+    "family": "Ligiidae",
+    "size": "46 mm",
+    "sci": "Ligia exotica",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -873,7 +1228,12 @@
     "etime": 23,
     "loc": "Trash",
     "bells": 80,
-    "desc": "The foul fly is quite the disquieting creature. I tell you, it tastes its food with its feet! Yeep! In fact, when flies rub their legs together, they do so to get rid of debris blocking their taste receptors. And did you know, their hairy toes release a sticky goo so they can walk on any surface? Even your ceiling! This gross goo gets on your food too!"
+    "desc": "The foul fly is quite the disquieting creature. I tell you, it tastes its food with its feet! Yeep! In fact, when flies rub their legs together, they do so to get rid of debris blocking their taste receptors. And did you know, their hairy toes release a sticky goo so they can walk on any surface? Even your ceiling! This gross goo gets on your food too!",
+    "quote": "I caught a fly! I was just wingin' it...",
+    "family": "Muscidae-Flies",
+    "size": "5 mm",
+    "sci": "Musca domestica",
+    "rarity": "common"
   },
   {
     "type": "bug",
@@ -885,7 +1245,12 @@
     "etime": 4,
     "loc": "Flying",
     "bells": 130,
-    "desc": "Mosquitoes can easily be found flying around on warm summer nights looking for targets. Only the females feed on blood, and when they do so, they also inject saliva. The saliva is actually what causes the annoying itchy feeling, rather than the bite itself. Mosquitoes detect body heat, sweat, and carbon dioxide, so they are drawn to exercising humans."
+    "desc": "Mosquitoes can easily be found flying around on warm summer nights looking for targets. Only the females feed on blood, and when they do so, they also inject saliva. The saliva is actually what causes the annoying itchy feeling, rather than the bite itself. Mosquitoes detect body heat, sweat, and carbon dioxide, so they are drawn to exercising humans.",
+    "quote": null,
+    "family": "Culicidae-Mosquitos",
+    "size": "6 mm",
+    "sci": "Aedes albopictus",
+    "rarity": "fairly common"
   },
   {
     "type": "bug",
@@ -897,7 +1262,12 @@
     "etime": 23,
     "loc": "Villagers",
     "bells": 70,
-    "desc": "Fleas are tiny insects that feed on blood from humans and animals, which then results in an itchy rash. They use their piercing mouths to suck blood while injecting saliva into their host at the same time. Unlike mosquitoes, both males and females suck blood. The females are larger than the males."
+    "desc": "Fleas are tiny insects that feed on blood from humans and animals, which then results in an itchy rash. They use their piercing mouths to suck blood while injecting saliva into their host at the same time. Unlike mosquitoes, both males and females suck blood. The females are larger than the males.",
+    "quote": "I caught a flea! The curse is lifted.",
+    "family": "Pulicidae- Fleas",
+    "size": "2 mm",
+    "sci": "Pulex irritans",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -909,7 +1279,12 @@
     "etime": 23,
     "loc": "Rocks (Rain)",
     "bells": 250,
-    "desc": "Snails are not insects, I'll admit. But they're just as revolting to me. Snails are mollusks, you see, and are born wearing shells they cannot remove. Instead, their shells get bigger and bigger as they grow. Hoo! They must get heavy, don't you know! I suppose that's why they need a trail of mucus to move about. A truly foul form of transportation."
+    "desc": "Snails are not insects, I'll admit. But they're just as revolting to me. Snails are mollusks, you see, and are born wearing shells they cannot remove. Instead, their shells get bigger and bigger as they grow. Hoo! They must get heavy, don't you know! I suppose that's why they need a trail of mucus to move about. A truly foul form of transportation.",
+    "quote": "I caught a snail! It's...not much to brag about.",
+    "family": "Helicidae - Land Snails",
+    "size": "52 mm",
+    "sci": "Helix pomatia",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -921,7 +1296,12 @@
     "etime": 16,
     "loc": "Under Rocks",
     "bells": 250,
-    "desc": "Blech, the pill bug! Children delight at the way these beasts roll into balls when poked... But the appeal is utterly lost on me. One look at their leggy undersides... Hoo! Ewww! How they wriggle! Young pill bugs shed their exoskeletons as they grow, and in doing so, sprout another pair of legs. As if 12 appendages weren't alarming enough! Yuck, I say. Yuck!"
+    "desc": "Blech, the pill bug! Children delight at the way these beasts roll into balls when poked... But the appeal is utterly lost on me. One look at their leggy undersides... Hoo! Ewww! How they wriggle! Young pill bugs shed their exoskeletons as they grow, and in doing so, sprout another pair of legs. As if 12 appendages weren't alarming enough! Yuck, I say. Yuck!",
+    "quote": "I caught a pill bug! That's a tough act to swallow!",
+    "family": "Armadillidiidae - Terrestrial Custaceans",
+    "size": "10 mm",
+    "sci": "Armadillidium vulgare",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -933,7 +1313,12 @@
     "etime": 16,
     "loc": "Under Rocks",
     "bells": 300,
-    "desc": "The centipede's name means '100 legs.' But I tell you now, that's a lie! These ugly bugs can have as few as 15 pair of legs...or as many as 171. But because of how their bodies are segmented, they never have exactly 100! Hoo! It's true! You know what else is true? Centipedes are carnivorous, aggressive, and venomous! And their bite is quite painful too! HOO-rrible things I say."
+    "desc": "The centipede's name means '100 legs.' But I tell you now, that's a lie! These ugly bugs can have as few as 15 pair of legs...or as many as 171. But because of how their bodies are segmented, they never have exactly 100! Hoo! It's true! You know what else is true? Centipedes are carnivorous, aggressive, and venomous! And their bite is quite painful too! HOO-rrible things I say.",
+    "quote": "I caught a centipede! 99 more and I'll have a dollarpede!",
+    "family": "Scolopendridae",
+    "size": "65 mm",
+    "sci": "Scolopendra subspinipes japonica",
+    "rarity": "scarce"
   },
   {
     "type": "bug",
@@ -945,7 +1330,12 @@
     "etime": 8,
     "loc": "Shaken Trees",
     "bells": 480,
-    "desc": "The spider is renowned for having eight eyes and eight legs... WHICH IS SIX TOO MANY, I SAY! Oh dear. I do apologize. Now where was I? Most spiders are carnivorous. In fact, some will eat creatures several times larger than themselves. To catch their prey, many of these ruthless predators spin sticky webs of surprising strength. Worse yet, they've also been known to ambush their victims, and some even chase down their meals! All this talk about the feeding habits of spiders... I'm feeling quite queasy. Hoot! The horror!"
+    "desc": "The spider is renowned for having eight eyes and eight legs... WHICH IS SIX TOO MANY, I SAY! Oh dear. I do apologize. Now where was I? Most spiders are carnivorous. In fact, some will eat creatures several times larger than themselves. To catch their prey, many of these ruthless predators spin sticky webs of surprising strength. Worse yet, they've also been known to ambush their victims, and some even chase down their meals! All this talk about the feeding habits of spiders... I'm feeling quite queasy. Hoot! The horror!",
+    "quote": "I caught a spider! I spied 'er first!",
+    "family": "Araneidae- Orb-weaver Spiders",
+    "size": "25 mm",
+    "sci": "Argiope bruennichi",
+    "rarity": "uncommon"
   },
   {
     "type": "bug",
@@ -957,7 +1347,12 @@
     "etime": 4,
     "loc": "Ground",
     "bells": 8000,
-    "desc": "As giant spiders go, the tarantula is said to be quite docile. But have you ever seen such foul fuzziness?! It is a fact, tarantulas have barbed belly hair! I say again... BARBED. BELLY. HAIR! These awful arachnids let loose their spiky, itchy hairs to protect themselves from predators. But seeing how tarantulas also prey on frogs, mice, and even birds, one must ask... Who needs protecting from whom?! Hoo! Who indeed!"
+    "desc": "As giant spiders go, the tarantula is said to be quite docile. But have you ever seen such foul fuzziness?! It is a fact, tarantulas have barbed belly hair! I say again... BARBED. BELLY. HAIR! These awful arachnids let loose their spiky, itchy hairs to protect themselves from predators. But seeing how tarantulas also prey on frogs, mice, and even birds, one must ask... Who needs protecting from whom?! Hoo! Who indeed!",
+    "quote": "I caught a tarantula! This situation just got hairy!",
+    "family": "Theraphosidae",
+    "size": "65 mm",
+    "sci": "Brachypelma smithi",
+    "rarity": "rare"
   },
   {
     "type": "bug",
@@ -969,9 +1364,13 @@
     "etime": 4,
     "loc": "Ground",
     "bells": 8000,
-    "desc": "...Scorpions are assuredly attention getters. They've got those colors that say, \"Stay back! I'm poisonous!\" However, it seems only a tiny group of scorpions have venom lethal enough to off you with one sting. Mischievous scorpions that look like highly poisonous ones probably fooled folks into thinking otherwise."
+    "desc": "...Scorpions are assuredly attention getters. They've got those colors that say, \"Stay back! I'm poisonous!\" However, it seems only a tiny group of scorpions have venom lethal enough to off you with one sting. Mischievous scorpions that look like highly poisonous ones probably fooled folks into thinking otherwise.",
+    "quote": "I caught a scorpion! It was a sting operation!",
+    "family": "Scorpionidae",
+    "size": "160 mm",
+    "sci": "Heterometrus swammerdami",
+    "rarity": "rare"
   },
-
   {
     "type": "fish",
     "no": 0,
@@ -981,9 +1380,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 0,
+    "size": null,
     "bells": 900,
-    "desc": "Bitterlings hide their eggs inside large bivalves-like clams-where the young can stay safe until grown. The bitterling isn't being sneaky. No, their young help keep the bivalve healthy by eating invading parasites! It's a wonderful bit of evolutionary deal making, don't you think? Each one keeping the other safe... Though eating parasites does not sound like a happy childhood... Is that why the fish is so bitter?"
+    "desc": "Bitterlings hide their eggs inside large bivalves-like clams-where the young can stay safe until grown. The bitterling isn't being sneaky. No, their young help keep the bivalve healthy by eating invading parasites! It's a wonderful bit of evolutionary deal making, don't you think? Each one keeping the other safe... Though eating parasites does not sound like a happy childhood... Is that why the fish is so bitter?",
+    "shadow": "tiny",
+    "quote": "I caught a bitterling! It's mad at me, but only a little.",
+    "family": null,
+    "sci": null,
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -994,9 +1398,14 @@
     "stime": 9,
     "etime": 16,
     "loc": "River",
-    "size": 0,
+    "size": "6 in. 18 cm",
     "bells": 160,
-    "desc": "The pale chub is a river fish with simple black-and-silver coloring. Interestingly, the male's coloring becomes more vibrant when he's trying to attract a mate! Though normally plain, these fellows really known how to look stylish when they want to. Perhaps I could learn a thing or two from the pale chub... "
+    "desc": "The pale chub is a river fish with simple black-and-silver coloring. Interestingly, the male's coloring becomes more vibrant when he's trying to attract a mate! Though normally plain, these fellows really known how to look stylish when they want to. Perhaps I could learn a thing or two from the pale chub... ",
+    "shadow": "tiny",
+    "quote": "I caught a pale chub! That name seems a bit judgy...",
+    "family": "Cyprinidae",
+    "sci": "Zacco platypus",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1007,9 +1416,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 1,
+    "size": "11.8 in. 30 cm",
     "bells": 160,
-    "desc": "I wonder... Do you know how to tell the difference between a crucian carp and a standard-issue carp? It's quite easy to tell the two apart... One must simply locate the barbels. Or, rather, the lack of them! And just what is a barbel, you ask? Well, a barbel looks a little something like a mustache. A run-of-the-mill carp will sport this unsightly \"facial hair,\" while a crucian carp is considerably better groomed! I tried to grow a mustache when I was younger. It never did fill in quite right... All for the best in the end, as mustaches go so much better with noses than with beaks!"
+    "desc": "I wonder... Do you know how to tell the difference between a crucian carp and a standard-issue carp? It's quite easy to tell the two apart... One must simply locate the barbels. Or, rather, the lack of them! And just what is a barbel, you ask? Well, a barbel looks a little something like a mustache. A run-of-the-mill carp will sport this unsightly \"facial hair,\" while a crucian carp is considerably better groomed! I tried to grow a mustache when I was younger. It never did fill in quite right... All for the best in the end, as mustaches go so much better with noses than with beaks!",
+    "shadow": "small",
+    "quote": "I caught a crucian carp! My skills are sharp!",
+    "family": "Cyprinidae - Carps",
+    "sci": "Carassius carassius",
+    "rarity": "fairly common"
   },
   {
     "type": "fish",
@@ -1020,9 +1434,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River",
-    "size": 2,
+    "size": "14 in. 35 cm",
     "bells": 240,
-    "desc": "Dace are shiny little fish that enjoy freshwater streams with gravelly bottoms and plenty of sunlight. What a fishy paradise...until the larger fish move in and begin eating the dace! Sadly, the shiny dace are easy for other fish to spot, which makes them a popular snack. However, this particular specimen has no need to worry. There's a strict \"No Eating Your Neighbor\" policy at this institution."
+    "desc": "Dace are shiny little fish that enjoy freshwater streams with gravelly bottoms and plenty of sunlight. What a fishy paradise...until the larger fish move in and begin eating the dace! Sadly, the shiny dace are easy for other fish to spot, which makes them a popular snack. However, this particular specimen has no need to worry. There's a strict \"No Eating Your Neighbor\" policy at this institution.",
+    "shadow": "medium",
+    "quote": "I caught a dace! Hope I have some space!",
+    "family": "Cyprinidae - Carps/Minnows",
+    "sci": "Tribolodon hakonensis",
+    "rarity": "fairly common"
   },
   {
     "type": "fish",
@@ -1033,9 +1452,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River/Pond",
-    "size": 3,
+    "size": "26,75 in. 70 cm",
     "bells": 300,
-    "desc": "Oh, the carp...have you ever seen their teeth? For your sake, I hope you have not! Carp have teeth in their throat strong enough to crunch on hard things like shells and fingers! A good rule of thumb when dealing with other species is to keep your fingers out of their mouths. Although, having neither thumbs nor fingers, I am quite safe from this little fellow!"
+    "desc": "Oh, the carp...have you ever seen their teeth? For your sake, I hope you have not! Carp have teeth in their throat strong enough to crunch on hard things like shells and fingers! A good rule of thumb when dealing with other species is to keep your fingers out of their mouths. Although, having neither thumbs nor fingers, I am quite safe from this little fellow!",
+    "shadow": "4",
+    "quote": "I caught a carp! If I catch another they can carpool!",
+    "family": "Cyprinidae - Carp",
+    "sci": "Cyprinus carpio",
+    "rarity": "fairly common"
   },
   {
     "type": "fish",
@@ -1046,9 +1470,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River",
-    "size": 3,
+    "size": "17.85 in. (75cm)",
     "bells": 4000,
-    "desc": "Koi are a variety of carp bred for their color mutations...starting more than a thousand years ago! Well, one glance at their impressive coloring tells you that the centuries of effort were worth it. And even today people still selectively breed koi in search of new color combinations! One marvels at the thought of what the koi may look like in another thousand years."
+    "desc": "Koi are a variety of carp bred for their color mutations...starting more than a thousand years ago! Well, one glance at their impressive coloring tells you that the centuries of effort were worth it. And even today people still selectively breed koi in search of new color combinations! One marvels at the thought of what the koi may look like in another thousand years.",
+    "shadow": "large",
+    "quote": "I caught a koi! I don't know why it's so shy... or such a bad speller...",
+    "family": "Cyprinidae",
+    "sci": "Cyprinus carpio haematopterus",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1059,9 +1488,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Pond",
-    "size": 0,
+    "size": "5.65 in. 15 cm",
     "bells": 1300,
-    "desc": "Goldfish are so cute and delicate... but do you know how big they can get? Why, they can grow up to... a foot in length! Well, sometimes. The size of the tank they're kept in tends to restrict their growth. And just how big will this goldfish get in our large museum tank? I look forward to finding out!"
+    "desc": "Goldfish are so cute and delicate... but do you know how big they can get? Why, they can grow up to... a foot in length! Well, sometimes. The size of the tank they're kept in tends to restrict their growth. And just how big will this goldfish get in our large museum tank? I look forward to finding out!",
+    "shadow": "tiny",
+    "quote": "I caught a goldfish! It's worth its weight in fish!",
+    "family": "Cyprinidae - Minnows/Carp",
+    "sci": "Carassius auratus",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1073,8 +1507,13 @@
     "etime": 16,
     "bells": 1300,
     "loc": "Pond",
-    "size": 0,
-    "desc": "Pop-eyed goldfish have, as the name suggests, huge round eyes. But as babies they look like other goldfish! As they grow, their eyes begin to pop out and they gain their, hoo, distinct appearance... Imagine the poor fish fancier who unknowingly bought one! Their eyes might well pop out just as far!"
+    "size": "5.40 in. 12 cm",
+    "desc": "Pop-eyed goldfish have, as the name suggests, huge round eyes. But as babies they look like other goldfish! As they grow, their eyes begin to pop out and they gain their, hoo, distinct appearance... Imagine the poor fish fancier who unknowingly bought one! Their eyes might well pop out just as far!",
+    "shadow": "tiny",
+    "quote": "I got a pop-eyed goldfish! It looks so...surprised!",
+    "family": "Cyprinidae- Minnows/Carp",
+    "sci": "Carassius auratus",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1086,8 +1525,13 @@
     "etime": 16,
     "loc": "Pond",
     "bells": 4500,
-    "size": 1,
-    "desc": "The ranchu goldfish is a charming relative of the goldfish with a bumpy head and stout, round body. They have ordinary heads when born, but develop impressive rectangular heads after about three years. Supposedly their head shape changes depending on factors like the size of their tank... So ranchu goldfish enthusiasts aim to raise perfectly shaped specimens and work hard to achieve this. Of course, no one asks the ranchu goldfish themselves what shape they want their heads to be..."
+    "size": "Unknown",
+    "desc": "The ranchu goldfish is a charming relative of the goldfish with a bumpy head and stout, round body. They have ordinary heads when born, but develop impressive rectangular heads after about three years. Supposedly their head shape changes depending on factors like the size of their tank... So ranchu goldfish enthusiasts aim to raise perfectly shaped specimens and work hard to achieve this. Of course, no one asks the ranchu goldfish themselves what shape they want their heads to be...",
+    "shadow": "2",
+    "quote": "I caught a ranchu goldfish! But I prefer balsamicu goldfish!",
+    "family": "Cyprinidae",
+    "sci": "Carassius auratus",
+    "rarity": "unknown"
   },
   {
     "type": "fish",
@@ -1098,9 +1542,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Pond",
-    "size": 0,
+    "size": "1.6 in. 4 cm",
     "bells": 300,
-    "desc": "Killifish are small, travel in schools, and are known for having eyes higher up on their faces than others. They swim in shallow areas in rivers and mostly eat bugs that float on the surface of the water. This is why they have mouths as high up their faces as their eyes, making them effective hunters. Being the same temperature as the water they inhabit, getting grabbed by warm hands can shock them."
+    "desc": "Killifish are small, travel in schools, and are known for having eyes higher up on their faces than others. They swim in shallow areas in rivers and mostly eat bugs that float on the surface of the water. This is why they have mouths as high up their faces as their eyes, making them effective hunters. Being the same temperature as the water they inhabit, getting grabbed by warm hands can shock them.",
+    "shadow": "tiny",
+    "quote": "I caught a killifish! The streams are safe again.",
+    "family": "Adrianichthyidae - Ricefishes",
+    "sci": "Oryzias latipes",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1111,9 +1560,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Pond",
-    "size": 1,
+    "size": "4.8 in. 13 cm",
     "bells": 200,
-    "desc": "These shrimp relatives are usually found in ponds and rivers, typically making them easy to catch. The reason for this strange habitat is that crawfish are plentiful and will eat just about anything. Eating plant material makes their bodies red, but only eating fish and meat will turn their bodies blue. A red color indicates they are eating a healthy and balanced diet, so red is the ideal for the species."
+    "desc": "These shrimp relatives are usually found in ponds and rivers, typically making them easy to catch. The reason for this strange habitat is that crawfish are plentiful and will eat just about anything. Eating plant material makes their bodies red, but only eating fish and meat will turn their bodies blue. A red color indicates they are eating a healthy and balanced diet, so red is the ideal for the species.",
+    "shadow": "small",
+    "quote": "I caught a crawfish! Or else it's a lobster, and I'm a giant!",
+    "family": "Cambaridae - Crayfishsup.Astacoidea",
+    "sci": "Procambarus clarkii",
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1124,9 +1578,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River",
-    "size": 3,
+    "size": "10.45 in. (27 cm)",
     "bells": 3750,
-    "desc": "The soft-shelled turtle is not one to shy away from biting when provoked. In addition to its powerful bite, this little critter has the ability to breathe both above and below water! It has an unusually long neck which it uses for both breathing and biting. Come to think of it, how did you manage to avoid being bitten? Well, it's a fearsome critter, but just look at that face! Rather silly, wot?"
+    "desc": "The soft-shelled turtle is not one to shy away from biting when provoked. In addition to its powerful bite, this little critter has the ability to breathe both above and below water! It has an unusually long neck which it uses for both breathing and biting. Come to think of it, how did you manage to avoid being bitten? Well, it's a fearsome critter, but just look at that face! Rather silly, wot?",
+    "shadow": "medium",
+    "quote": "I caught a soft-shelled turtle! It's more sensitive than other turtles.",
+    "family": "Trionychidae",
+    "sci": "Pelodiscus sinensis",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1137,9 +1596,14 @@
     "stime": 9,
     "etime": 16,
     "loc": "River",
-    "size": 4,
+    "size": null,
     "bells": 5000,
-    "desc": "The snapping turtle is a large turtle known for it's crocodile-like body and long claws. No, wait-- it is better known for it's ferocious bite, which it can deliver with shocking speed for a turtle. NO, WAIT-- it is BEST known for that time one chased me across a parking lot and I had to climb on top of a car."
+    "desc": "The snapping turtle is a large turtle known for it's crocodile-like body and long claws. No, wait-- it is better known for it's ferocious bite, which it can deliver with shocking speed for a turtle. NO, WAIT-- it is BEST known for that time one chased me across a parking lot and I had to climb on top of a car.",
+    "shadow": "3",
+    "quote": null,
+    "family": null,
+    "sci": null,
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1150,9 +1614,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Pond",
-    "size": 0,
+    "size": "1.50 in. 3.85 cm",
     "bells": 100,
-    "desc": "Undoubtedly you know that tadpoles eventually turn into frogs. I must say, I find them impossibly adorable with their squiggly little tails. But even cuter... when they sprout legs! Why, we can witness accelerated evolution in these squirmy little ones. Hoo, it makes me so emotional!"
+    "desc": "Undoubtedly you know that tadpoles eventually turn into frogs. I must say, I find them impossibly adorable with their squiggly little tails. But even cuter... when they sprout legs! Why, we can witness accelerated evolution in these squirmy little ones. Hoo, it makes me so emotional!",
+    "shadow": "tiny",
+    "quote": null,
+    "family": "Hylidae - Tree frogs and their allies",
+    "sci": "Hyla japonica",
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1163,9 +1632,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Pond",
-    "size": 1,
+    "size": "4,50 in.  12 cm",
     "bells": 120,
-    "desc": "These former tadpoles prefer to live near ponds and other damp and swampy places. They dwell on land, so they have lungs and skin as opposed to a set of gills. They like to stick close to water because they require a nice, moist lifestyle. Frogs are moist because they emit a liquid to protect their skin from dryness. If too much moisture evaporates from their thin skins, they could have trouble breathing. It's better not to handle frogs, as some species are poisonous, even to the touch!"
+    "desc": "These former tadpoles prefer to live near ponds and other damp and swampy places. They dwell on land, so they have lungs and skin as opposed to a set of gills. They like to stick close to water because they require a nice, moist lifestyle. Frogs are moist because they emit a liquid to protect their skin from dryness. If too much moisture evaporates from their thin skins, they could have trouble breathing. It's better not to handle frogs, as some species are poisonous, even to the touch!",
+    "shadow": "small",
+    "quote": null,
+    "family": "Hylidae - Tree frogs and their allies",
+    "sci": "Hyla japonica",
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1176,9 +1650,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River",
-    "size": 1,
+    "size": "6 in. 15 cm",
     "bells": 400,
-    "desc": "These short and stocky river-dwelling fish have a lot of slender teeth for tearing apart other fish. Freshwater gobies dig holes under rocks in riverbeds to make nests for eggs, which the males guard. Other fish breeds take advantage of this protective quality and often lay eggs in goby nests."
+    "desc": "These short and stocky river-dwelling fish have a lot of slender teeth for tearing apart other fish. Freshwater gobies dig holes under rocks in riverbeds to make nests for eggs, which the males guard. Other fish breeds take advantage of this protective quality and often lay eggs in goby nests.",
+    "shadow": "small",
+    "quote": null,
+    "family": "Gobiidae - Gobies",
+    "sci": "Odontobutis obscura",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1189,9 +1668,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 1,
+    "size": "8.60 in. 21 cm",
     "bells": 400,
-    "desc": "Loaches are a large group of bottom-feeding freshwater fish. Because there are so many species, it is difficult to generalize about them all. The one thing they all have in common is perhaps their most unappealing trait; the name 'loach.' Repellent, isn't it? They should have just called it the 'cockloach' and been done with it, eh wot! Loach...loach... It just tastes terrible in the beak."
+    "desc": "Loaches are a large group of bottom-feeding freshwater fish. Because there are so many species, it is difficult to generalize about them all. The one thing they all have in common is perhaps their most unappealing trait; the name 'loach.' Repellent, isn't it? They should have just called it the 'cockloach' and been done with it, eh wot! Loach...loach... It just tastes terrible in the beak.",
+    "shadow": "small",
+    "quote": "I caught a loach! It's ... looking at me with reproach.",
+    "family": "Cobitidae- True Loaches",
+    "sci": "Misgurnus anguillicaudatus  (Cantor, 1842)",
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1202,9 +1686,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "Pond",
-    "size": 3,
+    "size": "29,20 in. 70 cm",
     "bells": 800,
-    "desc": "Catfish are known for their long whiskers, wide bodies, and large mouths, but they don't have fur. Despite having large eyes, they have rather poor eyesight. They make up for this with sensory whiskers. Catfish have small horizontal and vertical lines in their bodies, almost like perforated lines. These holes are for detecting weak electric currents of other fish, making them adept hunters. Catfish are artful carnivores as they swim around lazily but then strike quickly when prey is found."
+    "desc": "Catfish are known for their long whiskers, wide bodies, and large mouths, but they don't have fur. Despite having large eyes, they have rather poor eyesight. They make up for this with sensory whiskers. Catfish have small horizontal and vertical lines in their bodies, almost like perforated lines. These holes are for detecting weak electric currents of other fish, making them adept hunters. Catfish are artful carnivores as they swim around lazily but then strike quickly when prey is found.",
+    "shadow": "large",
+    "quote": null,
+    "family": "Siluridae - Freshwater Catfishes",
+    "sci": "Silurus asotus",
+    "rarity": "fairly common"
   },
   {
     "type": "fish",
@@ -1213,9 +1702,14 @@
     "smonth": 6,
     "emonth": 8,
     "loc": "Pond",
-    "size": 4,
+    "size": "27.45 in. 85 cm",
     "bells": 5500,
-    "desc": "Giant snakeheads get their name from the fact that their heads look like those of snakes. Their scales and patterns also look like snakes', really bringing the resemblance to a high degree. They have sharp teeth, so don't poke your finger anywhere near their mouths! Both males and females are well known for protecting their eggs and offspring. They will scare off any other fish that approach by frantically waving their tails."
+    "desc": "Giant snakeheads get their name from the fact that their heads look like those of snakes. Their scales and patterns also look like snakes', really bringing the resemblance to a high degree. They have sharp teeth, so don't poke your finger anywhere near their mouths! Both males and females are well known for protecting their eggs and offspring. They will scare off any other fish that approach by frantically waving their tails.",
+    "shadow": "very large",
+    "quote": null,
+    "family": "Channidae - Snakeheads",
+    "sci": "Channa argus",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1226,9 +1720,14 @@
     "stime": 9,
     "etime": 16,
     "loc": "River",
-    "size": 1,
+    "size": "11,85 in. 26 cm",
     "bells": 180,
-    "desc": "The bluegill is incredibly common. A bit too common, depending upon where you are. They eat anything that fits in their mouths and are highly adaptable. The bane of fishermen in some areas, bluegill is often the only fish to be caught! But looking in its wee beady eyes, I must say I see no ill will in it..."
+    "desc": "The bluegill is incredibly common. A bit too common, depending upon where you are. They eat anything that fits in their mouths and are highly adaptable. The bane of fishermen in some areas, bluegill is often the only fish to be caught! But looking in its wee beady eyes, I must say I see no ill will in it...",
+    "shadow": "small",
+    "quote": "I caught a bluegill! Do you think it calls me pinklung?",
+    "family": null,
+    "sci": null,
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1239,9 +1738,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 2,
+    "size": "14.60 in. 35 cm",
     "bells": 300,
-    "desc": "The yellow perch is certainly worth squawking about. I find it a sight to behold! That jagged dorsal find! Those brilliant stripes! Those glorious colours! Hoo, truly it is quite the specimen. I would be thrilled to witness it firsthand in its natural environment... But the yellow perch's peak season is winter, I'm afraid. (So very afraid... of winter's biting chill...)"
+    "desc": "The yellow perch is certainly worth squawking about. I find it a sight to behold! That jagged dorsal find! Those brilliant stripes! Those glorious colours! Hoo, truly it is quite the specimen. I would be thrilled to witness it firsthand in its natural environment... But the yellow perch's peak season is winter, I'm afraid. (So very afraid... of winter's biting chill...)",
+    "shadow": "medium",
+    "quote": "I caught a yellow perch! Those yellow birds have to sit somewhere!",
+    "family": null,
+    "sci": null,
+    "rarity": "fairly common"
   },
   {
     "type": "fish",
@@ -1252,9 +1756,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 3,
+    "size": "22.75 in. 60 cm",
     "bells": 400,
-    "desc": "The black bass is a formidably strong fish and, as such, is a common target for sport anglers. In some areas, there are even those who professionally catch just black bass! Yet in other areas where they are NOT native, they are considered an ecological nuisance. Invasive, even. One cannot help but wonder who is to blame for their invasion, hoo."
+    "desc": "The black bass is a formidably strong fish and, as such, is a common target for sport anglers. In some areas, there are even those who professionally catch just black bass! Yet in other areas where they are NOT native, they are considered an ecological nuisance. Invasive, even. One cannot help but wonder who is to blame for their invasion, hoo.",
+    "shadow": "large",
+    "quote": "I caught a black bass! The most metal of all fish!",
+    "family": null,
+    "sci": null,
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1265,9 +1774,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 2,
+    "size": "Unknown",
     "bells": 800,
-    "desc": "Wherever the waters are warm, the tilapia can be found. It is a highly adaptable river fish. They mainly feed on algae, but they will also eat larvae and dead fish— or whatever fits in their mouths. I will confess that, as a growing owlet, I similarly defined food as 'anything that fits in my beak.'"
+    "desc": "Wherever the waters are warm, the tilapia can be found. It is a highly adaptable river fish. They mainly feed on algae, but they will also eat larvae and dead fish— or whatever fits in their mouths. I will confess that, as a growing owlet, I similarly defined food as 'anything that fits in my beak.'",
+    "shadow": "3",
+    "quote": "I caught a tilapia! It makes me happy-a!",
+    "family": "Cichlidae",
+    "sci": "Tilapia sparrmanii",
+    "rarity": "unknown"
   },
   {
     "type": "fish",
@@ -1278,9 +1792,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 4,
+    "size": "160 cm",
     "bells": 1800,
-    "desc": "Pikes are only found in cold water, so they cannot live in warmer parts of the world. They can grow over three feet long and as such are a very popular fish with anglers. Pike have a slightly protruding jaw and large mouths with sharp teeth, making them powerful predators. They use these teeth for tearing apart not only other fish but also birds and other aquatic creatures."
+    "desc": "Pikes are only found in cold water, so they cannot live in warmer parts of the world. They can grow over three feet long and as such are a very popular fish with anglers. Pike have a slightly protruding jaw and large mouths with sharp teeth, making them powerful predators. They use these teeth for tearing apart not only other fish but also birds and other aquatic creatures.",
+    "shadow": "very large",
+    "quote": null,
+    "family": "Esocidae - Pike",
+    "sci": "Esox lucius",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1291,9 +1810,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 1,
+    "size": "6.70 in. 17 cm",
     "bells": 500,
-    "desc": "Pond smelt are small but vigorous fish that can survive in water of relatively poor quality. Pond smelt are related to salmon and as such have a lot of the same migratory tendencies. Most of them swim from rivers to the ocean and then return to rivers and lakes. However, some of them actually live in lakes that have no connection to the ocean, so they don't migrate. They have small fins and are perfect for eating whole as tempura or grilled on barbecues."
+    "desc": "Pond smelt are small but vigorous fish that can survive in water of relatively poor quality. Pond smelt are related to salmon and as such have a lot of the same migratory tendencies. Most of them swim from rivers to the ocean and then return to rivers and lakes. However, some of them actually live in lakes that have no connection to the ocean, so they don't migrate. They have small fins and are perfect for eating whole as tempura or grilled on barbecues.",
+    "shadow": "small",
+    "quote": "I caught a pond smelt! Whoever smelt it dealt it!",
+    "family": "Osmeridae - Smelts",
+    "sci": "Hypomesus olidus",
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1304,9 +1828,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 2,
+    "size": "10 in. 25 cm",
     "bells": 900,
-    "desc": "Sweetfish are migratory fish born upstream that travel to the ocean and then return to rivers to spawn. This migratory mind-set is what emphasizes their similarity to salmon. Adult sweetfish have a watermelon-like mossy smell when caught, since they eat moss on riverbed rocks. Sweetfish are very territorial and will attack rivals that encroach on their territory. Anglers use this combative nature against them by using lures made of other sweetfish."
+    "desc": "Sweetfish are migratory fish born upstream that travel to the ocean and then return to rivers to spawn. This migratory mind-set is what emphasizes their similarity to salmon. Adult sweetfish have a watermelon-like mossy smell when caught, since they eat moss on riverbed rocks. Sweetfish are very territorial and will attack rivals that encroach on their territory. Anglers use this combative nature against them by using lures made of other sweetfish.",
+    "shadow": "medium",
+    "quote": "I caught a sweetfish! Hope it's not artificially sweet!",
+    "family": "Plecoglossidae - Ayu fish",
+    "sci": "Plecoglossus altivelis",
+    "rarity": "fairly common"
   },
   {
     "type": "fish",
@@ -1319,9 +1848,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River",
-    "size": 2,
+    "size": "15,85 in. 40 cm",
     "bells": 1000,
-    "desc": "The cherry salmon is related to the salmon, and is known for its distinctive pattern of \"polka dots\". There polka dots disappear as they mature, but ONLY in the first of certain geographic regions. Pity the poor researchers that must make sense of the cherry salmon's fickle fashion sense."
+    "desc": "The cherry salmon is related to the salmon, and is known for its distinctive pattern of \"polka dots\". There polka dots disappear as they mature, but ONLY in the first of certain geographic regions. Pity the poor researchers that must make sense of the cherry salmon's fickle fashion sense.",
+    "shadow": "medium",
+    "quote": "I caught a cherry salmon! It's the perfect topper for a marlin sundae!",
+    "family": "Salmonidae - Salmonidae",
+    "sci": "Oncorhynchus masou",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1334,9 +1868,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River/Pond",
-    "size": 2,
+    "size": "20 in. 50 cm",
     "bells": 3800,
-    "desc": "The char is one of the bigger first around the world, and, in the world of fish, that's quite an accomplishment! They are territorial predators, and therefore must constantly defend their 'turf' from others. So when you see a large char like this one, it is likely a skilled fighter and veteran of many battles. My feathers! I hope it never has cause to go into battle with me!"
+    "desc": "The char is one of the bigger first around the world, and, in the world of fish, that's quite an accomplishment! They are territorial predators, and therefore must constantly defend their 'turf' from others. So when you see a large char like this one, it is likely a skilled fighter and veteran of many battles. My feathers! I hope it never has cause to go into battle with me!",
+    "shadow": "medium",
+    "quote": "I caught a char! Now I'm gonna sit on it!",
+    "family": "Salmonidae - Salmon",
+    "sci": "Salvelinus leucomaenis",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1349,9 +1888,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River (Clifftop)",
-    "size": 3,
+    "size": "unknown",
     "bells": 15000,
-    "desc": "The golden trouts is a beautifully colored fish that can only live in very clean waters. They are difficult to come across since they are found only in high mountain streams. As a side note, I find it much easier to appreciate fish that aren't such prima donnas about everything."
+    "desc": "The golden trouts is a beautifully colored fish that can only live in very clean waters. They are difficult to come across since they are found only in high mountain streams. As a side note, I find it much easier to appreciate fish that aren't such prima donnas about everything.",
+    "shadow": "medium",
+    "quote": "I caught a golden trout! But the real treasure? Friendship.",
+    "family": "Salmonidae",
+    "sci": "Oncorhynchus aguabonita",
+    "rarity": "unknown"
   },
   {
     "type": "fish",
@@ -1362,9 +1906,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River (Clifftop)",
-    "size": 5,
+    "size": "62.40 in. (160 cm)",
     "bells": 15000,
-    "desc": "The stringfish grows slowly, but also lives quite a long time for a fish, with up to 15 years being typical. Consequently, while it takes a while, they can get quite large-perhaps even up to six feet long! The stringfish is perhaps the best embodiment in the fish world of 'slow and steady wins the race.'"
+    "desc": "The stringfish grows slowly, but also lives quite a long time for a fish, with up to 15 years being typical. Consequently, while it takes a while, they can get quite large-perhaps even up to six feet long! The stringfish is perhaps the best embodiment in the fish world of 'slow and steady wins the race.'",
+    "shadow": "huge",
+    "quote": "OH MY GOSH! I caught a stringfish! Five more and I'll have a guitarfish!",
+    "family": "Salmonidae - Salmon family",
+    "sci": "Parahucho perryi",
+    "rarity": "rare"
   },
   {
     "type": "fish",
@@ -1375,9 +1924,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River (Mouth)",
-    "size": 1,
+    "size": "41 in. (100 cm)",
     "bells": 700,
-    "desc": "Salmon are popular migratory fish that are born in rivers, migrate to oceans, and return in four years. In Japan, flavored salmon eggs are a very popular dish called ikura, but it hasn't caught on in the US. In rare cases, salmon will only stay in the ocean for one or two years before coming back. These fish are known as \"phantom salmon\" since they're so hard to find in the wild. Their characteristic pink color comes from the shrimp and krill they get in their diet. If they ate differently, their flesh would be white. Salmon only spawn at the bottom of the waterfall where the lake meets the ocean."
+    "desc": "Salmon are popular migratory fish that are born in rivers, migrate to oceans, and return in four years. In Japan, flavored salmon eggs are a very popular dish called ikura, but it hasn't caught on in the US. In rare cases, salmon will only stay in the ocean for one or two years before coming back. These fish are known as \"phantom salmon\" since they're so hard to find in the wild. Their characteristic pink color comes from the shrimp and krill they get in their diet. If they ate differently, their flesh would be white. Salmon only spawn at the bottom of the waterfall where the lake meets the ocean.",
+    "shadow": "large",
+    "quote": null,
+    "family": null,
+    "sci": null,
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1388,9 +1942,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River (Mouth)",
-    "size": 0,
+    "size": "78.20 in. 2 m",
     "bells": 1800,
-    "desc": "King salmon grow to about twice the size of regular salmon, which really helps them embody the name. This size essentially makes them the actual kings of salmon, though they are also called chinook salmon. In some regions, they return to the river in spring or summer and live there until spawning in the fall. In rare cases, king salmons' meat will be white, but these are not as popular since pink is the standard."
+    "desc": "King salmon grow to about twice the size of regular salmon, which really helps them embody the name. This size essentially makes them the actual kings of salmon, though they are also called chinook salmon. In some regions, they return to the river in spring or summer and live there until spawning in the fall. In rare cases, king salmons' meat will be white, but these are not as popular since pink is the standard.",
+    "shadow": "huge",
+    "quote": "Yes! I caught a King salmon! Checkmate!",
+    "family": "Salmonidae",
+    "sci": "Oncorhynchus tshawytscha",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1401,9 +1960,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River",
-    "size": 1,
+    "size": "3.35 in. 9 cm",
     "bells": 2000,
-    "desc": "Officially known as the mitten crab, they also go by the name \"shanghai crab.\" They are commonly used in Chinese dishes, which is how most people become familiar with them. Their breeding habits are the complete opposite of salmon in that they hatch in the ocean first. They then move up rivers when they reach adult size, returning to the ocean in order to spawn."
+    "desc": "Officially known as the mitten crab, they also go by the name \"shanghai crab.\" They are commonly used in Chinese dishes, which is how most people become familiar with them. Their breeding habits are the complete opposite of salmon in that they hatch in the ocean first. They then move up rivers when they reach adult size, returning to the ocean in order to spawn.",
+    "shadow": "small",
+    "quote": null,
+    "family": "Varunidae",
+    "sci": "Eriocheir sinensis",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1414,9 +1978,14 @@
     "stime": 9,
     "etime": 16,
     "loc": "River",
-    "size": 0,
+    "size": "1.6 in. 4 cm",
     "bells": 1300,
-    "desc": "Guppies are tropical fish that are related to killifish and live in warm rivers. They are popular fish that have been bred to have beautiful flowing tail fins. Mother guppies give birth to their babies after the eggs hatch in their bellies. They give birth at a rate that's nearly constant, so their population tends to grow rather quickly."
+    "desc": "Guppies are tropical fish that are related to killifish and live in warm rivers. They are popular fish that have been bred to have beautiful flowing tail fins. Mother guppies give birth to their babies after the eggs hatch in their bellies. They give birth at a rate that's nearly constant, so their population tends to grow rather quickly.",
+    "shadow": "tiny",
+    "quote": "I caught a guppy! Welcome to the team, newbie!",
+    "family": "Poeciliidae - Livebearers",
+    "sci": "Poecilia reticulata",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1427,9 +1996,14 @@
     "stime": 9,
     "etime": 16,
     "loc": "River",
-    "size": 1,
+    "size": "2 in. 5 cm",
     "bells": 1500,
-    "desc": "The official name given to this warm-water-dwelling species of fish is \"Garra rufa.\" They are omnivorous, as they both eat algae and scrape the skin off other fish. All you'd have to do to feed them is stick your hand in the tank; they would live off your dead skin. That's why they're called nibble fish. They exfoliate but don't have any teeth, so it doesn't hurt at all!"
+    "desc": "The official name given to this warm-water-dwelling species of fish is \"Garra rufa.\" They are omnivorous, as they both eat algae and scrape the skin off other fish. All you'd have to do to feed them is stick your hand in the tank; they would live off your dead skin. That's why they're called nibble fish. They exfoliate but don't have any teeth, so it doesn't hurt at all!",
+    "shadow": "smallest",
+    "quote": null,
+    "family": "Cyprinidae",
+    "sci": "Garra rufa",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1440,9 +2014,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River",
-    "size": 1,
+    "size": "4.8 inches",
     "bells": 3000,
-    "desc": "These tropical fish move very gracefully because of long fins on their backs and underbellies. Males and females are almost impossible to tell apart, making identification tricky. They lay eggs among water plants. Both genders look after the babies while they cling to weeds. The young look like any other fish, but they gain their angelfish looks once they leave the weeds."
+    "desc": "These tropical fish move very gracefully because of long fins on their backs and underbellies. Males and females are almost impossible to tell apart, making identification tricky. They lay eggs among water plants. Both genders look after the babies while they cling to weeds. The young look like any other fish, but they gain their angelfish looks once they leave the weeds.",
+    "shadow": "small",
+    "quote": "I caught an angelfish! That other fish told me to do it!",
+    "family": null,
+    "sci": null,
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1453,9 +2032,14 @@
     "stime": 9,
     "etime": 16,
     "loc": "River",
-    "size": 1,
+    "size": null,
     "bells": 2500,
-    "desc": "The betta has long fins and beautiful coloring. It is a tropical fish popular in decorative aquariums. They're very territorial and will fight to complete exhaustion, so aquarists must keep them carefully. Rarely do such beauty and violence commingle outside the rowdiest of sunset-viewing parties."
+    "desc": "The betta has long fins and beautiful coloring. It is a tropical fish popular in decorative aquariums. They're very territorial and will fight to complete exhaustion, so aquarists must keep them carefully. Rarely do such beauty and violence commingle outside the rowdiest of sunset-viewing parties.",
+    "shadow": "small",
+    "quote": null,
+    "family": null,
+    "sci": null,
+    "rarity": "unknown"
   },
   {
     "type": "fish",
@@ -1466,9 +2050,14 @@
     "stime": 9,
     "etime": 16,
     "loc": "River",
-    "size": 0,
+    "size": "0.8 in, 2 cm",
     "bells": 500,
-    "desc": "Neon tetras get their names from the beautiful blue metallic line on their bodies. Although their shy, gentle fish, surprisingly they're related to piranha, though very distantly. They have very sharp and narrow teeth, an odd contrast to their beauty. They are delicate fish who tend to be very sensitive to the cleanliness and temperature of water."
+    "desc": "Neon tetras get their names from the beautiful blue metallic line on their bodies. Although their shy, gentle fish, surprisingly they're related to piranha, though very distantly. They have very sharp and narrow teeth, an odd contrast to their beauty. They are delicate fish who tend to be very sensitive to the cleanliness and temperature of water.",
+    "shadow": "tiny",
+    "quote": "I caught a neon tetra! Wasn't hard to track.",
+    "family": "Characidae - Characins",
+    "sci": "Paracheirodon innesi",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1479,9 +2068,14 @@
     "stime": 9,
     "etime": 16,
     "loc": "River",
-    "size": 1,
+    "size": "Unknown",
     "bells": 800,
-    "desc": "The rainbowfish is a tropical fish known for its metallic colors and beautiful fins. There are over 50 different species, each unique and pleasing color. I must say, it does make me wish for feathers of a more exciting hue than \"underbaked brownie.\""
+    "desc": "The rainbowfish is a tropical fish known for its metallic colors and beautiful fins. There are over 50 different species, each unique and pleasing color. I must say, it does make me wish for feathers of a more exciting hue than \"underbaked brownie.\"",
+    "shadow": "2",
+    "quote": null,
+    "family": "Melanotaeniidae",
+    "sci": "Unknown",
+    "rarity": "unknown"
   },
   {
     "type": "fish",
@@ -1494,9 +2088,14 @@
     "stime2": 21,
     "etime2": 4,
     "loc": "River",
-    "size": 1,
+    "size": "11 in. 30 cm",
     "bells": 2500,
-    "desc": "They have terrifyingly sharp teeth, which contributes to their ferocious reputation. Oddly enough, they are actually quite timid, though they are still very dangerous fish. If they can't find food, they will resort to cannibalism or tear apart any animal they can grab hold of. Take care when catching them so they don't end up biting your hand with their sharp teeth!"
+    "desc": "They have terrifyingly sharp teeth, which contributes to their ferocious reputation. Oddly enough, they are actually quite timid, though they are still very dangerous fish. If they can't find food, they will resort to cannibalism or tear apart any animal they can grab hold of. Take care when catching them so they don't end up biting your hand with their sharp teeth!",
+    "shadow": "small",
+    "quote": null,
+    "family": "Characidae",
+    "sci": "Pygocentrus natteri",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1507,9 +2106,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River",
-    "size": 3,
+    "size": "27.25 in. 70 cm",
     "bells": 10000,
-    "desc": "Arowanas are ancient fish that have remained basically unchanged for 100 million years. They are known for their large scales and the hair that sticks out from their lower lips. They have a remarkable jumping ability and can leap over a yard above the surface of the water. Males protect their babies by keeping them in their mouths and releasing them once they reach a certain size."
+    "desc": "Arowanas are ancient fish that have remained basically unchanged for 100 million years. They are known for their large scales and the hair that sticks out from their lower lips. They have a remarkable jumping ability and can leap over a yard above the surface of the water. Males protect their babies by keeping them in their mouths and releasing them once they reach a certain size.",
+    "shadow": "medium",
+    "quote": "I caught an arowana! I'd make a joke, but I don't 'wana.",
+    "family": null,
+    "sci": null,
+    "rarity": "rare"
   },
   {
     "type": "fish",
@@ -1520,9 +2124,14 @@
     "stime": 4,
     "etime": 21,
     "loc": "River",
-    "size": 4,
+    "size": "36 in. 91 cm",
     "bells": 15000,
-    "desc": "Dorado means \"golden\" in Spanish. As the name would indicate, these fish are gold and have black dots. They look like salmon but are very toothy, carnivorous, and related to piranha. They're such ferocious fish that other fish regularly flee from them, fearful of becoming a snack. Their ferocious natures and power make them a prize catch among anglers."
+    "desc": "Dorado means \"golden\" in Spanish. As the name would indicate, these fish are gold and have black dots. They look like salmon but are very toothy, carnivorous, and related to piranha. They're such ferocious fish that other fish regularly flee from them, fearful of becoming a snack. Their ferocious natures and power make them a prize catch among anglers.",
+    "shadow": "very large",
+    "quote": null,
+    "family": "Characidae",
+    "sci": "Salminus maxillosus",
+    "rarity": "rare"
   },
   {
     "type": "fish",
@@ -1533,9 +2142,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "Pond",
-    "size": 5,
+    "size": "29.97 in. 2.25 Meters",
     "bells": 6000,
-    "desc": "Their long faces and large mouths make them look like alligators. Some can grow up to three yards. They are ancient fish that haven't changed since they first appeared millions of years ago. They breathe not only through gills, but also by sticking their mouths above the surface of the water. Gar eggs are poisonous, so people all over the world are advised not to eat them -- no exceptions."
+    "desc": "Their long faces and large mouths make them look like alligators. Some can grow up to three yards. They are ancient fish that haven't changed since they first appeared millions of years ago. They breathe not only through gills, but also by sticking their mouths above the surface of the water. Gar eggs are poisonous, so people all over the world are advised not to eat them -- no exceptions.",
+    "shadow": "huge",
+    "quote": null,
+    "family": "Lepisosteidae - Gars",
+    "sci": "Lepisosteus oculatus",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1546,9 +2160,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "River",
-    "size": 5,
+    "size": "118.11 in. 300 cm",
     "bells": 10000,
-    "desc": "Arapaima, at over two yards long, are one of the largest freshwater-fish breeds in the world. They've been around for over 100 million years, making them rather ancient fish as well. They breathe through gills but also with an air bladder used by poking their mouths above water. They have hard, coarse tongues that are used to break down the smaller fish they eat."
+    "desc": "Arapaima, at over two yards long, are one of the largest freshwater-fish breeds in the world. They've been around for over 100 million years, making them rather ancient fish as well. They breathe through gills but also with an air bladder used by poking their mouths above water. They have hard, coarse tongues that are used to break down the smaller fish they eat.",
+    "shadow": "huge",
+    "quote": "I caught an arapaima! How did it get here? Arapaiknow!",
+    "family": null,
+    "sci": null,
+    "rarity": "rare"
   },
   {
     "type": "fish",
@@ -1559,9 +2178,14 @@
     "stime": 21,
     "etime": 4,
     "loc": "River",
-    "size": 3,
+    "size": "27 in. (68 cm)",
     "bells": 4000,
-    "desc": "What an elegant specimen you've found. The saddled bichir has a look entirely its own. They have poor eyesight, so they use their fine-tuned sniffers to seek out prey. Can you imagine relying solely on your sense of smell to find food? And if one nostril became clogged, would you be unable to tell how far away the scent was?"
+    "desc": "What an elegant specimen you've found. The saddled bichir has a look entirely its own. They have poor eyesight, so they use their fine-tuned sniffers to seek out prey. Can you imagine relying solely on your sense of smell to find food? And if one nostril became clogged, would you be unable to tell how far away the scent was?",
+    "shadow": "large",
+    "quote": null,
+    "family": null,
+    "sci": null,
+    "rarity": "rare"
   },
   {
     "type": "fish",
@@ -1572,9 +2196,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "River (Mouth)",
-    "size": 5,
+    "size": "unknown",
     "bells": 10000,
-    "desc": "The sturgeon is a large and long-lived fish which has changed little in the last 300 million years. One curious behavior of theirs is leaping high out of the water and falling back in on their sides. The smacking sounds of their re-entry can be heard for up to half a mile away, likely more underwater! No one knows why they do it, but I like to think it's their impression of bread popping out of toaster!"
+    "desc": "The sturgeon is a large and long-lived fish which has changed little in the last 300 million years. One curious behavior of theirs is leaping high out of the water and falling back in on their sides. The smacking sounds of their re-entry can be heard for up to half a mile away, likely more underwater! No one knows why they do it, but I like to think it's their impression of bread popping out of toaster!",
+    "shadow": "very large",
+    "quote": "I caught a sturgeon! Wonder if it can perform sturgery...",
+    "family": "Acipenseridae",
+    "sci": "Acipenser oxyrinchus oxyrinchus",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1585,9 +2214,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 0,
+    "size": "1.30 in. (3 cm)",
     "bells": 1000,
-    "desc": "Such mystery! Such grace! Did you know that the sea butterfly's scientific name is Thecosomata? A very rough translation of that is 'shell body.' Indeed, this illustrious creature is related to snails! However, it reminds me much more of an elegant feathered friend, the way it flies through the water. With such grace in flying, one shouldn't wonder if it's related to the owl, hoo hoo!"
+    "desc": "Such mystery! Such grace! Did you know that the sea butterfly's scientific name is Thecosomata? A very rough translation of that is 'shell body.' Indeed, this illustrious creature is related to snails! However, it reminds me much more of an elegant feathered friend, the way it flies through the water. With such grace in flying, one shouldn't wonder if it's related to the owl, hoo hoo!",
+    "shadow": "tiny",
+    "quote": "I caught a sea butterfly! Try not to confuse it for a sea moth!",
+    "family": "Clionidae",
+    "sci": "Clione limacina",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1598,9 +2232,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 0,
+    "size": "3.2 in. (8 cm)",
     "bells": 1100,
-    "desc": "Sea horses don't look like fish, but they still share a lot of distant connections. They use their small dorsal fins and tail fins to swim, but in actuality they're pretty bad swimmers. They wrap their tail fins around seaweed or coral so they won't float away with the current. Once attached, they feed on plankton and small shrimp that float by. The female deposits eggs in the male's pouch, putting the burden of child care on the male."
+    "desc": "Sea horses don't look like fish, but they still share a lot of distant connections. They use their small dorsal fins and tail fins to swim, but in actuality they're pretty bad swimmers. They wrap their tail fins around seaweed or coral so they won't float away with the current. Once attached, they feed on plankton and small shrimp that float by. The female deposits eggs in the male's pouch, putting the burden of child care on the male.",
+    "shadow": "tiny",
+    "quote": "I caught a sea horse! But...where's its sea jockey?",
+    "family": "Syngnathidae - Seahorses",
+    "sci": "Hippocampus kuda",
+    "rarity": "fairly common"
   },
   {
     "type": "fish",
@@ -1611,9 +2250,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 0,
+    "size": "7,10 in. 18 cm",
     "bells": 650,
-    "desc": "Clown fish spend their lives hiding among the feelers of sea anemones, a place that only they can live. Their homes may be dangerous, but they produce a special coating that protects them from the poison. In exchange for the anemone's protection, the clown fish chases off any parasitic bugs and enemies. Curiously, all clown fish are males when they're young but change into females if necessity demands."
+    "desc": "Clown fish spend their lives hiding among the feelers of sea anemones, a place that only they can live. Their homes may be dangerous, but they produce a special coating that protects them from the poison. In exchange for the anemone's protection, the clown fish chases off any parasitic bugs and enemies. Curiously, all clown fish are males when they're young but change into females if necessity demands.",
+    "shadow": "tiny",
+    "quote": "I caught a clown fish! How many can fit in a carfish?",
+    "family": "Pomacentridae - Clownfish/Damselfish",
+    "sci": "Amphiprion bicinctus",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1624,9 +2268,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 1,
+    "size": "12.40 in. (37 cm)",
     "bells": 1000,
-    "desc": "These tropical fish sport beautiful, yellow, triangular tails and elegant black lines on dazzling blue bodies. Personalitywise, the surgeonfish is actually rather laid back and timid. They seek out gaps in coral or between rocks for the greatest amount of protection while sleeping."
+    "desc": "These tropical fish sport beautiful, yellow, triangular tails and elegant black lines on dazzling blue bodies. Personalitywise, the surgeonfish is actually rather laid back and timid. They seek out gaps in coral or between rocks for the greatest amount of protection while sleeping.",
+    "shadow": "small",
+    "quote": "I caught a surgeonfish! Scalpel! Forceps! Fish hook!",
+    "family": "Acanthuridae - Surgeonfish",
+    "sci": "Paracanthurus hepatus",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1637,9 +2286,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 1,
+    "size": "8.4 in. 20 cm",
     "bells": 1000,
-    "desc": "Butterfly fish are considered very cute pets, popular because of their beautiful nature. They glide through the warm seas by flapping their yellow bodies as if they were butterflies. Their diets are surprisingly hardy, as they gobble coral and poisonous anemones using narrow mouths. Butterfly-fish couples have been known to live together for 10 years or more. Often they can be seen swimming around in pairs. You'll likely never find a better underwater romance."
+    "desc": "Butterfly fish are considered very cute pets, popular because of their beautiful nature. They glide through the warm seas by flapping their yellow bodies as if they were butterflies. Their diets are surprisingly hardy, as they gobble coral and poisonous anemones using narrow mouths. Butterfly-fish couples have been known to live together for 10 years or more. Often they can be seen swimming around in pairs. You'll likely never find a better underwater romance.",
+    "shadow": "small",
+    "quote": "I caught a butterfly fish! Did it change from a caterpillar fish?",
+    "family": "Chaetodontidae - Butterflyfish",
+    "sci": "Chaetodon auripes",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1650,9 +2304,14 @@
     "stime": 4,
     "etime": 21,
     "loc": "Ocean",
-    "size": 5,
+    "size": "70 in. 177 cm",
     "bells": 10000,
-    "desc": "Called Napoleonfish, these fish also have the more accurate name of humphead wrasse. The true name comes from the distinctive humps on their heads. But \"Napoleonfish\" is more popular. When small, all Napoleonfish are females, but some become males as they age and their humps grow. Their bodies also turn a bluer shade as they mature and become males, making identification simple. Their bulky bodies, which can get to about six feet long, still glide easily through warm tropical seas. Finding these fish is a real treat for divers, as they're stunning to see - and it's a great story to tell."
+    "desc": "Called Napoleonfish, these fish also have the more accurate name of humphead wrasse. The true name comes from the distinctive humps on their heads. But \"Napoleonfish\" is more popular. When small, all Napoleonfish are females, but some become males as they age and their humps grow. Their bodies also turn a bluer shade as they mature and become males, making identification simple. Their bulky bodies, which can get to about six feet long, still glide easily through warm tropical seas. Finding these fish is a real treat for divers, as they're stunning to see - and it's a great story to tell.",
+    "shadow": "huge",
+    "quote": "I caught a Napoleonfish! It’s not as big as it thinks!",
+    "family": "Labridae - Wrasse",
+    "sci": "Cheilinus undulatus",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1663,9 +2322,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 2,
+    "size": "11.70 in. (30 cm)",
     "bells": 500,
-    "desc": "Zebra turkeyfish have long, beautiful fins that flow like gowns as they swim through the sea. However, these aquatic beauties pack a punch, as their fins are filled with poisonous spikes. Aside from protection against predators, this poison comes in handy for turn wars between males. The losing male succumbs to the poison in a matter of days, making these battles life and death."
+    "desc": "Zebra turkeyfish have long, beautiful fins that flow like gowns as they swim through the sea. However, these aquatic beauties pack a punch, as their fins are filled with poisonous spikes. Aside from protection against predators, this poison comes in handy for turn wars between males. The losing male succumbs to the poison in a matter of days, making these battles life and death.",
+    "shadow": "medium",
+    "quote": "I caught a zebra turkeyfish! Land, air, water--make up your mind!",
+    "family": null,
+    "sci": null,
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1676,9 +2340,14 @@
     "stime": 18,
     "etime": 4,
     "loc": "Ocean",
-    "size": 2,
+    "size": "10 in. 25 cm",
     "bells": 5000,
-    "desc": "Blowfish are considered a delicacy, famous for their tempting taste despite being highly poisonous. Blowfish are not poisonous at birth, though, which makes young ones relatively safe for consumption. It's only once they have ingested enough microbes from seawater and food that they become poisonous. When they feel threatened, they suck in air and water to blow themselves up like balloons. This makes them too big to eat without predators being horsed to chomp down on their poison quills."
+    "desc": "Blowfish are considered a delicacy, famous for their tempting taste despite being highly poisonous. Blowfish are not poisonous at birth, though, which makes young ones relatively safe for consumption. It's only once they have ingested enough microbes from seawater and food that they become poisonous. When they feel threatened, they suck in air and water to blow themselves up like balloons. This makes them too big to eat without predators being horsed to chomp down on their poison quills.",
+    "shadow": "medium",
+    "quote": null,
+    "family": "Tetraodontidae",
+    "sci": "Takifugu rubripes",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1689,9 +2358,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 2,
+    "size": "14 in. (35 cm)",
     "bells": 250,
-    "desc": "As expected, all puffer fish are covered in spines. While related to the blowfish, they are not poisonous. Exaggerated claims about the fish say they have 1,000 spines; the true number is between 300 and 400. When threatened, they suck in water and air to puff themselves up in order to intimidate enemies."
+    "desc": "As expected, all puffer fish are covered in spines. While related to the blowfish, they are not poisonous. Exaggerated claims about the fish say they have 1,000 spines; the true number is between 300 and 400. When threatened, they suck in water and air to puff themselves up in order to intimidate enemies.",
+    "shadow": "medium",
+    "quote": "I caught a puffer fish! I thought you would be tougher, fish!",
+    "family": "Diodontidae",
+    "sci": "Diodon holocanthus",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1702,7 +2376,6 @@
     "stime": 4,
     "etime": 21,
     "loc": "Ocean",
-    "size": 1,
     "bells": 200,
     "desc": "There are more than 140 species of anchovy, but they do all have some things in common. They are small and feed by simply swimming with their mouths open to filter food particles from the sea. (In my sleepier moments, I sometimes wish I could do that...)"
   },
@@ -1715,9 +2388,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 1,
+    "size": "14.35 in. 35 cm",
     "bells": 150,
-    "desc": "Supposedly the horse mackerel derives its name from a-false-myth about its strength as a swimmer. The gist of it is that these fish are so powerful underwater that smaller fish can ride them as steeds! It's absurd, of course. Where would these alleged fish jockeys attach a saddle, much less horseshoes? One does wish that people would construct their legends with a BIT more scientific plausibility! "
+    "desc": "Supposedly the horse mackerel derives its name from a-false-myth about its strength as a swimmer. The gist of it is that these fish are so powerful underwater that smaller fish can ride them as steeds! It's absurd, of course. Where would these alleged fish jockeys attach a saddle, much less horseshoes? One does wish that people would construct their legends with a BIT more scientific plausibility! ",
+    "shadow": "small",
+    "quote": "I caught a horse mackerel! Of course, Mack...er..el.",
+    "family": "Carangidae - The jacks and pompanos",
+    "sci": "Trachurus japonicus",
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1728,9 +2406,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 2,
+    "size": "27.75 in. 70 cm",
     "bells": 5000,
-    "desc": "Wonderful! I would love nothing more! The barred knifejaw, also called the striped beakfish, is a lovely fish with a distinctive striped pattern. It is reportedly also a very curious fish in that it has been known to approach swimmers to \"greet\" them. They also tend to be good at avoiding fishing hooks, so well done on outwitting this one!"
+    "desc": "Wonderful! I would love nothing more! The barred knifejaw, also called the striped beakfish, is a lovely fish with a distinctive striped pattern. It is reportedly also a very curious fish in that it has been known to approach swimmers to \"greet\" them. They also tend to be good at avoiding fishing hooks, so well done on outwitting this one!",
+    "shadow": "medium",
+    "quote": "I caught a barred knifejaw! They must have a hard time eating!",
+    "family": "Oplegnathidae - Beakfish and knifejaws",
+    "sci": "Oplegnathus fasciatus",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1741,9 +2424,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 4,
+    "size": "39 in. (100 cm)",
     "bells": 400,
-    "desc": "Sea bass is a name given to a variety of different species of saltwater fish. They are a varied bunch with some as small as four inches and some as staggeringly ginormous as eight feet! 'Sea bass' is a bit pedestrian though. Many species have better names, such as 'redbanded perch.' Or the delightfully whimsical dusky grouper! Or the potato cod! WILL NO ONE THINK OF THE PINK MAOMAO?!"
+    "desc": "Sea bass is a name given to a variety of different species of saltwater fish. They are a varied bunch with some as small as four inches and some as staggeringly ginormous as eight feet! 'Sea bass' is a bit pedestrian though. Many species have better names, such as 'redbanded perch.' Or the delightfully whimsical dusky grouper! Or the potato cod! WILL NO ONE THINK OF THE PINK MAOMAO?!",
+    "shadow": "very large",
+    "quote": "I caught a sea bass! No, wait- it's at least a C+!",
+    "family": "Moronidae - Temperate basses",
+    "sci": "Lateolabrax japonicus",
+    "rarity": "common"
   },
   {
     "type": "fish",
@@ -1754,9 +2442,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 3,
+    "size": "34 in. (90 cm)",
     "bells": 3000,
-    "desc": "'Red snapper' is the common name of dozens of fish species, and I wonder why it is so popular. Are there so many types of fish that are both a shade of red and have a tendency to snap? Were there no other names? What about 'burgundy biter'? 'Garnet grasper'? 'Puce pincher'?"
+    "desc": "'Red snapper' is the common name of dozens of fish species, and I wonder why it is so popular. Are there so many types of fish that are both a shade of red and have a tendency to snap? Were there no other names? What about 'burgundy biter'? 'Garnet grasper'? 'Puce pincher'?",
+    "shadow": "large",
+    "quote": "I caught a red snapper! It looks pretty dapper!",
+    "family": "Lujanidae - Snappers",
+    "sci": "Lutjanus campechanus",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1767,9 +2460,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 2,
+    "size": "21 in. 54 cm",
     "bells": 300,
-    "desc": "The dab is a flatfish that bears some resemblance to the olive flounder, though their mouths are different. Personally, I am morbidly fascinated by each fish's eye placement. The dab's eyes are both on its right side, while the olive flounder's are on the left. These fish spend lots of time lying on their sides in the sand, so the odd eye placement makes some sense... But it's — how can I put this? Creepy? Viscerally disturbing? Profoundly upsetting to fans of symmetry?"
+    "desc": "The dab is a flatfish that bears some resemblance to the olive flounder, though their mouths are different. Personally, I am morbidly fascinated by each fish's eye placement. The dab's eyes are both on its right side, while the olive flounder's are on the left. These fish spend lots of time lying on their sides in the sand, so the odd eye placement makes some sense... But it's — how can I put this? Creepy? Viscerally disturbing? Profoundly upsetting to fans of symmetry?",
+    "shadow": "small",
+    "quote": "I caught a dab! Not bad!",
+    "family": "Pleuronectidae - Righteye flounders",
+    "sci": "Limanda proboscidea",
+    "rarity": "fairly common"
   },
   {
     "type": "fish",
@@ -1780,9 +2478,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 3,
+    "size": "40 in. 100 cm",
     "bells": 800,
-    "desc": "Did you know that the olive flounder is the same shape as other fish when it hatches? But as it grows, it gets both wider and flatter, and can reach some three feet long. These flat fish spend much of their lives buried under the sandy ocean floor, waiting for prey to happen by. Imagine the surprise for said prey when they strike. It would be as if your kitchen floor were to bite you!"
+    "desc": "Did you know that the olive flounder is the same shape as other fish when it hatches? But as it grows, it gets both wider and flatter, and can reach some three feet long. These flat fish spend much of their lives buried under the sandy ocean floor, waiting for prey to happen by. Imagine the surprise for said prey when they strike. It would be as if your kitchen floor were to bite you!",
+    "shadow": "large, medium",
+    "quote": "I caught an olive flounder! That's not the pits!",
+    "family": "Paralicthydae - Large-tooth flounders",
+    "sci": "Paralichthys olivaceus",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1793,9 +2496,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 2,
+    "size": "14 in. (35 cm)",
     "bells": 500,
-    "desc": "Well, first off, squids are members of the mollusk family, just like the octopus. Many mollusks like snails and clams have shells, but the squid's body is almost completely soft. The exception is a long, narrow bit of hard material going through its main body - the last remnant of its shell. Of course, having your shell INSIDE is not a best practice. Perhaps they lost the owner's manual!"
+    "desc": "Well, first off, squids are members of the mollusk family, just like the octopus. Many mollusks like snails and clams have shells, but the squid's body is almost completely soft. The exception is a long, narrow bit of hard material going through its main body - the last remnant of its shell. Of course, having your shell INSIDE is not a best practice. Perhaps they lost the owner's manual!",
+    "shadow": "medium",
+    "quote": "I caught a squid! It's off the hook!",
+    "family": "Loliginidae - Squid",
+    "sci": "Todarodes pacificus",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1806,9 +2514,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 4,
+    "size": "34.95 in. 88 cm",
     "bells": 2000,
-    "desc": "Moray eels can often be seen sticking just their heads out from between two rocks. When unsuspecting prey approaches, the dart out to snatch it up into their sharp-toothed mouths. Once moray eels have their teeth in you, it's hard to get away, making moray-eel bites no trifling matter. Their long, finless bodies are covered in tough, snakelike skin that often gets used as leather."
+    "desc": "Moray eels can often be seen sticking just their heads out from between two rocks. When unsuspecting prey approaches, the dart out to snatch it up into their sharp-toothed mouths. Once moray eels have their teeth in you, it's hard to get away, making moray-eel bites no trifling matter. Their long, finless bodies are covered in tough, snakelike skin that often gets used as leather.",
+    "shadow": "very large",
+    "quote": null,
+    "family": "Muraenidae - Moray eels",
+    "sci": "Gymnothorax kidako",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1819,9 +2532,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 7,
+    "size": "52.35 in. (132 cm)",
     "bells": 600,
-    "desc": "Ribbon eels have long, ribbonlike bodies and look as if they have flowers sprouting from their noses. They get their name from their bright, vivid color, in addition to the length of their bodies. Ribbon eels hatch sexless before first becoming males, then females as they age. Their tendency to stick their heads out from holes in the sand and open their mouths is not a sign of anger. In actuality, they're merely taking a breath. Oddly, they're surprisingly peaceful creatures, despite the look."
+    "desc": "Ribbon eels have long, ribbonlike bodies and look as if they have flowers sprouting from their noses. They get their name from their bright, vivid color, in addition to the length of their bodies. Ribbon eels hatch sexless before first becoming males, then females as they age. Their tendency to stick their heads out from holes in the sand and open their mouths is not a sign of anger. In actuality, they're merely taking a breath. Oddly, they're surprisingly peaceful creatures, despite the look.",
+    "shadow": "thin",
+    "quote": null,
+    "family": "Muraenidae",
+    "sci": "Rhinomuraena quaesita",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1832,9 +2550,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Pier",
-    "size": 4,
+    "size": "90.60 in. (230 cm)",
     "bells": 7000,
-    "desc": "The tuna is a large ocean fish that can reach upwards of nine feet long. Besides its great size, it's notable for continuing to swim even when it's sleeping! Well, to be fair, if it doesn't keep swimming, it won't be able to breathe and will of course die... But sleep should be restful, eh wot! If I were the tuna I would feel very hard done by!"
+    "desc": "The tuna is a large ocean fish that can reach upwards of nine feet long. Besides its great size, it's notable for continuing to swim even when it's sleeping! Well, to be fair, if it doesn't keep swimming, it won't be able to breathe and will of course die... But sleep should be restful, eh wot! If I were the tuna I would feel very hard done by!",
+    "shadow": "huge",
+    "quote": "I caught a tuna! It's a little off-key!",
+    "family": null,
+    "sci": null,
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1847,9 +2570,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Pier",
-    "size": 4,
+    "size": "78.95 in. 2.5 m",
     "bells": 10000,
-    "desc": "The blue marlin has a distinctive angular shape and no scales. It is an unusual relative of the tuna. These mighty fish can exceed 13 feet from bill to tail. Some accounts even have it fighting with whales! No wonder it's a popular target for sport fishing: unlike most fish, it seems like a worthy opponent."
+    "desc": "The blue marlin has a distinctive angular shape and no scales. It is an unusual relative of the tuna. These mighty fish can exceed 13 feet from bill to tail. Some accounts even have it fighting with whales! No wonder it's a popular target for sport fishing: unlike most fish, it seems like a worthy opponent.",
+    "shadow": "huge",
+    "quote": "I caught a blue marlin! Listen to this fish. it's got a point.",
+    "family": "Makaira - the marlins and spearfish",
+    "sci": "Makaira nigricans",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1860,9 +2588,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Pier",
-    "size": 3,
+    "size": "71.85 in. 180 cm",
     "bells": 4500,
-    "desc": "Though you wouldn't guess it because of their size, giant trevallys are actually a type of mackerel. Unlike normally slim and sleek mackerels, giant trevallys have wide, sliver bodies. Surprisingly, though, these fish cannot tolerate the cold, so they tend to live in warmer places. Their jaw strength is great enough to bite off a person's finger, so be very careful when fishing for them!"
+    "desc": "Though you wouldn't guess it because of their size, giant trevallys are actually a type of mackerel. Unlike normally slim and sleek mackerels, giant trevallys have wide, sliver bodies. Surprisingly, though, these fish cannot tolerate the cold, so they tend to live in warmer places. Their jaw strength is great enough to bite off a person's finger, so be very careful when fishing for them!",
+    "shadow": "very large",
+    "quote": null,
+    "family": "Carangidae",
+    "sci": "Caranx ignobilis",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1873,9 +2606,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 3,
+    "size": "Unknown",
     "bells": 6000,
-    "desc": "The mahi-mahi is an ocean fish known for its wide, somewhat-cute face. It can reach over six feet long. It is known by different names including \"dolphinfish,\" even though it has no relation to dolphins. They live in only in warm, tropical waters...which perhaps explains the relaxed, happy look on their faces."
+    "desc": "The mahi-mahi is an ocean fish known for its wide, somewhat-cute face. It can reach over six feet long. It is known by different names including \"dolphinfish,\" even though it has no relation to dolphins. They live in only in warm, tropical waters...which perhaps explains the relaxed, happy look on their faces.",
+    "shadow": "5",
+    "quote": null,
+    "family": "Coryphaenidae",
+    "sci": "Coryphaena hippurus",
+    "rarity": "unknown"
   },
   {
     "type": "fish",
@@ -1886,9 +2624,14 @@
     "stime": 4,
     "etime": 21,
     "loc": "Ocean",
-    "size": 6,
+    "size": "135 in. 340 cm",
     "bells": 4000,
-    "desc": "Ocean sunfish are a relative of blowfish that can reach up to two tons in weight. Lacking a tail fin, they cannot swim particularly quickly, which is an odd bit of anatomical detriment. The number of eggs they can lay is the most in the world at over 300 million. However, out of that 300 million, only one or two fish will ultimately survive. Ocean sunfish sometimes like to bob up and down on the surface of the ocean. This gives them the appearance they're sunbathing, which helps to make them a popular breed of fish."
+    "desc": "Ocean sunfish are a relative of blowfish that can reach up to two tons in weight. Lacking a tail fin, they cannot swim particularly quickly, which is an odd bit of anatomical detriment. The number of eggs they can lay is the most in the world at over 300 million. However, out of that 300 million, only one or two fish will ultimately survive. Ocean sunfish sometimes like to bob up and down on the surface of the ocean. This gives them the appearance they're sunbathing, which helps to make them a popular breed of fish.",
+    "shadow": "huge (with fin)",
+    "quote": null,
+    "family": "Molidae - Ocean sunfishes",
+    "sci": "Mola mola",
+    "rarity": "rare"
   },
   {
     "type": "fish",
@@ -1899,9 +2642,14 @@
     "stime": 4,
     "etime": 21,
     "loc": "Ocean",
-    "size": 4,
+    "size": "54.55 in. (130 cm)",
     "bells": 3000,
-    "desc": "Beating their large fins up and down to move through the water gives the rays the impression of flying. If viewed from below, rays appear to have their mouths curled up into a sort of smile. Some varieties have poisonous spikes at the base of their long tail fins that can be fatal to humans. This, combined with the ability to hide in sand at the bottom of the sea, can make them very dangerous."
+    "desc": "Beating their large fins up and down to move through the water gives the rays the impression of flying. If viewed from below, rays appear to have their mouths curled up into a sort of smile. Some varieties have poisonous spikes at the base of their long tail fins that can be fatal to humans. This, combined with the ability to hide in sand at the bottom of the sea, can make them very dangerous.",
+    "shadow": "very large",
+    "quote": "I caught a ray! A few more and I'll have a tan!",
+    "family": "Dasyatidae - Sting rays",
+    "sci": "Dasyatis akajei",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1912,9 +2660,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "Ocean",
-    "size": 6,
+    "size": "60 in. (160 cm)",
     "bells": 12000,
-    "desc": "As you might expect from the name, the saw shark is a shark with a head that resembles a saw. This unusual appendage is used both to dig potential prey out of the sand and as a weapon against said prey. Given that, it seems like a more appropriate name would have been \"shovel-sword shark,\" eh wot?"
+    "desc": "As you might expect from the name, the saw shark is a shark with a head that resembles a saw. This unusual appendage is used both to dig potential prey out of the sand and as a weapon against said prey. Given that, it seems like a more appropriate name would have been \"shovel-sword shark,\" eh wot?",
+    "shadow": "huge (with fin)",
+    "quote": null,
+    "family": "Pristiophoridae",
+    "sci": "Pristiophorus japonicus",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1925,9 +2678,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "Ocean",
-    "size": 6,
+    "size": "108.40 in. 2.6 m",
     "bells": 8000,
-    "desc": "The hammerhead shark is a shark with a head like a hammer, which is what you'd expect. However, despite being sharks, they are actually fairly laid back, which is not what you'd expect. With their eyes positioned on the two ends of their \"hammer,\" they can see in almost all directions. Oddly, their nose holes are located right next to their eyes on their hammer section. They have a number of small holes on the front and lower portions of their heads as well. These holes allow them to detect prey, even fish hiding below them and out of sight. While they eat a nice array of fish, it seems that rays are their favorite source of food. Rays, beware!"
+    "desc": "The hammerhead shark is a shark with a head like a hammer, which is what you'd expect. However, despite being sharks, they are actually fairly laid back, which is not what you'd expect. With their eyes positioned on the two ends of their \"hammer,\" they can see in almost all directions. Oddly, their nose holes are located right next to their eyes on their hammer section. They have a number of small holes on the front and lower portions of their heads as well. These holes allow them to detect prey, even fish hiding below them and out of sight. While they eat a nice array of fish, it seems that rays are their favorite source of food. Rays, beware!",
+    "shadow": "huge (with fin)",
+    "quote": null,
+    "family": "Sphyrnidae - Hammerhead sharks",
+    "sci": "Sphyrna zygaena",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1938,9 +2696,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "Ocean",
-    "size": 6,
+    "size": "214.25 in. (544 cm)",
     "bells": 15000,
-    "desc": "Great white sharks are obviously known first and foremost for their biting. They are masters of the craft! They do lose teeth regularly through biting-related activities, but, luckily, those teeth grow back quickly. In fact, their missing teeth can be regrown in a single day. Just imagine their tooth-fairy-related income!"
+    "desc": "Great white sharks are obviously known first and foremost for their biting. They are masters of the craft! They do lose teeth regularly through biting-related activities, but, luckily, those teeth grow back quickly. In fact, their missing teeth can be regrown in a single day. Just imagine their tooth-fairy-related income!",
+    "shadow": "huge (with fin)",
+    "quote": "I caught a great white shark! Watch out for its jaws!",
+    "family": "Lamnidae - Great white sharks",
+    "sci": "Carcharodon carcharias",
+    "rarity": "rare"
   },
   {
     "type": "fish",
@@ -1951,9 +2714,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 6,
+    "size": "275 in. (700 cm)",
     "bells": 13000,
-    "desc": "The mighty whale shark is the largest species of fish in the world with specimens up to 60 feet long! Unlike many of their kin in the shark family, whale sharks are nonviolent, eating only plankton and such. They grow slowly and live long, relaxed lives of filter feeding and leisure in warm waters. So if you ever have to choose a fish as a roommate, you could do worse than the whale shark. Unless you can't swim."
+    "desc": "The mighty whale shark is the largest species of fish in the world with specimens up to 60 feet long! Unlike many of their kin in the shark family, whale sharks are nonviolent, eating only plankton and such. They grow slowly and live long, relaxed lives of filter feeding and leisure in warm waters. So if you ever have to choose a fish as a roommate, you could do worse than the whale shark. Unless you can't swim.",
+    "shadow": "huge (with fin)",
+    "quote": "Thar she blows! I caught a whale shark! I'm tellin' ya, it was thiiiiiiiiiiiiiiiiiiiis big!",
+    "family": null,
+    "sci": null,
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -1964,9 +2732,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 6,
+    "size": null,
     "bells": 1500,
-    "desc": "I don't know what Blathers says about the suckerfish..."
+    "desc": "I don't know what Blathers says about the suckerfish...",
+    "shadow": "medium-large with fin",
+    "quote": "I caught a suckerfish! I thought it was a shark! Oh, wait - now I get it. Sucker...",
+    "family": null,
+    "sci": null,
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1977,9 +2750,14 @@
     "stime": 16,
     "etime": 9,
     "loc": "Ocean",
-    "size": 3,
+    "size": "25.45 in. 62 cm",
     "bells": 2500,
-    "desc": "The football fish is a strange and grotesque deep-sea fish with a lantern-like light on its forehead. Its light is apparently powered by luminous bacteria and other glowing microorganisms. One theory says it can spray these luminescent sidekicks when prey approaches in order to dazzle them... The deep contains many mysteries... as well as some things that are just sort of odd and off-putting."
+    "desc": "The football fish is a strange and grotesque deep-sea fish with a lantern-like light on its forehead. Its light is apparently powered by luminous bacteria and other glowing microorganisms. One theory says it can spray these luminescent sidekicks when prey approaches in order to dazzle them... The deep contains many mysteries... as well as some things that are just sort of odd and off-putting.",
+    "shadow": "medium",
+    "quote": "I caught a football fish! Some countries call it a soccer fish!",
+    "family": "Himantolophidae",
+    "sci": "Himantolophus groenlandicus",
+    "rarity": "uncommon"
   },
   {
     "type": "fish",
@@ -1990,9 +2768,14 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean",
-    "size": 5,
+    "size": "230 in. 600 cm",
     "bells": 9000,
-    "desc": "The oarfish is a long, eel-like fish that can supposedly reach up to 36 feet in length. They appear in various legends as things like messengers of the gods. It seems to me a creature like that could explain the myth of massive, ship-crushing sea serpents. It is, of course, well documented that people tend to exaggerate the size of 'the one that got away.'"
+    "desc": "The oarfish is a long, eel-like fish that can supposedly reach up to 36 feet in length. They appear in various legends as things like messengers of the gods. It seems to me a creature like that could explain the myth of massive, ship-crushing sea serpents. It is, of course, well documented that people tend to exaggerate the size of 'the one that got away.'",
+    "shadow": "huge",
+    "quote": "I caught an oarfish! I hope I catch morefish!",
+    "family": "Regalecidae",
+    "sci": "Regalecus glesne",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -2003,9 +2786,14 @@
     "stime": 21,
     "etime": 4,
     "loc": "Ocean",
-    "size": 1,
+    "size": "unknown",
     "bells": 15000,
-    "desc": "The barreleye is a deep-sea fish with protuberant eyes and a clear head, so some of its organs are... visible. At first blush, a transparent head seems absurd, but there is a reason: so it can see things directly above! But I must confess--the more I learn about deep-sea fish, the happier I am to live on dry land, wot."
+    "desc": "The barreleye is a deep-sea fish with protuberant eyes and a clear head, so some of its organs are... visible. At first blush, a transparent head seems absurd, but there is a reason: so it can see things directly above! But I must confess--the more I learn about deep-sea fish, the happier I am to live on dry land, wot.",
+    "shadow": "2",
+    "quote": "I caught a barreleye! Like eyeing a fish in a barrel!",
+    "family": "Opisthoproctidae",
+    "sci": "Macropinna microstoma",
+    "rarity": "scarce"
   },
   {
     "type": "fish",
@@ -2016,8 +2804,13 @@
     "stime": 0,
     "etime": 23,
     "loc": "Ocean (Rain)",
-    "size": 5,
+    "size": "67.00 in. 168 cm",
     "bells": 15000,
-    "desc": "The coelacanth is a deep-sea fish that has been around since the age of the dinosaurs. They were long thought extinct, so when living specimens were discovered, it was quite a shock! Now I'll just have to figure out where in the museum to display it- fish or fossils!"
+    "desc": "The coelacanth is a deep-sea fish that has been around since the age of the dinosaurs. They were long thought extinct, so when living specimens were discovered, it was quite a shock! Now I'll just have to figure out where in the museum to display it- fish or fossils!",
+    "shadow": "huge",
+    "quote": "Blast from the past! I caught a coelacanth! Think positive! Be a coela-CAN!",
+    "family": "Latimeriidae",
+    "sci": "Latimeria chalumnae",
+    "rarity": "very rare"
   }
 ]

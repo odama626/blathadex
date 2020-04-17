@@ -8,7 +8,7 @@ import {
   getCritterSectionGroups,
   getNearestTimeDiff,
 } from '../app/utils';
-import { CritterCollection } from '../components/Critter';
+import { CritterCollection } from '../components/critters/Critter';
 import FilterWidget from '../components/FilterWidget';
 import Layout from '../components/layout';
 import Section from '../components/Section';
@@ -19,7 +19,6 @@ import DaySvg from '../images/inline/day.svg';
 import MonthSvg from '../images/inline/month.svg';
 
 export default function IndexPageContainer(props) {
-  console.time('render');
   const availableCritters = useMemo(
     () => props.data.allCrittersJson.edges.map(edge => edge.node),
     [props.data.allCrittersJson.edges]
@@ -41,7 +40,6 @@ export default function IndexPageContainer(props) {
   const [groups, setGroups] = useState(initialGroups);
 
   useEffect(() => {
-    console.log(' effect');
     let timer = setTimeout(() => {
       setGroups(getCritterSectionGroups(sortedCritters, hemisphere));
     }, getNearestTimeDiff());
@@ -51,7 +49,6 @@ export default function IndexPageContainer(props) {
     };
   }, [groups, hemisphere, sortedCritters]);
 
-  console.timeEnd('render');
   return <IndexPage sectionGroups={groups} critters={sortedCritters} />;
 }
 
@@ -68,7 +65,7 @@ function IndexPage({ sectionGroups, critters }) {
   const [loading, setLoading] = useState(true);
 
   const [caught, setCaught] = useState([]);
-  const [sections, setSections] = useState(rawSections);
+  // const [sections, setSections] = useState(rawSections);
 
   useLayoutEffect(() => {
     db.caught
@@ -77,14 +74,11 @@ function IndexPage({ sectionGroups, critters }) {
       .then(() => setLoading(false));
   }, []);
 
-  useLayoutEffect(() => {
-    if (loading) return;
-    setSections(
-      rawSections.map(section => ({
-        ...section,
-        critters: filterCritters(section.critters, caught, filter),
-      }))
-    );
+  const sections = useMemo(() => {
+    return rawSections.map(section => ({
+      ...section,
+      critters: filterCritters(section.critters, caught, filter),
+    }));
   }, [filter, caught, loading, rawSections]);
 
   const handleMultiSelect = ids => {

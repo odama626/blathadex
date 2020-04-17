@@ -59,10 +59,7 @@ export const HourRange = ({ ranges = [] }) => {
   let date = DateTime.local();
   let hours = Array(24)
     .fill(0)
-    .map(
-      (_, i) => `${(i % 12) + 1}${(i + 1) % 4 ? '' : i / 12 > 1 ? 'pm' : 'am'}`
-    );
-  hours.unshift(hours.pop());
+    .map((_, i) => `${i % 12 || 12}${i / 11 > 1 ? 'pm' : 'am'}`);
 
   let classes = hours.map((_, i) => {
     let matches = ranges.filter(
@@ -81,18 +78,31 @@ export const HourRange = ({ ranges = [] }) => {
     return names.join(' ');
   });
 
+  const blocks = hours.map((hour, i) => ({ hour, classes: classes[i], i }));
+
   return (
     <div className="date range hour">
-      {hours.map((hour, i) => (
-        <div
-          data-content={hour}
-          className={classnames('date hour', classes[i], {
-            now: i === date.hour,
-          })}
-        >
-          {hour}
-        </div>
-      ))}
+      {/* {ranges
+        .filter(r => r.filter(Boolean).length)
+        .map(r => (
+          <div style={{ textAlign: 'left' }}>
+            {hours[r[0]]} - {hours[r[1]]}
+          </div>
+        ))} */}
+      <div className="flex-container">
+        {blocks.map(block => (
+          <div
+            data-content={block.hour}
+            // data-range={~block.classes.indexOf('start')}
+            className={classnames('date hour', block.classes, {
+              now: block.i === date.hour,
+            })}
+          >
+            <div />
+          </div>
+        ))}
+      </div>
+      <div className="static label">12am</div>
     </div>
   );
 };

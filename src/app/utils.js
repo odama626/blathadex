@@ -178,7 +178,6 @@ export function getNearestTimeDiff() {
 }
 
 export const getCritterSectionGroups = (critters, hemisphere) => {
-  console.time('calc critter');
   let groups = {};
   groups.months = getCritterSectionsMonths(critters, hemisphere);
 
@@ -186,7 +185,6 @@ export const getCritterSectionGroups = (critters, hemisphere) => {
     ...section,
     leaving: groups.months[0].leaving,
   }));
-  console.timeEnd('calc critter');
 
   return groups;
 };
@@ -270,14 +268,21 @@ export function filterCritters(critters, caught, filter) {
   });
 }
 
-export const createCritterLink = critter =>
-  `/critter/${critter.type}/${critter.name
+const escapePath = s =>
+  s
     .toLowerCase()
     .replace(/\s/g, '_')
-    .replace(/[^a-zA-Z0-9-_]/g, '')}`;
+    .replace(/[^a-zA-Z0-9-\/_]/g, '');
 
-export const createCritterImageSrc = ({ type, name }) =>
-  withPrefix(`/${type}/${name[0]}${name.slice(1).toLowerCase()}.png`);
+export const createCritterLink = critter =>
+  escapePath(`/critter/${critter.type}/${critter.name}`);
+
+export const createDiyLink = diy => escapePath(`/${diy.section}/${diy.name}`);
+
+export const createImgSrc = ({ type, name }, asIs) =>
+  withPrefix(
+    `/${type}/${asIs ? name : `${name[0]}${name.slice(1).toLowerCase()}`}.png`
+  );
 
 export const useEventListener = (event, callback) => {
   const target = useRef();

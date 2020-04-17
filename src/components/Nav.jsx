@@ -7,6 +7,7 @@ import React from 'react';
 const links = [
   { label: 'Bugs & Fish', url: '/' },
   { label: 'About', url: '/about' },
+  // { label: 'DIY Recipes', url: '/diy' },
 ];
 
 function Nav(props) {
@@ -36,7 +37,9 @@ function Nav(props) {
                 onClick={link.onClick}
                 key={link.label}
                 className={classnames('item', {
-                  active: link.url === location.pathname,
+                  active:
+                    link.url === location.pathname ||
+                    link.url + '/' === location.pathname,
                 })}
               >
                 {link.label}

@@ -7,7 +7,7 @@
 const path = require('path');
 
 const critterPageQuery = `
-query AllCritter {
+ {
   allCrittersJson {
     edges {
       node {
@@ -27,19 +27,38 @@ query AllCritter {
         emonth2
         emonth
         desc
+        rarity
+        quote
+      }
+    }
+  }
+  allDiyJson {
+    edges {
+      node {
+        itemSellPrice
+        name
+        obtainedFrom
+        recipeItem
+        search
+        section
+        size
+        type
+        id
+        materialsNeeded
       }
     }
   }
 }`;
-const createCritterLink = critter =>
-  `/critter/${critter.type}/${critter.name
+
+const escapePath = s =>
+  s
     .toLowerCase()
     .replace(/\s/g, '_')
-    .replace(/[^a-zA-Z0-9-_]/g, '')}`;
+    .replace(/[^a-zA-Z0-9-\/_]/g, '');
 
 const createCritterPage = createPage => critter => {
   return createPage({
-    path: createCritterLink(critter),
+    path: escapePath(`/critter/${critter.type}/${critter.name}`),
     component: path.resolve('./src/templates/CritterPage.jsx'),
     context: {
       critter,
@@ -47,14 +66,43 @@ const createCritterPage = createPage => critter => {
   });
 };
 
+const isSearchMatch = (a, b) =>
+  a.length > 0 && a.filter((x, i) => ~b.indexOf(x)).length;
+
+const createDiyPage = (createPage, recipes) => diy => {
+  let matches = recipes
+    .filter(r => r !== diy && isSearchMatch(diy.search, r.search))
+    .map(match => ({
+      ...match,
+      accuracy: isSearchMatch(match.search, diy.search),
+    }));
+
+  matches.sort((a, b) => b.accuracy - a.accuracy);
+
+  return createPage({
+    path: escapePath(`/${diy.section}/${diy.name}`),
+    component: path.resolve('./src/templates/DiyPage.jsx'),
+    context: { diy, similar: matches },
+  });
+};
+
 exports.createPages = async ({ graphql, ...gatsby }) => {
   const { createPage } = gatsby.actions;
-
   let results = await graphql(critterPageQuery);
+  const { allCrittersJson, allDiyJson } = results.data;
 
   if (results.errors) throw new Error(results.errors);
+  let promises = [];
 
-  const critters = results.data.allCrittersJson.edges.map(edge => edge.node);
+  promises.push(
+    allCrittersJson.edges
+      .map(edge => edge.node)
+      .map(createCritterPage(createPage))
+  );
 
-  return Promise.all(critters.map(createCritterPage(createPage)));
+  const diys = allDiyJson.edges.map(edge => edge.node);
+
+  promises.push(diys.map(createDiyPage(createPage, diys)));
+
+  return Promise.all(promises);
 };
