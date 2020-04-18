@@ -256,7 +256,6 @@ const getCritterSectionsToday = (critters, hemisphere) => {
 };
 
 export function filterCritters(critters, caught, filter) {
-  console.log('filterCritters');
   return critters.filter(critter => {
     if (filter.caught) {
       if (caught.find(c => critter.no === c.no && critter.type === c.type))

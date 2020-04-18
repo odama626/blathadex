@@ -11,8 +11,6 @@ export default function DiyPage({ pageContext }) {
   const { diy, similar } = pageContext;
   const { name } = diy;
 
-  // console.log({ diy });
-
   return (
     <Layout>
       <SEO title={name} />

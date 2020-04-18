@@ -20,7 +20,6 @@ const initialState = {
 };
 
 const reducer = (state, action) => {
-  console.log('action', { action });
   switch (action.type) {
     case 'update-filter':
       return {

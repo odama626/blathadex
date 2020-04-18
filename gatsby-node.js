@@ -133,7 +133,6 @@ const createMaterialPage = (createPage, allRecipes) => material => {
 };
 
 exports.createPages = async ({ graphql, ...gatsby }) => {
-  console.log('createPage');
   const { createPage } = gatsby.actions;
   let results = await graphql(critterPageQuery);
   const { allCrittersJson, allDiyJson, allMaterialsJson } = results.data;

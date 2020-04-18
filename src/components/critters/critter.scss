@@ -19,24 +19,24 @@
 
 @keyframes keyframes1 {
   0% {
-    transform: rotate3d(-1deg);
+    transform: rotate(-1deg);
     animation-timing-function: ease-in;
   }
 
   50% {
-    transform: rotate3d(1.5deg);
+    transform: rotate(1.5deg);
     animation-timing-function: ease-out;
   }
 }
 
 @keyframes keyframes2 {
   0% {
-    transform: rotate3d(1deg);
+    transform: rotate(1deg);
     animation-timing-function: ease-in;
   }
 
   50% {
-    transform: rotate3d(-1.5deg);
+    transform: rotate(-1.5deg);
     animation-timing-function: ease-out;
   }
 }

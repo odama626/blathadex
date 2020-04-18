@@ -6,11 +6,9 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Pattern from 'images/inline/pattern.svg';
 
-export default function DiyPage({ pageContext }) {
+export default function MaterialPage({ pageContext }) {
   const { material, recipes } = pageContext;
   const { name } = material;
-
-  // console.log({ diy });
 
   return (
     <Layout>
