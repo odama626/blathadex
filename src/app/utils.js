@@ -75,9 +75,9 @@ export function inMonthsInclusive(date, from, to) {
 
 export function inHoursInclusive(date, from, to) {
   if (from > to) {
-    return date.hour >= from || date.hour <= to;
+    return date.hour >= from || date.hour < to;
   } else {
-    return date.hour >= from && date.hour <= to;
+    return date.hour >= from && date.hour < to;
   }
 }
 
@@ -256,6 +256,7 @@ const getCritterSectionsToday = (critters, hemisphere) => {
 };
 
 export function filterCritters(critters, caught, filter) {
+  console.log('filterCritters');
   return critters.filter(critter => {
     if (filter.caught) {
       if (caught.find(c => critter.no === c.no && critter.type === c.type))

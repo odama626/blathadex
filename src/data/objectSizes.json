@@ -1,0 +1,56 @@
+[
+  {
+    "name": "NH1.0x1.0sq",
+    "fullImage": "/static/object_size/NH1.0x1.0sq.jpg",
+    "type": "object_size"
+  },
+  {
+    "name": "NH2.0x1.0sq",
+    "fullImage": "/static/object_size/NH2.0x1.0sq.jpg",
+    "type": "object_size"
+  },
+  {
+    "name": "NH3.0x1.0sq",
+    "fullImage": "/static/object_size/NH3.0x1.0sq.jpg",
+    "type": "object_size"
+  },
+  {
+    "name": "NH1.0x0.5sq",
+    "fullImage": "/static/object_size/NH1.0x0.5sq.jpg",
+    "type": "object_size"
+  },
+  {
+    "name": "NH2.0x2.0sq",
+    "fullImage": "/static/object_size/NH2.0x2.0sq.jpg",
+    "type": "object_size"
+  },
+  {
+    "name": "NH1.5x1.5sq",
+    "fullImage": "/static/object_size/NH1.5x1.5sq.jpg",
+    "type": "object_size"
+  },
+  {
+    "name": "NH2.0x0.5sq",
+    "fullImage": "/static/object_size/NH2.0x0.5sq.jpg",
+    "type": "object_size"
+  },
+  {
+    "name": "NH3.0x3.0sq",
+    "fullImage": "/static/object_size/NH3.0x3.0sq.jpg",
+    "type": "object_size"
+  },
+  {
+    "name": "NH0.5x1.0sq",
+    "type": "object_size"
+  },
+  {
+    "name": "NH1.0x1.5sq",
+    "fullImage": "/static/object_size/NH1.0x1.5sq.jpg",
+    "type": "object_size"
+  },
+  {
+    "name": "NH3.0x2.0sq",
+    "fullImage": "/static/object_size/NH3.0x2.0sq.jpg",
+    "type": "object_size"
+  }
+]

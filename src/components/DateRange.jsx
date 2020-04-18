@@ -70,9 +70,10 @@ export const HourRange = ({ ranges = [] }) => {
     if (matches === 1) {
       if (~ranges.map(r => r[0]).indexOf(i)) {
         names.push('first');
-      } else if (~ranges.map(r => r[1]).indexOf(i)) {
-        names.push('last');
       }
+    } else if (~ranges.map(r => r[1]).indexOf(i)) {
+      names.push('last');
+      names.push('active');
     }
 
     return names.join(' ');

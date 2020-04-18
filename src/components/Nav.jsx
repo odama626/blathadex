@@ -10,6 +10,10 @@ const links = [
   // { label: 'DIY Recipes', url: '/diy' },
 ];
 
+if (process.env.GATSBY_DEVELOPMENT) {
+  links.push({ label: 'DIY Recipes', url: '/diy' });
+}
+
 function Nav(props) {
   const { open, content, onClose, location } = props;
 

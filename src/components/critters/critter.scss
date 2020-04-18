@@ -1,6 +1,5 @@
 .critter.block[data-selected="true"] {
   background-color: var(--accent-background);
-  // animation: shake;
   animation-delay: 0;
   animation-duration: 0.33s;
 }
@@ -20,24 +19,24 @@
 
 @keyframes keyframes1 {
   0% {
-    transform: rotate(-1deg);
+    transform: rotate3d(-1deg);
     animation-timing-function: ease-in;
   }
 
   50% {
-    transform: rotate(1.5deg);
+    transform: rotate3d(1.5deg);
     animation-timing-function: ease-out;
   }
 }
 
 @keyframes keyframes2 {
   0% {
-    transform: rotate(1deg);
+    transform: rotate3d(1deg);
     animation-timing-function: ease-in;
   }
 
   50% {
-    transform: rotate(-1.5deg);
+    transform: rotate3d(-1.5deg);
     animation-timing-function: ease-out;
   }
 }
