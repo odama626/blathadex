@@ -60,13 +60,6 @@ const SelectedContextProvider = props => {
     [selected]
   );
 
-  // const value = useMemo(() => {
-  //   return {
-  //     selected,
-  //     add:
-  //   }
-  // }, [ selected])
-
   const value = useMemo(
     () => ({ selected, toggle, clear: () => setSelected([]) }),
     [toggle, selected]

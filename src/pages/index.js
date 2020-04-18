@@ -27,6 +27,7 @@ export default function IndexPageContainer(props) {
   const [state] = useAppContext();
   const sort = state.sort;
   const hemisphere = state?.filter?.hemisphere;
+
   const sortedCritters = useMemo(
     () => orderBy(availableCritters, [sort, 'bells'], ['desc', 'desc']),
     [sort, availableCritters]
@@ -38,6 +39,8 @@ export default function IndexPageContainer(props) {
   );
 
   const [groups, setGroups] = useState(initialGroups);
+
+  useEffect(() => setGroups(initialGroups), [initialGroups]);
 
   useEffect(() => {
     let timer = setTimeout(() => {
@@ -65,7 +68,6 @@ function IndexPage({ sectionGroups, critters }) {
   const [loading, setLoading] = useState(true);
 
   const [caught, setCaught] = useState([]);
-  // const [sections, setSections] = useState(rawSections);
 
   useLayoutEffect(() => {
     db.caught
