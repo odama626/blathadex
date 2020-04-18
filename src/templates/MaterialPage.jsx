@@ -5,44 +5,30 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Pattern from 'images/inline/pattern.svg';
-import { Link } from 'gatsby';
 
-export default function DiyPage({ pageContext }) {
-  const { diy, similar } = pageContext;
-  const { name } = diy;
+export default function MaterialPage({ pageContext }) {
+  const { material, recipes } = pageContext;
+  const { name } = material;
 
   return (
     <Layout>
-      <SEO title={name} />
+      <SEO title={`${name} | material`} />
       <article>
         <section
           style={{ position: 'relative', zIndex: 0, overflow: 'hidden' }}
         >
           <h1>{name}</h1>
-          <Pattern
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              zIndex: -1,
-            }}
-          />
-          <DiyImage diy={diy} />
-          <h2>Materials Needed</h2>
-          {diy.materialsNeeded.map(material => (
-            <p>
-              <Link to={material.link}>
-                {material.count}x {material.ingredient}
-              </Link>
-            </p>
+          <DiyImage diy={material} />
+          <h3>Obtained from</h3>
+          {material.obtainedFrom.map(x => (
+            <p>{x}</p>
           ))}
+          <p>{(+material.bells || 0).toLocaleString()} bells</p>
         </section>
         <section>
-          <h3>Similar Recipes</h3>
+          <h3>Used in Recipes</h3>
           <div className="grid">
-            {similar.map(diy => (
+            {recipes.map(diy => (
               <DiyBlock diy={diy} />
             ))}
           </div>

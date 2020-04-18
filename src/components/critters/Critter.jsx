@@ -54,7 +54,7 @@ export const CritterCollection = ({
   leaving = [],
 }) => {
   let caughtCritters = critters.filter(
-    critter =>
+    (critter = {}) =>
       !!caught.find(c => c.type === critter.type && c.no === critter.no)
   );
   let caughtIds = caughtCritters.map(c => c.id);

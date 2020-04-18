@@ -1,0 +1,291 @@
+[
+  {
+    "name": "Tree branch",
+    "fullImage": "",
+    "type": "material",
+    "obtainedFrom": [
+      "Shaking trees"
+    ],
+    "bells": "5"
+  },
+  {
+    "name": "Wood",
+    "fullImage": "",
+    "type": "material",
+    "obtainedFrom": [
+      "Use axe on a tree"
+    ],
+    "bells": "60"
+  },
+  {
+    "name": "Hardwood",
+    "fullImage": "/static/material/Hardwood.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Use axe on a tree"
+    ],
+    "bells": "60"
+  },
+  {
+    "name": "Softwood",
+    "fullImage": "/static/material/Softwood.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Use axe on a tree"
+    ],
+    "bells": "60"
+  },
+  {
+    "name": "Stone",
+    "fullImage": "/static/material/Stone.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Hitting rocks",
+      "Shaking trees",
+      "Fishing",
+      "Balloon presents"
+    ],
+    "bells": "75"
+  },
+  {
+    "name": "Clay",
+    "fullImage": "/static/material/Clay.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Hitting rocks",
+      "Balloon presents"
+    ],
+    "bells": "100"
+  },
+  {
+    "name": "Iron nugget",
+    "fullImage": "/static/material/Iron nugget.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Hitting rocks",
+      "Balloon presents"
+    ],
+    "bells": "375"
+  },
+  {
+    "name": "Gold nugget",
+    "fullImage": "/static/material/Gold nugget.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Hitting rocks",
+      "Balloon presents"
+    ],
+    "bells": "10,000"
+  },
+  {
+    "name": "Acorn",
+    "fullImage": "/static/material/Acorn.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Shaking hardwood trees"
+    ],
+    "bells": "200"
+  },
+  {
+    "name": "Pinecone",
+    "fullImage": "/static/material/Pinecone.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Shaking cedar trees"
+    ],
+    "bells": ""
+  },
+  {
+    "name": "Bamboo piece",
+    "fullImage": "/static/material/Bamboo piece.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Use axe on bamboo"
+    ],
+    "bells": "80"
+  },
+  {
+    "name": "Young spring bamboo",
+    "fullImage": "/static/material/Young spring bamboo.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Use axe on bamboo"
+    ],
+    "bells": "200"
+  },
+  {
+    "name": "Bamboo shoot",
+    "fullImage": "/static/material/Bamboo shoot.jpg",
+    "type": "material",
+    "obtainedFrom": [
+      "Digging near bamboo"
+    ],
+    "bells": "250"
+  },
+  {
+    "name": "Clump of weeds",
+    "fullImage": "/static/material/Clump of weeds.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Pulling off of ground"
+    ],
+    "bells": "10"
+  },
+  {
+    "name": "Misc. Flowers",
+    "fullImage": "/static/material/Misc. Flowers.JPG",
+    "type": "material",
+    "obtainedFrom": [
+      "Pulling off of ground"
+    ],
+    "bells": ""
+  },
+  {
+    "name": "Misc. Fruit",
+    "fullImage": "/static/material/Misc. Fruit.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Shaking trees",
+      "Purchasing"
+    ],
+    "bells": "100 (native fruit)250 (coconuts)500 (foreign fruit)"
+  },
+  {
+    "name": "Wasp nest",
+    "fullImage": "/static/material/Wasp nest.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Shaking trees"
+    ],
+    "bells": "300"
+  },
+  {
+    "name": "Misc. Trash",
+    "fullImage": "/static/material/Misc. Trash.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Fishing"
+    ],
+    "bells": "10"
+  },
+  {
+    "name": "Misc. Clothing",
+    "fullImage": "/static/material/Misc. Clothing.PNG",
+    "type": "material",
+    "obtainedFrom": [
+      "Crafting",
+      "Shaking trees",
+      "Popping balloons",
+      "Purchasing"
+    ],
+    "bells": "Variable"
+  },
+  {
+    "name": "Misc. Furniture",
+    "fullImage": "/static/material/Misc. Furniture.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Crafting",
+      "Shaking trees",
+      "Popping balloons",
+      "Purchasing"
+    ],
+    "bells": "Variable"
+  },
+  {
+    "name": "Misc. Tools",
+    "fullImage": "/static/material/Misc. Tools.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Crafting",
+      "Purchasing"
+    ],
+    "bells": "Variable"
+  },
+  {
+    "name": "Fossil",
+    "fullImage": "/static/material/Fossil.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Digging with Shovel"
+    ],
+    "bells": "100 (unassessed)Variable(assessed)"
+  },
+  {
+    "name": "Star fragment",
+    "fullImage": "/static/material/Star fragment.png",
+    "type": "material",
+    "obtainedFrom": [
+      "On beach the day after wishing on a star"
+    ],
+    "bells": "250"
+  },
+  {
+    "name": "Large star fragment",
+    "fullImage": "/static/material/Large star fragment.png",
+    "type": "material",
+    "obtainedFrom": [
+      "On beach the day after wishing on a star"
+    ],
+    "bells": "2,500"
+  },
+  {
+    "name": "Misc. Shells",
+    "fullImage": "/static/material/Misc. Shells.jpg",
+    "type": "material",
+    "obtainedFrom": [
+      "On beach"
+    ],
+    "bells": "60-900"
+  },
+  {
+    "name": "Manila Clam",
+    "fullImage": "/static/material/Manila Clam.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Digging on beaches where water is shooting out of sand"
+    ],
+    "bells": "60"
+  },
+  {
+    "name": "Cherry-blossom petal",
+    "fullImage": "/static/material/Cherry-blossom petal.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Caught with a net during cherry-blossom season"
+    ],
+    "bells": "200"
+  },
+  {
+    "name": "Misc. Eggs",
+    "fullImage": "/static/material/Misc. Eggs.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Digging",
+      "Hitting rocks",
+      "Shaking trees",
+      "Hitting trees with axes",
+      "Popping balloons",
+      "Fishing"
+    ],
+    "bells": "200"
+  },
+  {
+    "name": "Rusted part",
+    "fullImage": "/static/material/Rusted part.png",
+    "type": "material",
+    "obtainedFrom": [
+      "Recycling bin after a Gulliver visit or by not turning the Communicator Parts into Gulliver before the next day."
+    ],
+    "bells": "10"
+  },
+  {
+    "name": "Misc. Zodiac star fragments",
+    "fullImage": "/static/material/Misc. Zodiac star fragments.png",
+    "type": "material",
+    "obtainedFrom": [
+      "On beach the day after wishing on a star (type depends on astrological cycle)"
+    ],
+    "bells": ""
+  }
+]

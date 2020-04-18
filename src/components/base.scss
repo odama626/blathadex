@@ -312,7 +312,7 @@ nav.bottom[data-mobile] {
   align-items: stretch;
   gap: 1em;
   margin: auto;
-  max-width: 26em;
+  // max-width: 26em;
 }
 
 .date.range.month {
@@ -484,15 +484,6 @@ a {
   &:active,
   &:visited {
     color: var(--secondary-click);
-  }
-}
-
-@keyframes shake {
-  from {
-    transform: rotate3d(-5deg);
-  }
-  to {
-    transform: rotate3d(5deg);
   }
 }
 
