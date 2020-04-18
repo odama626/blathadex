@@ -83,18 +83,10 @@ export const HourRange = ({ ranges = [] }) => {
 
   return (
     <div className="date range hour">
-      {/* {ranges
-        .filter(r => r.filter(Boolean).length)
-        .map(r => (
-          <div style={{ textAlign: 'left' }}>
-            {hours[r[0]]} - {hours[r[1]]}
-          </div>
-        ))} */}
       <div className="flex-container">
         {blocks.map(block => (
           <div
             data-content={block.hour}
-            // data-range={~block.classes.indexOf('start')}
             className={classnames('date hour', block.classes, {
               now: block.i === date.hour,
             })}
