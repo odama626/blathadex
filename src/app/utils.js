@@ -279,9 +279,11 @@ export const createCritterLink = critter =>
 
 export const createDiyLink = diy => escapePath(`/${diy.section}/${diy.name}`);
 
-export const createImgSrc = ({ type, name }, asIs) =>
+export const createImgSrc = ({ type, name, ext = 'png' }, asIs) =>
   withPrefix(
-    `/${type}/${asIs ? name : `${name[0]}${name.slice(1).toLowerCase()}`}.png`
+    `/${type}/${
+      asIs ? name : `${name[0]}${name.slice(1).toLowerCase()}`
+    }.${ext}`
   );
 
 export const useEventListener = (event, callback) => {

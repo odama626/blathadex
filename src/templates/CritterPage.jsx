@@ -2,7 +2,7 @@ import classnames from 'classnames';
 import Bells from 'images/inline/bagOfBells.svg';
 import WarningIcon from 'images/inline/warningIcon.svg';
 import { DateTime } from 'luxon';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import db from '../app/database';
 import { capitalize, isCritterAvailableInMonth } from '../app/utils';
 import BottomNav from '../components/BottomNav';
@@ -40,6 +40,18 @@ export default function CritterPage({ pageContext }) {
     }
     setCaught(checked);
   };
+
+  const similarCritters = useMemo(
+    () =>
+      sortby(
+        similar.filter(
+          c => c.id !== critter.id && isCritterAvailableInMonth(datetime, c)
+        ),
+        ['bells'],
+        ['desc']
+      ),
+    [critter, similar]
+  );
 
   let date = DateTime.local();
   let has = isCritterAvailableInMonth(date, critter);
@@ -129,20 +141,13 @@ export default function CritterPage({ pageContext }) {
             />
           </div>
         </section>
-        <Section
-          name={`Other ${critter.loc} ${pluralize(critter.type)} this month`}
-        >
-          <CritterCollection
-            critters={sortby(
-              similar.filter(
-                c =>
-                  c.id !== critter.id && isCritterAvailableInMonth(datetime, c)
-              ),
-              ['bells'],
-              ['desc']
-            )}
-          />
-        </Section>
+        {similarCritters.length > 0 && (
+          <Section
+            name={`Other ${critter.loc} ${pluralize(critter.type)} this month`}
+          >
+            <CritterCollection critters={similarCritters} />
+          </Section>
+        )}
       </article>
       <BottomNav onFabClick={() => window.history.back()} />
     </Layout>

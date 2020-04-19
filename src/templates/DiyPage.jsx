@@ -1,12 +1,21 @@
 import { DiyBlock, DiyImage } from 'components/diy/Diy';
-import { AnimatePresence, motion } from 'framer-motion';
-import BackButton from 'images/inline/back.svg';
+import { Link } from 'gatsby';
+import Pattern from 'images/inline/pattern.svg';
 import React from 'react';
+import BottomNav from '../components/BottomNav';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Pattern from 'images/inline/pattern.svg';
-import { Link } from 'gatsby';
-import BottomNav from '../components/BottomNav';
+import { createImgSrc } from '../app/utils';
+
+const ObjectSizeImage = ({ size, ...rest }) => {
+  return (
+    <img
+      {...rest}
+      alt={size}
+      src={createImgSrc({ type: 'object_size', name: size }, true)}
+    />
+  );
+};
 
 export default function DiyPage({ pageContext }) {
   const { diy, similar } = pageContext;
@@ -34,13 +43,22 @@ export default function DiyPage({ pageContext }) {
             <Pattern style={{ padding: 0, zIndex: -1 }} />
           </div>
           <h2 style={{ marginTop: '1em' }}>Materials Needed</h2>
-          {diy.materialsNeeded.map(material => (
-            <p>
-              <Link to={material.link}>
-                {material.count}x {material.ingredient}
-              </Link>
-            </p>
-          ))}
+          <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr' }}>
+            <div>
+              {diy.materialsNeeded.map(material => (
+                <p style={{ textAlign: 'start' }}>
+                  <Link to={material.link}>
+                    {material.count}x {material.ingredient}
+                  </Link>
+                </p>
+              ))}
+            </div>
+            {diy.size && (
+              <div>
+                <ObjectSizeImage size={diy.size} />
+              </div>
+            )}
+          </div>
         </section>
         <section>
           <h3>Similar Recipes</h3>

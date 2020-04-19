@@ -75,13 +75,12 @@ const isSearchMatch = (a, b) =>
   a.length > 0 && a.filter((x, i) => ~b.indexOf(x)).length;
 
 const createCritterPage = (createPage, groups) => critter => {
-
   return createPage({
     path: escapePath(`/critter/${critter.type}/${critter.name}`),
     component: path.resolve('./src/templates/CritterPage.jsx'),
     context: {
       critter,
-      similar: groups[critter.loc && critter.loc.split(' ')[0].toLowerCase()]
+      similar: groups[critter.loc && critter.loc.toLowerCase()],
     },
   });
 };
@@ -147,7 +146,10 @@ exports.createPages = async ({ graphql, ...gatsby }) => {
     .map(edge => edge.node)
     .filter(Boolean);
 
-  const critterGroups = groupBy(critters, critter => critter.loc && critter.loc.split(' ')[0].toLowerCase());
+  const critterGroups = groupBy(
+    critters,
+    critter => critter.loc && critter.loc.toLowerCase()
+  );
   let promises = [];
 
   promises.push(critters.map(createCritterPage(createPage, critterGroups)));
