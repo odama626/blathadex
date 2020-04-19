@@ -30,9 +30,9 @@
   --section-shadow: 0px 0px 6px rgba(83, 130, 222, 0.14);
   --item-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
 
-  --pattern-background: var(--success-background);
-  --pattern-color-1: var(--success-outline);
-  --pattern-color-2: var(--success-outline);
+  --pattern-background: var(--accent-background);
+  --pattern-color-1: rgba(83, 130, 222, 0.12);
+  --pattern-color-2: rgba(83, 130, 222, 0.12);
   --pattern-animation-from: 0 0;
   --pattern-animation-to: 1000 -1000;
   --pattern-animation-dur: 60s;

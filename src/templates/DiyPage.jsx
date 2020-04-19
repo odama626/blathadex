@@ -20,18 +20,12 @@ export default function DiyPage({ pageContext }) {
           style={{ position: 'relative', zIndex: 0, overflow: 'hidden' }}
         >
           <h1>{name}</h1>
-          <Pattern
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-              zIndex: -1,
-            }}
-          />
-          <DiyImage diy={diy} />
-          <h2>Materials Needed</h2>
+          <h2 style={{ color: 'var(--secondary)' }}>{diy.obtainedFrom}</h2>
+          <div className="stack" style={{ padding: '2em' }}>
+            <DiyImage diy={diy} />
+            <Pattern style={{ padding: 0, zIndex: -1 }} />
+          </div>
+          <h2 style={{ marginTop: '1em' }}>Materials Needed</h2>
           {diy.materialsNeeded.map(material => (
             <p>
               <Link to={material.link}>

@@ -1,11 +1,8 @@
 import { DiyBlock, DiyImage } from 'components/diy/Diy';
-import { AnimatePresence, motion } from 'framer-motion';
-import BackButton from 'images/inline/back.svg';
 import React from 'react';
+import BottomNav from '../components/BottomNav';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Pattern from 'images/inline/pattern.svg';
-import BottomNav from '../components/BottomNav';
 
 export default function MaterialPage({ pageContext }) {
   const { material, recipes } = pageContext;
