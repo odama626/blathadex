@@ -1,18 +1,16 @@
 import classnames from 'classnames';
-import { navigate } from 'gatsby';
+import Bells from 'images/inline/bagOfBells.svg';
+import WarningIcon from 'images/inline/warningIcon.svg';
 import { DateTime } from 'luxon';
 import React, { useEffect, useState } from 'react';
 import db from '../app/database';
-import { isCritterAvailableInMonth, capitalize } from '../app/utils';
+import { capitalize, isCritterAvailableInMonth } from '../app/utils';
+import BottomNav from '../components/BottomNav';
 import Checkbox from '../components/Checkbox';
 import { CritterImage } from '../components/critters/Critter';
 import { HourRange, MonthRange } from '../components/DateRange';
 import Layout from '../components/layout';
-import Bells from 'images/inline/bagOfBells.svg';
-import BackButton from 'images/inline/back.svg';
-import WarningIcon from 'images/inline/warningIcon.svg';
 import SEO from '../components/seo';
-import { AnimatePresence, motion } from 'framer-motion';
 
 export default function CritterPage({ pageContext }) {
   const { critter } = pageContext;
@@ -121,22 +119,7 @@ export default function CritterPage({ pageContext }) {
           </div>
         </section>
       </article>
-      <nav data-mobile className="bottom">
-        <div className="bottom nav menu">
-          <AnimatePresence>
-            <motion.div
-              initial={{ x: '-50%', y: '-70%', scale: 0.01 }}
-              animate={{ x: '-50%', y: '-70%', scale: 1 }}
-              exit={{ x: '-50%', y: '-70%', scale: 0.01 }}
-              whileTap={{ scale: 0.8 }}
-              className="nav fab"
-              onClick={() => window.history.back()}
-            >
-              <BackButton />
-            </motion.div>
-          </AnimatePresence>
-        </div>
-      </nav>
+      <BottomNav onFabClick={() => window.history.back()} />
     </Layout>
   );
 }

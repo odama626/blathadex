@@ -111,6 +111,21 @@ nav.side {
 .critter.badge {
   position: absolute;
   transform: translate(50%, -50%) scale(0.5);
+
+  &.bottom {
+    transform: translate(-50%, 50%) scale(0.5);
+    transform-origin: 75% 25%;
+  }
+}
+
+svg.bottom[data-mobile] {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  > * {
+    pointer-events: initial;
+  }
 }
 
 nav.bottom {
@@ -191,7 +206,6 @@ nav.bottom[data-mobile] {
     width: 100%;
     height: 100%;
     padding: 1em;
-    // backdrop-filter: blur(1px);
   }
 }
 
@@ -204,7 +218,6 @@ nav.bottom[data-mobile] {
   box-shadow: var(--item-shadow);
   background-color: white;
   &:hover {
-    // background-color: var(--accent);
     box-shadow: var(--hover-shadow);
   }
 }
@@ -430,18 +443,9 @@ nav.bottom[data-mobile] {
   --calendar-accent: var(--error);
 }
 
-.nav.fab {
-  background-color: var(--secondary);
+.fab.inset {
+  fill: var(--secondary);
   color: white;
-  position: absolute;
-  transform: translate(-50%, -70%);
-  padding: 18px;
-  border-radius: 50%;
-  backdrop-filter: opacity(20%);
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 button {

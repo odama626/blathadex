@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import BottomNav, { FAB_BUTTON } from '../components/BottomNav';
 
 const DiyList = ({ recipes }) => (
   <Layout>
@@ -15,6 +16,7 @@ const DiyList = ({ recipes }) => (
         ))}
       </div>
     </section>
+    <BottomNav fabPosition="center" fabIconPath={FAB_BUTTON.SEARCH} />
   </Layout>
 );
 

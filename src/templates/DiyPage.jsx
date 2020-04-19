@@ -6,6 +6,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Pattern from 'images/inline/pattern.svg';
 import { Link } from 'gatsby';
+import BottomNav from '../components/BottomNav';
 
 export default function DiyPage({ pageContext }) {
   const { diy, similar } = pageContext;
@@ -48,22 +49,7 @@ export default function DiyPage({ pageContext }) {
           </div>
         </section>
       </article>
-      <nav data-mobile className="bottom">
-        <div className="bottom nav menu">
-          <AnimatePresence>
-            <motion.div
-              initial={{ x: '-50%', y: '-70%', scale: 0.01 }}
-              animate={{ x: '-50%', y: '-70%', scale: 1 }}
-              exit={{ x: '-50%', y: '-70%', scale: 0.01 }}
-              whileTap={{ scale: 0.8 }}
-              className="nav fab"
-              onClick={() => window.history.back()}
-            >
-              <BackButton />
-            </motion.div>
-          </AnimatePresence>
-        </div>
-      </nav>
+      <BottomNav onFabClick={() => window.history.back()} />
     </Layout>
   );
 }

@@ -40,7 +40,7 @@ export const CritterBlock = critter => {
     >
       <div className="stack">
         <CritterImage type={type} name={name} />
-        {caught && <Checkmark />}
+        {caught && <Checkmark className="critter badge bottom" />}
         {leaving && <WarningIcon className="critter badge" />}
       </div>
     </div>
