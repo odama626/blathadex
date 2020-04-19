@@ -21,7 +21,15 @@ export default function DiyPage({ pageContext }) {
         >
           <h1>{name}</h1>
           <h2 style={{ color: 'var(--secondary)' }}>{diy.obtainedFrom}</h2>
-          <div className="stack" style={{ padding: '2em' }}>
+          <div
+            className="stack"
+            style={{
+              padding: '2em',
+              overflow: 'hidden',
+              borderRadius: 'var(--border-radius)',
+              boxShadow: 'var(--section-shadow)',
+            }}
+          >
             <DiyImage diy={diy} />
             <Pattern style={{ padding: 0, zIndex: -1 }} />
           </div>
