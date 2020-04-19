@@ -118,6 +118,7 @@ function IndexPage({ sectionGroups, critters }) {
         .map((section, i) => (
           <Section name={section.section} key={i}>
             <CritterCollection
+              multiSelect
               critters={section.critters}
               leaving={section.leaving}
               caught={caught}

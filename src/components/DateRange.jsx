@@ -86,6 +86,7 @@ export const HourRange = ({ ranges = [] }) => {
       <div className="flex-container">
         {blocks.map(block => (
           <div
+            key={block.hour}
             data-content={block.hour}
             className={classnames('date hour', block.classes, {
               now: block.i === date.hour,

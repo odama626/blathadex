@@ -7,15 +7,26 @@ import db from '../app/database';
 import { capitalize, isCritterAvailableInMonth } from '../app/utils';
 import BottomNav from '../components/BottomNav';
 import Checkbox from '../components/Checkbox';
-import { CritterImage } from '../components/critters/Critter';
+import {
+  CritterImage,
+  CritterCollection,
+} from '../components/critters/Critter';
 import { HourRange, MonthRange } from '../components/DateRange';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Section from '../components/Section';
+import sortby from 'lodash.orderby';
+
+function pluralize(word) {
+  if (word.toLowerCase() === 'fish') return word;
+  return word + 's';
+}
 
 export default function CritterPage({ pageContext }) {
-  const { critter } = pageContext;
+  const { critter, similar } = pageContext;
   const { name, desc, bells, type, no, loc, rarity, quote } = critter;
   const [caught, setCaught] = useState(false);
+  const datetime = DateTime.local();
 
   useEffect(() => {
     db.caught.get({ type, no }).then(result => setCaught(!!result));
@@ -118,6 +129,20 @@ export default function CritterPage({ pageContext }) {
             />
           </div>
         </section>
+        <Section
+          name={`Other ${critter.loc} ${pluralize(critter.type)} this month`}
+        >
+          <CritterCollection
+            critters={sortby(
+              similar.filter(
+                c =>
+                  c.id !== critter.id && isCritterAvailableInMonth(datetime, c)
+              ),
+              ['bells'],
+              ['desc']
+            )}
+          />
+        </Section>
       </article>
       <BottomNav onFabClick={() => window.history.back()} />
     </Layout>

@@ -13,7 +13,7 @@ export const CritterImage = ({ type, name, ...rest }) => (
 );
 
 export const CritterBlock = critter => {
-  const { name, type, caught, leaving } = critter;
+  const { name, type, caught, leaving, allowSelect } = critter;
   const { selected, toggle } = useSelectedContext();
 
   const handleClick = useCallback(
@@ -29,7 +29,7 @@ export const CritterBlock = critter => {
 
   const lpProps = useLongPressable({
     onClick: handleClick,
-    onLongPress: () => toggle(critter),
+    onLongPress: () => allowSelect && toggle(critter),
   });
 
   return (
@@ -48,12 +48,13 @@ export const CritterBlock = critter => {
 };
 
 export const CritterCollection = ({
-  critters,
+  critters = [],
   caught,
   splitCaught,
+  multiSelect,
   leaving = [],
 }) => {
-  let caughtCritters = critters.filter(
+  let caughtCritters = !caught ? [] : critters.filter(
     (critter = {}) =>
       !!caught.find(c => c.type === critter.type && c.no === critter.no)
   );
@@ -68,6 +69,7 @@ export const CritterCollection = ({
     <>
       {topCritters.map(critter => (
         <CritterBlock
+          allowSelect={multiSelect}
           key={critter.id}
           {...critter}
           leaving={!!~leaving.indexOf(critter.id)}

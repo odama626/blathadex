@@ -5,6 +5,7 @@
  */
 
 const path = require('path');
+const groupBy = require('lodash.groupby');
 
 const critterPageQuery = `
  {
@@ -73,12 +74,14 @@ const escapePath = s =>
 const isSearchMatch = (a, b) =>
   a.length > 0 && a.filter((x, i) => ~b.indexOf(x)).length;
 
-const createCritterPage = createPage => critter => {
+const createCritterPage = (createPage, groups) => critter => {
+
   return createPage({
     path: escapePath(`/critter/${critter.type}/${critter.name}`),
     component: path.resolve('./src/templates/CritterPage.jsx'),
     context: {
       critter,
+      similar: groups[critter.loc && critter.loc.split(' ')[0].toLowerCase()]
     },
   });
 };
@@ -143,9 +146,11 @@ exports.createPages = async ({ graphql, ...gatsby }) => {
   const materials = allMaterialsJson.edges
     .map(edge => edge.node)
     .filter(Boolean);
+
+  const critterGroups = groupBy(critters, critter => critter.loc && critter.loc.split(' ')[0].toLowerCase());
   let promises = [];
 
-  promises.push(critters.map(createCritterPage(createPage)));
+  promises.push(critters.map(createCritterPage(createPage, critterGroups)));
   promises.push(diys.map(createDiyPage(createPage, diys)));
   promises.push(materials.map(createMaterialPage(createPage, diys)));
 

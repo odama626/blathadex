@@ -112,7 +112,7 @@ export default function BottomNav(props) {
             exit={{ scale: 0 }}
             whileTap={{ scale: 0.8 }}
             onClick={onFabClick}
-            class="fab inset"
+            className="fab inset"
           >
             <circle cx="33" cy="33" r="33" filter="url(#fabshadow)" />
 
@@ -134,9 +134,9 @@ function SvgDefs() {
         width="74"
         height="74"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
