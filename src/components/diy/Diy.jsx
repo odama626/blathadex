@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
-import { createImgSrc, createDiyLink } from '../../app/utils';
+import { createImgSrc, createDiyLink } from 'app/utils';
 import { Link } from 'gatsby';
 import './diy.scss';
 import diy404Src from 'images/diy404.svg';
 
 export const DiyImage = ({ diy, ...rest }) => {
-  const [src, setSrc] = useState(createImgSrc(diy, true))
+  const [src, setSrc] = useState(createImgSrc(diy, true));
 
-  return <img {...rest} onError={() => setSrc(diy404Src)} alt={diy.name} src={src} />
-}
+  return (
+    <img {...rest} onError={() => setSrc(diy404Src)} alt={diy.name} src={src} />
+  );
+};
 
 export const DiyBlock = ({ diy }) => {
   return (
-    <Link to={createDiyLink(diy)} className="critter block">
-      <div className="stack">
+    <Link to={createDiyLink(diy)} className='critter block'>
+      <div className='stack'>
         <DiyImage diy={diy} />
       </div>
     </Link>

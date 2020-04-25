@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "checkJs": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "app/*": ["src/app/*"],
+      "components/*": ["src/components/*"],
+      "pages/*": ["src/pages/*"],
+      "templates/*": ["src/templates/*"],
+      "images/*": ["src/images/*"]
+    }
+  },
+  "exclude": ["node_modules", "public", ".cache"]
+}

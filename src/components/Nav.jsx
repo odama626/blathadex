@@ -7,11 +7,12 @@ import React from 'react';
 const links = [
   { label: 'Bugs & Fish', url: '/' },
   { label: 'About', url: '/about' },
-  // { label: 'DIY Recipes', url: '/diy' },
+  { label: 'DIY Recipes', url: '/diy' },
+  { label: 'Manage Data', url: '/share' },
 ];
 
 if (process.env.GATSBY_DEVELOPMENT) {
-  links.push({ label: 'DIY Recipes', url: '/diy' });
+  links.push({ label: 'Flowers', url: '/flowers' });
 }
 
 function Nav(props) {
@@ -25,7 +26,7 @@ function Nav(props) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="shade"
+            className='shade'
             onClick={onClose}
           />
           <motion.nav

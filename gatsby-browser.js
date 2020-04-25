@@ -6,7 +6,7 @@
 
 // You can delete this file if you're not using it
 
-import React, { useEffect, useMemo, useLayoutEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import useAppContext, { ContextProvider } from './src/app/context';
 import { loadLocally, saveLocally } from './src/app/utils';
 

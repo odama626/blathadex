@@ -5,7 +5,7 @@ import { DateTime } from 'luxon';
 import React, { useEffect, useState, useMemo } from 'react';
 import db from '../app/database';
 import { capitalize, isCritterAvailableInMonth } from '../app/utils';
-import BottomNav from '../components/BottomNav';
+import BottomNav from '../components/BottomNav/BottomNav';
 import Checkbox from '../components/Checkbox';
 import {
   CritterImage,
@@ -16,6 +16,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Section from '../components/Section';
 import sortby from 'lodash.orderby';
+import { getCritterLocation } from 'app/node-shared';
 
 function pluralize(word) {
   if (word.toLowerCase() === 'fish') return word;
@@ -23,10 +24,13 @@ function pluralize(word) {
 }
 
 export default function CritterPage({ pageContext }) {
-  const { critter, similar } = pageContext;
+  const { critter, similar = [] } = pageContext;
   const { name, desc, bells, type, no, loc, rarity, quote } = critter;
   const [caught, setCaught] = useState(false);
-  const datetime = DateTime.local();
+  let date = DateTime.local();
+  let has = isCritterAvailableInMonth(date, critter);
+  let nextMonth = isCritterAvailableInMonth(date.plus({ months: 1 }), critter);
+  let warning = has && !nextMonth;
 
   useEffect(() => {
     db.caught.get({ type, no }).then(result => setCaught(!!result));
@@ -45,25 +49,22 @@ export default function CritterPage({ pageContext }) {
     () =>
       sortby(
         similar.filter(
-          c => c.id !== critter.id && isCritterAvailableInMonth(datetime, c)
+          c =>
+            c.id !== critter.id &&
+            isCritterAvailableInMonth(DateTime.local(), c)
         ),
         ['bells'],
         ['desc']
       ),
-    [critter, similar]
+    [critter, similar, date.hour]
   );
-
-  let date = DateTime.local();
-  let has = isCritterAvailableInMonth(date, critter);
-  let nextMonth = isCritterAvailableInMonth(date.plus({ months: 1 }), critter);
-  let warning = has && !nextMonth;
 
   return (
     <Layout>
       <SEO title={name} description={desc} />
       <article className={classnames('critter detail', { warning })}>
         {warning && (
-          <div className="banner warning">This catch is about to get away!</div>
+          <div className='banner warning'>This catch is about to get away!</div>
         )}
         <section>
           <h1 style={{ marginBottom: '0.5em', marginTop: '16px' }}>
@@ -99,7 +100,7 @@ export default function CritterPage({ pageContext }) {
               <Checkbox
                 checked={caught}
                 onChange={handleChange}
-                label="Mark as Caught"
+                label='Mark as Caught'
               />
             </div>
           </div>
@@ -126,7 +127,7 @@ export default function CritterPage({ pageContext }) {
         </section>
         <section>
           <h3 style={{ marginTop: '16px' }}>Availability</h3>
-          <div className="date container">
+          <div className='date container'>
             <MonthRange
               ranges={[
                 [critter.smonth, critter.emonth],
@@ -143,7 +144,9 @@ export default function CritterPage({ pageContext }) {
         </section>
         {similarCritters.length > 0 && (
           <Section
-            name={`Other ${critter.loc} ${pluralize(critter.type)} this month`}
+            name={`Other ${capitalize(
+              getCritterLocation(critter.loc)
+            )} ${pluralize(critter.type)} this month`}
           >
             <CritterCollection critters={similarCritters} />
           </Section>

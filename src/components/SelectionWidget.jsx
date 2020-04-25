@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import React from 'react';
-import { useSelectedContext } from '../app/context';
+import { useSelectedContext } from 'app/context';
 
 export default function SelectionWidget({ onSelect }) {
   const { selected, clear } = useSelectedContext();
@@ -17,16 +17,16 @@ export default function SelectionWidget({ onSelect }) {
           initial={{ y: '100%' }}
           animate={{ y: 0 }}
           exit={{ y: '100%' }}
-          key="selected"
+          key='selected'
           data-mobile
           data-selection
-          className="bottom"
+          className='bottom selection'
         >
           <header>
-            <button className="error" onClick={clear}>
+            <button className='error' onClick={clear}>
               Cancel
             </button>
-            <button className="success" onClick={handleSelect}>
+            <button className='success' onClick={handleSelect}>
               Mark {selected.length} Caught!
             </button>
           </header>

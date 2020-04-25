@@ -6,6 +6,7 @@
 
 const path = require('path');
 const groupBy = require('lodash.groupby');
+const { getCritterLocation } = require('./src/app/node-shared');
 
 const critterPageQuery = `
  {
@@ -80,7 +81,7 @@ const createCritterPage = (createPage, groups) => critter => {
     component: path.resolve('./src/templates/CritterPage.jsx'),
     context: {
       critter,
-      similar: groups[critter.loc && critter.loc.toLowerCase()],
+      similar: groups[getCritterLocation(critter.loc)],
     },
   });
 };
@@ -146,10 +147,11 @@ exports.createPages = async ({ graphql, ...gatsby }) => {
     .map(edge => edge.node)
     .filter(Boolean);
 
-  const critterGroups = groupBy(
-    critters,
-    critter => critter.loc && critter.loc.toLowerCase()
+  const critterGroups = groupBy(critters, critter =>
+    getCritterLocation(critter.loc)
   );
+
+  console.log(Object.keys(critterGroups));
   let promises = [];
 
   promises.push(critters.map(createCritterPage(createPage, critterGroups)));

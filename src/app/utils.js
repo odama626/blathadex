@@ -1,6 +1,7 @@
 import { withPrefix } from 'gatsby';
 import { DateTime } from 'luxon';
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useLayoutEffect, useState } from 'react';
+import diy404Src from 'images/diy404.svg';
 
 export const capitalize = s => `${s[0].toUpperCase()}${s.substr(1)}`;
 export const getFileName = s => s.replace(/\s/g, '_').toLowerCase();
@@ -272,12 +273,13 @@ const escapePath = s =>
   s
     .toLowerCase()
     .replace(/\s/g, '_')
-    .replace(/[^a-zA-Z0-9-\/_]/g, '');
+    .replace(/[^a-zA-Z0-9-/_]/g, '');
 
 export const createCritterLink = critter =>
   escapePath(`/critter/${critter.type}/${critter.name}`);
 
-export const createDiyLink = diy => escapePath(`/${diy.section}/${diy.name}`);
+export const createDiyLink = diy =>
+  escapePath(`/${diy.section || diy.type}/${diy.name}`);
 
 export const createImgSrc = ({ type, name, ext = 'png' }, asIs) =>
   withPrefix(
@@ -302,4 +304,12 @@ export const useEventListener = (event, callback) => {
   }, [event, target]);
 
   return target;
+};
+
+export const Image = ({ src, ...rest }) => {
+  const [trueSrc, setSrc] = useState(src);
+
+  useEffect(() => setSrc(src), [src]);
+
+  return <img {...rest} onError={() => setSrc(diy404Src)} src={trueSrc} />;
 };

@@ -1,11 +1,13 @@
 import { DiyBlock, DiyImage } from 'components/diy/Diy';
-import { Link } from 'gatsby';
+import { Link, navigate, withPrefix } from 'gatsby';
 import Pattern from 'images/inline/pattern.svg';
 import React from 'react';
-import BottomNav from '../components/BottomNav';
+import BottomNav from '../components/BottomNav/BottomNav';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { createImgSrc } from '../app/utils';
+import ToDiyButton from 'images/inline/ToDiyButton.svg';
+import { motion } from 'framer-motion';
 
 const ObjectSizeImage = ({ size, ...rest }) => {
   return (
@@ -20,6 +22,7 @@ const ObjectSizeImage = ({ size, ...rest }) => {
 export default function DiyPage({ pageContext }) {
   const { diy, similar } = pageContext;
   const { name } = diy;
+  console.log({ diy });
 
   return (
     <Layout>
@@ -31,7 +34,7 @@ export default function DiyPage({ pageContext }) {
           <h1>{name}</h1>
           <h2 style={{ color: 'var(--secondary)' }}>{diy.obtainedFrom}</h2>
           <div
-            className="stack"
+            className='stack'
             style={{
               padding: '2em',
               overflow: 'hidden',
@@ -62,14 +65,22 @@ export default function DiyPage({ pageContext }) {
         </section>
         <section>
           <h3>Similar Recipes</h3>
-          <div className="grid">
+          <div className='grid'>
             {similar.map(diy => (
               <DiyBlock diy={diy} />
             ))}
           </div>
         </section>
       </article>
-      <BottomNav onFabClick={() => window.history.back()} />
+      <BottomNav
+        onFabClick={() => window.history.back()}
+        overhangActions
+        actions={
+          <motion.div whileTap={{ scale: 0.8 }}>
+            <ToDiyButton onClick={() => navigate('/diy')} />
+          </motion.div>
+        }
+      ></BottomNav>
     </Layout>
   );
 }

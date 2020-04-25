@@ -1,6 +1,6 @@
 import { DiyBlock, DiyImage } from 'components/diy/Diy';
 import React from 'react';
-import BottomNav from '../components/BottomNav';
+import BottomNav from '../components/BottomNav/BottomNav';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
