@@ -151,7 +151,6 @@ exports.createPages = async ({ graphql, ...gatsby }) => {
     getCritterLocation(critter.loc)
   );
 
-  console.log(Object.keys(critterGroups));
   let promises = [];
 
   promises.push(critters.map(createCritterPage(createPage, critterGroups)));

@@ -85,13 +85,10 @@ const NotFoundPage = props => {
     db.caught.toArray(caught => {
       const qr = qrcode(0, 'L');
 
-      console.log({ caught });
-
       let data = JSON.stringify({
         c: caught.map(c => `${c.type[0]}${c.no}`).join(''),
       });
 
-      console.log({ data });
       const compressed = lzstring.compressToBase64(data);
       qr.addData(compressed);
       qr.make();
@@ -101,7 +98,6 @@ const NotFoundPage = props => {
 
   const onData = str => {
     const data = JSON.parse(str);
-    console.log({ data });
     const caught = data.c
       .replace(/(\d+)([a-zA-Z])/g, '$1,$2')
       .replace(/([a-zA-Z])(\d+)/g, '$1=$2')

@@ -59,7 +59,6 @@ export const memoize = (fun, ...args) => {
     if (!window.memoes[key]) {
       window.memoes[key] = fun(...args);
     }
-    // console.log(fun.arguments);
     return window.memoes[key];
   } catch (e) {
     return fun(...args);

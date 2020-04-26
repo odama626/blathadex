@@ -1,15 +1,10 @@
-import React, { useEffect, useMemo } from 'react';
-
+import useAllData from 'app/queryAll';
+import { Image } from 'app/utils';
+import SearchOverlay, { search } from 'components/Search';
+import { navigate } from 'gatsby';
+import React, { useMemo } from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Icon from '../images/inline/Icon404.svg';
-import { Link } from 'gatsby';
-import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-import SearchOverlay, { search } from 'components/Search';
-import useAllData from 'app/queryAll';
-import { navigate } from 'gatsby';
-import { Image } from 'app/utils';
-import ChevronRight from 'images/inline/chevronRight.svg';
 
 const SearchResultsPage = props => {
   const query = Object.fromEntries(
@@ -18,7 +13,6 @@ const SearchResultsPage = props => {
       .split('&')
       .map(pair => pair.split('='))
   );
-  console.log({ props });
   const { searchItems } = useAllData();
   const t = query.t;
 

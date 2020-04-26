@@ -1,14 +1,14 @@
-import React, { useState, useRef, useEffect } from 'react';
-import classnames from 'classnames';
-import SearchIcon from 'images/inline/searchButton.svg';
-import CloseIcon from 'images/inline/closeButton.svg';
-import ChevronRight from 'images/inline/chevronRight.svg';
-import useAllData from 'app/queryAll';
-import debounce from 'lodash.debounce';
-import { navigate } from 'gatsby';
 import { useOnSubmit, useResizeListener } from 'app/hooks';
-import orderBy from 'lodash.orderby';
+import useAllData from 'app/queryAll';
 import { Image } from 'app/utils';
+import classnames from 'classnames';
+import { navigate } from 'gatsby';
+import ChevronRight from 'images/inline/chevronRight.svg';
+import CloseIcon from 'images/inline/closeButton.svg';
+import SearchIcon from 'images/inline/searchButton.svg';
+import debounce from 'lodash.debounce';
+import orderBy from 'lodash.orderby';
+import React, { useEffect, useRef, useState } from 'react';
 import { FixedSizeList as List } from 'react-window';
 
 export function search(items, query) {
@@ -22,8 +22,6 @@ export function search(items, query) {
 }
 
 const SearchResult = ({ data = [], index, style }) => {
-  // if (!data.items)
-  // console.log(data);
   const result = data[index];
 
   if (!result) return null;
@@ -61,7 +59,6 @@ export default function SearchOverlay(props) {
 
   useOnSubmit(onSubmit, input);
   useResizeListener(size => {
-    console.log(size);
     setResultHeight(size.height - 143);
   });
 
