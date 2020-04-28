@@ -66,9 +66,11 @@ const WebVideo = ({ onData }) => {
 
     return () => {
       stop = true;
-      video.srcObject.getTracks().forEach(track => track.stop());
+      if (video && video.srcObject) {
+        video.srcObject.getTracks().forEach(track => track.stop());
+      }
     };
-  }, []);
+  }, [navigator.mediaDevices, onData]);
 
   return <canvas style={{ maxWidth: '100%' }} ref={canvasRef} />;
 };

@@ -8,6 +8,7 @@ module.exports = {
     author: `Adam Sparks`,
   },
   plugins: [
+    `gatsby-optional-chaining`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
