@@ -1,194 +1,1024 @@
 [
   {
-    "type": "Rose",
-    "color": "Pink",
-    "a": "Red",
-    "b": "White"
+    "name": "Black Cosmos",
+    "genus": "cosmos",
+    "color": "black",
+    "fullImage": "/static/flower/Black Cosmos.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": [],
+    "bells": 240,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "orange"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "orange"
+        }
+      }
+    ]
   },
   {
-    "type": "Rose",
-    "color": "Orange",
-    "a": "Red",
-    "b": "Yellow"
+    "name": "Black Lilies",
+    "genus": "lily",
+    "color": "black",
+    "fullImage": "/static/flower/Black Lilies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "red"
+        }
+      }
+    ]
   },
   {
-    "type": "Rose",
-    "color": "Black",
-    "a": "Red",
-    "b": "Red"
+    "name": "Black Roses",
+    "genus": "rose",
+    "color": "black",
+    "fullImage": "/static/flower/Black Roses.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 240,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "red"
+        }
+      }
+    ]
   },
   {
-    "type": "Rose",
-    "color": "Purple",
-    "a": "White",
-    "b": "White"
+    "name": "Black Tulips",
+    "genus": "tulip",
+    "color": "black",
+    "fullImage": "/static/flower/Black Tulips.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "red"
+        }
+      }
+    ]
   },
   {
-    "type": "Rose",
-    "color": "Special Red (Sp. Red)",
-    "a": "White",
-    "b": "Orange"
+    "name": "Blue Hyacinths",
+    "genus": "hyacinth",
+    "color": "blue",
+    "fullImage": "/static/flower/Blue Hyacinths.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "white"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Rose",
-    "color": "Blue",
-    "a": "Sp. Red",
-    "b": "Sp. Red"
+    "name": "Blue Pansies",
+    "genus": "pansy",
+    "color": "blue",
+    "fullImage": "/static/flower/Blue Pansies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "white"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Hyacinth",
-    "color": "Pink",
-    "a": "Red",
-    "b": "White"
+    "name": "Blue Roses",
+    "genus": "rose",
+    "color": "blue",
+    "fullImage": "/static/flower/Blue Roses.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 1000,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": true,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": true,
+          "color": "red"
+        }
+      }
+    ]
   },
   {
-    "type": "Hyacinth",
-    "color": "Orange",
-    "a": "Red",
-    "b": "Yellow"
+    "name": "Blue Windflowers",
+    "genus": "windflower",
+    "color": "blue",
+    "fullImage": "/static/flower/Blue Windflowers.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "white"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Hyacinth",
-    "color": "Blue",
-    "a": "White",
-    "b": "White"
+    "name": "Gold Roses",
+    "genus": "rose",
+    "color": "gold",
+    "fullImage": "/static/flower/Gold Roses.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 1000,
+    "cost": null,
+    "mixes": []
   },
   {
-    "type": "Hyacinth",
-    "color": "Purple",
-    "a": "Orange",
-    "b": "Orange"
+    "name": "Green Mums",
+    "genus": "mum",
+    "color": "green",
+    "fullImage": "/static/flower/Green Mums.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 240,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "purple"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "purple"
+        }
+      }
+    ]
   },
   {
-    "type": "Tulip",
-    "color": "Pink",
-    "a": "Red",
-    "b": "White"
+    "name": "Orange Cosmos",
+    "genus": "cosmos",
+    "color": "orange",
+    "fullImage": "/static/flower/Orange Cosmos.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": [],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "yellow"
+        }
+      }
+    ]
   },
   {
-    "type": "Tulip",
-    "color": "Orange",
-    "a": "Red",
-    "b": "Yellow"
+    "name": "Orange Hyacinths",
+    "genus": "hyacinth",
+    "color": "orange",
+    "fullImage": "/static/flower/Orange Hyacinths.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "yellow"
+        }
+      }
+    ]
   },
   {
-    "type": "Tulip",
-    "color": "Black",
-    "a": "Red",
-    "b": "Red"
+    "name": "Orange Lilies",
+    "genus": "lily",
+    "color": "orange",
+    "fullImage": "/static/flower/Orange Lilies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "yellow"
+        }
+      }
+    ]
   },
   {
-    "type": "Tulip",
-    "color": "Purple",
-    "a": "Orange",
-    "b": "Orange"
+    "name": "Orange Pansies",
+    "genus": "pansy",
+    "color": "orange",
+    "fullImage": "/static/flower/Orange Pansies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "yellow"
+        }
+      },
+      {
+        "a": {
+          "hybrid": false,
+          "color": "orange"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "blue"
+        }
+      }
+    ]
   },
   {
-    "type": "Lily",
-    "color": "Pink",
-    "a": "Red",
-    "b": "White"
+    "name": "Orange Roses",
+    "genus": "rose",
+    "color": "orange",
+    "fullImage": "/static/flower/Orange Roses.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "yellow"
+        }
+      }
+    ]
   },
   {
-    "type": "Lily",
-    "color": "Orange",
-    "a": "Red",
-    "b": "Yellow"
+    "name": "Orange Tulips",
+    "genus": "tulip",
+    "color": "orange",
+    "fullImage": "/static/flower/Orange Tulips.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "yellow"
+        }
+      }
+    ]
   },
   {
-    "type": "Lily",
-    "color": "Black",
-    "a": "Red",
-    "b": "Red"
+    "name": "Orange Windflowers",
+    "genus": "windflower",
+    "color": "orange",
+    "fullImage": "/static/flower/Orange Windflowers.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 40,
+    "cost": null,
+    "mixes": []
   },
   {
-    "type": "Cosmos",
-    "color": "Pink",
-    "a": "Red",
-    "b": "White"
+    "name": "Pink Cosmos",
+    "genus": "cosmos",
+    "color": "pink",
+    "fullImage": "/static/flower/Pink Cosmos.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": [],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Cosmos",
-    "color": "Orange",
-    "a": "Red",
-    "b": "Yellow"
+    "name": "Pink Hyacinths",
+    "genus": "hyacinth",
+    "color": "pink",
+    "fullImage": "/static/flower/Pink Hyacinths.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Cosmos",
-    "color": "Black",
-    "a": "Orange",
-    "b": "Orange"
+    "name": "Pink Lilies",
+    "genus": "lily",
+    "color": "pink",
+    "fullImage": "/static/flower/Pink Lilies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Pansy",
-    "color": "Orange",
-    "a": "Red",
-    "b": "Yellow"
+    "name": "Pink Mums",
+    "genus": "mum",
+    "color": "pink",
+    "fullImage": "/static/flower/Pink Mums.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Pansy",
-    "color": "Blue",
-    "a": "White",
-    "b": "White"
+    "name": "Pink Roses",
+    "genus": "rose",
+    "color": "pink",
+    "fullImage": "/static/flower/Pink Roses.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Pansy",
-    "color": "Special (Sp.) Red",
-    "a": "Red",
-    "b": "Blue"
+    "name": "Pink Tulips",
+    "genus": "tulip",
+    "color": "pink",
+    "fullImage": "/static/flower/Pink Tulips.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Pansy",
-    "color": "Sp. Orange",
-    "a": "Orange",
-    "b": "Blue"
+    "name": "Pink Windflowers",
+    "genus": "windflower",
+    "color": "pink",
+    "fullImage": "/static/flower/Pink Windflowers.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Pansy",
-    "color": "Purple",
-    "a": "Sp. Red",
-    "b": "Sp. Red"
+    "name": "Purple Hyacinths",
+    "genus": "hyacinth",
+    "color": "purple",
+    "fullImage": "/static/flower/Purple Hyacinths.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 240,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "orange"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "orange"
+        }
+      }
+    ]
   },
   {
-    "type": "Pansy",
-    "color": "Purple",
-    "a": "Sp. Orange",
-    "b": "Sp. Orange"
+    "name": "Purple Mums",
+    "genus": "mum",
+    "color": "purple",
+    "fullImage": "/static/flower/Purple Mums.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 80,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "white"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Windflower",
-    "color": "Pink",
-    "a": "Red",
-    "b": "White"
+    "name": "Purple Pansies",
+    "genus": "pansy",
+    "color": "purple",
+    "fullImage": "/static/flower/Purple Pansies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 240,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": true,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": true,
+          "color": "red"
+        }
+      },
+      {
+        "a": {
+          "hybrid": true,
+          "color": "orange"
+        },
+        "b": {
+          "hybrid": true,
+          "color": "orange"
+        }
+      }
+    ]
   },
   {
-    "type": "Windflower",
-    "color": "Blue",
-    "a": "White",
-    "b": "White"
+    "name": "Purple Roses",
+    "genus": "rose",
+    "color": "purple",
+    "fullImage": "/static/flower/Purple Roses.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 240,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "white"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "white"
+        }
+      }
+    ]
   },
   {
-    "type": "Windflower",
-    "color": "Purple",
-    "a": "Blue",
-    "b": "Blue"
+    "name": "Purple Tulips",
+    "genus": "tulip",
+    "color": "purple",
+    "fullImage": "/static/flower/Purple Tulips.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 240,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "orange"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "orange"
+        }
+      }
+    ]
   },
   {
-    "type": "Mum",
-    "color": "Pink",
-    "a": "Red",
-    "b": "White"
+    "name": "Purple Windflowers",
+    "genus": "windflower",
+    "color": "purple",
+    "fullImage": "/static/flower/Purple Windflowers.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on mystery island"],
+    "bells": 240,
+    "cost": null,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "blue"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "blue"
+        }
+      }
+    ]
   },
   {
-    "type": "Mum",
-    "color": "Purple",
-    "a": "White",
-    "b": "White"
+    "name": "Red Cosmos",
+    "genus": "cosmos",
+    "color": "red",
+    "fullImage": "/static/flower/Red Cosmos.png",
+    "type": "flower",
+    "orderable": true,
+    "obtainedFrom": ["Gardening Store"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
   },
   {
-    "type": "Mum",
-    "color": "Green",
-    "a": "Purple",
-    "b": "Purple"
+    "name": "Red Hyacinths",
+    "genus": "hyacinth",
+    "color": "red",
+    "fullImage": "/static/flower/Red Hyacinths.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Red Lilies",
+    "genus": "lily",
+    "color": "red",
+    "fullImage": "/static/flower/Red Lilies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Red Mums",
+    "genus": "mum",
+    "color": "red",
+    "fullImage": "/static/flower/Red Mums.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Red Pansies",
+    "genus": "pansy",
+    "color": "red",
+    "fullImage": "/static/flower/Red Pansies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "red"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "blue"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Red Roses",
+    "genus": "rose",
+    "color": "red",
+    "fullImage": "/static/flower/Red Roses.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": [
+      {
+        "a": {
+          "hybrid": false,
+          "color": "white"
+        },
+        "b": {
+          "hybrid": false,
+          "color": "orange"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Red Tulip",
+    "genus": "tulip",
+    "color": "red",
+    "fullImage": "/static/flower/Red Tulip.png",
+    "type": "flower",
+    "obtainedFrom": ["Gardening Store"],
+    "orderable": true,
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Red Tulips",
+    "genus": "tulip",
+    "color": "red",
+    "fullImage": "/static/flower/Red Tulips.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Red Windflowers",
+    "genus": "windflower",
+    "color": "red",
+    "fullImage": "/static/flower/Red Windflowers.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "White Cosmos",
+    "genus": "cosmos",
+    "color": "white",
+    "fullImage": "/static/flower/White Cosmos.png",
+    "type": "flower",
+    "orderable": true,
+    "obtainedFrom": ["Gardening Store"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "White Hyacinths",
+    "genus": "hyacinth",
+    "color": "white",
+    "fullImage": "/static/flower/White Hyacinths.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "White Lilies",
+    "genus": "lily",
+    "color": "white",
+    "fullImage": "/static/flower/White Lilies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "White Mums",
+    "genus": "mum",
+    "color": "white",
+    "fullImage": "/static/flower/White Mums.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "White Pansies",
+    "genus": "pansy",
+    "color": "white",
+    "fullImage": "/static/flower/White Pansies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "White Roses",
+    "genus": "rose",
+    "color": "white",
+    "fullImage": "/static/flower/White Roses.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "White Tulip",
+    "genus": "tulip",
+    "color": "white",
+    "fullImage": "/static/flower/White Tulip.png",
+    "type": "flower",
+    "obtainedFrom": ["Gardening Store"],
+    "orderable": true,
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "White Tulips",
+    "genus": "tulip",
+    "color": "white",
+    "fullImage": "/static/flower/White Tulips.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "White Windflowers",
+    "genus": "windflower",
+    "color": "white",
+    "fullImage": "/static/flower/White Windflowers.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Yellow Cosmos",
+    "genus": "cosmos",
+    "color": "yellow",
+    "fullImage": "/static/flower/Yellow Cosmos.png",
+    "type": "flower",
+    "orderable": true,
+    "obtainedFrom": ["Gardening Store"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Yellow Hyacinths",
+    "genus": "hyacinth",
+    "color": "yellow",
+    "fullImage": "/static/flower/Yellow Hyacinths.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Yellow Lilies",
+    "genus": "lily",
+    "color": "yellow",
+    "fullImage": "/static/flower/Yellow Lilies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Yellow Mums",
+    "genus": "mum",
+    "color": "yellow",
+    "fullImage": "/static/flower/Yellow Mums.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Yellow Pansies",
+    "genus": "pansy",
+    "color": "yellow",
+    "fullImage": "/static/flower/Yellow Pansies.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Yellow Roses",
+    "genus": "rose",
+    "color": "yellow",
+    "fullImage": "/static/flower/Yellow Roses.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Yellow Tulip",
+    "genus": "tulip",
+    "color": "yellow",
+    "fullImage": "/static/flower/Yellow Tulip.png",
+    "type": "flower",
+    "obtainedFrom": ["Gardening Store"],
+    "orderable": true,
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
+  },
+  {
+    "name": "Yellow Tulips",
+    "genus": "tulip",
+    "color": "yellow",
+    "fullImage": "/static/flower/Yellow Tulips.png",
+    "type": "flower",
+    "orderable": false,
+    "obtainedFrom": ["Find on ground", "Nook's Cranny"],
+    "cost": 160,
+    "bells": 40,
+    "mixes": []
   }
 ]

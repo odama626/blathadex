@@ -80,7 +80,6 @@ header {
 nav.side {
   position: fixed;
   left: 0;
-  // padding: 1em;
   z-index: 2;
   background-color: var(--background);
   top: 73px;
@@ -113,13 +112,28 @@ nav.side {
   }
 }
 
-.critter.badge {
-  position: absolute;
-  transform: translate(50%, -50%) scale(0.5);
-
-  &.bottom {
+.badge {
+  &.bottom.left {
     transform: translate(-50%, 50%) scale(0.5);
     transform-origin: 75% 25%;
+  }
+
+  &.bottom.right {
+    transform: translate(50%, 50%) scale(0.5);
+    transform-origin: 25% 25%;
+  }
+
+  &.top.left {
+    transform: translate(-50%, -50%) scale(0.5);
+    transform-origin: 75% 75%;
+  }
+  &.top.right {
+    transform: translate(50%, -50%) scale(0.5);
+    transform-origin: 25% 75%;
+  }
+
+  &.overhang {
+    transform-origin: initial !important;
   }
 }
 
@@ -182,7 +196,6 @@ nav.bottom[data-mobile] {
     align-items: center;
     justify-content: space-around;
     padding: 14px;
-    // max-width: var(--max-site-width);
     margin: auto;
   }
 
@@ -469,7 +482,7 @@ button {
   border-radius: var(--border-radius);
   padding: 12px 34px;
   border: none;
-  outline: none;
+  outline: var(--accent-outline);
   font-size: 20px;
   font-weight: bold;
   line-height: 29px;
@@ -519,7 +532,6 @@ a {
 
   &.attached {
     position: fixed;
-    // margin-top: -1.45rem;
     top: 73px;
     bottom: 0;
     display: flex;
@@ -529,11 +541,9 @@ a {
 
   .search.results {
     overflow: auto;
-    // padding-bottom: 10em;
   }
 
   .search.result {
-    // padding: 20px;
     background-color: var(--background);
     display: grid;
     grid-template-columns: 60px 1fr 20px;
@@ -577,7 +587,6 @@ a {
     width: 100%;
     padding: 20px;
     font-size: 25px;
-    // padding-left: 68px;
     transition: padding ease-in-out 200ms;
     &:not(:placeholder-shown) {
       color: var(--secondary);
@@ -629,4 +638,42 @@ a {
   [data-mobile] {
     display: none;
   }
+}
+
+.detail.grid {
+  display: grid;
+  grid-template-columns: 28px minmax(min-content, auto) minmax(max-content, auto);
+  grid-template-rows: 28px;
+  justify-items: flex-start;
+  align-items: center;
+  justify-content: stretch;
+  margin-bottom: 20px;
+  gap: 20px 10px;
+
+  // grid-template-areas: "icon text checkbox";
+
+  > :nth-child(3n - 2) {
+    place-self: center;
+  }
+}
+
+section.quote {
+  background-color: var(--primary-background);
+
+  &:before {
+    // content: url("../images/inline/quoteBefore.svg");
+  }
+}
+
+.block.primary {
+  background-color: var(--primary);
+  min-width: 35px;
+  min-height: 35px;
+  color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
 }

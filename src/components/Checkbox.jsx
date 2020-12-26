@@ -3,10 +3,11 @@ import Checkmark from 'images/inline/checkboxChecked.svg';
 import classnames from 'classnames';
 
 export default function Checkbox(props) {
-  const { checked, onChange, label } = props;
+  const { checked, onChange, label, ...rest } = props;
 
   return (
     <div
+      {...rest}
       role='checkbox'
       aria-checked={checked}
       className={classnames('checkbox', { checked })}

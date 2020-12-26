@@ -13,13 +13,14 @@ import { navigate } from 'gatsby';
 
 const WebVideo = ({ onData }) => {
   const canvasRef = useRef();
+  const devices = typeof navigator !== 'undefined' && navigator.mediaDevices;
 
   useEffect(() => {
     const video = document.createElement('video');
     if (!canvasRef) return;
     let stop = false;
 
-    if (!navigator.mediaDevices) return;
+    if (!devices) return;
 
     const canvas = canvasRef.current;
     const c = canvas.getContext('2d');
@@ -55,14 +56,12 @@ const WebVideo = ({ onData }) => {
       if (stop) return;
       requestAnimationFrame(tick);
     };
-    navigator.mediaDevices
-      .getUserMedia({ video: { facingMode: 'environment' } })
-      .then(stream => {
-        video.srcObject = stream;
-        video.setAttribute('playsinline', true);
-        video.play();
-        requestAnimationFrame(tick);
-      });
+    devices.getUserMedia({ video: { facingMode: 'environment' } }).then(stream => {
+      video.srcObject = stream;
+      video.setAttribute('playsinline', true);
+      video.play();
+      requestAnimationFrame(tick);
+    });
 
     return () => {
       stop = true;
@@ -70,16 +69,15 @@ const WebVideo = ({ onData }) => {
         video.srcObject.getTracks().forEach(track => track.stop());
       }
     };
-  }, [navigator.mediaDevices, onData]);
+  }, [devices, onData]);
 
   return <canvas style={{ maxWidth: '100%' }} ref={canvasRef} />;
 };
 
 const NotFoundPage = props => {
-  const availableCritters = useMemo(
-    () => props.data.allCrittersJson.edges.map(edge => edge.node),
-    [props.data.allCrittersJson.edges]
-  );
+  const availableCritters = useMemo(() => props.data.allCrittersJson.edges.map(edge => edge.node), [
+    props.data.allCrittersJson.edges,
+  ]);
 
   const [QrTag, setQrTag] = useState();
   const [data, setData] = useState({});
@@ -107,9 +105,7 @@ const NotFoundPage = props => {
       .map(p => p.split('='))
       .map(p => ({ no: +p[1], type: p[0] === 'b' ? 'bug' : 'fish' }));
     const caughtCritters = caught.map(c =>
-      availableCritters.find(
-        critter => critter.no === c.no && critter.type === c.type
-      )
+      availableCritters.find(critter => critter.no === c.no && critter.type === c.type)
     );
 
     setData({ critters: caughtCritters, caught });
@@ -126,10 +122,7 @@ const NotFoundPage = props => {
       {!data.critters && (
         <section>
           <h2>Heres all your Blathadex Data</h2>
-          <div
-            style={{ margin: 'auto' }}
-            dangerouslySetInnerHTML={{ __html: QrTag }}
-          />
+          <div style={{ margin: 'auto' }} dangerouslySetInnerHTML={{ __html: QrTag }} />
           <WebVideo onData={onData} />
         </section>
       )}

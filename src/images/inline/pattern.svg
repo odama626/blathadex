@@ -1,4 +1,4 @@
-<svg preserveAspectRatio="xMinYMin slice" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fi="http://pattern.flaticon.com/" x="0" y="0" width="1200" height="1200" viewBox="0 0 1200 1200">
+<svg preserveAspectRatio="xMinYMin slice" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1200" height="1200" viewBox="0 0 1200 1200">
     <rect x="0px" y="0px" width="100%" height="100%" opacity="1" fill="var(--pattern-background)"/>
     <defs>
         <g transform="matrix(-0.09765918971772937 -0.09765918971772938 0.09765918971772938 -0.09765918971772937 217.01147584421997 226.29730539184123)" id="L1_35">
@@ -34,7 +34,7 @@
             <path d="m233.898 536.324c8.827 4.617 17.314 8.997 24.936 14.072 5.839 3.887 12.561 5.839 19.284 5.839s13.444-1.952 19.284-5.839c7.622-5.076 16.109-9.455 24.936-14.072 52.024-27.238 122.192-64.335 128.935-223.441h-346.31c6.743 159.105 76.911 196.202 128.935 223.441z" fill='var(--pattern-color-2)'/>
         </g>
     </defs>
-    <g fi:class="KUsePattern">
+    <g>
         <pattern id="pattern_L1_35" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
             <use xlink:href="#L1_35" x="-350" y="-350"/>
             <use xlink:href="#L1_35" x="0" y="-350"/>
@@ -52,7 +52,7 @@
         </pattern>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_L1_35)"/>
     </g>
-    <g fi:class="KUsePattern">
+    <g>
         <pattern id="pattern_L1_36" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
             <use xlink:href="#L1_36" x="-350" y="-350"/>
             <use xlink:href="#L1_36" x="0" y="-350"/>
@@ -70,7 +70,7 @@
         </pattern>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_L1_36)"/>
     </g>
-    <g fi:class="KUsePattern">
+    <g>
         <pattern id="pattern_L1_37" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
             <use xlink:href="#L1_37" x="-350" y="-350"/>
             <use xlink:href="#L1_37" x="0" y="-350"/>
@@ -88,7 +88,7 @@
         </pattern>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_L1_37)"/>
     </g>
-    <g fi:class="KUsePattern" transform="matrix(1 0 0 1 20 20)">
+    <g transform="matrix(1 0 0 1 20 20)">
         <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
             <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
             <use xlink:href="#UNKNOWN" x="0" y="-350"/>
@@ -106,7 +106,7 @@
         </pattern>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_UNKNOWN)"/>
     </g>
-    <!-- <g fi:class="KUsePattern" transform="matrix(1 0 0 1 20 20)">
+    <!-- <g transform="matrix(1 0 0 1 20 20)">
         <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform='translate(10 30)'>
             <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
             <use xlink:href="#UNKNOWN" x="0" y="-350"/>
@@ -120,7 +120,7 @@
         </pattern>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_UNKNOWN)"/>
     </g> -->
-    <!-- <g fi:class="KUsePattern" transform="matrix(1 0 0 1 20 20)">
+    <!-- <g transform="matrix(1 0 0 1 20 20)">
         <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse">
             <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
             <use xlink:href="#UNKNOWN" x="0" y="-350"/>
@@ -134,7 +134,7 @@
         </pattern>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_UNKNOWN)"/>
     </g> -->
-    <!-- <g fi:class="KUsePattern" transform="matrix(1 0 0 1 40 40)">
+    <!-- <g transform="matrix(1 0 0 1 40 40)">
         <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse">
             <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
             <use xlink:href="#UNKNOWN" x="0" y="-350"/>
@@ -148,7 +148,7 @@
         </pattern>
         <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern_UNKNOWN)"/>
     </g> -->
-    <!-- <g fi:class="KUsePattern" transform="matrix(1 0 0 1 60 60)">
+    <!-- <g transform="matrix(1 0 0 1 60 60)">
         <pattern id="pattern_UNKNOWN" width="350" height="350" patternUnits="userSpaceOnUse" patternTransform="translate(10, 10)">
             <use xlink:href="#UNKNOWN" x="-350" y="-350"/>
             <use xlink:href="#UNKNOWN" x="0" y="-350"/>

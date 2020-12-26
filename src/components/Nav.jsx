@@ -6,14 +6,11 @@ import React from 'react';
 
 const links = [
   { label: 'Bugs & Fish', url: '/' },
-  { label: 'About', url: '/about' },
+  { label: 'Flowers', url: '/flowers' },
   { label: 'DIY Recipes', url: '/diy' },
   { label: 'Manage Data', url: '/share' },
+  { label: 'About', url: '/about' },
 ];
-
-if (process.env.GATSBY_DEVELOPMENT) {
-  links.push({ label: 'Flowers', url: '/flowers' });
-}
 
 function Nav(props) {
   const { open, content, onClose, location } = props;
@@ -42,9 +39,7 @@ function Nav(props) {
                 onClick={link.onClick}
                 key={link.label}
                 className={classnames('item', {
-                  active:
-                    link.url === location.pathname ||
-                    link.url + '/' === location.pathname,
+                  active: link.url === location.pathname || link.url + '/' === location.pathname,
                 })}
               >
                 {link.label}

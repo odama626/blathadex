@@ -3,10 +3,9 @@ import { DateTime } from 'luxon';
 import React, { useEffect, useRef, useLayoutEffect, useState } from 'react';
 import diy404Src from 'images/diy404.svg';
 
-export const capitalize = s => `${s[0].toUpperCase()}${s.substr(1)}`;
+export const capitalize = s => (s?.length ? `${s[0].toUpperCase()}${s.substr(1)}` : s);
 export const getFileName = s => s.replace(/\s/g, '_').toLowerCase();
-export const getCardImage = (theme, name) =>
-  `/static/themes/${theme}/${getFileName(name)}.jpg`;
+export const getCardImage = (theme, name) => `/static/themes/${theme}/${getFileName(name)}.jpg`;
 export const getSpreadImage = (api, layout) => `${api}${layout && layout.url}`;
 export const convertLineBreaks = text =>
   text.split('\n\n').map((paragraph, key) => <p key={key}>{paragraph}</p>);
@@ -115,15 +114,11 @@ export function isCritterAvailableInMonth(date, critter) {
   return isAvailableOnDate(date, critter).inMonth;
 }
 
-export function calculateDeltaDiffs(
-  critters,
-  { deltas, hemisphere, unit = 'month' }
-) {
+export function calculateDeltaDiffs(critters, { deltas, hemisphere, unit = 'month' }) {
   let curTime = DateTime.local().plus({
     months: hemisphere === 'southern' ? 6 : 0,
   });
-  let compare =
-    unit === 'month' ? isCritterAvailableInMonth : isCritterAvailable;
+  let compare = unit === 'month' ? isCritterAvailableInMonth : isCritterAvailable;
 
   return deltas.reduce(
     (history, delta) => {
@@ -229,10 +224,7 @@ const getCritterSectionsToday = (critters, hemisphere) => {
     }
   });
 
-  const times = [
-    ...critterTimes.slice(minDeltaIndex),
-    ...critterTimes.slice(0, minDeltaIndex),
-  ];
+  const times = [...critterTimes.slice(minDeltaIndex), ...critterTimes.slice(0, minDeltaIndex)];
 
   const deltas = times.map(c => ({ hours: c - now.hour }));
   let [cur, ...diffs] = calculateDeltaDiffs(critters, {
@@ -247,9 +239,7 @@ const getCritterSectionsToday = (critters, hemisphere) => {
       critters: cur.available,
     },
     ...diffs.map((diff, i) => ({
-      section: `Available at ${now
-        .plus(deltas[i])
-        .toLocaleString(DateTime.TIME_SIMPLE)}`,
+      section: `Available at ${now.plus(deltas[i]).toLocaleString(DateTime.TIME_SIMPLE)}`,
       critters: diff.new,
     })),
   ];
@@ -258,8 +248,7 @@ const getCritterSectionsToday = (critters, hemisphere) => {
 export function filterCritters(critters, caught, filter) {
   return critters.filter(critter => {
     if (filter.caught) {
-      if (caught.find(c => critter.no === c.no && critter.type === c.type))
-        return false;
+      if (caught.find(c => critter.no === c.no && critter.type === c.type)) return false;
     }
     if (filter.type) {
       if (!~filter.type.indexOf(critter.type)) return false;
@@ -274,18 +263,12 @@ const escapePath = s =>
     .replace(/\s/g, '_')
     .replace(/[^a-zA-Z0-9-/_]/g, '');
 
-export const createCritterLink = critter =>
-  escapePath(`/critter/${critter.type}/${critter.name}`);
+export const createCritterLink = critter => escapePath(`/critter/${critter.type}/${critter.name}`);
 
-export const createDiyLink = diy =>
-  escapePath(`/${diy.section || diy.type}/${diy.name}`);
+export const createItemLink = diy => escapePath(`/${diy.section || diy.type}/${diy.name}`);
 
 export const createImgSrc = ({ type, name, ext = 'png' }, asIs) =>
-  withPrefix(
-    `/${type}/${
-      asIs ? name : `${name[0]}${name.slice(1).toLowerCase()}`
-    }.${ext}`
-  );
+  withPrefix(`/${type}/${asIs ? name : `${name[0]}${name.slice(1).toLowerCase()}`}.${ext}`);
 
 export const useEventListener = (event, callback) => {
   const target = useRef();

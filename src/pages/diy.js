@@ -5,21 +5,20 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import BottomNav, { FAB_BUTTON } from '../components/BottomNav/BottomNav';
 import SearchOverlay from 'components/Search';
+import ItemBlock from 'components/ItemBlock';
 
 const DiyList = ({ recipes }) => {
   const [searchOpen, setSearchOpen] = useState(false);
   return (
     <Layout>
       <SEO title='DIY Recipes' />
-      {searchOpen && (
-        <div className='shade' onClick={() => setSearchOpen(false)} />
-      )}
+      {searchOpen && <div className='shade' onClick={() => setSearchOpen(false)} />}
       {searchOpen && <SearchOverlay showResults attached />}
       <section>
         <h2>DIY Recipes</h2>
         <div className='grid'>
           {recipes.map(recipe => (
-            <DiyBlock key={recipe.id} diy={recipe} />
+            <ItemBlock key={recipe.id} item={recipe} />
           ))}
         </div>
       </section>
@@ -33,9 +32,7 @@ const DiyList = ({ recipes }) => {
 };
 
 export default function DiyListContainer(props) {
-  return (
-    <DiyList recipes={props.data.allDiyJson.edges.map(edge => edge.node)} />
-  );
+  return <DiyList recipes={props.data.allDiyJson.edges.map(edge => edge.node)} />;
 }
 
 export const query = graphql`

@@ -33,17 +33,17 @@ export const CritterBlock = critter => {
   });
 
   return (
-    <div
+    <button
       {...lpProps}
       data-selected={!!~selected.indexOf(critter.id)}
       className={classnames('critter block', { caught, leaving })}
     >
-      <div className="stack">
+      <div className='stack'>
         <CritterImage type={type} name={name} />
-        {caught && <Checkmark className="critter badge bottom" />}
-        {leaving && <WarningIcon className="critter badge" />}
+        {caught && <Checkmark className='badge bottom left' />}
+        {leaving && <WarningIcon className='badge top right overhang' />}
       </div>
-    </div>
+    </button>
   );
 };
 
@@ -54,10 +54,11 @@ export const CritterCollection = ({
   multiSelect,
   leaving = [],
 }) => {
-  let caughtCritters = !caught ? [] : critters.filter(
-    (critter = {}) =>
-      !!caught.find(c => c.type === critter.type && c.no === critter.no)
-  );
+  let caughtCritters = !caught
+    ? []
+    : critters.filter(
+        (critter = {}) => !!caught.find(c => c.type === critter.type && c.no === critter.no)
+      );
   let caughtIds = caughtCritters.map(c => c.id);
   let topCritters = critters;
 

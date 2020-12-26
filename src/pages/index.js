@@ -3,17 +3,9 @@ import orderBy from 'lodash.orderby';
 import React, { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import useAppContext, { updateFilter } from '../app/context';
 import db from '../app/database';
-import {
-  filterCritters,
-  getCritterSectionGroups,
-  getNearestTimeDiff,
-} from '../app/utils';
+import { filterCritters, getCritterSectionGroups, getNearestTimeDiff } from '../app/utils';
 import { CritterCollection } from '../components/critters/Critter';
-import FilterWidget, {
-  Filter,
-  Sort,
-  Settings,
-} from '../components/FilterWidget';
+import FilterWidget, { Filter, Sort, Settings } from '../components/FilterWidget';
 import Layout from '../components/layout';
 import Section from '../components/Section';
 import SelectionWidget from '../components/SelectionWidget';
@@ -30,10 +22,9 @@ import { useScrollListener } from 'app/hooks';
 import SearchOverlay from 'components/Search';
 
 export default function IndexPageContainer(props) {
-  const availableCritters = useMemo(
-    () => props.data.allCrittersJson.edges.map(edge => edge.node),
-    [props.data.allCrittersJson.edges]
-  );
+  const availableCritters = useMemo(() => props.data.allCrittersJson.edges.map(edge => edge.node), [
+    props.data.allCrittersJson.edges,
+  ]);
 
   const [state] = useAppContext();
   const sort = state.sort;
@@ -44,10 +35,10 @@ export default function IndexPageContainer(props) {
     [sort, availableCritters]
   );
 
-  const initialGroups = useMemo(
-    () => getCritterSectionGroups(sortedCritters, hemisphere),
-    [sortedCritters, hemisphere]
-  );
+  const initialGroups = useMemo(() => getCritterSectionGroups(sortedCritters, hemisphere), [
+    sortedCritters,
+    hemisphere,
+  ]);
 
   const [groups, setGroups] = useState(initialGroups);
 
@@ -80,16 +71,14 @@ function IndexPage({ sectionGroups, critters }) {
     dispatch(updateFilter({ type }));
   };
 
-  useScrollListener(
-    ({ delta }) => menu !== 'search' && delta > 0 && setMenu('')
-  );
+  useScrollListener(({ delta }) => menu !== 'search' && delta > 0 && setMenu(''));
 
   const today = state?.filter?.today;
 
-  const rawSections = useMemo(
-    () => (today ? sectionGroups.days : sectionGroups.months),
-    [sectionGroups, today]
-  );
+  const rawSections = useMemo(() => (today ? sectionGroups.days : sectionGroups.months), [
+    sectionGroups,
+    today,
+  ]);
   const filter = state.filter;
   const [loading, setLoading] = useState(true);
 
@@ -128,9 +117,7 @@ function IndexPage({ sectionGroups, critters }) {
               { value: 'month', label: 'Month', Svg: MonthSvg },
             ]}
             value={filter.today ? 'day' : 'month'}
-            onChange={value =>
-              dispatch(updateFilter({ today: value === 'day' }))
-            }
+            onChange={value => dispatch(updateFilter({ today: value === 'day' }))}
           />
         </div>
       }
@@ -160,10 +147,7 @@ function IndexPage({ sectionGroups, critters }) {
               onClick={toggleMenu('filter')}
               className={menu === 'filter' ? 'active' : ''}
             />
-            <SortIcon
-              onClick={toggleMenu('sort')}
-              className={menu === 'sort' ? 'active' : ''}
-            />
+            <SortIcon onClick={toggleMenu('sort')} className={menu === 'sort' ? 'active' : ''} />
             <SettingsIcon
               onClick={toggleMenu('settings')}
               className={menu === 'settings' ? 'active' : ''}
@@ -173,16 +157,10 @@ function IndexPage({ sectionGroups, critters }) {
       >
         <AnimatePresence>
           {menu === 'filter' && (
-            <Filter
-              toggleFilter={toggleFilter}
-              filter={filter}
-              dispatch={dispatch}
-            />
+            <Filter toggleFilter={toggleFilter} filter={filter} dispatch={dispatch} />
           )}
           {menu === 'sort' && <Sort sort={state.sort} dispatch={dispatch} />}
-          {menu === 'settings' && (
-            <Settings filter={filter} dispatch={dispatch} />
-          )}
+          {menu === 'settings' && <Settings filter={filter} dispatch={dispatch} />}
         </AnimatePresence>
       </BottomNav>
       <SelectionWidget onSelect={handleMultiSelect} />
@@ -224,6 +202,7 @@ export const query = graphql`
           emonth2
           emonth
           desc
+          shadow
         }
       }
     }

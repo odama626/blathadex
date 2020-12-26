@@ -3,24 +3,27 @@ import SEO from 'components/seo';
 import { graphql, Link } from 'gatsby';
 import Icon from 'images/inline/Icon404.svg';
 import React from 'react';
+import ItemBlock from 'components/ItemBlock';
 
-const FlowersPage = () => {
+const FlowersPage = ({ flowers }) => {
   return (
     <Layout>
       <SEO title='Flowers' />
       <section>
         <h2>Flowers</h2>
-        <Icon />
-        <p />
-        <Link to='/'>
-          <button>Back to Safety!</button>
-        </Link>
+        <div className='grid'>
+          {flowers.map(flower => (
+            <ItemBlock item={flower} key={flower.id} />
+          ))}
+        </div>
       </section>
     </Layout>
   );
 };
 
-export default FlowersPage;
+export default function FlowerListContainer(props) {
+  return <FlowersPage flowers={props.data.allFlowersJson.edges.map(edge => edge.node)} />;
+}
 
 export const query = graphql`
   query {
@@ -28,9 +31,8 @@ export const query = graphql`
       edges {
         node {
           type
-          color
-          a
-          b
+          name
+          genus
         }
       }
     }

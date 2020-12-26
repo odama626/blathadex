@@ -31,6 +31,7 @@ const critterPageQuery = `
         desc
         rarity
         quote
+        shadow
       }
     }
   }
@@ -64,6 +65,32 @@ const critterPageQuery = `
       }
     }
   }
+  allFlowersJson {
+    edges {
+      node {
+        bells
+        color
+        cost
+        fullImage
+        genus
+        id
+        name
+        obtainedFrom
+        orderable
+        type
+        mixes {
+          a {
+            color
+            hybrid
+          }
+          b {
+            hybrid
+            color
+          }
+        }
+      }
+    }
+  }
 }`;
 
 const escapePath = s =>
@@ -72,8 +99,7 @@ const escapePath = s =>
     .replace(/\s/g, '_')
     .replace(/[^a-zA-Z0-9-\/_]/g, '');
 
-const isSearchMatch = (a, b) =>
-  a.length > 0 && a.filter((x, i) => ~b.indexOf(x)).length;
+const isSearchMatch = (a, b) => a.length > 0 && a.filter((x, i) => ~b.indexOf(x)).length;
 
 const createCritterPage = (createPage, groups) => critter => {
   return createPage({
@@ -108,8 +134,10 @@ const createDiyPage = (createPage, recipes) => diy => {
     }
 
     return {
+      ...recipe,
       ...material,
       link,
+      type: recipe ? 'diy' : 'material',
     };
   });
 
@@ -123,9 +151,7 @@ const createDiyPage = (createPage, recipes) => diy => {
 const createMaterialPage = (createPage, allRecipes) => material => {
   let name = material.name.toLowerCase();
   let recipes = allRecipes.filter(recipe =>
-    recipe.materialsNeeded.find(
-      m => ~(m.ingredient || '').toLowerCase().indexOf(name)
-    )
+    recipe.materialsNeeded.find(m => ~(m.ingredient || '').toLowerCase().indexOf(name))
   );
 
   return createPage({
@@ -135,27 +161,46 @@ const createMaterialPage = (createPage, allRecipes) => material => {
   });
 };
 
+const createFlowerPage = ({ createPage, createRedirect }, allRecipes) => (flower, _, flowers) => {
+  let name = flower.name.toLowerCase();
+  let recipes = allRecipes.filter(recipe =>
+    recipe.materialsNeeded.find(m => ~(m.ingredient || '').toLowerCase().indexOf(name))
+  );
+  let similar = flowers.filter(f => f.genus === flower.genus);
+
+  createRedirect({
+    fromPath: escapePath(`/material/${flower.name}`),
+    isPermanent: true,
+    redirectInBrowser: true,
+    toPath: escapePath(`/flower/${flower.name}`),
+  });
+
+  return createPage({
+    path: escapePath(`/flower/${flower.name}`),
+    component: path.resolve('./src/templates/FlowerPage.jsx'),
+    context: { flower, recipes, similar },
+  });
+};
+
 exports.createPages = async ({ graphql, ...gatsby }) => {
-  const { createPage } = gatsby.actions;
+  const { createPage, createRedirect } = gatsby.actions;
   let results = await graphql(critterPageQuery);
-  const { allCrittersJson, allDiyJson, allMaterialsJson } = results.data;
+  const { allCrittersJson, allDiyJson, allMaterialsJson, allFlowersJson } = results.data;
 
   if (results.errors) throw new Error(results.errors);
   const critters = allCrittersJson.edges.map(edge => edge.node).filter(Boolean);
   const diys = allDiyJson.edges.map(edge => edge.node).filter(Boolean);
-  const materials = allMaterialsJson.edges
-    .map(edge => edge.node)
-    .filter(Boolean);
+  const materials = allMaterialsJson.edges.map(edge => edge.node).filter(Boolean);
+  const flowers = allFlowersJson.edges.map(edge => edge.node).filter(Boolean);
 
-  const critterGroups = groupBy(critters, critter =>
-    getCritterLocation(critter.loc)
-  );
+  const critterGroups = groupBy(critters, critter => getCritterLocation(critter.loc));
 
   let promises = [];
 
   promises.push(critters.map(createCritterPage(createPage, critterGroups)));
   promises.push(diys.map(createDiyPage(createPage, diys)));
   promises.push(materials.map(createMaterialPage(createPage, diys)));
+  promises.push(flowers.map(createFlowerPage({ createPage, createRedirect }, diys)));
 
   return Promise.all(promises);
 };

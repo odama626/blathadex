@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import { useMemo } from 'react';
-import { createCritterLink, createImgSrc, createDiyLink } from './utils';
+import { createCritterLink, createImgSrc, createItemLink } from './utils';
 
 export default function useAllData() {
   const data = useStaticQuery(graphql`
@@ -79,13 +79,13 @@ export default function useAllData() {
       materials.map(material => ({
         label: material.name,
         search: `material/${material.name}`.toLowerCase(),
-        link: createDiyLink(material),
+        link: createItemLink(material),
         image: createImgSrc(material, true),
       })),
       recipes.map(recipe => ({
         label: recipe.name,
         search: `${recipe.obtainedFrom}/${recipe.section}/${recipe.name}`.toLowerCase(),
-        link: createDiyLink(recipe),
+        link: createItemLink(recipe),
         image: createImgSrc(recipe, true),
       })),
     ].flat();
