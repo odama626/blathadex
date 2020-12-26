@@ -7,10 +7,14 @@ import Checkmark from 'images/inline/checkmark.svg';
 import WarningIcon from 'images/inline/warningIcon.svg';
 import { useLongPressable } from '../LongPressableDiv';
 import './critter.scss';
+import Img from 'gatsby-image';
 
-export const CritterImage = ({ type, name, ...rest }) => (
-  <img {...rest} alt={name} src={createImgSrc({ type, name })} />
-);
+export const CritterImage = ({ type, name, image, style, ...rest }) =>
+  image ? (
+    <Img fluid={image.childImageSharp.fluid} alt={name} style={style} imgStyle={style} {...rest} />
+  ) : (
+    <img {...rest} alt={name} src={createImgSrc({ type, name })} style={style} />
+  );
 
 export const CritterBlock = critter => {
   const { name, type, caught, leaving, allowSelect } = critter;
@@ -20,6 +24,7 @@ export const CritterBlock = critter => {
     e => {
       if (!selected.length) {
         navigate(createCritterLink(critter));
+        // navigate(`/critters/${critter.name.toLowerCase().replace(' ', '-')}`)
       } else {
         toggle(critter);
       }
@@ -39,7 +44,7 @@ export const CritterBlock = critter => {
       className={classnames('critter block', { caught, leaving })}
     >
       <div className='stack'>
-        <CritterImage type={type} name={name} />
+        <CritterImage image={critter.image} type={type} name={name} />
         {caught && <Checkmark className='badge bottom left' />}
         {leaving && <WarningIcon className='badge top right overhang' />}
       </div>

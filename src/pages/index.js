@@ -203,6 +203,13 @@ export const query = graphql`
           emonth
           desc
           shadow
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }

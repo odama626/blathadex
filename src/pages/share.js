@@ -123,6 +123,9 @@ const NotFoundPage = props => {
         <section>
           <h2>Heres all your Blathadex Data</h2>
           <div style={{ margin: 'auto' }} dangerouslySetInnerHTML={{ __html: QrTag }} />
+          <div>
+            {/* <input type='file' label='Restore Data' /> */}
+          </div>
           <WebVideo onData={onData} />
         </section>
       )}

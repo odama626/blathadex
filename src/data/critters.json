@@ -14,7 +14,8 @@
     "family": "Pieridae (White butterflies)",
     "size": "50 mm",
     "sci": "Pieris rapae",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Common butterfly.png"
   },
   {
     "type": "bug",
@@ -33,7 +34,8 @@
     "family": "Pieridae - White butterflies",
     "size": "50 mm",
     "sci": "Colias erate",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Yellow butterfly.png"
   },
   {
     "type": "bug",
@@ -50,7 +52,8 @@
     "family": "Papilionidae- Swallowtail Butterflies",
     "size": "90 mm",
     "sci": "Papilio machaon",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Tiger butterfly.png"
   },
   {
     "type": "bug",
@@ -67,7 +70,8 @@
     "family": "Papilionidae",
     "size": "105 mm",
     "sci": "Papilio bianor",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Peacock butterfly.png"
   },
   {
     "type": "bug",
@@ -84,7 +88,8 @@
     "family": "Papilionidae- Swallowtail Butterflies",
     "size": "Unknown",
     "sci": "Graphium sarpedon",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Common bluebottle.png"
   },
   {
     "type": "bug",
@@ -101,7 +106,8 @@
     "family": "Nymphalidae",
     "size": "Unknown",
     "sci": "Idea leuconoe",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Paper kite butterfly.png"
   },
   {
     "type": "bug",
@@ -118,7 +124,8 @@
     "family": "Nymphalidae - The Brush-foots",
     "size": "50-65 mm",
     "sci": "Sasakia charonda",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Great purple emperor.png"
   },
   {
     "type": "bug",
@@ -135,7 +142,8 @@
     "family": "Nymphalidae - Admirals",
     "size": "85 mm",
     "sci": "Danaus plexippus",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Monarch butterfly.png"
   },
   {
     "type": "bug",
@@ -154,7 +162,8 @@
     "family": "Nymphalidae",
     "size": "115 mm",
     "sci": "Morpho menelaus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Emperor butterfly.png"
   },
   {
     "type": "bug",
@@ -171,7 +180,8 @@
     "family": "Nymphalidae- Brush-Footed Butterflies",
     "size": "42 mm",
     "sci": "Agrias claudina sardanapalus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Agrias butterfly.png"
   },
   {
     "type": "bug",
@@ -190,7 +200,8 @@
     "family": "Papilionidae - Butterflies",
     "size": "140 mm",
     "sci": "Trogonoptera brookiana",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Rajah brooke's birdwing.png"
   },
   {
     "type": "bug",
@@ -207,7 +218,8 @@
     "family": "Swallowtail butterfly",
     "size": "Unknown",
     "sci": "Ornithoptera alexandrae",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Queen alexandra's birdwing.png"
   },
   {
     "type": "bug",
@@ -224,7 +236,8 @@
     "family": "Saturniidae",
     "size": "60 mm",
     "sci": "Aglia japonica microtau",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Moth.png"
   },
   {
     "type": "bug",
@@ -241,7 +254,8 @@
     "family": "Saturniidae",
     "size": "Unknown",
     "sci": "Attacus atlas",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Atlas moth.png"
   },
   {
     "type": "bug",
@@ -258,7 +272,8 @@
     "family": "Uraniidae",
     "size": "Unknown",
     "sci": "Chrysiridia rhipheus",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Madagascan sunset moth.png"
   },
   {
     "type": "bug",
@@ -275,7 +290,8 @@
     "family": "Acrididae",
     "size": "73 mm",
     "sci": "Acrida cinerea",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Long locust.png"
   },
   {
     "type": "bug",
@@ -292,7 +308,8 @@
     "family": "Acrididae - Grasshoppers",
     "size": "58 mm",
     "sci": "Locusta migratoria",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Migratory locust.png"
   },
   {
     "type": "bug",
@@ -309,7 +326,8 @@
     "family": "Acrididae",
     "size": "25mm",
     "sci": "Oxya japonica",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Rice grasshopper.png"
   },
   {
     "type": "bug",
@@ -326,7 +344,8 @@
     "family": "Acrididae",
     "size": "43 mm",
     "sci": "Melanoplus sanguinipes",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Grasshopper.png"
   },
   {
     "type": "bug",
@@ -343,7 +362,8 @@
     "family": "Gryllidae",
     "size": "28 mm",
     "sci": "Teleogryllus emma",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Cricket.png"
   },
   {
     "type": "bug",
@@ -360,7 +380,8 @@
     "family": "Gryllidae",
     "size": "18 mm",
     "sci": "Homoeogryllus japonicus",
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/bug/Bell cricket.png"
   },
   {
     "type": "bug",
@@ -377,7 +398,8 @@
     "family": "Mantidae - Mantids",
     "size": "82mm",
     "sci": "Hierodula patellifera",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Mantis.png"
   },
   {
     "type": "bug",
@@ -394,7 +416,8 @@
     "family": "Hymenopodidae - Mantids",
     "size": "35 mm",
     "sci": "Hymenopus coronatus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Orchid mantis.png"
   },
   {
     "type": "bug",
@@ -411,7 +434,8 @@
     "family": "Apidae- Various Bees",
     "size": "13 mm",
     "sci": "Apis cerana",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Honeybee.png"
   },
   {
     "type": "bug",
@@ -428,7 +452,8 @@
     "family": "Vespidae- The social wasps",
     "size": "38 mm",
     "sci": "Vespa mandarinia japonica",
-    "rarity": "limited per day"
+    "rarity": "limited per day",
+    "image": "../images/bug/Wasp.png"
   },
   {
     "type": "bug",
@@ -445,7 +470,8 @@
     "family": "Cicadidae - Cicadas",
     "size": "58 mm",
     "sci": "Graptopsaltria nigrofuscata",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Brown cicada.png"
   },
   {
     "type": "bug",
@@ -462,7 +488,8 @@
     "family": "Cicadidae - Cicadas",
     "size": "60 mm",
     "sci": "Oncotympana maculaticollis, Synonym: Hyalessa maculaticollis",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Robust cicada.png"
   },
   {
     "type": "bug",
@@ -479,7 +506,8 @@
     "family": "Cicadidae - Cicadas",
     "size": "62mm",
     "sci": "Cryptotympana fascialis",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Giant cicada.png"
   },
   {
     "type": "bug",
@@ -496,7 +524,8 @@
     "family": "Cicadidae - cicadas",
     "size": "44 mm",
     "sci": "Meimuna opalifera.",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Walker cicada.png"
   },
   {
     "type": "bug",
@@ -515,7 +544,8 @@
     "family": "Cicadidae - Cicadas",
     "size": "45 mm",
     "sci": "Tanna japonensis",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Evening cicada.png"
   },
   {
     "type": "bug",
@@ -532,7 +562,8 @@
     "family": "Cicadidae - Cicadas",
     "size": "18mm",
     "sci": "Cicadidae sp.",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Cicada shell.png"
   },
   {
     "type": "bug",
@@ -549,7 +580,8 @@
     "family": "Libellulidae",
     "size": "38 mm",
     "sci": "Sympetrum frequens",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Red dragonfly.png"
   },
   {
     "type": "bug",
@@ -566,7 +598,8 @@
     "family": "Aeshnidae",
     "size": "76 mm",
     "sci": "Anax parthenope",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Darner dragonfly.png"
   },
   {
     "type": "bug",
@@ -583,7 +616,8 @@
     "family": "Cordulegastridae - Spiketails",
     "size": "90 mm",
     "sci": "Anotogaster sieboldii",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Banded dragonfly.png"
   },
   {
     "type": "bug",
@@ -600,7 +634,8 @@
     "family": "Coenagrionidae",
     "size": "Unknown",
     "sci": "Ischnura senegalensis",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Damselfly.png"
   },
   {
     "type": "bug",
@@ -617,7 +652,8 @@
     "family": "Lampyridae - Fireflies",
     "size": "15 mm",
     "sci": "Luciola lateralis",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Firefly.png"
   },
   {
     "type": "bug",
@@ -634,7 +670,8 @@
     "family": "Gryllotalpidae - Mole crickets",
     "size": "35 mm",
     "sci": "Gryllotalpidae",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Mole cricket.png"
   },
   {
     "type": "bug",
@@ -651,7 +688,8 @@
     "family": "Gerridae",
     "size": "14 mm",
     "sci": "Aquarius paludum paludum",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Pondskater.png"
   },
   {
     "type": "bug",
@@ -668,7 +706,8 @@
     "family": "Dytiscidae - Predaceous Diving Beetles",
     "size": "38 mm",
     "sci": "Cybister japonicus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Diving beetle.png"
   },
   {
     "type": "bug",
@@ -685,7 +724,8 @@
     "family": "Belostomatidae",
     "size": "Unknown",
     "sci": "Lethocerus americanus",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Giant water bug.png"
   },
   {
     "type": "bug",
@@ -702,7 +742,8 @@
     "family": "Pentatomidae",
     "size": "15mm",
     "sci": "Pentatoma japonica",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Stinkbug.png"
   },
   {
     "type": "bug",
@@ -717,7 +758,8 @@
     "family": "Pentatomidae",
     "size": "Unknown",
     "sci": "Catacanthus incarnatus",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Man-faced stink bug.png"
   },
   {
     "type": "bug",
@@ -736,7 +778,8 @@
     "family": "Coccinellidae- Ladybugs",
     "size": "5 mm",
     "sci": "Chilocorus bivulnerus",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Ladybug.png"
   },
   {
     "type": "bug",
@@ -753,7 +796,8 @@
     "family": "Carabidae- Ground Beetles",
     "size": "18mm",
     "sci": "Cicindela japonica",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Tiger beetle.png"
   },
   {
     "type": "bug",
@@ -770,7 +814,8 @@
     "family": "Buprestidae - Jewel Beetles",
     "size": "35 mm",
     "sci": "Chrysochroa fulgidissima",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Jewel beetle.png"
   },
   {
     "type": "bug",
@@ -789,7 +834,8 @@
     "family": "Carabidae - Ground Beetles",
     "size": "40 mm",
     "sci": "Mormolyce phyllodes",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Violin beetle.png"
   },
   {
     "type": "bug",
@@ -806,7 +852,8 @@
     "family": "Cerambycidae",
     "size": "Unknown",
     "sci": "Anoplophora chinensis",
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/bug/Citrus long-horned beetle.png"
   },
   {
     "type": "bug",
@@ -823,7 +870,8 @@
     "family": "Cerambycidae",
     "size": "Unknown",
     "sci": "Rosalia batesi",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Rosalia batesi beetle.png"
   },
   {
     "type": "bug",
@@ -840,7 +888,8 @@
     "family": "Curculionidae",
     "size": "Unknown",
     "sci": "Eupholus schoenherrii",
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/bug/Blue weevil beetle.png"
   },
   {
     "type": "bug",
@@ -857,7 +906,8 @@
     "family": "Scarabaeidae - Dung Beetles",
     "size": "35 mm",
     "sci": "Copris pecuarius",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Dung beetle.png"
   },
   {
     "type": "bug",
@@ -874,7 +924,8 @@
     "family": "Geotrupidae",
     "size": "Unknown",
     "sci": "Phelotrupes auratus",
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/bug/Earth-boring dung beetle.png"
   },
   {
     "type": "bug",
@@ -891,7 +942,8 @@
     "family": "Scarabaeidae - Scarab Beetles",
     "size": "25 mm",
     "sci": "Chrysina resplendens",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Scarab beetle.png"
   },
   {
     "type": "bug",
@@ -908,7 +960,8 @@
     "family": "Scarabaeidae - Scarab Beetles",
     "size": "54 mm",
     "sci": "Rhomborrhina japonica",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Drone beetle.png"
   },
   {
     "type": "bug",
@@ -925,7 +978,8 @@
     "family": "Scarabaeidae",
     "size": "90 mm",
     "sci": "Goliathus goliatus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Goliath beetle.png"
   },
   {
     "type": "bug",
@@ -942,7 +996,8 @@
     "family": "Lucanidae - Stag Beetles",
     "size": "65 mm",
     "sci": "Prosopocoilus inclinatus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Saw stag.png"
   },
   {
     "type": "bug",
@@ -959,7 +1014,8 @@
     "family": "Lucanidae - Stag Beetles",
     "size": "60 mm",
     "sci": "Lucanus maculifermoratus",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Miyama stag.png"
   },
   {
     "type": "bug",
@@ -976,7 +1032,8 @@
     "family": "Lucanidae - Stag Beetles",
     "size": "60 mm",
     "sci": "Dorcus hopei binodulosus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Giant stag.png"
   },
   {
     "type": "bug",
@@ -993,7 +1050,8 @@
     "family": "Lucanidae - stag beetles",
     "size": "59 mm",
     "sci": "Phalacrognathus muelleri",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Rainbow stag.png"
   },
   {
     "type": "bug",
@@ -1010,7 +1068,8 @@
     "family": "Lucanidae- Stag Beetles",
     "size": "105 mm",
     "sci": "Cyclommatus elaphus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Cyclommatus stag.png"
   },
   {
     "type": "bug",
@@ -1027,7 +1086,8 @@
     "family": "Scaribidae - Scarab Beetles",
     "size": "80 mm",
     "sci": "Allotopus rosenbergi",
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/bug/Golden stag.png"
   },
   {
     "type": "bug",
@@ -1044,7 +1104,8 @@
     "family": "Lucanidae",
     "size": "Large",
     "sci": "Unknown",
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/bug/Giraffe stag.png"
   },
   {
     "type": "bug",
@@ -1061,7 +1122,8 @@
     "family": "Scarabaeidae - Scarab beetles",
     "size": "80 mm",
     "sci": "Trypoxylus dichotomus politus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Horned dynastid.png"
   },
   {
     "type": "bug",
@@ -1078,7 +1140,8 @@
     "family": "Scarabaeidae - Scarab beetles",
     "size": "120 mm",
     "sci": "Chalcosoma atlas",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Horned atlas.png"
   },
   {
     "type": "bug",
@@ -1095,7 +1158,8 @@
     "family": "Scarabaeidae - Scarab Beetlessub.Dynastinae",
     "size": "115 mm",
     "sci": "Megasoma elephas",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Horned elephant.png"
   },
   {
     "type": "bug",
@@ -1112,7 +1176,8 @@
     "family": "Scaribidae - Scarab BeetlesSubfamily - Dynastinae",
     "size": "160 mm",
     "sci": "Dynastes hercules",
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/bug/Horned hercules.png"
   },
   {
     "type": "bug",
@@ -1131,7 +1196,8 @@
     "family": "Phasmatidae",
     "size": "85 mm",
     "sci": "Neohirasea japonica",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Walking stick.png"
   },
   {
     "type": "bug",
@@ -1148,7 +1214,8 @@
     "family": "Phyliidae- Walking leaves/leaf insects",
     "size": "70 mm",
     "sci": "Phyllium bioculatum (pulchrifolium)",
-    "rarity": "clear weather: scarce"
+    "rarity": "clear weather: scarce",
+    "image": "../images/bug/Walking leaf.png"
   },
   {
     "type": "bug",
@@ -1165,7 +1232,8 @@
     "family": "Psychidae- Bagworm moths",
     "size": "50 mm",
     "sci": "Eumeta japonica",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Bagworm.png"
   },
   {
     "type": "bug",
@@ -1182,7 +1250,8 @@
     "family": "Formicidae- Ants",
     "size": "5 mm",
     "sci": "Formica sp.",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Ant.png"
   },
   {
     "type": "bug",
@@ -1199,7 +1268,8 @@
     "family": "Conenobitidae",
     "size": "45 mm",
     "sci": "Coenobita cavipes",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Hermit crab.png"
   },
   {
     "type": "bug",
@@ -1216,7 +1286,8 @@
     "family": "Ligiidae",
     "size": "46 mm",
     "sci": "Ligia exotica",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Wharf roach.png"
   },
   {
     "type": "bug",
@@ -1233,7 +1304,8 @@
     "family": "Muscidae-Flies",
     "size": "5 mm",
     "sci": "Musca domestica",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/bug/Fly.png"
   },
   {
     "type": "bug",
@@ -1250,7 +1322,8 @@
     "family": "Culicidae-Mosquitos",
     "size": "6 mm",
     "sci": "Aedes albopictus",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/bug/Mosquito.png"
   },
   {
     "type": "bug",
@@ -1267,7 +1340,8 @@
     "family": "Pulicidae- Fleas",
     "size": "2 mm",
     "sci": "Pulex irritans",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Flea.png"
   },
   {
     "type": "bug",
@@ -1284,7 +1358,8 @@
     "family": "Helicidae - Land Snails",
     "size": "52 mm",
     "sci": "Helix pomatia",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Snail.png"
   },
   {
     "type": "bug",
@@ -1301,7 +1376,8 @@
     "family": "Armadillidiidae - Terrestrial Custaceans",
     "size": "10 mm",
     "sci": "Armadillidium vulgare",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Pill bug.png"
   },
   {
     "type": "bug",
@@ -1318,7 +1394,8 @@
     "family": "Scolopendridae",
     "size": "65 mm",
     "sci": "Scolopendra subspinipes japonica",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/bug/Centipede.png"
   },
   {
     "type": "bug",
@@ -1335,7 +1412,8 @@
     "family": "Araneidae- Orb-weaver Spiders",
     "size": "25 mm",
     "sci": "Argiope bruennichi",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/bug/Spider.png"
   },
   {
     "type": "bug",
@@ -1352,7 +1430,8 @@
     "family": "Theraphosidae",
     "size": "65 mm",
     "sci": "Brachypelma smithi",
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/bug/Tarantula.png"
   },
   {
     "type": "bug",
@@ -1369,7 +1448,8 @@
     "family": "Scorpionidae",
     "size": "160 mm",
     "sci": "Heterometrus swammerdami",
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/bug/Scorpion.png"
   },
   {
     "type": "fish",
@@ -1387,7 +1467,8 @@
     "quote": "I caught a bitterling! It's mad at me, but only a little.",
     "family": null,
     "sci": null,
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Bitterling.png"
   },
   {
     "type": "fish",
@@ -1405,7 +1486,8 @@
     "quote": "I caught a pale chub! That name seems a bit judgy...",
     "family": "Cyprinidae",
     "sci": "Zacco platypus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Pale chub.png"
   },
   {
     "type": "fish",
@@ -1423,7 +1505,8 @@
     "quote": "I caught a crucian carp! My skills are sharp!",
     "family": "Cyprinidae - Carps",
     "sci": "Carassius carassius",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/fish/Crucian carp.png"
   },
   {
     "type": "fish",
@@ -1441,7 +1524,8 @@
     "quote": "I caught a dace! Hope I have some space!",
     "family": "Cyprinidae - Carps/Minnows",
     "sci": "Tribolodon hakonensis",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/fish/Dace.png"
   },
   {
     "type": "fish",
@@ -1459,7 +1543,8 @@
     "quote": "I caught a carp! If I catch another they can carpool!",
     "family": "Cyprinidae - Carp",
     "sci": "Cyprinus carpio",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/fish/Carp.png"
   },
   {
     "type": "fish",
@@ -1477,7 +1562,8 @@
     "quote": "I caught a koi! I don't know why it's so shy... or such a bad speller...",
     "family": "Cyprinidae",
     "sci": "Cyprinus carpio haematopterus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Koi.png"
   },
   {
     "type": "fish",
@@ -1495,7 +1581,8 @@
     "quote": "I caught a goldfish! It's worth its weight in fish!",
     "family": "Cyprinidae - Minnows/Carp",
     "sci": "Carassius auratus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Goldfish.png"
   },
   {
     "type": "fish",
@@ -1513,7 +1600,8 @@
     "quote": "I got a pop-eyed goldfish! It looks so...surprised!",
     "family": "Cyprinidae- Minnows/Carp",
     "sci": "Carassius auratus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Pop-eyed goldfish.png"
   },
   {
     "type": "fish",
@@ -1531,7 +1619,8 @@
     "quote": "I caught a ranchu goldfish! But I prefer balsamicu goldfish!",
     "family": "Cyprinidae",
     "sci": "Carassius auratus",
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/fish/Ranchu goldfish.png"
   },
   {
     "type": "fish",
@@ -1549,7 +1638,8 @@
     "quote": "I caught a killifish! The streams are safe again.",
     "family": "Adrianichthyidae - Ricefishes",
     "sci": "Oryzias latipes",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Killifish.png"
   },
   {
     "type": "fish",
@@ -1567,7 +1657,8 @@
     "quote": "I caught a crawfish! Or else it's a lobster, and I'm a giant!",
     "family": "Cambaridae - Crayfishsup.Astacoidea",
     "sci": "Procambarus clarkii",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Crawfish.png"
   },
   {
     "type": "fish",
@@ -1585,7 +1676,8 @@
     "quote": "I caught a soft-shelled turtle! It's more sensitive than other turtles.",
     "family": "Trionychidae",
     "sci": "Pelodiscus sinensis",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Soft-shelled turtle.png"
   },
   {
     "type": "fish",
@@ -1603,7 +1695,8 @@
     "quote": null,
     "family": null,
     "sci": null,
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Snapping turtle.png"
   },
   {
     "type": "fish",
@@ -1621,7 +1714,8 @@
     "quote": null,
     "family": "Hylidae - Tree frogs and their allies",
     "sci": "Hyla japonica",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Tadpole.png"
   },
   {
     "type": "fish",
@@ -1639,7 +1733,8 @@
     "quote": null,
     "family": "Hylidae - Tree frogs and their allies",
     "sci": "Hyla japonica",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Frog.png"
   },
   {
     "type": "fish",
@@ -1657,7 +1752,8 @@
     "quote": null,
     "family": "Gobiidae - Gobies",
     "sci": "Odontobutis obscura",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Freshwater goby.png"
   },
   {
     "type": "fish",
@@ -1675,7 +1771,8 @@
     "quote": "I caught a loach! It's ... looking at me with reproach.",
     "family": "Cobitidae- True Loaches",
     "sci": "Misgurnus anguillicaudatus  (Cantor, 1842)",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Loach.png"
   },
   {
     "type": "fish",
@@ -1693,7 +1790,8 @@
     "quote": null,
     "family": "Siluridae - Freshwater Catfishes",
     "sci": "Silurus asotus",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/fish/Catfish.png"
   },
   {
     "type": "fish",
@@ -1709,7 +1807,8 @@
     "quote": null,
     "family": "Channidae - Snakeheads",
     "sci": "Channa argus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Giant snakehead.png"
   },
   {
     "type": "fish",
@@ -1727,7 +1826,8 @@
     "quote": "I caught a bluegill! Do you think it calls me pinklung?",
     "family": null,
     "sci": null,
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Bluegill.png"
   },
   {
     "type": "fish",
@@ -1745,7 +1845,8 @@
     "quote": "I caught a yellow perch! Those yellow birds have to sit somewhere!",
     "family": null,
     "sci": null,
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/fish/Yellow perch.png"
   },
   {
     "type": "fish",
@@ -1763,7 +1864,8 @@
     "quote": "I caught a black bass! The most metal of all fish!",
     "family": null,
     "sci": null,
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Black bass.png"
   },
   {
     "type": "fish",
@@ -1781,7 +1883,8 @@
     "quote": "I caught a tilapia! It makes me happy-a!",
     "family": "Cichlidae",
     "sci": "Tilapia sparrmanii",
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/fish/Tilapia.png"
   },
   {
     "type": "fish",
@@ -1799,7 +1902,8 @@
     "quote": null,
     "family": "Esocidae - Pike",
     "sci": "Esox lucius",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Pike.png"
   },
   {
     "type": "fish",
@@ -1817,7 +1921,8 @@
     "quote": "I caught a pond smelt! Whoever smelt it dealt it!",
     "family": "Osmeridae - Smelts",
     "sci": "Hypomesus olidus",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Pond smelt.png"
   },
   {
     "type": "fish",
@@ -1835,7 +1940,8 @@
     "quote": "I caught a sweetfish! Hope it's not artificially sweet!",
     "family": "Plecoglossidae - Ayu fish",
     "sci": "Plecoglossus altivelis",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/fish/Sweetfish.png"
   },
   {
     "type": "fish",
@@ -1855,7 +1961,8 @@
     "quote": "I caught a cherry salmon! It's the perfect topper for a marlin sundae!",
     "family": "Salmonidae - Salmonidae",
     "sci": "Oncorhynchus masou",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Cherry salmon.png"
   },
   {
     "type": "fish",
@@ -1875,7 +1982,8 @@
     "quote": "I caught a char! Now I'm gonna sit on it!",
     "family": "Salmonidae - Salmon",
     "sci": "Salvelinus leucomaenis",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Char.png"
   },
   {
     "type": "fish",
@@ -1895,7 +2003,8 @@
     "quote": "I caught a golden trout! But the real treasure? Friendship.",
     "family": "Salmonidae",
     "sci": "Oncorhynchus aguabonita",
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/fish/Golden trout.png"
   },
   {
     "type": "fish",
@@ -1913,7 +2022,8 @@
     "quote": "OH MY GOSH! I caught a stringfish! Five more and I'll have a guitarfish!",
     "family": "Salmonidae - Salmon family",
     "sci": "Parahucho perryi",
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/fish/Stringfish.png"
   },
   {
     "type": "fish",
@@ -1931,7 +2041,8 @@
     "quote": null,
     "family": null,
     "sci": null,
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Salmon.png"
   },
   {
     "type": "fish",
@@ -1949,7 +2060,8 @@
     "quote": "Yes! I caught a King salmon! Checkmate!",
     "family": "Salmonidae",
     "sci": "Oncorhynchus tshawytscha",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/King salmon.png"
   },
   {
     "type": "fish",
@@ -1967,7 +2079,8 @@
     "quote": null,
     "family": "Varunidae",
     "sci": "Eriocheir sinensis",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Mitten crab.png"
   },
   {
     "type": "fish",
@@ -1985,7 +2098,8 @@
     "quote": "I caught a guppy! Welcome to the team, newbie!",
     "family": "Poeciliidae - Livebearers",
     "sci": "Poecilia reticulata",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Guppy.png"
   },
   {
     "type": "fish",
@@ -2003,7 +2117,8 @@
     "quote": null,
     "family": "Cyprinidae",
     "sci": "Garra rufa",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Nibble fish.png"
   },
   {
     "type": "fish",
@@ -2021,7 +2136,8 @@
     "quote": "I caught an angelfish! That other fish told me to do it!",
     "family": null,
     "sci": null,
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Angelfish.png"
   },
   {
     "type": "fish",
@@ -2039,7 +2155,8 @@
     "quote": null,
     "family": null,
     "sci": null,
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/fish/Betta.png"
   },
   {
     "type": "fish",
@@ -2057,7 +2174,8 @@
     "quote": "I caught a neon tetra! Wasn't hard to track.",
     "family": "Characidae - Characins",
     "sci": "Paracheirodon innesi",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Neon tetra.png"
   },
   {
     "type": "fish",
@@ -2075,7 +2193,8 @@
     "quote": null,
     "family": "Melanotaeniidae",
     "sci": "Unknown",
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/fish/Rainbowfish.png"
   },
   {
     "type": "fish",
@@ -2095,7 +2214,8 @@
     "quote": null,
     "family": "Characidae",
     "sci": "Pygocentrus natteri",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Piranha.png"
   },
   {
     "type": "fish",
@@ -2113,7 +2233,8 @@
     "quote": "I caught an arowana! I'd make a joke, but I don't 'wana.",
     "family": null,
     "sci": null,
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/fish/Arowana.png"
   },
   {
     "type": "fish",
@@ -2131,7 +2252,8 @@
     "quote": null,
     "family": "Characidae",
     "sci": "Salminus maxillosus",
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/fish/Dorado.png"
   },
   {
     "type": "fish",
@@ -2149,7 +2271,8 @@
     "quote": null,
     "family": "Lepisosteidae - Gars",
     "sci": "Lepisosteus oculatus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Gar.png"
   },
   {
     "type": "fish",
@@ -2167,7 +2290,8 @@
     "quote": "I caught an arapaima! How did it get here? Arapaiknow!",
     "family": null,
     "sci": null,
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/fish/Arapaima.png"
   },
   {
     "type": "fish",
@@ -2185,7 +2309,8 @@
     "quote": null,
     "family": null,
     "sci": null,
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/fish/Saddled bichir.png"
   },
   {
     "type": "fish",
@@ -2203,7 +2328,8 @@
     "quote": "I caught a sturgeon! Wonder if it can perform sturgery...",
     "family": "Acipenseridae",
     "sci": "Acipenser oxyrinchus oxyrinchus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Sturgeon.png"
   },
   {
     "type": "fish",
@@ -2221,7 +2347,8 @@
     "quote": "I caught a sea butterfly! Try not to confuse it for a sea moth!",
     "family": "Clionidae",
     "sci": "Clione limacina",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Sea butterfly.png"
   },
   {
     "type": "fish",
@@ -2239,7 +2366,8 @@
     "quote": "I caught a sea horse! But...where's its sea jockey?",
     "family": "Syngnathidae - Seahorses",
     "sci": "Hippocampus kuda",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/fish/Sea horse.png"
   },
   {
     "type": "fish",
@@ -2257,7 +2385,8 @@
     "quote": "I caught a clown fish! How many can fit in a carfish?",
     "family": "Pomacentridae - Clownfish/Damselfish",
     "sci": "Amphiprion bicinctus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Clown fish.png"
   },
   {
     "type": "fish",
@@ -2275,7 +2404,8 @@
     "quote": "I caught a surgeonfish! Scalpel! Forceps! Fish hook!",
     "family": "Acanthuridae - Surgeonfish",
     "sci": "Paracanthurus hepatus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Surgeonfish.png"
   },
   {
     "type": "fish",
@@ -2293,7 +2423,8 @@
     "quote": "I caught a butterfly fish! Did it change from a caterpillar fish?",
     "family": "Chaetodontidae - Butterflyfish",
     "sci": "Chaetodon auripes",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Butterfly fish.png"
   },
   {
     "type": "fish",
@@ -2311,7 +2442,8 @@
     "quote": "I caught a Napoleonfish! It’s not as big as it thinks!",
     "family": "Labridae - Wrasse",
     "sci": "Cheilinus undulatus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Napoleonfish.png"
   },
   {
     "type": "fish",
@@ -2329,7 +2461,8 @@
     "quote": "I caught a zebra turkeyfish! Land, air, water--make up your mind!",
     "family": null,
     "sci": null,
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Zebra turkeyfish.png"
   },
   {
     "type": "fish",
@@ -2347,7 +2480,8 @@
     "quote": null,
     "family": "Tetraodontidae",
     "sci": "Takifugu rubripes",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Blowfish.png"
   },
   {
     "type": "fish",
@@ -2365,7 +2499,8 @@
     "quote": "I caught a puffer fish! I thought you would be tougher, fish!",
     "family": "Diodontidae",
     "sci": "Diodon holocanthus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Puffer fish.png"
   },
   {
     "type": "fish",
@@ -2377,7 +2512,8 @@
     "etime": 21,
     "loc": "Ocean",
     "bells": 200,
-    "desc": "There are more than 140 species of anchovy, but they do all have some things in common. They are small and feed by simply swimming with their mouths open to filter food particles from the sea. (In my sleepier moments, I sometimes wish I could do that...)"
+    "desc": "There are more than 140 species of anchovy, but they do all have some things in common. They are small and feed by simply swimming with their mouths open to filter food particles from the sea. (In my sleepier moments, I sometimes wish I could do that...)",
+    "image": "../images/fish/Anchovy.png"
   },
   {
     "type": "fish",
@@ -2395,7 +2531,8 @@
     "quote": "I caught a horse mackerel! Of course, Mack...er..el.",
     "family": "Carangidae - The jacks and pompanos",
     "sci": "Trachurus japonicus",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Horse mackerel.png"
   },
   {
     "type": "fish",
@@ -2413,7 +2550,8 @@
     "quote": "I caught a barred knifejaw! They must have a hard time eating!",
     "family": "Oplegnathidae - Beakfish and knifejaws",
     "sci": "Oplegnathus fasciatus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Barred knifejaw.png"
   },
   {
     "type": "fish",
@@ -2431,7 +2569,8 @@
     "quote": "I caught a sea bass! No, wait- it's at least a C+!",
     "family": "Moronidae - Temperate basses",
     "sci": "Lateolabrax japonicus",
-    "rarity": "common"
+    "rarity": "common",
+    "image": "../images/fish/Sea bass.png"
   },
   {
     "type": "fish",
@@ -2449,7 +2588,8 @@
     "quote": "I caught a red snapper! It looks pretty dapper!",
     "family": "Lujanidae - Snappers",
     "sci": "Lutjanus campechanus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Red snapper.png"
   },
   {
     "type": "fish",
@@ -2467,7 +2607,8 @@
     "quote": "I caught a dab! Not bad!",
     "family": "Pleuronectidae - Righteye flounders",
     "sci": "Limanda proboscidea",
-    "rarity": "fairly common"
+    "rarity": "fairly common",
+    "image": "../images/fish/Dab.png"
   },
   {
     "type": "fish",
@@ -2485,7 +2626,8 @@
     "quote": "I caught an olive flounder! That's not the pits!",
     "family": "Paralicthydae - Large-tooth flounders",
     "sci": "Paralichthys olivaceus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Olive flounder.png"
   },
   {
     "type": "fish",
@@ -2503,7 +2645,8 @@
     "quote": "I caught a squid! It's off the hook!",
     "family": "Loliginidae - Squid",
     "sci": "Todarodes pacificus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Squid.png"
   },
   {
     "type": "fish",
@@ -2521,7 +2664,8 @@
     "quote": null,
     "family": "Muraenidae - Moray eels",
     "sci": "Gymnothorax kidako",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Moray eel.png"
   },
   {
     "type": "fish",
@@ -2539,7 +2683,8 @@
     "quote": null,
     "family": "Muraenidae",
     "sci": "Rhinomuraena quaesita",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Ribbon eel.png"
   },
   {
     "type": "fish",
@@ -2557,7 +2702,8 @@
     "quote": "I caught a tuna! It's a little off-key!",
     "family": null,
     "sci": null,
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Tuna.png"
   },
   {
     "type": "fish",
@@ -2577,7 +2723,8 @@
     "quote": "I caught a blue marlin! Listen to this fish. it's got a point.",
     "family": "Makaira - the marlins and spearfish",
     "sci": "Makaira nigricans",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Blue marlin.png"
   },
   {
     "type": "fish",
@@ -2595,7 +2742,8 @@
     "quote": null,
     "family": "Carangidae",
     "sci": "Caranx ignobilis",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Giant trevally.png"
   },
   {
     "type": "fish",
@@ -2613,7 +2761,8 @@
     "quote": null,
     "family": "Coryphaenidae",
     "sci": "Coryphaena hippurus",
-    "rarity": "unknown"
+    "rarity": "unknown",
+    "image": "../images/fish/Mahi-mahi.png"
   },
   {
     "type": "fish",
@@ -2631,7 +2780,8 @@
     "quote": null,
     "family": "Molidae - Ocean sunfishes",
     "sci": "Mola mola",
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/fish/Ocean sunfish.png"
   },
   {
     "type": "fish",
@@ -2649,7 +2799,8 @@
     "quote": "I caught a ray! A few more and I'll have a tan!",
     "family": "Dasyatidae - Sting rays",
     "sci": "Dasyatis akajei",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Ray.png"
   },
   {
     "type": "fish",
@@ -2667,7 +2818,8 @@
     "quote": null,
     "family": "Pristiophoridae",
     "sci": "Pristiophorus japonicus",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Saw shark.png"
   },
   {
     "type": "fish",
@@ -2685,7 +2837,8 @@
     "quote": null,
     "family": "Sphyrnidae - Hammerhead sharks",
     "sci": "Sphyrna zygaena",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Hammerhead shark.png"
   },
   {
     "type": "fish",
@@ -2703,7 +2856,8 @@
     "quote": "I caught a great white shark! Watch out for its jaws!",
     "family": "Lamnidae - Great white sharks",
     "sci": "Carcharodon carcharias",
-    "rarity": "rare"
+    "rarity": "rare",
+    "image": "../images/fish/Great white shark.png"
   },
   {
     "type": "fish",
@@ -2721,7 +2875,8 @@
     "quote": "Thar she blows! I caught a whale shark! I'm tellin' ya, it was thiiiiiiiiiiiiiiiiiiiis big!",
     "family": null,
     "sci": null,
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Whale shark.png"
   },
   {
     "type": "fish",
@@ -2739,7 +2894,8 @@
     "quote": "I caught a suckerfish! I thought it was a shark! Oh, wait - now I get it. Sucker...",
     "family": null,
     "sci": null,
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Suckerfish.png"
   },
   {
     "type": "fish",
@@ -2757,7 +2913,8 @@
     "quote": "I caught a football fish! Some countries call it a soccer fish!",
     "family": "Himantolophidae",
     "sci": "Himantolophus groenlandicus",
-    "rarity": "uncommon"
+    "rarity": "uncommon",
+    "image": "../images/fish/Football fish.png"
   },
   {
     "type": "fish",
@@ -2775,7 +2932,8 @@
     "quote": "I caught an oarfish! I hope I catch morefish!",
     "family": "Regalecidae",
     "sci": "Regalecus glesne",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Oarfish.png"
   },
   {
     "type": "fish",
@@ -2793,7 +2951,8 @@
     "quote": "I caught a barreleye! Like eyeing a fish in a barrel!",
     "family": "Opisthoproctidae",
     "sci": "Macropinna microstoma",
-    "rarity": "scarce"
+    "rarity": "scarce",
+    "image": "../images/fish/Barreleye.png"
   },
   {
     "type": "fish",
@@ -2811,6 +2970,7 @@
     "quote": "Blast from the past! I caught a coelacanth! Think positive! Be a coela-CAN!",
     "family": "Latimeriidae",
     "sci": "Latimeria chalumnae",
-    "rarity": "very rare"
+    "rarity": "very rare",
+    "image": "../images/fish/Coelacanth.png"
   }
 ]

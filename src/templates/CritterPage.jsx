@@ -24,24 +24,6 @@ function pluralize(word) {
   return word + 's';
 }
 
-let temp = [
-  null,
-  // 'tiny',
-  // 'small',
-  // 'medium',
-  '4',
-  // 'large',
-  // '2',
-  // '3',
-  // 'very large',
-  // 'huge',
-  // 'smallest',
-  // 'large, medium',
-  'thin',
-  // '5',
-  // 'huge (with fin)',
-  // 'medium-large with fin',
-];
 
 function getSize(shadow) {
   switch (shadow) {
@@ -77,7 +59,6 @@ function getSize(shadow) {
     default:
       return { size: 0 };
   }
-  return { size: 1, fin: false };
 }
 
 function ShadowImage({ size }) {

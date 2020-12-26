@@ -7,6 +7,8 @@ module.exports = {
     author: `Adam Sparks`,
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-optional-chaining`,
     `gatsby-plugin-react-helmet`,
     {
@@ -16,9 +18,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-
     {
       resolve: 'gatsby-plugin-sass',
       options: {
@@ -26,7 +25,6 @@ module.exports = {
         includePaths: ['src'],
       },
     },
-    'gatsby-transformer-json',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -34,6 +32,7 @@ module.exports = {
         path: `${__dirname}/src/data`,
       },
     },
+    'gatsby-transformer-json',
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {

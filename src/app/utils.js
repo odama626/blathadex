@@ -263,7 +263,9 @@ const escapePath = s =>
     .replace(/\s/g, '_')
     .replace(/[^a-zA-Z0-9-/_]/g, '');
 
-export const createCritterLink = critter => escapePath(`/critter/${critter.type}/${critter.name}`);
+// export const createCritterLink = critter => escapePath(`/critter/${critter.type}/${critter.name}`);
+export const createCritterLink = critter =>
+  `/critters/${critter.name.toLowerCase().replace(/[\s\']/g, '-')}`;
 
 export const createItemLink = diy => escapePath(`/${diy.section || diy.type}/${diy.name}`);
 
