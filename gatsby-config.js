@@ -1,7 +1,6 @@
 const path = require('path');
 
 module.exports = {
-  pathPrefix: '/blathadex',
   siteMetadata: {
     title: `Blathadex`,
     description: `A field guide to island life`,
