@@ -54,7 +54,7 @@ export default function DiyPage({ pageContext }) {
               boxShadow: 'var(--section-shadow)',
             }}
           >
-            <DiyImage diy={diy} />
+            <DiyImage diy={diy} style={{ width: '256px', height: '256px', margin: 'auto'}} />
             <Pattern style={{ padding: 0, zIndex: -1 }} />
           </div>
           <br />
@@ -111,9 +111,10 @@ export default function DiyPage({ pageContext }) {
                     }}
                   >
                     <span>{capitalize(material.ingredient)}</span>
+                    {console.log({ material })}
                     <DiyImage
                       style={{ height: '35px' }}
-                      diy={{ name: capitalize(material.ingredient), type: material.type }}
+                      diy={{ image: material.image, name: capitalize(material.ingredient), type: material.type }}
                     />
                   </Link>
                 </Fragment>

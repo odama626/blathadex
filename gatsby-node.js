@@ -10,31 +10,6 @@ const { getCritterLocation } = require('./src/app/node-shared');
 
 const critterPageQuery = `
  {
-  allCrittersJson {
-    edges {
-      node {
-        bells
-        name
-        no
-        id
-        etime
-        etime2
-        smonth
-        smonth2
-        stime
-        stime2
-        type
-        size
-        loc
-        emonth2
-        emonth
-        desc
-        rarity
-        quote
-        shadow
-      }
-    }
-  }
   allDiyJson {
     edges {
       node {
@@ -47,6 +22,19 @@ const critterPageQuery = `
         size
         type
         id
+        image {
+          childImageSharp {
+            fluid {
+              tracedSVG
+              aspectRatio
+              src
+              srcSet
+              srcWebp
+              srcSetWebp
+              sizes
+            }
+          }
+        }
         materialsNeeded {
           count
           ingredient
@@ -188,16 +176,16 @@ exports.createPages = async ({ graphql, ...gatsby }) => {
   const { allCrittersJson, allDiyJson, allMaterialsJson, allFlowersJson } = results.data;
 
   if (results.errors) throw new Error(results.errors);
-  const critters = allCrittersJson.edges.map(edge => edge.node).filter(Boolean);
+  // const critters = allCrittersJson.edges.map(edge => edge.node).filter(Boolean);
   const diys = allDiyJson.edges.map(edge => edge.node).filter(Boolean);
   const materials = allMaterialsJson.edges.map(edge => edge.node).filter(Boolean);
   const flowers = allFlowersJson.edges.map(edge => edge.node).filter(Boolean);
 
-  const critterGroups = groupBy(critters, critter => getCritterLocation(critter.loc));
+  // const critterGroups = groupBy(critters, critter => getCritterLocation(critter.loc));
 
   let promises = [];
 
-  promises.push(critters.map(createCritterPage(createPage, critterGroups)));
+  // promises.push(critters.map(createCritterPage(createPage, critterGroups)));
   promises.push(diys.map(createDiyPage(createPage, diys)));
   promises.push(materials.map(createMaterialPage(createPage, diys)));
   promises.push(flowers.map(createFlowerPage({ createPage, createRedirect }, diys)));
