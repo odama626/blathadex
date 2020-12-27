@@ -11,6 +11,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-optional-chaining`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-sqip`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

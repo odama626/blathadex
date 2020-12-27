@@ -11,7 +11,13 @@ import Img from 'gatsby-image';
 
 export const CritterImage = ({ type, name, image, style, ...rest }) =>
   image ? (
-    <Img fluid={image.childImageSharp.fluid} alt={name} style={style} imgStyle={style} {...rest} />
+    <Img
+      fluid={{ ...image.childImageSharp.fluid }}
+      alt={name}
+      style={style}
+      imgStyle={style}
+      {...rest}
+    />
   ) : (
     <img {...rest} alt={name} src={createImgSrc({ type, name })} style={style} />
   );

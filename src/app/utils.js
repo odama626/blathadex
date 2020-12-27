@@ -1,4 +1,4 @@
-import { withPrefix } from 'gatsby';
+import { graphql, withPrefix } from 'gatsby';
 import { DateTime } from 'luxon';
 import React, { useEffect, useRef, useLayoutEffect, useState } from 'react';
 import diy404Src from 'images/diy404.svg';
@@ -297,3 +297,12 @@ export const Image = ({ src, ...rest }) => {
 
   return <img {...rest} onError={() => setSrc(diy404Src)} src={trueSrc} />;
 };
+
+export const blockImage = `
+  childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              }
+            }
+
+`;

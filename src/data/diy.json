@@ -24,7 +24,8 @@
       "flimsy axe",
       "flimsy",
       "axe"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -51,7 +52,8 @@
       "stone axe",
       "stone",
       "axe"
-    ]
+    ],
+    "image": "../images/diy/Stone axe.png"
   },
   {
     "materialsNeeded": [
@@ -80,7 +82,8 @@
     "section": "DIY recipes/Tools",
     "search": [
       "axe"
-    ]
+    ],
+    "image": "../images/diy/Axe.png"
   },
   {
     "materialsNeeded": [
@@ -107,7 +110,8 @@
       "golden axe",
       "golden",
       "axe"
-    ]
+    ],
+    "image": "../images/diy/Golden axe.png"
   },
   {
     "materialsNeeded": [
@@ -130,7 +134,8 @@
       "flimsy shovel",
       "flimsy",
       "shovel"
-    ]
+    ],
+    "image": "../images/diy/Flimsy shovel.png"
   },
   {
     "materialsNeeded": [
@@ -155,7 +160,8 @@
     "section": "DIY recipes/Tools",
     "search": [
       "shovel"
-    ]
+    ],
+    "image": "../images/diy/Shovel.png"
   },
   {
     "materialsNeeded": [
@@ -182,7 +188,8 @@
       "golden shovel",
       "golden",
       "shovel"
-    ]
+    ],
+    "image": "../images/diy/Golden shovel.png"
   },
   {
     "materialsNeeded": [
@@ -205,7 +212,8 @@
       "flimsy fishing",
       "flimsy",
       "rod"
-    ]
+    ],
+    "image": "../images/diy/Flimsy fishing rod.png"
   },
   {
     "materialsNeeded": [
@@ -232,7 +240,8 @@
       "fishing rod",
       "fishing",
       "rod"
-    ]
+    ],
+    "image": "../images/diy/Fishing rod.png"
   },
   {
     "materialsNeeded": [
@@ -259,7 +268,8 @@
       "golden rod",
       "golden",
       "rod"
-    ]
+    ],
+    "image": "../images/diy/Golden rod.png"
   },
   {
     "materialsNeeded": [
@@ -282,7 +292,8 @@
       "flimsy net",
       "flimsy",
       "net"
-    ]
+    ],
+    "image": "../images/diy/Flimsy net.png"
   },
   {
     "materialsNeeded": [
@@ -307,7 +318,8 @@
     "section": "DIY recipes/Tools",
     "search": [
       "net"
-    ]
+    ],
+    "image": "../images/diy/Net.png"
   },
   {
     "materialsNeeded": [
@@ -334,7 +346,8 @@
       "golden net",
       "golden",
       "net"
-    ]
+    ],
+    "image": "../images/diy/Golden net.png"
   },
   {
     "materialsNeeded": [
@@ -357,7 +370,8 @@
       "flimsy watering",
       "flimsy",
       "can"
-    ]
+    ],
+    "image": "../images/diy/Flimsy watering can.png"
   },
   {
     "materialsNeeded": [
@@ -384,7 +398,8 @@
       "watering can",
       "watering",
       "can"
-    ]
+    ],
+    "image": "../images/diy/Watering can.png"
   },
   {
     "materialsNeeded": [
@@ -411,7 +426,8 @@
       "golden watering",
       "golden",
       "can"
-    ]
+    ],
+    "image": "../images/diy/Golden watering can.png"
   },
   {
     "materialsNeeded": [
@@ -432,7 +448,8 @@
     "section": "DIY recipes/Tools",
     "search": [
       "slingshot"
-    ]
+    ],
+    "image": "../images/diy/Slingshot.png"
   },
   {
     "materialsNeeded": [
@@ -459,7 +476,8 @@
       "golden slingshot",
       "golden",
       "slingshot"
-    ]
+    ],
+    "image": "../images/diy/Golden slingshot.png"
   },
   {
     "materialsNeeded": [
@@ -482,7 +500,8 @@
       "vaulting pole",
       "vaulting",
       "pole"
-    ]
+    ],
+    "image": "../images/diy/Vaulting pole.png"
   },
   {
     "materialsNeeded": [
@@ -511,7 +530,8 @@
     "section": "DIY recipes/Tools",
     "search": [
       "ladder"
-    ]
+    ],
+    "image": "../images/diy/Ladder.png"
   },
   {
     "materialsNeeded": [
@@ -538,7 +558,8 @@
       "star wand",
       "star",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Star wand.png"
   },
   {
     "materialsNeeded": [
@@ -565,7 +586,8 @@
       "bamboo wand",
       "bamboo",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Bamboo wand.png"
   },
   {
     "materialsNeeded": [
@@ -590,7 +612,8 @@
       "mushroom wand",
       "mushroom",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Mushroom wand.png"
   },
   {
     "materialsNeeded": [
@@ -617,7 +640,8 @@
       "cherry-blossom wand",
       "cherry-blossom",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom wand.png"
   },
   {
     "materialsNeeded": [
@@ -644,7 +668,8 @@
       "bunny day",
       "bunny",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day wand.png"
   },
   {
     "materialsNeeded": [
@@ -671,7 +696,8 @@
       "cosmos wand",
       "cosmos",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Cosmos wand.png"
   },
   {
     "materialsNeeded": [
@@ -698,7 +724,8 @@
       "hyacinth wand",
       "hyacinth",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Hyacinth wand.png"
   },
   {
     "materialsNeeded": [
@@ -723,7 +750,8 @@
       "lily wand",
       "lily",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Lily wand.png"
   },
   {
     "materialsNeeded": [
@@ -748,7 +776,8 @@
       "mums wand",
       "mums",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Mums wand.png"
   },
   {
     "materialsNeeded": [
@@ -773,7 +802,8 @@
       "pansy wand",
       "pansy",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Pansy Wand.png"
   },
   {
     "materialsNeeded": [
@@ -798,7 +828,8 @@
       "rose wand",
       "rose",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Rose wand.png"
   },
   {
     "materialsNeeded": [
@@ -825,7 +856,8 @@
       "tulip wand",
       "tulip",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Tulip wand.png"
   },
   {
     "materialsNeeded": [
@@ -852,7 +884,8 @@
       "windflower wand",
       "windflower",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Windflower wand.png"
   },
   {
     "materialsNeeded": [
@@ -877,7 +910,8 @@
       "shell wand",
       "shell",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Shell wand.png"
   },
   {
     "materialsNeeded": [
@@ -902,7 +936,8 @@
       "ice wand",
       "ice",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Ice wand.png"
   },
   {
     "materialsNeeded": [
@@ -929,7 +964,8 @@
       "golden wand",
       "golden",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Golden wand.png"
   },
   {
     "materialsNeeded": [
@@ -950,7 +986,8 @@
     "section": "DIY recipes/Tools",
     "search": [
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Wand.png"
   },
   {
     "materialsNeeded": [
@@ -977,7 +1014,8 @@
       "tree-branch wand",
       "tree-branch",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Tree-branch wand.png"
   },
   {
     "materialsNeeded": [
@@ -1004,7 +1042,8 @@
       "iron wand",
       "iron",
       "wand"
-    ]
+    ],
+    "image": "../images/diy/Iron wand.png"
   },
   {
     "materialsNeeded": [
@@ -1029,7 +1068,8 @@
       "wedding wand",
       "wedding",
       "wand"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -1056,7 +1096,8 @@
       "acoustic guitar",
       "acoustic",
       "guitar"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -1081,7 +1122,8 @@
       "angled signpost",
       "angled",
       "signpost"
-    ]
+    ],
+    "image": "../images/diy/Angled signpost.png"
   },
   {
     "materialsNeeded": [
@@ -1108,7 +1150,8 @@
       "apple chair",
       "apple",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Apple chair.png"
   },
   {
     "materialsNeeded": [
@@ -1143,7 +1186,8 @@
       "aquarius urn",
       "aquarius",
       "urn"
-    ]
+    ],
+    "image": "../images/diy/Aquarius urn.png"
   },
   {
     "materialsNeeded": [
@@ -1178,7 +1222,8 @@
       "aries rocking",
       "aries",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Aries rocking chair.png"
   },
   {
     "materialsNeeded": [
@@ -1203,7 +1248,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "asteroid"
-    ]
+    ],
+    "image": "../images/diy/Asteroid.png"
   },
   {
     "materialsNeeded": [
@@ -1230,7 +1276,8 @@
       "astronaut suit",
       "astronaut",
       "suit"
-    ]
+    ],
+    "image": "../images/diy/Astronaut suit.png"
   },
   {
     "materialsNeeded": [
@@ -1253,7 +1300,8 @@
       "bamboo basket",
       "bamboo",
       "basket"
-    ]
+    ],
+    "image": "../images/diy/Bamboo basket.png"
   },
   {
     "materialsNeeded": [
@@ -1276,7 +1324,8 @@
       "bamboo bench",
       "bamboo",
       "bench"
-    ]
+    ],
+    "image": "../images/diy/Bamboo bench.png"
   },
   {
     "materialsNeeded": [
@@ -1299,7 +1348,8 @@
       "bamboo doll",
       "bamboo",
       "doll"
-    ]
+    ],
+    "image": "../images/diy/Bamboo doll.png"
   },
   {
     "materialsNeeded": [
@@ -1322,7 +1372,8 @@
       "bamboo floor",
       "bamboo",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Bamboo floor lamp.png"
   },
   {
     "materialsNeeded": [
@@ -1349,7 +1400,8 @@
       "bamboo noodle",
       "bamboo",
       "slide"
-    ]
+    ],
+    "image": "../images/diy/Bamboo noodle slide.png"
   },
   {
     "materialsNeeded": [
@@ -1375,7 +1427,8 @@
       "bamboo partition",
       "bamboo",
       "partition"
-    ]
+    ],
+    "image": "../images/diy/Bamboo partition.png"
   },
   {
     "materialsNeeded": [
@@ -1398,7 +1451,8 @@
       "bamboo shelf",
       "bamboo",
       "shelf"
-    ]
+    ],
+    "image": "../images/diy/Bamboo shelf.png"
   },
   {
     "materialsNeeded": [
@@ -1425,7 +1479,8 @@
       "bamboo speaker",
       "bamboo",
       "speaker"
-    ]
+    ],
+    "image": "../images/diy/Bamboo speaker.png"
   },
   {
     "materialsNeeded": [
@@ -1448,7 +1503,8 @@
       "bamboo stool",
       "bamboo",
       "stool"
-    ]
+    ],
+    "image": "../images/diy/Bamboo stool.png"
   },
   {
     "materialsNeeded": [
@@ -1471,7 +1527,8 @@
       "bamboo stopblock",
       "bamboo",
       "stopblock"
-    ]
+    ],
+    "image": "../images/diy/Bamboo stopblock.png"
   },
   {
     "materialsNeeded": [
@@ -1492,7 +1549,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "barbell"
-    ]
+    ],
+    "image": "../images/diy/Barbell.png"
   },
   {
     "materialsNeeded": [
@@ -1517,7 +1575,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "barrel"
-    ]
+    ],
+    "image": "../images/diy/Barrel.png"
   },
   {
     "materialsNeeded": [
@@ -1544,7 +1603,8 @@
       "beekeeper's hive",
       "beekeeper's",
       "hive"
-    ]
+    ],
+    "image": "../images/diy/Beekeeper's hive.png"
   },
   {
     "materialsNeeded": [
@@ -1581,7 +1641,8 @@
       "big festive",
       "big",
       "tree"
-    ]
+    ],
+    "image": "../images/diy/Big festive tree.png"
   },
   {
     "materialsNeeded": [
@@ -1602,7 +1663,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "birdbath"
-    ]
+    ],
+    "image": "../images/diy/Birdbath.png"
   },
   {
     "materialsNeeded": [
@@ -1623,7 +1685,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "birdcage"
-    ]
+    ],
+    "image": "../images/diy/Birdcage.png"
   },
   {
     "materialsNeeded": [
@@ -1648,7 +1711,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "birdhouse"
-    ]
+    ],
+    "image": "../images/diy/Birdhouse.png"
   },
   {
     "materialsNeeded": [
@@ -1675,7 +1739,8 @@
       "blossom-viewing lantern",
       "blossom-viewing",
       "lantern"
-    ]
+    ],
+    "image": "../images/diy/Blossom-viewing lantern.png"
   },
   {
     "materialsNeeded": [
@@ -1700,7 +1765,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "bonfire"
-    ]
+    ],
+    "image": "../images/diy/Bonfire.png"
   },
   {
     "materialsNeeded": [
@@ -1731,7 +1797,8 @@
       "bonsai shelf",
       "bonsai",
       "shelf"
-    ]
+    ],
+    "image": "../images/diy/Bonsai shelf.png"
   },
   {
     "materialsNeeded": [
@@ -1762,7 +1829,8 @@
       "brick oven",
       "brick",
       "oven"
-    ]
+    ],
+    "image": "../images/diy/Brick oven.png"
   },
   {
     "materialsNeeded": [
@@ -1793,7 +1861,8 @@
       "brick well",
       "brick",
       "well"
-    ]
+    ],
+    "image": "../images/diy/Brick well.png"
   },
   {
     "materialsNeeded": [
@@ -1836,7 +1905,8 @@
       "bunny day",
       "bunny",
       "arch"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day arch.png"
   },
   {
     "materialsNeeded": [
@@ -1879,7 +1949,8 @@
       "bunny day",
       "bunny",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day bed.png"
   },
   {
     "materialsNeeded": [
@@ -1913,7 +1984,8 @@
       "bunny day",
       "bunny",
       "balloons"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day festive balloons.png"
   },
   {
     "materialsNeeded": [
@@ -1944,7 +2016,8 @@
       "bunny day",
       "bunny",
       "balloons"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day merry balloons.png"
   },
   {
     "materialsNeeded": [
@@ -1967,7 +2040,8 @@
       "bunny day",
       "bunny",
       "stool"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day stool.png"
   },
   {
     "materialsNeeded": [
@@ -1990,7 +2064,8 @@
       "bunny day",
       "bunny",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day table.png"
   },
   {
     "materialsNeeded": [
@@ -2013,7 +2088,8 @@
       "bunny day",
       "bunny",
       "vanity"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day vanity.png"
   },
   {
     "materialsNeeded": [
@@ -2036,7 +2112,8 @@
       "bunny day",
       "bunny",
       "wardrobe"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day wardrobe.png"
   },
   {
     "materialsNeeded": [
@@ -2063,7 +2140,8 @@
       "butter churn",
       "butter",
       "churn"
-    ]
+    ],
+    "image": "../images/diy/Butter churn.png"
   },
   {
     "materialsNeeded": [
@@ -2084,7 +2162,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "campfire"
-    ]
+    ],
+    "image": "../images/diy/Campfire.png"
   },
   {
     "materialsNeeded": [
@@ -2119,7 +2198,8 @@
       "cancer table",
       "cancer",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Cancer table.png"
   },
   {
     "materialsNeeded": [
@@ -2154,7 +2234,8 @@
       "capricorn ornament",
       "capricorn",
       "ornament"
-    ]
+    ],
+    "image": "../images/diy/Capricorn ornament.png"
   },
   {
     "materialsNeeded": [
@@ -2177,7 +2258,8 @@
       "cardboard bed",
       "cardboard",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Cardboard bed.png"
   },
   {
     "materialsNeeded": [
@@ -2200,7 +2282,8 @@
       "cardboard chair",
       "cardboard",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Cardboard chair.png"
   },
   {
     "materialsNeeded": [
@@ -2223,7 +2306,8 @@
       "cardboard sofa",
       "cardboard",
       "sofa"
-    ]
+    ],
+    "image": "../images/diy/Cardboard sofa.png"
   },
   {
     "materialsNeeded": [
@@ -2246,7 +2330,8 @@
       "cardboard table",
       "cardboard",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Cardboard table.png"
   },
   {
     "materialsNeeded": [
@@ -2277,7 +2362,8 @@
       "cherry-blossom branches",
       "cherry-blossom",
       "branches"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom branches.png"
   },
   {
     "materialsNeeded": [
@@ -2300,7 +2386,8 @@
       "cherry-blossom-petal pile",
       "cherry-blossom-petal",
       "pile"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom-petal pile.png"
   },
   {
     "materialsNeeded": [
@@ -2327,7 +2414,8 @@
       "cherry-blossom pond",
       "cherry-blossom",
       "stone"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom pond stone.png"
   },
   {
     "materialsNeeded": [
@@ -2352,7 +2440,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "clackercart"
-    ]
+    ],
+    "image": "../images/diy/Clackercart.png"
   },
   {
     "materialsNeeded": [
@@ -2373,7 +2462,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "clothesline"
-    ]
+    ],
+    "image": "../images/diy/Clothesline.png"
   },
   {
     "materialsNeeded": [
@@ -2400,7 +2490,8 @@
       "cosmos shower",
       "cosmos",
       "shower"
-    ]
+    ],
+    "image": "../images/diy/Cosmos shower.png"
   },
   {
     "materialsNeeded": [
@@ -2427,7 +2518,8 @@
       "crescent-moon chair",
       "crescent-moon",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Crescent-moon chair.png"
   },
   {
     "materialsNeeded": [
@@ -2454,7 +2546,8 @@
       "crewed spaceship",
       "crewed",
       "spaceship"
-    ]
+    ],
+    "image": "../images/diy/Crewed spaceship.png"
   },
   {
     "materialsNeeded": [
@@ -2485,7 +2578,8 @@
       "deer scare",
       "deer",
       "scare"
-    ]
+    ],
+    "image": "../images/diy/Deer scare.png"
   },
   {
     "materialsNeeded": [
@@ -2512,7 +2606,8 @@
       "destinations signpost",
       "destinations",
       "signpost"
-    ]
+    ],
+    "image": "../images/diy/Destinations signpost.png"
   },
   {
     "materialsNeeded": [
@@ -2551,7 +2646,8 @@
       "diy workbench",
       "diy",
       "workbench"
-    ]
+    ],
+    "image": "../images/diy/DIY workbench.png"
   },
   {
     "materialsNeeded": [
@@ -2576,7 +2672,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "doghouse"
-    ]
+    ],
+    "image": "../images/diy/Doghouse.png"
   },
   {
     "materialsNeeded": [
@@ -2603,7 +2700,8 @@
       "drinking fountain",
       "drinking",
       "fountain"
-    ]
+    ],
+    "image": "../images/diy/Drinking fountain.png"
   },
   {
     "materialsNeeded": [
@@ -2636,7 +2734,8 @@
       "festive tree",
       "festive",
       "tree"
-    ]
+    ],
+    "image": "../images/diy/Festive tree.png"
   },
   {
     "materialsNeeded": [
@@ -2659,7 +2758,8 @@
       "flat garden",
       "flat",
       "rock"
-    ]
+    ],
+    "image": "../images/diy/Flat garden rock.png"
   },
   {
     "materialsNeeded": [
@@ -2702,7 +2802,8 @@
       "flower stand",
       "flower",
       "stand"
-    ]
+    ],
+    "image": "../images/diy/Flower stand.png"
   },
   {
     "materialsNeeded": [
@@ -2729,7 +2830,8 @@
       "flying saucer",
       "flying",
       "saucer"
-    ]
+    ],
+    "image": "../images/diy/Flying saucer.png"
   },
   {
     "materialsNeeded": [
@@ -2758,7 +2860,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "fountain"
-    ]
+    ],
+    "image": "../images/diy/Fountain.png"
   },
   {
     "materialsNeeded": [
@@ -2782,7 +2885,8 @@
       "frozen arch",
       "frozen",
       "arch"
-    ]
+    ],
+    "image": "../images/diy/Frozen arch.png"
   },
   {
     "materialsNeeded": [
@@ -2807,7 +2911,8 @@
       "frozen bed",
       "frozen",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Frozen bed.png"
   },
   {
     "materialsNeeded": [
@@ -2832,7 +2937,8 @@
       "frozen chair",
       "frozen",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Frozen chair.png"
   },
   {
     "materialsNeeded": [
@@ -2857,7 +2963,8 @@
       "frozen counter",
       "frozen",
       "counter"
-    ]
+    ],
+    "image": "../images/diy/Frozen counter.png"
   },
   {
     "materialsNeeded": [
@@ -2881,7 +2988,8 @@
       "frozen partition",
       "frozen",
       "partition"
-    ]
+    ],
+    "image": "../images/diy/Frozen partition.png"
   },
   {
     "materialsNeeded": [
@@ -2906,7 +3014,8 @@
       "frozen pillar",
       "frozen",
       "pillar"
-    ]
+    ],
+    "image": "../images/diy/Frozen pillar.png"
   },
   {
     "materialsNeeded": [
@@ -2930,7 +3039,8 @@
       "frozen sculpture",
       "frozen",
       "sculpture"
-    ]
+    ],
+    "image": "../images/diy/Frozen sculpture.png"
   },
   {
     "materialsNeeded": [
@@ -2955,7 +3065,8 @@
       "frozen table",
       "frozen",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Frozen table.png"
   },
   {
     "materialsNeeded": [
@@ -2980,7 +3091,8 @@
       "frozen tree",
       "frozen",
       "tree"
-    ]
+    ],
+    "image": "../images/diy/Frozen tree.png"
   },
   {
     "materialsNeeded": [
@@ -3007,7 +3119,8 @@
       "garden bench",
       "garden",
       "bench"
-    ]
+    ],
+    "image": "../images/diy/Garden bench.png"
   },
   {
     "materialsNeeded": [
@@ -3030,7 +3143,8 @@
       "garden rock",
       "garden",
       "rock"
-    ]
+    ],
+    "image": "../images/diy/Garden rock.png"
   },
   {
     "materialsNeeded": [
@@ -3069,7 +3183,8 @@
       "garden wagon",
       "garden",
       "wagon"
-    ]
+    ],
+    "image": "../images/diy/Garden wagon.png"
   },
   {
     "materialsNeeded": [
@@ -3104,7 +3219,8 @@
       "gemini closet",
       "gemini",
       "closet"
-    ]
+    ],
+    "image": "../images/diy/Gemini closet.png"
   },
   {
     "materialsNeeded": [
@@ -3135,7 +3251,8 @@
       "giant teddy",
       "giant",
       "bear"
-    ]
+    ],
+    "image": "../images/diy/Giant teddy bear.png"
   },
   {
     "materialsNeeded": [
@@ -3158,7 +3275,8 @@
       "golden casket",
       "golden",
       "casket"
-    ]
+    ],
+    "image": "../images/diy/Golden casket.png"
   },
   {
     "materialsNeeded": [
@@ -3181,7 +3299,8 @@
       "golden seat",
       "golden",
       "seat"
-    ]
+    ],
+    "image": "../images/diy/Golden seat.png"
   },
   {
     "materialsNeeded": [
@@ -3204,7 +3323,8 @@
       "golden toilet",
       "golden",
       "toilet"
-    ]
+    ],
+    "image": "../images/diy/Golden toilet.png"
   },
   {
     "materialsNeeded": [
@@ -3225,7 +3345,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "gong"
-    ]
+    ],
+    "image": "../images/diy/Gong.png"
   },
   {
     "materialsNeeded": [
@@ -3255,7 +3376,8 @@
       "grass standee",
       "grass",
       "standee"
-    ]
+    ],
+    "image": "../images/diy/Grass standee.png"
   },
   {
     "materialsNeeded": [
@@ -3282,7 +3404,8 @@
       "green-leaf pile",
       "green-leaf",
       "pile"
-    ]
+    ],
+    "image": "../images/diy/Green-leaf pile.png"
   },
   {
     "materialsNeeded": [
@@ -3305,7 +3428,8 @@
       "hay bed",
       "hay",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Hay bed.png"
   },
   {
     "materialsNeeded": [
@@ -3338,7 +3462,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "hearth"
-    ]
+    ],
+    "image": "../images/diy/Hearth.png"
   },
   {
     "materialsNeeded": [
@@ -3365,7 +3490,8 @@
       "hedge standee",
       "hedge",
       "standee"
-    ]
+    ],
+    "image": "../images/diy/Hedge standee.png"
   },
   {
     "materialsNeeded": [
@@ -3394,7 +3520,8 @@
       "illuminated present",
       "illuminated",
       "present"
-    ]
+    ],
+    "image": "../images/diy/Illuminated present.png"
   },
   {
     "materialsNeeded": [
@@ -3419,7 +3546,8 @@
       "illuminated reindeer",
       "illuminated",
       "reindeer"
-    ]
+    ],
+    "image": "../images/diy/Illuminated reindeer.png"
   },
   {
     "materialsNeeded": [
@@ -3444,7 +3572,8 @@
       "illuminated snowflakes",
       "illuminated",
       "snowflakes"
-    ]
+    ],
+    "image": "../images/diy/Illuminated snowflakes.png"
   },
   {
     "materialsNeeded": [
@@ -3477,7 +3606,8 @@
       "illuminated tree",
       "illuminated",
       "tree"
-    ]
+    ],
+    "image": "../images/diy/Illuminated tree.png"
   },
   {
     "materialsNeeded": [
@@ -3500,7 +3630,8 @@
       "iron closet",
       "iron",
       "closet"
-    ]
+    ],
+    "image": "../images/diy/Iron closet.png"
   },
   {
     "materialsNeeded": [
@@ -3523,7 +3654,8 @@
       "iron frame",
       "iron",
       "frame"
-    ]
+    ],
+    "image": "../images/diy/Iron frame.png"
   },
   {
     "materialsNeeded": [
@@ -3546,7 +3678,8 @@
       "iron garden",
       "iron",
       "bench"
-    ]
+    ],
+    "image": "../images/diy/Iron garden bench.png"
   },
   {
     "materialsNeeded": [
@@ -3569,7 +3702,8 @@
       "iron garden",
       "iron",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Iron garden chair.png"
   },
   {
     "materialsNeeded": [
@@ -3592,7 +3726,8 @@
       "iron garden",
       "iron",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Iron garden table.png"
   },
   {
     "materialsNeeded": [
@@ -3615,7 +3750,8 @@
       "iron hanger",
       "iron",
       "stand"
-    ]
+    ],
+    "image": "../images/diy/Iron hanger stand.png"
   },
   {
     "materialsNeeded": [
@@ -3638,7 +3774,8 @@
       "iron worktable",
       "iron",
       "worktable"
-    ]
+    ],
+    "image": "../images/diy/Iron worktable.png"
   },
   {
     "materialsNeeded": [
@@ -3661,7 +3798,8 @@
       "iron shelf",
       "iron",
       "shelf"
-    ]
+    ],
+    "image": "../images/diy/Iron shelf.png"
   },
   {
     "materialsNeeded": [
@@ -3688,7 +3826,8 @@
       "ironwood bed",
       "ironwood",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Ironwood bed.png"
   },
   {
     "materialsNeeded": [
@@ -3715,7 +3854,8 @@
       "ironwood cart",
       "ironwood",
       "cart"
-    ]
+    ],
+    "image": "../images/diy/Ironwood cart.png"
   },
   {
     "materialsNeeded": [
@@ -3742,7 +3882,8 @@
       "ironwood chair",
       "ironwood",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Ironwood chair.png"
   },
   {
     "materialsNeeded": [
@@ -3773,7 +3914,8 @@
       "ironwood cupboard",
       "ironwood",
       "cupboard"
-    ]
+    ],
+    "image": "../images/diy/Ironwood cupboard.png"
   },
   {
     "materialsNeeded": [
@@ -3804,7 +3946,8 @@
       "ironwood diy",
       "ironwood",
       "workbench"
-    ]
+    ],
+    "image": "../images/diy/Ironwood DIY workbench.png"
   },
   {
     "materialsNeeded": [
@@ -3831,7 +3974,8 @@
       "ironwood dresser",
       "ironwood",
       "dresser"
-    ]
+    ],
+    "image": "../images/diy/Ironwood dresser.png"
   },
   {
     "materialsNeeded": [
@@ -3866,7 +4010,8 @@
       "ironwood kitchenette",
       "ironwood",
       "kitchenette"
-    ]
+    ],
+    "image": "../images/diy/Ironwood kitchenette.png"
   },
   {
     "materialsNeeded": [
@@ -3893,7 +4038,8 @@
       "ironwood low",
       "ironwood",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Ironwood low table.png"
   },
   {
     "materialsNeeded": [
@@ -3920,7 +4066,8 @@
       "ironwood table",
       "ironwood",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Ironwood table.png"
   },
   {
     "materialsNeeded": [
@@ -3943,7 +4090,8 @@
       "jail bars",
       "jail",
       "bars"
-    ]
+    ],
+    "image": "../images/diy/Jail bars.png"
   },
   {
     "materialsNeeded": [
@@ -3970,7 +4118,8 @@
       "juicy-apple tv",
       "juicy-apple",
       "tv"
-    ]
+    ],
+    "image": "../images/diy/Juicy-apple TV.png"
   },
   {
     "materialsNeeded": [
@@ -4001,7 +4150,8 @@
       "kettle bathtub",
       "kettle",
       "bathtub"
-    ]
+    ],
+    "image": "../images/diy/Kettle bathtub.png"
   },
   {
     "materialsNeeded": [
@@ -4024,7 +4174,8 @@
       "large cardboard",
       "large",
       "boxes"
-    ]
+    ],
+    "image": "../images/diy/Large cardboard boxes.png"
   },
   {
     "materialsNeeded": [
@@ -4054,7 +4205,8 @@
       "leaf campfire",
       "leaf",
       "campfire"
-    ]
+    ],
+    "image": "../images/diy/Leaf campfire.png"
   },
   {
     "materialsNeeded": [
@@ -4079,7 +4231,8 @@
       "leaf stool",
       "leaf",
       "stool"
-    ]
+    ],
+    "image": "../images/diy/Leaf stool.png"
   },
   {
     "materialsNeeded": [
@@ -4110,7 +4263,8 @@
       "lily record",
       "lily",
       "player"
-    ]
+    ],
+    "image": "../images/diy/Lily record player.png"
   },
   {
     "materialsNeeded": [
@@ -4133,7 +4287,8 @@
       "log bed",
       "log",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Log bed.png"
   },
   {
     "materialsNeeded": [
@@ -4156,7 +4311,8 @@
       "log bench",
       "log",
       "bench"
-    ]
+    ],
+    "image": "../images/diy/Log bench.png"
   },
   {
     "materialsNeeded": [
@@ -4183,7 +4339,8 @@
       "log decorative",
       "log",
       "shelves"
-    ]
+    ],
+    "image": "../images/diy/Log decorative shelves.png"
   },
   {
     "materialsNeeded": [
@@ -4206,7 +4363,8 @@
       "log dining",
       "log",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Log dining table.png"
   },
   {
     "materialsNeeded": [
@@ -4229,7 +4387,8 @@
       "log extra-long",
       "log",
       "sofa"
-    ]
+    ],
+    "image": "../images/diy/Log extra-long sofa.png"
   },
   {
     "materialsNeeded": [
@@ -4252,7 +4411,8 @@
       "log garden",
       "log",
       "lounge"
-    ]
+    ],
+    "image": "../images/diy/Log garden lounge.png"
   },
   {
     "materialsNeeded": [
@@ -4275,7 +4435,8 @@
       "log round",
       "log",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Log round table.png"
   },
   {
     "materialsNeeded": [
@@ -4298,7 +4459,8 @@
       "log chair",
       "log",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Log chair.png"
   },
   {
     "materialsNeeded": [
@@ -4321,7 +4483,8 @@
       "log stakes",
       "log",
       "stakes"
-    ]
+    ],
+    "image": "../images/diy/Log stakes.png"
   },
   {
     "materialsNeeded": [
@@ -4344,7 +4507,8 @@
       "log stool",
       "log",
       "stool"
-    ]
+    ],
+    "image": "../images/diy/Log stool.png"
   },
   {
     "materialsNeeded": [
@@ -4371,7 +4535,8 @@
       "lunar lander",
       "lunar",
       "lander"
-    ]
+    ],
+    "image": "../images/diy/Lunar lander.png"
   },
   {
     "materialsNeeded": [
@@ -4402,7 +4567,8 @@
       "lunar rover",
       "lunar",
       "rover"
-    ]
+    ],
+    "image": "../images/diy/Lunar rover.png"
   },
   {
     "materialsNeeded": [
@@ -4425,7 +4591,8 @@
       "manhole cover",
       "manhole",
       "cover"
-    ]
+    ],
+    "image": "../images/diy/Manhole cover.png"
   },
   {
     "materialsNeeded": [
@@ -4450,7 +4617,8 @@
       "maple-leaf pond",
       "maple-leaf",
       "stone"
-    ]
+    ],
+    "image": "../images/diy/Maple-leaf pond stone.png"
   },
   {
     "materialsNeeded": [
@@ -4473,7 +4641,8 @@
       "medium cardboard",
       "medium",
       "boxes"
-    ]
+    ],
+    "image": "../images/diy/Medium cardboard boxes.png"
   },
   {
     "materialsNeeded": [
@@ -4508,7 +4677,8 @@
       "mini diy",
       "mini",
       "workbench"
-    ]
+    ],
+    "image": "../images/diy/Mini DIY workbench.png"
   },
   {
     "materialsNeeded": [
@@ -4533,7 +4703,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "moon"
-    ]
+    ],
+    "image": "../images/diy/Moon.png"
   },
   {
     "materialsNeeded": [
@@ -4560,7 +4731,8 @@
       "mossy garden",
       "mossy",
       "rock"
-    ]
+    ],
+    "image": "../images/diy/Mossy garden rock.png"
   },
   {
     "materialsNeeded": [
@@ -4587,7 +4759,8 @@
       "mountain standee",
       "mountain",
       "standee"
-    ]
+    ],
+    "image": "../images/diy/Mountain standee.png"
   },
   {
     "materialsNeeded": [
@@ -4614,7 +4787,8 @@
       "mum cushion",
       "mum",
       "cushion"
-    ]
+    ],
+    "image": "../images/diy/Mum cushion.png"
   },
   {
     "materialsNeeded": [
@@ -4639,7 +4813,8 @@
       "mush lamp",
       "mush",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Mush lamp.png"
   },
   {
     "materialsNeeded": [
@@ -4664,7 +4839,8 @@
       "mush log",
       "mush",
       "log"
-    ]
+    ],
+    "image": "../images/diy/Mush log.png"
   },
   {
     "materialsNeeded": [
@@ -4685,7 +4861,8 @@
       "mush low",
       "mush",
       "stool"
-    ]
+    ],
+    "image": "../images/diy/Mush low stool.png"
   },
   {
     "materialsNeeded": [
@@ -4706,7 +4883,8 @@
       "mush parasol",
       "mush",
       "parasol"
-    ]
+    ],
+    "image": "../images/diy/Mush parasol.png"
   },
   {
     "materialsNeeded": [
@@ -4727,7 +4905,8 @@
       "mush partition",
       "mush",
       "partition"
-    ]
+    ],
+    "image": "../images/diy/Mush partition.png"
   },
   {
     "materialsNeeded": [
@@ -4752,7 +4931,8 @@
       "mush table",
       "mush",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Mush table.png"
   },
   {
     "materialsNeeded": [
@@ -4775,7 +4955,8 @@
       "music stand",
       "music",
       "stand"
-    ]
+    ],
+    "image": "../images/diy/Music stand.png"
   },
   {
     "materialsNeeded": [
@@ -4802,7 +4983,8 @@
       "natural garden",
       "natural",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Natural garden chair.png"
   },
   {
     "materialsNeeded": [
@@ -4829,7 +5011,8 @@
       "natural garden",
       "natural",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Natural garden table.png"
   },
   {
     "materialsNeeded": [
@@ -4856,7 +5039,8 @@
       "natural square",
       "natural",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Natural square table.png"
   },
   {
     "materialsNeeded": [
@@ -4887,7 +5071,8 @@
       "oil-barrel bathtub",
       "oil-barrel",
       "bathtub"
-    ]
+    ],
+    "image": "../images/diy/Oil-barrel bathtub.png"
   },
   {
     "materialsNeeded": [
@@ -4914,7 +5099,8 @@
       "orange end",
       "orange",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Orange end table.png"
   },
   {
     "materialsNeeded": [
@@ -4941,7 +5127,8 @@
       "outdoor bath",
       "outdoor",
       "bath"
-    ]
+    ],
+    "image": "../images/diy/Outdoor bath.png"
   },
   {
     "materialsNeeded": [
@@ -4964,7 +5151,8 @@
       "outdoor picnic",
       "outdoor",
       "set"
-    ]
+    ],
+    "image": "../images/diy/Outdoor picnic set.png"
   },
   {
     "materialsNeeded": [
@@ -4995,7 +5183,8 @@
       "palm-tree lamp",
       "palm-tree",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Palm-tree lamp.png"
   },
   {
     "materialsNeeded": [
@@ -5022,7 +5211,8 @@
       "pansy table",
       "pansy",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Pansy table.png"
   },
   {
     "materialsNeeded": [
@@ -5049,7 +5239,8 @@
       "peach chair",
       "peach",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Peach chair.png"
   },
   {
     "materialsNeeded": [
@@ -5076,7 +5267,8 @@
       "pear bed",
       "pear",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Pear bed.png"
   },
   {
     "materialsNeeded": [
@@ -5103,7 +5295,8 @@
       "pear wardrobe",
       "pear",
       "wardrobe"
-    ]
+    ],
+    "image": "../images/diy/Pear wardrobe.png"
   },
   {
     "materialsNeeded": [
@@ -5127,7 +5320,8 @@
       "pile of",
       "pile",
       "leaves"
-    ]
+    ],
+    "image": "../images/diy/Pile of leaves.png"
   },
   {
     "materialsNeeded": [
@@ -5150,7 +5344,8 @@
       "pile of",
       "pile",
       "cushions"
-    ]
+    ],
+    "image": "../images/diy/Pile of zen cushions.png"
   },
   {
     "materialsNeeded": [
@@ -5185,7 +5380,8 @@
       "pisces lamp",
       "pisces",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Pisces lamp.png"
   },
   {
     "materialsNeeded": [
@@ -5216,7 +5412,8 @@
       "plain sink",
       "plain",
       "sink"
-    ]
+    ],
+    "image": "../images/diy/Plain sink.png"
   },
   {
     "materialsNeeded": [
@@ -5239,7 +5436,8 @@
       "plain wooden",
       "plain",
       "sign"
-    ]
+    ],
+    "image": "../images/diy/Plain wooden shop sign.png"
   },
   {
     "materialsNeeded": [
@@ -5262,7 +5460,8 @@
       "pond stone",
       "pond",
       "stone"
-    ]
+    ],
+    "image": "../images/diy/Pond stone.png"
   },
   {
     "materialsNeeded": [
@@ -5285,7 +5484,8 @@
       "raccoon figurine",
       "raccoon",
       "figurine"
-    ]
+    ],
+    "image": "../images/diy/Raccoon figurine.png"
   },
   {
     "materialsNeeded": [
@@ -5311,7 +5511,8 @@
       "red-leaf pile",
       "red-leaf",
       "pile"
-    ]
+    ],
+    "image": "../images/diy/Red-leaf pile.png"
   },
   {
     "materialsNeeded": [
@@ -5350,7 +5551,8 @@
       "robot hero",
       "robot",
       "hero"
-    ]
+    ],
+    "image": "../images/diy/Robot hero.png"
   },
   {
     "materialsNeeded": [
@@ -5375,7 +5577,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "rocket"
-    ]
+    ],
+    "image": "../images/diy/Rocket.png"
   },
   {
     "materialsNeeded": [
@@ -5402,7 +5605,8 @@
       "rocking chair",
       "rocking",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Rocking chair.png"
   },
   {
     "materialsNeeded": [
@@ -5425,7 +5629,8 @@
       "rocking horse",
       "rocking",
       "horse"
-    ]
+    ],
+    "image": "../images/diy/Rocking horse.png"
   },
   {
     "materialsNeeded": [
@@ -5452,7 +5657,8 @@
       "rose bed",
       "rose",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Rose bed.png"
   },
   {
     "materialsNeeded": [
@@ -5477,7 +5683,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "satellite"
-    ]
+    ],
+    "image": "../images/diy/Satellite.png"
   },
   {
     "materialsNeeded": [
@@ -5508,7 +5715,8 @@
       "sauna heater",
       "sauna",
       "heater"
-    ]
+    ],
+    "image": "../images/diy/Sauna heater.png"
   },
   {
     "materialsNeeded": [
@@ -5531,7 +5739,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "scarecrow"
-    ]
+    ],
+    "image": "../images/diy/Scarecrow.png"
   },
   {
     "materialsNeeded": [
@@ -5554,7 +5763,8 @@
       "scattered papers",
       "scattered",
       "papers"
-    ]
+    ],
+    "image": "../images/diy/Scattered papers.png"
   },
   {
     "materialsNeeded": [
@@ -5589,7 +5799,8 @@
       "scorpio lamp",
       "scorpio",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Scorpio lamp.png"
   },
   {
     "materialsNeeded": [
@@ -5632,7 +5843,8 @@
       "shell arch",
       "shell",
       "arch"
-    ]
+    ],
+    "image": "../images/diy/Shell arch.png"
   },
   {
     "materialsNeeded": [
@@ -5663,7 +5875,8 @@
       "shell bed",
       "shell",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Shell bed.png"
   },
   {
     "materialsNeeded": [
@@ -5690,7 +5903,8 @@
       "shell fountain",
       "shell",
       "fountain"
-    ]
+    ],
+    "image": "../images/diy/Shell fountain.png"
   },
   {
     "materialsNeeded": [
@@ -5717,7 +5931,8 @@
       "shell partition",
       "shell",
       "partition"
-    ]
+    ],
+    "image": "../images/diy/Shell partition.png"
   },
   {
     "materialsNeeded": [
@@ -5740,7 +5955,8 @@
       "shell stool",
       "shell",
       "stool"
-    ]
+    ],
+    "image": "../images/diy/Shell stool.png"
   },
   {
     "materialsNeeded": [
@@ -5767,7 +5983,8 @@
       "shell table",
       "shell",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Shell table.png"
   },
   {
     "materialsNeeded": [
@@ -5792,7 +6009,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "signpost"
-    ]
+    ],
+    "image": "../images/diy/Signpost.png"
   },
   {
     "materialsNeeded": [
@@ -5825,7 +6043,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "silo"
-    ]
+    ],
+    "image": "../images/diy/Silo.png"
   },
   {
     "materialsNeeded": [
@@ -5852,7 +6071,8 @@
       "simple diy",
       "simple",
       "workbench"
-    ]
+    ],
+    "image": "../images/diy/Simple DIY workbench.png"
   },
   {
     "materialsNeeded": [
@@ -5879,7 +6099,8 @@
       "simple well",
       "simple",
       "well"
-    ]
+    ],
+    "image": "../images/diy/Simple well.png"
   },
   {
     "materialsNeeded": [
@@ -5900,7 +6121,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "sleigh"
-    ]
+    ],
+    "image": "../images/diy/Sleigh.png"
   },
   {
     "materialsNeeded": [
@@ -5923,7 +6145,8 @@
       "small cardboard",
       "small",
       "boxes"
-    ]
+    ],
+    "image": "../images/diy/Small cardboard boxes.png"
   },
   {
     "materialsNeeded": [
@@ -5950,7 +6173,8 @@
       "space shuttle",
       "space",
       "shuttle"
-    ]
+    ],
+    "image": "../images/diy/Space shuttle.png"
   },
   {
     "materialsNeeded": [
@@ -5971,7 +6195,8 @@
     "section": "DIY recipes/Housewares",
     "search": [
       "stall"
-    ]
+    ],
+    "image": "../images/diy/Stall.png"
   },
   {
     "materialsNeeded": [
@@ -5994,7 +6219,8 @@
       "standard umbrella",
       "standard",
       "stand"
-    ]
+    ],
+    "image": "../images/diy/Standard umbrella stand.png"
   },
   {
     "materialsNeeded": [
@@ -6017,7 +6243,8 @@
       "stone arch",
       "stone",
       "arch"
-    ]
+    ],
+    "image": "../images/diy/Stone arch.png"
   },
   {
     "materialsNeeded": [
@@ -6040,7 +6267,8 @@
       "stone lion-dog",
       "stone",
       "lion-dog"
-    ]
+    ],
+    "image": "../images/diy/Stone lion-dog.png"
   },
   {
     "materialsNeeded": [
@@ -6063,7 +6291,8 @@
       "stone stool",
       "stone",
       "stool"
-    ]
+    ],
+    "image": "../images/diy/Stone stool.png"
   },
   {
     "materialsNeeded": [
@@ -6086,7 +6315,8 @@
       "stone table",
       "stone",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Stone table.png"
   },
   {
     "materialsNeeded": [
@@ -6109,7 +6339,8 @@
       "stone tablet",
       "stone",
       "tablet"
-    ]
+    ],
+    "image": "../images/diy/Stone tablet.png"
   },
   {
     "materialsNeeded": [
@@ -6136,7 +6367,8 @@
       "street piano",
       "street",
       "piano"
-    ]
+    ],
+    "image": "../images/diy/Street piano.png"
   },
   {
     "materialsNeeded": [
@@ -6163,7 +6395,8 @@
       "swinging bench",
       "swinging",
       "bench"
-    ]
+    ],
+    "image": "../images/diy/Swinging bench.png"
   },
   {
     "materialsNeeded": [
@@ -6186,7 +6419,8 @@
       "tall garden",
       "tall",
       "rock"
-    ]
+    ],
+    "image": "../images/diy/Tall garden rock.png"
   },
   {
     "materialsNeeded": [
@@ -6209,7 +6443,8 @@
       "tall lantern",
       "tall",
       "lantern"
-    ]
+    ],
+    "image": "../images/diy/Tall lantern.png"
   },
   {
     "materialsNeeded": [
@@ -6244,7 +6479,8 @@
       "taurus bathtub",
       "taurus",
       "bathtub"
-    ]
+    ],
+    "image": "../images/diy/Taurus bathtub.png"
   },
   {
     "materialsNeeded": [
@@ -6267,7 +6503,8 @@
       "tea table",
       "tea",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Tea table.png"
   },
   {
     "materialsNeeded": [
@@ -6296,7 +6533,8 @@
       "three-tiered snowperson",
       "three-tiered",
       "snowperson"
-    ]
+    ],
+    "image": "../images/diy/Three-tiered snowperson.png"
   },
   {
     "materialsNeeded": [
@@ -6323,7 +6561,8 @@
       "tiki torch",
       "tiki",
       "torch"
-    ]
+    ],
+    "image": "../images/diy/Tiki torch.png"
   },
   {
     "materialsNeeded": [
@@ -6346,7 +6585,8 @@
       "tiny library",
       "tiny",
       "library"
-    ]
+    ],
+    "image": "../images/diy/Tiny library.png"
   },
   {
     "materialsNeeded": [
@@ -6369,7 +6609,8 @@
       "tire stack",
       "tire",
       "stack"
-    ]
+    ],
+    "image": "../images/diy/Tire stack.png"
   },
   {
     "materialsNeeded": [
@@ -6392,7 +6633,8 @@
       "tire toy",
       "tire",
       "toy"
-    ]
+    ],
+    "image": "../images/diy/Tire toy.png"
   },
   {
     "materialsNeeded": [
@@ -6419,7 +6661,8 @@
       "tree standee",
       "tree",
       "standee"
-    ]
+    ],
+    "image": "../images/diy/Tree standee.png"
   },
   {
     "materialsNeeded": [
@@ -6451,7 +6694,8 @@
       "tree's bounty",
       "tree's",
       "arch"
-    ]
+    ],
+    "image": "../images/diy/Tree's bounty arch.png"
   },
   {
     "materialsNeeded": [
@@ -6488,7 +6732,8 @@
       "tree's bounty",
       "tree's",
       "tree"
-    ]
+    ],
+    "image": "../images/diy/Tree's bounty big tree.png"
   },
   {
     "materialsNeeded": [
@@ -6519,7 +6764,8 @@
       "tree's bounty",
       "tree's",
       "tree"
-    ]
+    ],
+    "image": "../images/diy/Tree's bounty little tree.png"
   },
   {
     "materialsNeeded": [
@@ -6550,7 +6796,8 @@
       "trophy case",
       "trophy",
       "case"
-    ]
+    ],
+    "image": "../images/diy/Trophy case.png"
   },
   {
     "materialsNeeded": [
@@ -6577,7 +6824,8 @@
       "tulip surprise",
       "tulip",
       "box"
-    ]
+    ],
+    "image": "../images/diy/Tulip surprise box.png"
   },
   {
     "materialsNeeded": [
@@ -6612,7 +6860,8 @@
       "virgo harp",
       "virgo",
       "harp"
-    ]
+    ],
+    "image": "../images/diy/Virgo harp.png"
   },
   {
     "materialsNeeded": [
@@ -6639,7 +6888,8 @@
       "water pump",
       "water",
       "pump"
-    ]
+    ],
+    "image": "../images/diy/Water pump.png"
   },
   {
     "materialsNeeded": [
@@ -6666,7 +6916,8 @@
       "wave breaker",
       "wave",
       "breaker"
-    ]
+    ],
+    "image": "../images/diy/Wave breaker.png"
   },
   {
     "materialsNeeded": [
@@ -6689,7 +6940,8 @@
       "western-style stone",
       "western-style",
       "stone"
-    ]
+    ],
+    "image": "../images/diy/Western-style stone.png"
   },
   {
     "materialsNeeded": [
@@ -6712,7 +6964,8 @@
       "wild log",
       "wild",
       "bench"
-    ]
+    ],
+    "image": "../images/diy/Wild log bench.png"
   },
   {
     "materialsNeeded": [
@@ -6739,7 +6992,8 @@
       "wooden-block bed",
       "wooden-block",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block bed.png"
   },
   {
     "materialsNeeded": [
@@ -6766,7 +7020,8 @@
       "wooden-block bench",
       "wooden-block",
       "bench"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block bench.png"
   },
   {
     "materialsNeeded": [
@@ -6793,7 +7048,8 @@
       "wooden-block bookshelf",
       "wooden-block",
       "bookshelf"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block bookshelf.png"
   },
   {
     "materialsNeeded": [
@@ -6820,7 +7076,8 @@
       "wooden-block chair",
       "wooden-block",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block chair.png"
   },
   {
     "materialsNeeded": [
@@ -6847,7 +7104,8 @@
       "wooden-block chest",
       "wooden-block",
       "chest"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block chest.png"
   },
   {
     "materialsNeeded": [
@@ -6878,7 +7136,8 @@
       "wooden-block stereo",
       "wooden-block",
       "stereo"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block stereo.png"
   },
   {
     "materialsNeeded": [
@@ -6905,7 +7164,8 @@
       "wooden-block stool",
       "wooden-block",
       "stool"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block stool.png"
   },
   {
     "materialsNeeded": [
@@ -6932,7 +7192,8 @@
       "wooden-block table",
       "wooden-block",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block table.png"
   },
   {
     "materialsNeeded": [
@@ -6959,7 +7220,8 @@
       "wooden bookshelf",
       "wooden",
       "bookshelf"
-    ]
+    ],
+    "image": "../images/diy/Wooden bookshelf.png"
   },
   {
     "materialsNeeded": [
@@ -6986,7 +7248,8 @@
       "wooden bucket",
       "wooden",
       "bucket"
-    ]
+    ],
+    "image": "../images/diy/Wooden bucket.png"
   },
   {
     "materialsNeeded": [
@@ -7009,7 +7272,8 @@
       "wooden chair",
       "wooden",
       "chair"
-    ]
+    ],
+    "image": "../images/diy/Wooden chair.png"
   },
   {
     "materialsNeeded": [
@@ -7032,7 +7296,8 @@
       "wooden chest",
       "wooden",
       "chest"
-    ]
+    ],
+    "image": "../images/diy/Wooden chest.png"
   },
   {
     "materialsNeeded": [
@@ -7055,7 +7320,8 @@
       "wooden double",
       "wooden",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Wooden double bed.png"
   },
   {
     "materialsNeeded": [
@@ -7078,7 +7344,8 @@
       "wooden end",
       "wooden",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Wooden end table.png"
   },
   {
     "materialsNeeded": [
@@ -7105,7 +7372,8 @@
       "wooden full-length",
       "wooden",
       "mirror"
-    ]
+    ],
+    "image": "../images/diy/Wooden full-length mirror.png"
   },
   {
     "materialsNeeded": [
@@ -7126,7 +7394,8 @@
       "wooden low",
       "wooden",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Wooden low table.png"
   },
   {
     "materialsNeeded": [
@@ -7147,7 +7416,8 @@
       "wooden mini",
       "wooden",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Wooden mini table.png"
   },
   {
     "materialsNeeded": [
@@ -7170,7 +7440,8 @@
       "wooden simple",
       "wooden",
       "bed"
-    ]
+    ],
+    "image": "../images/diy/Wooden simple bed.png"
   },
   {
     "materialsNeeded": [
@@ -7193,7 +7464,8 @@
       "wooden stool",
       "wooden",
       "stool"
-    ]
+    ],
+    "image": "../images/diy/Wooden stool.png"
   },
   {
     "materialsNeeded": [
@@ -7214,7 +7486,8 @@
       "wooden table",
       "wooden",
       "table"
-    ]
+    ],
+    "image": "../images/diy/Wooden table.png"
   },
   {
     "materialsNeeded": [
@@ -7237,7 +7510,8 @@
       "wooden wardrobe",
       "wooden",
       "wardrobe"
-    ]
+    ],
+    "image": "../images/diy/Wooden wardrobe.png"
   },
   {
     "materialsNeeded": [
@@ -7260,7 +7534,8 @@
       "wooden waste",
       "wooden",
       "bin"
-    ]
+    ],
+    "image": "../images/diy/Wooden waste bin.png"
   },
   {
     "materialsNeeded": [
@@ -7284,7 +7559,8 @@
       "yellow-leaf pile",
       "yellow-leaf",
       "pile"
-    ]
+    ],
+    "image": "../images/diy/Yellow-leaf pile.png"
   },
   {
     "materialsNeeded": [
@@ -7307,7 +7583,8 @@
       "zen-style stone",
       "zen-style",
       "stone"
-    ]
+    ],
+    "image": "../images/diy/Zen-style stone.png"
   },
   {
     "materialsNeeded": [
@@ -7330,7 +7607,8 @@
       "aroma pot",
       "aroma",
       "pot"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -7357,7 +7635,8 @@
       "bamboo candleholder",
       "bamboo",
       "candleholder"
-    ]
+    ],
+    "image": "../images/diy/Bamboo candleholder.png"
   },
   {
     "materialsNeeded": [
@@ -7384,7 +7663,8 @@
       "bamboo drum",
       "bamboo",
       "drum"
-    ]
+    ],
+    "image": "../images/diy/Bamboo drum.png"
   },
   {
     "materialsNeeded": [
@@ -7407,7 +7687,8 @@
       "bamboo lunch",
       "bamboo",
       "box"
-    ]
+    ],
+    "image": "../images/diy/Bamboo lunch box.png"
   },
   {
     "materialsNeeded": [
@@ -7438,7 +7719,8 @@
       "bamboo-shoot lamp",
       "bamboo-shoot",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Bamboo-shoot lamp.png"
   },
   {
     "materialsNeeded": [
@@ -7461,7 +7743,8 @@
       "bamboo sphere",
       "bamboo",
       "sphere"
-    ]
+    ],
+    "image": "../images/diy/Bamboo sphere.png"
   },
   {
     "materialsNeeded": [
@@ -7484,7 +7767,8 @@
       "bunny day",
       "bunny",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day lamp.png"
   },
   {
     "materialsNeeded": [
@@ -7519,7 +7803,8 @@
       "cherry-blossom bonsai",
       "cherry-blossom",
       "bonsai"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom bonsai.png"
   },
   {
     "materialsNeeded": [
@@ -7542,7 +7827,8 @@
       "cherry speakers",
       "cherry",
       "speakers"
-    ]
+    ],
+    "image": "../images/diy/Cherry speakers.png"
   },
   {
     "materialsNeeded": [
@@ -7565,7 +7851,8 @@
       "classic pitcher",
       "classic",
       "pitcher"
-    ]
+    ],
+    "image": "../images/diy/Classic pitcher.png"
   },
   {
     "materialsNeeded": [
@@ -7588,7 +7875,8 @@
       "coconut juice",
       "coconut",
       "juice"
-    ]
+    ],
+    "image": "../images/diy/Coconut juice.png"
   },
   {
     "materialsNeeded": [
@@ -7615,7 +7903,8 @@
       "cutting board",
       "cutting",
       "board"
-    ]
+    ],
+    "image": "../images/diy/Cutting board.png"
   },
   {
     "materialsNeeded": [
@@ -7638,7 +7927,8 @@
       "decoy duck",
       "decoy",
       "duck"
-    ]
+    ],
+    "image": "../images/diy/Decoy duck.png"
   },
   {
     "materialsNeeded": [
@@ -7661,7 +7951,8 @@
       "document stack",
       "document",
       "stack"
-    ]
+    ],
+    "image": "../images/diy/Document stack.png"
   },
   {
     "materialsNeeded": [
@@ -7682,7 +7973,8 @@
     "section": "DIY recipes/Miscellaneous",
     "search": [
       "firewood"
-    ]
+    ],
+    "image": "../images/diy/Firewood.png"
   },
   {
     "materialsNeeded": [
@@ -7707,7 +7999,8 @@
       "frozen-treat set",
       "frozen-treat",
       "set"
-    ]
+    ],
+    "image": "../images/diy/Frozen-treat set.png"
   },
   {
     "materialsNeeded": [
@@ -7746,7 +8039,8 @@
       "fruit basket",
       "fruit",
       "basket"
-    ]
+    ],
+    "image": "../images/diy/Fruit basket.png"
   },
   {
     "materialsNeeded": [
@@ -7769,7 +8063,8 @@
       "frying pan",
       "frying",
       "pan"
-    ]
+    ],
+    "image": "../images/diy/Frying pan.png"
   },
   {
     "materialsNeeded": [
@@ -7792,7 +8087,8 @@
       "golden arowana",
       "golden",
       "model"
-    ]
+    ],
+    "image": "../images/diy/Golden arowana model.png"
   },
   {
     "materialsNeeded": [
@@ -7815,7 +8111,8 @@
       "gold bars",
       "gold",
       "bars"
-    ]
+    ],
+    "image": "../images/diy/Gold bars.png"
   },
   {
     "materialsNeeded": [
@@ -7836,7 +8133,8 @@
       "golden candlestick",
       "golden",
       "candlestick"
-    ]
+    ],
+    "image": "../images/diy/Golden candlestick.png"
   },
   {
     "materialsNeeded": [
@@ -7859,7 +8157,8 @@
       "golden dishes",
       "golden",
       "dishes"
-    ]
+    ],
+    "image": "../images/diy/Golden dishes.png"
   },
   {
     "materialsNeeded": [
@@ -7882,7 +8181,8 @@
       "golden dung",
       "golden",
       "beetle"
-    ]
+    ],
+    "image": "../images/diy/Golden dung beetle.png"
   },
   {
     "materialsNeeded": [
@@ -7909,7 +8209,8 @@
       "hyacinth lamp",
       "hyacinth",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Hyacinth lamp.png"
   },
   {
     "materialsNeeded": [
@@ -7948,7 +8249,8 @@
       "infused-water dispenser",
       "infused-water",
       "dispenser"
-    ]
+    ],
+    "image": "../images/diy/Infused-water dispenser.png"
   },
   {
     "materialsNeeded": [
@@ -7969,7 +8271,8 @@
     "section": "DIY recipes/Miscellaneous",
     "search": [
       "kettlebell"
-    ]
+    ],
+    "image": "../images/diy/Kettlebell.png"
   },
   {
     "materialsNeeded": [
@@ -8000,7 +8303,8 @@
       "libra scale",
       "libra",
       "scale"
-    ]
+    ],
+    "image": "../images/diy/Libra scale.png"
   },
   {
     "materialsNeeded": [
@@ -8027,7 +8331,8 @@
       "lucky gold",
       "lucky",
       "cat"
-    ]
+    ],
+    "image": "../images/diy/Lucky gold cat.png"
   },
   {
     "materialsNeeded": [
@@ -8054,7 +8359,8 @@
       "magazine rack",
       "magazine",
       "rack"
-    ]
+    ],
+    "image": "../images/diy/Magazine rack.png"
   },
   {
     "materialsNeeded": [
@@ -8075,7 +8381,8 @@
     "section": "DIY recipes/Miscellaneous",
     "search": [
       "matryoshka"
-    ]
+    ],
+    "image": "../images/diy/Matryoshka.png"
   },
   {
     "materialsNeeded": [
@@ -8096,7 +8403,8 @@
       "modeling clay",
       "modeling",
       "clay"
-    ]
+    ],
+    "image": "../images/diy/Modeling clay.png"
   },
   {
     "materialsNeeded": [
@@ -8119,7 +8427,8 @@
       "old-fashioned washtub",
       "old-fashioned",
       "washtub"
-    ]
+    ],
+    "image": "../images/diy/Old-fashioned washtub.png"
   },
   {
     "materialsNeeded": [
@@ -8146,7 +8455,8 @@
       "peach surprise",
       "peach",
       "box"
-    ]
+    ],
+    "image": "../images/diy/Peach surprise box.png"
   },
   {
     "materialsNeeded": [
@@ -8171,7 +8481,8 @@
       "pine bonsai",
       "pine",
       "tree"
-    ]
+    ],
+    "image": "../images/diy/Pine bonsai tree.png"
   },
   {
     "materialsNeeded": [
@@ -8192,7 +8503,8 @@
     "section": "DIY recipes/Miscellaneous",
     "search": [
       "pot"
-    ]
+    ],
+    "image": "../images/diy/Pot.png"
   },
   {
     "materialsNeeded": [
@@ -8223,7 +8535,8 @@
       "recycled-can thumb",
       "recycled-can",
       "piano"
-    ]
+    ],
+    "image": "../images/diy/Recycled-can thumb piano.png"
   },
   {
     "materialsNeeded": [
@@ -8248,7 +8561,8 @@
     "section": "DIY recipes/Miscellaneous",
     "search": [
       "ringtoss"
-    ]
+    ],
+    "image": "../images/diy/Ringtoss.png"
   },
   {
     "materialsNeeded": [
@@ -8283,7 +8597,8 @@
       "scorpio lamp",
       "scorpio",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Scorpio lamp.png"
   },
   {
     "materialsNeeded": [
@@ -8310,7 +8625,8 @@
       "shell lamp",
       "shell",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Shell lamp.png"
   },
   {
     "materialsNeeded": [
@@ -8337,7 +8653,8 @@
       "shell speaker",
       "shell",
       "speaker"
-    ]
+    ],
+    "image": "../images/diy/Shell speaker.png"
   },
   {
     "materialsNeeded": [
@@ -8360,7 +8677,8 @@
       "stack of",
       "stack",
       "books"
-    ]
+    ],
+    "image": "../images/diy/Stack of books.png"
   },
   {
     "materialsNeeded": [
@@ -8383,7 +8701,8 @@
       "stacked magazines",
       "stacked",
       "magazines"
-    ]
+    ],
+    "image": "../images/diy/Stacked magazines.png"
   },
   {
     "materialsNeeded": [
@@ -8406,7 +8725,8 @@
       "steamer-basket set",
       "steamer-basket",
       "set"
-    ]
+    ],
+    "image": "../images/diy/Steamer-basket set.png"
   },
   {
     "materialsNeeded": [
@@ -8433,7 +8753,8 @@
       "succulent plant",
       "succulent",
       "plant"
-    ]
+    ],
+    "image": "../images/diy/Succulent plant.png"
   },
   {
     "materialsNeeded": [
@@ -8462,7 +8783,8 @@
       "tabletop festive",
       "tabletop",
       "tree"
-    ]
+    ],
+    "image": "../images/diy/Tabletop festive tree.png"
   },
   {
     "materialsNeeded": [
@@ -8487,7 +8809,8 @@
     "section": "DIY recipes/Miscellaneous",
     "search": [
       "terrarium"
-    ]
+    ],
+    "image": "../images/diy/Terrarium.png"
   },
   {
     "materialsNeeded": [
@@ -8512,7 +8835,8 @@
       "traditional balancing",
       "traditional",
       "toy"
-    ]
+    ],
+    "image": "../images/diy/Traditional balancing toy.png"
   },
   {
     "materialsNeeded": [
@@ -8543,7 +8867,8 @@
       "trash bags",
       "trash",
       "bags"
-    ]
+    ],
+    "image": "../images/diy/Trash bags.png"
   },
   {
     "materialsNeeded": [
@@ -8568,7 +8893,8 @@
       "tree's bounty",
       "tree's",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Tree's bounty lamp.png"
   },
   {
     "materialsNeeded": [
@@ -8589,7 +8915,8 @@
     "section": "DIY recipes/Miscellaneous",
     "search": [
       "ukulele"
-    ]
+    ],
+    "image": "../images/diy/Ukulele.png"
   },
   {
     "materialsNeeded": [
@@ -8612,7 +8939,8 @@
       "unglazed dish",
       "unglazed",
       "set"
-    ]
+    ],
+    "image": "../images/diy/Unglazed dish set.png"
   },
   {
     "materialsNeeded": [
@@ -8639,7 +8967,8 @@
       "windflower fan",
       "windflower",
       "fan"
-    ]
+    ],
+    "image": "../images/diy/Windflower fan.png"
   },
   {
     "materialsNeeded": [
@@ -8682,7 +9011,8 @@
       "wobbling zipper",
       "wobbling",
       "toy"
-    ]
+    ],
+    "image": "../images/diy/Wobbling Zipper toy.png"
   },
   {
     "materialsNeeded": [
@@ -8703,7 +9033,8 @@
       "wooden-block toy",
       "wooden-block",
       "toy"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block toy.png"
   },
   {
     "materialsNeeded": [
@@ -8726,7 +9057,8 @@
       "wooden fish",
       "wooden",
       "fish"
-    ]
+    ],
+    "image": "../images/diy/Wooden fish.png"
   },
   {
     "materialsNeeded": [
@@ -8753,7 +9085,8 @@
       "wooden table",
       "wooden",
       "mirror"
-    ]
+    ],
+    "image": "../images/diy/Wooden table mirror.png"
   },
   {
     "materialsNeeded": [
@@ -8780,7 +9113,8 @@
       "wooden toolbox",
       "wooden",
       "toolbox"
-    ]
+    ],
+    "image": "../images/diy/Wooden toolbox.png"
   },
   {
     "materialsNeeded": [
@@ -8802,7 +9136,8 @@
       "bamboo wall",
       "bamboo",
       "decoration"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -8822,7 +9157,8 @@
       "blue rose",
       "blue",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Blue rose wreath.png"
   },
   {
     "materialsNeeded": [
@@ -8844,7 +9180,8 @@
       "bone doorplate",
       "bone",
       "doorplate"
-    ]
+    ],
+    "image": "../images/diy/Bone doorplate.png"
   },
   {
     "materialsNeeded": [
@@ -8864,7 +9201,8 @@
     "section": "DIY recipes/Wall-mounted",
     "search": [
       "boomerang"
-    ]
+    ],
+    "image": "../images/diy/Boomerang.png"
   },
   {
     "materialsNeeded": [
@@ -8906,7 +9244,8 @@
       "bunny day",
       "bunny",
       "garland"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day glowy garland.png"
   },
   {
     "materialsNeeded": [
@@ -8928,7 +9267,8 @@
       "bunny day",
       "bunny",
       "clock"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day wall clock.png"
   },
   {
     "materialsNeeded": [
@@ -8970,7 +9310,8 @@
       "bunny day",
       "bunny",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day wreath.png"
   },
   {
     "materialsNeeded": [
@@ -8996,7 +9337,8 @@
       "cherry lamp",
       "cherry",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Cherry lamp.png"
   },
   {
     "materialsNeeded": [
@@ -9022,7 +9364,8 @@
       "cherry-blossom clock",
       "cherry-blossom",
       "clock"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom clock.png"
   },
   {
     "materialsNeeded": [
@@ -9042,7 +9385,8 @@
       "chic cosmos",
       "chic",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Chic cosmos wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9062,7 +9406,8 @@
       "chic windflower",
       "chic",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Chic windflower wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9088,7 +9433,8 @@
       "coconut wall",
       "coconut",
       "planter"
-    ]
+    ],
+    "image": "../images/diy/Coconut wall planter.png"
   },
   {
     "materialsNeeded": [
@@ -9116,7 +9462,8 @@
       "cool hyacinth",
       "cool",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Cool hyacinth wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9136,7 +9483,8 @@
       "cool pansy",
       "cool",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Cool pansy wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9164,7 +9512,8 @@
       "cool windflower",
       "cool",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Cool windflower wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9194,7 +9543,8 @@
       "cosmos wreath",
       "cosmos",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Cosmos wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9216,7 +9566,8 @@
       "crest doorplate",
       "crest",
       "doorplate"
-    ]
+    ],
+    "image": "../images/diy/Crest doorplate.png"
   },
   {
     "materialsNeeded": [
@@ -9236,7 +9587,8 @@
       "dark lily",
       "dark",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Dark lily wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9260,7 +9612,8 @@
       "dark rose",
       "dark",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Dark rose wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9280,7 +9633,8 @@
       "dark tulip",
       "dark",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Dark tulip wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9302,7 +9656,8 @@
       "deer decoration",
       "deer",
       "decoration"
-    ]
+    ],
+    "image": "../images/diy/Deer decoration.png"
   },
   {
     "materialsNeeded": [
@@ -9332,7 +9687,8 @@
       "fancy mum",
       "fancy",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Fancy mum wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9360,7 +9716,8 @@
       "fancy lily",
       "fancy",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Fancy lily wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9390,7 +9747,8 @@
       "fancy rose",
       "fancy",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Fancy rose wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9412,7 +9770,8 @@
       "floral swag",
       "floral",
       "swag"
-    ]
+    ],
+    "image": "../images/diy/Floral swag.png"
   },
   {
     "materialsNeeded": [
@@ -9438,7 +9797,8 @@
       "fossil doorplate",
       "fossil",
       "doorplate"
-    ]
+    ],
+    "image": "../images/diy/Fossil doorplate.png"
   },
   {
     "materialsNeeded": [
@@ -9474,7 +9834,8 @@
       "fruit wreath",
       "fruit",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Fruit wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9494,7 +9855,8 @@
       "gold rose",
       "gold",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Gold rose wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9520,7 +9882,8 @@
       "golden gears",
       "golden",
       "gears"
-    ]
+    ],
+    "image": "../images/diy/Golden gears.png"
   },
   {
     "materialsNeeded": [
@@ -9546,7 +9909,8 @@
       "hanging terrarium",
       "hanging",
       "terrarium"
-    ]
+    ],
+    "image": "../images/diy/Hanging terrarium.png"
   },
   {
     "materialsNeeded": [
@@ -9576,7 +9940,8 @@
       "hyacinth wreath",
       "hyacinth",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Hyacinth wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9598,7 +9963,8 @@
       "iron doorplate",
       "iron",
       "doorplate"
-    ]
+    ],
+    "image": "../images/diy/Iron doorplate.png"
   },
   {
     "materialsNeeded": [
@@ -9624,7 +9990,8 @@
       "iron wall",
       "iron",
       "lamp"
-    ]
+    ],
+    "image": "../images/diy/Iron wall lamp.png"
   },
   {
     "materialsNeeded": [
@@ -9648,7 +10015,8 @@
       "iron wall",
       "iron",
       "rack"
-    ]
+    ],
+    "image": "../images/diy/Iron wall rack.png"
   },
   {
     "materialsNeeded": [
@@ -9674,7 +10042,8 @@
       "ironwood clock",
       "ironwood",
       "clock"
-    ]
+    ],
+    "image": "../images/diy/Ironwood clock.png"
   },
   {
     "materialsNeeded": [
@@ -9700,7 +10069,8 @@
       "key holder",
       "key",
       "holder"
-    ]
+    ],
+    "image": "../images/diy/Key holder.png"
   },
   {
     "materialsNeeded": [
@@ -9735,7 +10105,8 @@
       "leo sculpture",
       "leo",
       "sculpture"
-    ]
+    ],
+    "image": "../images/diy/Leo sculpture.png"
   },
   {
     "materialsNeeded": [
@@ -9765,7 +10136,8 @@
       "lily wreath",
       "lily",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Lily wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9789,7 +10161,8 @@
       "log wall-mounted",
       "log",
       "clock"
-    ]
+    ],
+    "image": "../images/diy/Log wall-mounted clock.png"
   },
   {
     "materialsNeeded": [
@@ -9819,7 +10192,8 @@
       "mum wreath",
       "mum",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Mum wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9851,7 +10225,8 @@
       "mushroom wreath",
       "mushroom",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Mushroom wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9871,7 +10246,8 @@
       "natural mum",
       "natural",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Natural mum wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9897,7 +10273,8 @@
       "orange wall-mounted",
       "orange",
       "clock"
-    ]
+    ],
+    "image": "../images/diy/Orange wall-mounted clock.png"
   },
   {
     "materialsNeeded": [
@@ -9929,7 +10306,8 @@
       "ornament mobile",
       "ornament",
       "mobile"
-    ]
+    ],
+    "image": "../images/diy/Ornament mobile.png"
   },
   {
     "materialsNeeded": [
@@ -9953,7 +10331,8 @@
       "ornament wreath",
       "ornament",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Ornament wreath.png"
   },
   {
     "materialsNeeded": [
@@ -9983,7 +10362,8 @@
       "pansy wreath",
       "pansy",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Pansy wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10003,7 +10383,8 @@
       "paw-print doorplate",
       "paw-print",
       "doorplate"
-    ]
+    ],
+    "image": "../images/diy/Paw-print doorplate.png"
   },
   {
     "materialsNeeded": [
@@ -10029,7 +10410,8 @@
       "potted ivy",
       "potted",
       "ivy"
-    ]
+    ],
+    "image": "../images/diy/Potted ivy.png"
   },
   {
     "materialsNeeded": [
@@ -10057,7 +10439,8 @@
       "pretty cosmos",
       "pretty",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Pretty cosmos wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10087,7 +10470,8 @@
       "pretty tulip",
       "pretty",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Pretty tulip wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10107,7 +10491,8 @@
       "purple hyacinth",
       "purple",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Purple hyacinth wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10137,7 +10522,8 @@
       "rose wreath",
       "rose",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Rose wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10167,7 +10553,8 @@
       "sagittarius arrow",
       "sagittarius",
       "arrow"
-    ]
+    ],
+    "image": "../images/diy/Sagittarius arrow.png"
   },
   {
     "materialsNeeded": [
@@ -10203,7 +10590,8 @@
       "shell wreath",
       "shell",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Shell wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10233,7 +10621,8 @@
       "snazzy pansy",
       "snazzy",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Snazzy pansy wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10253,7 +10642,8 @@
       "snowflake wreath",
       "snowflake",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Snowflake wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10279,7 +10669,8 @@
       "star clock",
       "star",
       "clock"
-    ]
+    ],
+    "image": "../images/diy/Star clock.png"
   },
   {
     "materialsNeeded": [
@@ -10301,7 +10692,8 @@
       "starry garland",
       "starry",
       "garland"
-    ]
+    ],
+    "image": "../images/diy/Starry garland.png"
   },
   {
     "materialsNeeded": [
@@ -10327,7 +10719,8 @@
       "timber doorplate",
       "timber",
       "doorplate"
-    ]
+    ],
+    "image": "../images/diy/Timber doorplate.png"
   },
   {
     "materialsNeeded": [
@@ -10355,7 +10748,8 @@
       "tree's bounty",
       "tree's",
       "mobile"
-    ]
+    ],
+    "image": "../images/diy/Tree's bounty mobile.png"
   },
   {
     "materialsNeeded": [
@@ -10377,7 +10771,8 @@
       "tree branch",
       "tree",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Tree branch wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10405,7 +10800,8 @@
       "tulip wreath",
       "tulip",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Tulip wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10435,7 +10831,8 @@
       "windflower wreath",
       "windflower",
       "wreath"
-    ]
+    ],
+    "image": "../images/diy/Windflower wreath.png"
   },
   {
     "materialsNeeded": [
@@ -10465,7 +10862,8 @@
       "wooden-block wall",
       "wooden-block",
       "clock"
-    ]
+    ],
+    "image": "../images/diy/Wooden-block wall clock.png"
   },
   {
     "materialsNeeded": [
@@ -10487,7 +10885,8 @@
       "wooden-plank sign",
       "wooden-plank",
       "sign"
-    ]
+    ],
+    "image": "../images/diy/Wooden-plank sign.png"
   },
   {
     "materialsNeeded": [
@@ -10508,7 +10907,8 @@
       "apple rug",
       "apple",
       "rug"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -10529,7 +10929,8 @@
       "apple wall",
       "apple",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Apple wall.png"
   },
   {
     "materialsNeeded": [
@@ -10556,7 +10957,8 @@
       "autumn wall",
       "autumn",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Autumn wall.png"
   },
   {
     "materialsNeeded": [
@@ -10577,7 +10979,8 @@
       "backyard lawn",
       "backyard",
       "lawn"
-    ]
+    ],
+    "image": "../images/diy/Backyard lawn.png"
   },
   {
     "materialsNeeded": [
@@ -10596,7 +10999,8 @@
       "bamboo flooring",
       "bamboo",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Bamboo flooring.png"
   },
   {
     "materialsNeeded": [
@@ -10615,7 +11019,8 @@
       "bamboo wall",
       "bamboo",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Bamboo wall.png"
   },
   {
     "materialsNeeded": [
@@ -10640,7 +11045,8 @@
       "bamboo-grove wall",
       "bamboo-grove",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Bamboo-grove wall.png"
   },
   {
     "materialsNeeded": [
@@ -10661,7 +11067,8 @@
       "basement flooring",
       "basement",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Basement flooring.png"
   },
   {
     "materialsNeeded": [
@@ -10682,7 +11089,8 @@
       "brown herringbone",
       "brown",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Brown herringbone wall.png"
   },
   {
     "materialsNeeded": [
@@ -10723,7 +11131,8 @@
       "bunny day",
       "bunny",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day flooring.png"
   },
   {
     "materialsNeeded": [
@@ -10765,7 +11174,8 @@
       "bunny day",
       "bunny",
       "rug"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day rug.png"
   },
   {
     "materialsNeeded": [
@@ -10806,7 +11216,8 @@
       "bunny day",
       "bunny",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day wall.png"
   },
   {
     "materialsNeeded": [
@@ -10825,7 +11236,8 @@
       "cabin wall",
       "cabin",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Cabin wall.png"
   },
   {
     "materialsNeeded": [
@@ -10846,7 +11258,8 @@
       "cherry rug",
       "cherry",
       "rug"
-    ]
+    ],
+    "image": "../images/diy/Cherry rug.png"
   },
   {
     "materialsNeeded": [
@@ -10867,7 +11280,8 @@
       "cherry wall",
       "cherry",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Cherry wall.png"
   },
   {
     "materialsNeeded": [
@@ -10892,7 +11306,8 @@
       "cherry-blossom flooring",
       "cherry-blossom",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom flooring.png"
   },
   {
     "materialsNeeded": [
@@ -10917,7 +11332,8 @@
       "cherry-blossom-trees wall",
       "cherry-blossom-trees",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom-trees wall.png"
   },
   {
     "materialsNeeded": [
@@ -10938,7 +11354,8 @@
       "chocolate herringbone",
       "chocolate",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Chocolate herringbone wall.png"
   },
   {
     "materialsNeeded": [
@@ -10959,7 +11376,8 @@
       "classic-library wall",
       "classic-library",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Classic-library wall.png"
   },
   {
     "materialsNeeded": [
@@ -10982,7 +11400,8 @@
       "colored-leaves flooring",
       "colored-leaves",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Colored-leaves flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11002,7 +11421,8 @@
       "dark bamboo",
       "dark",
       "rug"
-    ]
+    ],
+    "image": "../images/diy/Dark bamboo rug.png"
   },
   {
     "materialsNeeded": [
@@ -11023,7 +11443,8 @@
       "dark wooden-mosaic",
       "dark",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Dark wooden-mosaic wall.png"
   },
   {
     "materialsNeeded": [
@@ -11058,7 +11479,8 @@
       "forest flooring",
       "forest",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Forest flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11093,7 +11515,8 @@
       "forest wall",
       "forest",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Forest wall.png"
   },
   {
     "materialsNeeded": [
@@ -11118,7 +11541,8 @@
       "galaxy flooring",
       "galaxy",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Galaxy flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11147,7 +11571,8 @@
       "garbage-heap flooring",
       "garbage-heap",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Garbage-heap flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11176,7 +11601,8 @@
       "garbage-heap wall",
       "garbage-heap",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Garbage-heap wall.png"
   },
   {
     "materialsNeeded": [
@@ -11197,7 +11623,8 @@
       "golden flooring",
       "golden",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Golden flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11218,7 +11645,8 @@
       "golden wall",
       "golden",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Golden wall.png"
   },
   {
     "materialsNeeded": [
@@ -11241,7 +11669,8 @@
       "gold-screen wall",
       "gold-screen",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Gold-screen wall.png"
   },
   {
     "materialsNeeded": [
@@ -11262,7 +11691,8 @@
       "honeycomb flooring",
       "honeycomb",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Honeycomb flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11283,7 +11713,8 @@
       "honeycomb wall",
       "honeycomb",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Honeycomb wall.png"
   },
   {
     "materialsNeeded": [
@@ -11306,7 +11737,8 @@
       "ice flooring",
       "ice",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Ice flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11329,7 +11761,8 @@
       "ice wall",
       "ice",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Ice wall.png"
   },
   {
     "materialsNeeded": [
@@ -11348,7 +11781,8 @@
       "iceberg flooring",
       "iceberg",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Iceberg flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11367,7 +11801,8 @@
       "iceberg wall",
       "iceberg",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Iceberg wall.png"
   },
   {
     "materialsNeeded": [
@@ -11398,7 +11833,8 @@
       "jingle wall",
       "jingle",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Jingle wall.png"
   },
   {
     "materialsNeeded": [
@@ -11423,7 +11859,8 @@
       "jungle flooring",
       "jungle",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Jungle flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11456,7 +11893,8 @@
       "jungle wall",
       "jungle",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Jungle wall.png"
   },
   {
     "materialsNeeded": [
@@ -11478,7 +11916,8 @@
       "light bamboo",
       "light",
       "rug"
-    ]
+    ],
+    "image": "../images/diy/Light bamboo rug.png"
   },
   {
     "materialsNeeded": [
@@ -11503,7 +11942,8 @@
       "lunar surface",
       "lunar",
       "surface"
-    ]
+    ],
+    "image": "../images/diy/Lunar surface.png"
   },
   {
     "materialsNeeded": [
@@ -11524,7 +11964,8 @@
       "manga-library wall",
       "manga-library",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Manga-library wall.png"
   },
   {
     "materialsNeeded": [
@@ -11551,7 +11992,8 @@
       "modern wood",
       "modern",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Modern wood wall.png"
   },
   {
     "materialsNeeded": [
@@ -11570,7 +12012,8 @@
       "money flooring",
       "money",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Money flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11601,7 +12044,8 @@
       "mush wall",
       "mush",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Mush wall.png"
   },
   {
     "materialsNeeded": [
@@ -11622,7 +12066,8 @@
       "orange rug",
       "orange",
       "rug"
-    ]
+    ],
+    "image": "../images/diy/Orange rug.png"
   },
   {
     "materialsNeeded": [
@@ -11643,7 +12088,8 @@
       "orange wall",
       "orange",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Orange wall.png"
   },
   {
     "materialsNeeded": [
@@ -11664,7 +12110,8 @@
       "peach rug",
       "peach",
       "rug"
-    ]
+    ],
+    "image": "../images/diy/Peach rug.png"
   },
   {
     "materialsNeeded": [
@@ -11685,7 +12132,8 @@
       "peach wall",
       "peach",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Peach wall.png"
   },
   {
     "materialsNeeded": [
@@ -11706,7 +12154,8 @@
       "pear rug",
       "pear",
       "rug"
-    ]
+    ],
+    "image": "../images/diy/Pear rug.png"
   },
   {
     "materialsNeeded": [
@@ -11727,7 +12176,8 @@
       "pear wall",
       "pear",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Pear wall.png"
   },
   {
     "materialsNeeded": [
@@ -11750,7 +12200,8 @@
       "rustic-stone wall",
       "rustic-stone",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Rustic-stone wall.png"
   },
   {
     "materialsNeeded": [
@@ -11775,7 +12226,8 @@
       "sakura-wood flooring",
       "sakura-wood",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Sakura-wood flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11800,7 +12252,8 @@
       "sakura-wood wall",
       "sakura-wood",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Sakura-wood wall.png"
   },
   {
     "materialsNeeded": [
@@ -11841,7 +12294,8 @@
       "sandy-beach flooring",
       "sandy-beach",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Sandy-beach flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11864,7 +12318,8 @@
       "sci-fi flooring",
       "sci-fi",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Sci-fi flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11889,7 +12344,8 @@
       "sci-fi wall",
       "sci-fi",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Sci-fi wall.png"
   },
   {
     "materialsNeeded": [
@@ -11908,7 +12364,8 @@
       "shell rug",
       "shell",
       "rug"
-    ]
+    ],
+    "image": "../images/diy/Shell rug.png"
   },
   {
     "materialsNeeded": [
@@ -11927,7 +12384,8 @@
       "ski-slope flooring",
       "ski-slope",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Ski-slope flooring.png"
   },
   {
     "materialsNeeded": [
@@ -11946,7 +12404,8 @@
       "ski-slope wall",
       "ski-slope",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Ski-slope wall.png"
   },
   {
     "materialsNeeded": [
@@ -11965,7 +12424,8 @@
       "snowflake wall",
       "snowflake",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Snowflake wall.png"
   },
   {
     "materialsNeeded": [
@@ -11984,7 +12444,8 @@
       "stacked-wood wall",
       "stacked-wood",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Stacked-wood wall.png"
   },
   {
     "materialsNeeded": [
@@ -12009,7 +12470,8 @@
       "starry wall",
       "starry",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Starry wall.png"
   },
   {
     "materialsNeeded": [
@@ -12034,7 +12496,8 @@
       "starry-sands flooring",
       "starry-sands",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Starry-sands flooring.png"
   },
   {
     "materialsNeeded": [
@@ -12057,7 +12520,8 @@
       "starry-sky wall",
       "starry-sky",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Starry-sky wall.png"
   },
   {
     "materialsNeeded": [
@@ -12078,7 +12542,8 @@
       "steel flooring",
       "steel",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Steel flooring.png"
   },
   {
     "materialsNeeded": [
@@ -12099,7 +12564,8 @@
       "steel-frame wall",
       "steel-frame",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Steel-frame wall.png"
   },
   {
     "materialsNeeded": [
@@ -12120,7 +12586,8 @@
       "stone wall",
       "stone",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Stone wall.png"
   },
   {
     "materialsNeeded": [
@@ -12141,7 +12608,8 @@
       "tropical vista",
       "tropical",
       "vista"
-    ]
+    ],
+    "image": "../images/diy/Tropical Vista.png"
   },
   {
     "materialsNeeded": [
@@ -12166,7 +12634,8 @@
       "underwater flooring",
       "underwater",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Underwater flooring.png"
   },
   {
     "materialsNeeded": [
@@ -12191,7 +12660,8 @@
       "underwater wall",
       "underwater",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Underwater wall.png"
   },
   {
     "materialsNeeded": [
@@ -12212,7 +12682,8 @@
       "water flooring",
       "water",
       "flooring"
-    ]
+    ],
+    "image": "../images/diy/Water flooring.png"
   },
   {
     "materialsNeeded": [
@@ -12231,7 +12702,8 @@
       "wild-wood wall",
       "wild-wood",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Wild-wood wall.png"
   },
   {
     "materialsNeeded": [
@@ -12252,7 +12724,8 @@
       "wooden-knot wall",
       "wooden-knot",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Wooden-knot wall.png"
   },
   {
     "materialsNeeded": [
@@ -12273,7 +12746,8 @@
       "wooden-mosaic wall",
       "wooden-mosaic",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Wooden-mosaic wall.png"
   },
   {
     "materialsNeeded": [
@@ -12298,7 +12772,8 @@
       "woodland wall",
       "woodland",
       "wall"
-    ]
+    ],
+    "image": "../images/diy/Woodland wall.png"
   },
   {
     "materialsNeeded": [
@@ -12320,7 +12795,8 @@
       "acorn pochette",
       "acorn",
       "pochette"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -12342,7 +12818,8 @@
       "apple dress",
       "apple",
       "dress"
-    ]
+    ],
+    "image": "../images/diy/Apple dress.png"
   },
   {
     "materialsNeeded": [
@@ -12364,7 +12841,8 @@
       "apple hat",
       "apple",
       "hat"
-    ]
+    ],
+    "image": "../images/diy/Apple hat.png"
   },
   {
     "materialsNeeded": [
@@ -12386,7 +12864,8 @@
       "apple umbrella",
       "apple",
       "umbrella"
-    ]
+    ],
+    "image": "../images/diy/Apple umbrella.png"
   },
   {
     "materialsNeeded": [
@@ -12406,7 +12885,8 @@
       "armor shoes",
       "armor",
       "shoes"
-    ]
+    ],
+    "image": "../images/diy/Armor shoes.png"
   },
   {
     "materialsNeeded": [
@@ -12426,7 +12906,8 @@
       "bamboo hat",
       "bamboo",
       "hat"
-    ]
+    ],
+    "image": "../images/diy/Bamboo hat.png"
   },
   {
     "materialsNeeded": [
@@ -12448,7 +12929,8 @@
       "basket pack",
       "basket",
       "pack"
-    ]
+    ],
+    "image": "../images/diy/Basket pack.png"
   },
   {
     "materialsNeeded": [
@@ -12468,7 +12950,8 @@
       "blue rose",
       "blue",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Blue rose crown.png"
   },
   {
     "materialsNeeded": [
@@ -12510,7 +12993,8 @@
       "bunny day",
       "bunny",
       "bag"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day bag.png"
   },
   {
     "materialsNeeded": [
@@ -12552,7 +13036,8 @@
       "bunny day",
       "bunny",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day crown.png"
   },
   {
     "materialsNeeded": [
@@ -12574,7 +13059,8 @@
       "cherry-blossom pochette",
       "cherry-blossom",
       "pochette"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom pochette.png"
   },
   {
     "materialsNeeded": [
@@ -12596,7 +13082,8 @@
       "cherry-blossom umbrella",
       "cherry-blossom",
       "umbrella"
-    ]
+    ],
+    "image": "../images/diy/Cherry-blossom umbrella.png"
   },
   {
     "materialsNeeded": [
@@ -12618,7 +13105,8 @@
       "cherry dress",
       "cherry",
       "dress"
-    ]
+    ],
+    "image": "../images/diy/Cherry dress.png"
   },
   {
     "materialsNeeded": [
@@ -12640,7 +13128,8 @@
       "cherry hat",
       "cherry",
       "hat"
-    ]
+    ],
+    "image": "../images/diy/Cherry hat.png"
   },
   {
     "materialsNeeded": [
@@ -12662,7 +13151,8 @@
       "cherry umbrella",
       "cherry",
       "umbrella"
-    ]
+    ],
+    "image": "../images/diy/Cherry umbrella.png"
   },
   {
     "materialsNeeded": [
@@ -12688,7 +13178,8 @@
       "chic mum",
       "chic",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Chic mum crown.png"
   },
   {
     "materialsNeeded": [
@@ -12712,7 +13203,8 @@
       "chic rose",
       "chic",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Chic rose crown.png"
   },
   {
     "materialsNeeded": [
@@ -12740,7 +13232,8 @@
       "chic tulip",
       "chic",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Chic tulip crown.png"
   },
   {
     "materialsNeeded": [
@@ -12766,7 +13259,8 @@
       "cool pansy",
       "cool",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Cool pansy crown.png"
   },
   {
     "materialsNeeded": [
@@ -12794,7 +13288,8 @@
       "cool hyacinth",
       "cool",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Cool hyacinth crown.png"
   },
   {
     "materialsNeeded": [
@@ -12820,7 +13315,8 @@
       "cool windflower",
       "cool",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Cool windflower crown.png"
   },
   {
     "materialsNeeded": [
@@ -12850,7 +13346,8 @@
       "cosmos crown",
       "cosmos",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Cosmos crown.png"
   },
   {
     "materialsNeeded": [
@@ -12880,7 +13377,8 @@
       "cute lily",
       "cute",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Cute lily crown.png"
   },
   {
     "materialsNeeded": [
@@ -12906,7 +13404,8 @@
       "cute rose",
       "cute",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Cute rose crown.png"
   },
   {
     "materialsNeeded": [
@@ -12926,7 +13425,8 @@
       "dark cosmos",
       "dark",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Dark cosmos crown.png"
   },
   {
     "materialsNeeded": [
@@ -12946,7 +13446,8 @@
       "dark lily",
       "dark",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Dark lily crown.png"
   },
   {
     "materialsNeeded": [
@@ -12966,7 +13467,8 @@
       "dark tulip",
       "dark",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Dark tulip crown.png"
   },
   {
     "materialsNeeded": [
@@ -12988,7 +13490,8 @@
       "earth-egg outfit",
       "earth-egg",
       "outfit"
-    ]
+    ],
+    "image": "../images/diy/Earth-egg outfit.png"
   },
   {
     "materialsNeeded": [
@@ -13010,7 +13513,8 @@
       "earth-egg shell",
       "earth-egg",
       "shell"
-    ]
+    ],
+    "image": "../images/diy/Earth-egg shell.png"
   },
   {
     "materialsNeeded": [
@@ -13032,7 +13536,8 @@
       "earth-egg shoes",
       "earth-egg",
       "shoes"
-    ]
+    ],
+    "image": "../images/diy/Earth-egg shoes.png"
   },
   {
     "materialsNeeded": [
@@ -13074,7 +13579,8 @@
       "egg party",
       "egg",
       "dress"
-    ]
+    ],
+    "image": "../images/diy/Egg party dress.png"
   },
   {
     "materialsNeeded": [
@@ -13116,7 +13622,8 @@
       "egg party",
       "egg",
       "hat"
-    ]
+    ],
+    "image": "../images/diy/Egg party hat.png"
   },
   {
     "materialsNeeded": [
@@ -13138,7 +13645,8 @@
       "gold armor",
       "gold",
       "armor"
-    ]
+    ],
+    "image": "../images/diy/Gold armor.png"
   },
   {
     "materialsNeeded": [
@@ -13158,7 +13666,8 @@
       "gold-armor shoes",
       "gold-armor",
       "shoes"
-    ]
+    ],
+    "image": "../images/diy/Gold-armor shoes.png"
   },
   {
     "materialsNeeded": [
@@ -13178,7 +13687,8 @@
       "gold helmet",
       "gold",
       "helmet"
-    ]
+    ],
+    "image": "../images/diy/Gold helmet.png"
   },
   {
     "materialsNeeded": [
@@ -13198,7 +13708,8 @@
       "gold rose",
       "gold",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Gold rose crown.png"
   },
   {
     "materialsNeeded": [
@@ -13220,7 +13731,8 @@
       "grass skirt",
       "grass",
       "skirt"
-    ]
+    ],
+    "image": "../images/diy/Grass skirt.png"
   },
   {
     "materialsNeeded": [
@@ -13242,7 +13754,8 @@
       "green grass",
       "green",
       "skirt"
-    ]
+    ],
+    "image": "../images/diy/Green grass skirt.png"
   },
   {
     "materialsNeeded": [
@@ -13270,7 +13783,8 @@
       "hyacinth crown",
       "hyacinth",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Hyacinth crown.png"
   },
   {
     "materialsNeeded": [
@@ -13290,7 +13804,8 @@
       "iron armor",
       "iron",
       "armor"
-    ]
+    ],
+    "image": "../images/diy/Iron armor.png"
   },
   {
     "materialsNeeded": [
@@ -13312,7 +13827,8 @@
       "knight's helmet",
       "knight's",
       "helmet"
-    ]
+    ],
+    "image": "../images/diy/Knight's helmet.png"
   },
   {
     "materialsNeeded": [
@@ -13334,7 +13850,8 @@
       "knitted-grass backpack",
       "knitted-grass",
       "backpack"
-    ]
+    ],
+    "image": "../images/diy/Knitted-grass backpack.png"
   },
   {
     "materialsNeeded": [
@@ -13354,7 +13871,8 @@
     "section": "DIY recipes/Equipment",
     "search": [
       "leaf"
-    ]
+    ],
+    "image": "../images/diy/Leaf.png"
   },
   {
     "materialsNeeded": [
@@ -13376,7 +13894,8 @@
       "leaf mask",
       "leaf",
       "mask"
-    ]
+    ],
+    "image": "../images/diy/Leaf mask.png"
   },
   {
     "materialsNeeded": [
@@ -13398,7 +13917,8 @@
       "leaf umbrella",
       "leaf",
       "umbrella"
-    ]
+    ],
+    "image": "../images/diy/Leaf umbrella.png"
   },
   {
     "materialsNeeded": [
@@ -13420,7 +13940,8 @@
       "leaf-egg outfit",
       "leaf-egg",
       "outfit"
-    ]
+    ],
+    "image": "../images/diy/Leaf-egg outfit.png"
   },
   {
     "materialsNeeded": [
@@ -13442,7 +13963,8 @@
       "leaf-egg shell",
       "leaf-egg",
       "shell"
-    ]
+    ],
+    "image": "../images/diy/Leaf-egg shell.png"
   },
   {
     "materialsNeeded": [
@@ -13464,7 +13986,8 @@
       "leaf-egg shoes",
       "leaf-egg",
       "shoes"
-    ]
+    ],
+    "image": "../images/diy/Leaf-egg shoes.png"
   },
   {
     "materialsNeeded": [
@@ -13492,7 +14015,8 @@
       "lily crown",
       "lily",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Lily crown.png"
   },
   {
     "materialsNeeded": [
@@ -13518,7 +14042,8 @@
       "log pack",
       "log",
       "pack"
-    ]
+    ],
+    "image": "../images/diy/Log pack.png"
   },
   {
     "materialsNeeded": [
@@ -13542,7 +14067,8 @@
       "lovely cosmos",
       "lovely",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Lovely cosmos crown.png"
   },
   {
     "materialsNeeded": [
@@ -13562,7 +14088,8 @@
       "maple-leaf pochette",
       "maple-leaf",
       "pochette"
-    ]
+    ],
+    "image": "../images/diy/Maple-leaf pochette.png"
   },
   {
     "materialsNeeded": [
@@ -13582,7 +14109,8 @@
       "maple-leaf umbrella",
       "maple-leaf",
       "umbrella"
-    ]
+    ],
+    "image": "../images/diy/Maple-leaf umbrella.png"
   },
   {
     "materialsNeeded": [
@@ -13612,7 +14140,8 @@
       "mum crown",
       "mum",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Mum crown.png"
   },
   {
     "materialsNeeded": [
@@ -13632,7 +14161,8 @@
       "mush umbrella",
       "mush",
       "umbrella"
-    ]
+    ],
+    "image": "../images/diy/Mush umbrella.png"
   },
   {
     "materialsNeeded": [
@@ -13654,7 +14184,8 @@
       "orange dress",
       "orange",
       "dress"
-    ]
+    ],
+    "image": "../images/diy/Orange dress.png"
   },
   {
     "materialsNeeded": [
@@ -13676,7 +14207,8 @@
       "orange hat",
       "orange",
       "hat"
-    ]
+    ],
+    "image": "../images/diy/Orange hat.png"
   },
   {
     "materialsNeeded": [
@@ -13698,7 +14230,8 @@
       "orange umbrella",
       "orange",
       "umbrella"
-    ]
+    ],
+    "image": "../images/diy/Orange umbrella.png"
   },
   {
     "materialsNeeded": [
@@ -13728,7 +14261,8 @@
       "pansy crown",
       "pansy",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Pansy crown.png"
   },
   {
     "materialsNeeded": [
@@ -13750,7 +14284,8 @@
       "peach dress",
       "peach",
       "dress"
-    ]
+    ],
+    "image": "../images/diy/Peach dress.png"
   },
   {
     "materialsNeeded": [
@@ -13772,7 +14307,8 @@
       "peach hat",
       "peach",
       "hat"
-    ]
+    ],
+    "image": "../images/diy/Peach hat.png"
   },
   {
     "materialsNeeded": [
@@ -13794,7 +14330,8 @@
       "peach umbrella",
       "peach",
       "umbrella"
-    ]
+    ],
+    "image": "../images/diy/Peach umbrella.png"
   },
   {
     "materialsNeeded": [
@@ -13816,7 +14353,8 @@
       "pear dress",
       "pear",
       "dress"
-    ]
+    ],
+    "image": "../images/diy/Pear dress.png"
   },
   {
     "materialsNeeded": [
@@ -13838,7 +14376,8 @@
       "pear hat",
       "pear",
       "hat"
-    ]
+    ],
+    "image": "../images/diy/Pear hat.png"
   },
   {
     "materialsNeeded": [
@@ -13860,7 +14399,8 @@
       "pear umbrella",
       "pear",
       "umbrella"
-    ]
+    ],
+    "image": "../images/diy/Pear umbrella.png"
   },
   {
     "materialsNeeded": [
@@ -13880,7 +14420,8 @@
       "purple hyacinth",
       "purple",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Purple hyacinth crown.png"
   },
   {
     "materialsNeeded": [
@@ -13902,7 +14443,8 @@
       "purple pansy",
       "purple",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Purple pansy crown.png"
   },
   {
     "materialsNeeded": [
@@ -13922,7 +14464,8 @@
       "purple windflower",
       "purple",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Purple windflower crown.png"
   },
   {
     "materialsNeeded": [
@@ -13944,7 +14487,8 @@
       "recycled boots",
       "recycled",
       "boots"
-    ]
+    ],
+    "image": "../images/diy/Recycled boots.png"
   },
   {
     "materialsNeeded": [
@@ -13972,7 +14516,8 @@
       "rose crown",
       "rose",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Rose crown.png"
   },
   {
     "materialsNeeded": [
@@ -13998,7 +14543,8 @@
       "shellfish pochette",
       "shellfish",
       "pochette"
-    ]
+    ],
+    "image": "../images/diy/Shellfish pochette.png"
   },
   {
     "materialsNeeded": [
@@ -14018,7 +14564,8 @@
       "simple mum",
       "simple",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Simple mum crown.png"
   },
   {
     "materialsNeeded": [
@@ -14040,7 +14587,8 @@
       "sky-egg outfit",
       "sky-egg",
       "outfit"
-    ]
+    ],
+    "image": "../images/diy/Sky-egg outfit.png"
   },
   {
     "materialsNeeded": [
@@ -14062,7 +14610,8 @@
       "sky-egg shell",
       "sky-egg",
       "shell"
-    ]
+    ],
+    "image": "../images/diy/Sky-egg shell.png"
   },
   {
     "materialsNeeded": [
@@ -14084,7 +14633,8 @@
       "sky-egg shoes",
       "sky-egg",
       "shoes"
-    ]
+    ],
+    "image": "../images/diy/Sky-egg shoes.png"
   },
   {
     "materialsNeeded": [
@@ -14104,7 +14654,8 @@
       "snowflake pochette",
       "snowflake",
       "pochette"
-    ]
+    ],
+    "image": "../images/diy/Snowflake pochette.png"
   },
   {
     "materialsNeeded": [
@@ -14128,7 +14679,8 @@
       "snowperson head",
       "snowperson",
       "head"
-    ]
+    ],
+    "image": "../images/diy/Snowperson head.png"
   },
   {
     "materialsNeeded": [
@@ -14150,7 +14702,8 @@
       "star head",
       "star",
       "head"
-    ]
+    ],
+    "image": "../images/diy/Star head.png"
   },
   {
     "materialsNeeded": [
@@ -14172,7 +14725,8 @@
       "star pochette",
       "star",
       "pochette"
-    ]
+    ],
+    "image": "../images/diy/Star pochette.png"
   },
   {
     "materialsNeeded": [
@@ -14194,7 +14748,8 @@
       "straw umbrella",
       "straw",
       "hat"
-    ]
+    ],
+    "image": "../images/diy/Straw umbrella hat.png"
   },
   {
     "materialsNeeded": [
@@ -14216,7 +14771,8 @@
       "stone-egg outfit",
       "stone-egg",
       "outfit"
-    ]
+    ],
+    "image": "../images/diy/Stone-egg outfit.png"
   },
   {
     "materialsNeeded": [
@@ -14238,7 +14794,8 @@
       "stone-egg shell",
       "stone-egg",
       "shell"
-    ]
+    ],
+    "image": "../images/diy/Stone-egg shell.png"
   },
   {
     "materialsNeeded": [
@@ -14260,7 +14817,8 @@
       "stone-egg shoes",
       "stone-egg",
       "shoes"
-    ]
+    ],
+    "image": "../images/diy/Stone-egg shoes.png"
   },
   {
     "materialsNeeded": [
@@ -14282,7 +14840,8 @@
       "traditional straw",
       "traditional",
       "coat"
-    ]
+    ],
+    "image": "../images/diy/Traditional straw coat.png"
   },
   {
     "materialsNeeded": [
@@ -14312,7 +14871,8 @@
       "tulip crown",
       "tulip",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Tulip crown.png"
   },
   {
     "materialsNeeded": [
@@ -14334,7 +14894,8 @@
       "water-egg outfit",
       "water-egg",
       "outfit"
-    ]
+    ],
+    "image": "../images/diy/Water-egg outfit.png"
   },
   {
     "materialsNeeded": [
@@ -14356,7 +14917,8 @@
       "water-egg shell",
       "water-egg",
       "shell"
-    ]
+    ],
+    "image": "../images/diy/Water-egg shell.png"
   },
   {
     "materialsNeeded": [
@@ -14378,7 +14940,8 @@
       "water-egg shoes",
       "water-egg",
       "shoes"
-    ]
+    ],
+    "image": "../images/diy/Water-egg shoes.png"
   },
   {
     "materialsNeeded": [
@@ -14408,7 +14971,8 @@
       "windflower crown",
       "windflower",
       "crown"
-    ]
+    ],
+    "image": "../images/diy/Windflower crown.png"
   },
   {
     "materialsNeeded": [
@@ -14430,7 +14994,8 @@
       "wood-egg outfit",
       "wood-egg",
       "outfit"
-    ]
+    ],
+    "image": "../images/diy/Wood-egg outfit.png"
   },
   {
     "materialsNeeded": [
@@ -14452,7 +15017,8 @@
       "wood-egg shell",
       "wood-egg",
       "shell"
-    ]
+    ],
+    "image": "../images/diy/Wood-egg shell.png"
   },
   {
     "materialsNeeded": [
@@ -14474,7 +15040,8 @@
       "wood-egg shoes",
       "wood-egg",
       "shoes"
-    ]
+    ],
+    "image": "../images/diy/Wood-egg shoes.png"
   },
   {
     "materialsNeeded": [
@@ -14496,7 +15063,8 @@
       "bamboo lattice",
       "bamboo",
       "x10"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -14522,7 +15090,8 @@
       "barbed-wire fence",
       "barbed-wire",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Barbed-wire fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14544,7 +15113,8 @@
       "brick fence",
       "brick",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Brick Fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14586,7 +15156,8 @@
       "bunny day",
       "bunny",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Bunny Day fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14608,7 +15179,8 @@
       "corral fence",
       "corral",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Corral fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14630,7 +15202,8 @@
       "country fence",
       "country",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Country fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14660,7 +15233,8 @@
       "hedge x10",
       "hedge",
       "x10"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -14686,7 +15260,8 @@
       "imperial fence",
       "imperial",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Imperial fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14712,7 +15287,8 @@
       "iron-and-stone fence",
       "iron-and-stone",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Iron-and-stone fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14734,7 +15310,8 @@
       "iron fence",
       "iron",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Iron fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14756,7 +15333,8 @@
       "fish bait",
       "fish",
       "bait"
-    ]
+    ],
+    "image": "../images/diy/Fish bait.png"
   },
   {
     "materialsNeeded": [
@@ -14778,7 +15356,8 @@
       "lattice fence",
       "lattice",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Lattice fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14802,7 +15381,8 @@
     "section": "DIY recipes/Other",
     "search": [
       "medicine"
-    ]
+    ],
+    "image": "../images/diy/Medicine.png"
   },
   {
     "materialsNeeded": [
@@ -14822,7 +15402,8 @@
     "section": "DIY recipes/Other",
     "search": [
       "ocarina"
-    ]
+    ],
+    "image": "../images/diy/Ocarina.png"
   },
   {
     "materialsNeeded": [
@@ -14844,7 +15425,8 @@
       "pan flute",
       "pan",
       "flute"
-    ]
+    ],
+    "image": "../images/diy/Pan flute.png"
   },
   {
     "materialsNeeded": [
@@ -14870,7 +15452,8 @@
       "pitfall seed",
       "pitfall",
       "seed"
-    ]
+    ],
+    "image": "../images/diy/Pitfall seed.png"
   },
   {
     "materialsNeeded": [
@@ -14892,7 +15475,8 @@
       "rope fence",
       "rope",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Rope Fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14914,7 +15498,8 @@
       "simple wooden",
       "simple",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Simple wooden fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14936,7 +15521,8 @@
       "spiky fence",
       "spiky",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Spiky fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14958,7 +15544,8 @@
       "stone fence",
       "stone",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Stone fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -14984,7 +15571,8 @@
       "straw fence",
       "straw",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Straw fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -15006,7 +15594,8 @@
       "vertical-board fence",
       "vertical-board",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Vertical-board fence x10.png"
   },
   {
     "materialsNeeded": [
@@ -15032,7 +15621,8 @@
       "wedding fence",
       "wedding",
       "x10"
-    ]
+    ],
+    "image": "../images/diy404.png"
   },
   {
     "materialsNeeded": [
@@ -15062,6 +15652,7 @@
       "zen fence",
       "zen",
       "x10"
-    ]
+    ],
+    "image": "../images/diy/Zen fence x10.png"
   }
 ]

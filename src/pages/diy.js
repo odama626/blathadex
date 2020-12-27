@@ -6,6 +6,7 @@ import SEO from '../components/seo';
 import BottomNav, { FAB_BUTTON } from '../components/BottomNav/BottomNav';
 import SearchOverlay from 'components/Search';
 import ItemBlock from 'components/ItemBlock';
+import { blockImage } from 'app/utils';
 
 const DiyList = ({ recipes }) => {
   const [searchOpen, setSearchOpen] = useState(false);
@@ -49,6 +50,13 @@ export const query = graphql`
           size
           type
           id
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              }
+            }
+          }
         }
       }
     }

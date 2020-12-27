@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import diy404Src from 'images/diy404.svg';
 import React, { useState } from 'react';
 import HybridStar from 'images/inline/hybridStar.svg';
+import Img from 'gatsby-image';
 
 function createLink(item) {
   if (~['bug', 'fish'].indexOf(item.type)) {
@@ -14,6 +15,10 @@ function createLink(item) {
 function Image({ item, ...rest }) {
   const asIs = !~['bug', 'fish'].indexOf(item.type);
   const [src, setSrc] = useState(createImgSrc(item, asIs));
+  const { image, name } = item;
+  if (image) {
+    return <Img fluid={image?.childImageSharp?.fluid} alt={name} />
+  }
   return <img {...rest} alt={item.name} src={src} onError={() => setSrc(diy404Src)} />;
 }
 
