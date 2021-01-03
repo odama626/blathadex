@@ -31,7 +31,7 @@ export default function IndexPageContainer(props) {
   const hemisphere = state?.filter?.hemisphere;
 
   const sortedCritters = useMemo(
-    () => orderBy(availableCritters, [sort, 'bells'], ['desc', 'desc']),
+    () => orderBy(availableCritters, [sort, 'bells'], [sort === 'no' ? 'asc' : 'desc', 'desc']),
     [sort, availableCritters]
   );
 

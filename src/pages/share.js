@@ -1,7 +1,6 @@
 import db from 'app/database';
 import { CritterBlock } from 'components/critters/Critter';
 import { graphql } from 'gatsby';
-import jsqr from 'jsqr';
 import lzstring from 'lz-string';
 import qrcode from 'qrcode-generator';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
@@ -9,7 +8,18 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { navigate } from 'gatsby';
 
-// import jsqr from 'qrcode-reader';
+// require('@tensorflow/tfjs-backend-cpu');
+// require('@tensorflow/tfjs-backend-webgl');
+// const cocoSsd = require('@tensorflow-models/coco-ssd');
+
+// async function predict(img) {
+//   const model = await cocoSsd.load({
+//     modelUrl: '/tfmodel/model.json',
+//   });
+//   const predictions = await model.detect(img);
+//   console.log({ predictions });
+//   return predictions;
+// }
 
 const WebVideo = ({ onData }) => {
   const canvasRef = useRef();
@@ -31,29 +41,53 @@ const WebVideo = ({ onData }) => {
         canvas.height = video.videoHeight;
         c.drawImage(video, 0, 0, canvas.width, canvas.height);
         let imageData = c.getImageData(0, 0, canvas.width, canvas.height);
-        const code = jsqr(imageData.data, imageData.width, imageData.height, {
-          inversionAttempts: 'dontInvert',
-        });
 
-        if (code) {
-          const l = code.location;
-          const spreadXY = loc => [loc.x, loc.y];
-          c.beginPath();
-          c.moveTo(...spreadXY(l.topLeftCorner));
-          c.lineTo(...spreadXY(l.topRightCorner));
-          c.lineTo(...spreadXY(l.bottomRightCorner));
-          c.lineTo(...spreadXY(l.bottomLeftCorner));
-          c.lineTo(...spreadXY(l.topLeftCorner));
-          c.lineWidth = 4;
-          c.strokeStyle = '#aa66ce';
-          c.stroke();
-          if (code.data) {
-            let data = lzstring.decompressFromBase64(code.data);
-            onData(data);
-          }
-        }
+        // predict(imageData).then(predictions => {
+        //   predictions.forEach(prediction => {
+        //     const b = prediction.bbox;
+        //     c.beginPath();
+        //     c.moveTo(b[0], b[1]);
+        //     c.lineTo(b[0]+ b[2], b[1]);
+        //     c.lineTo(b[0] + b[2], b[1] + b[3]);
+        //     c.lineTo(b[0], b[1] + b[3]);
+        //     c.lineTo(b[0], b[1]);
+        //     c.font = '24px sans-serif';
+        //     c.fillText(prediction.class, b[0] + 20, b[1] + 20);
+        //     c.lineWidth = 4;
+        //     c.strokeWidth = '#aa66ce';
+        //     c.stroke();
+        //     // c.endPath();
+        //   });
+        // });
+
+        import('jsqr')
+          .then(module => module.default)
+          .then(jsqr => {
+            const code = jsqr(imageData.data, imageData.width, imageData.height, {
+              inversionAttempts: 'dontInvert',
+            });
+
+            if (code) {
+              const l = code.location;
+              const spreadXY = loc => [loc.x, loc.y];
+              c.beginPath();
+              c.moveTo(...spreadXY(l.topLeftCorner));
+              c.lineTo(...spreadXY(l.topRightCorner));
+              c.lineTo(...spreadXY(l.bottomRightCorner));
+              c.lineTo(...spreadXY(l.bottomLeftCorner));
+              c.lineTo(...spreadXY(l.topLeftCorner));
+              c.lineWidth = 4;
+              c.strokeStyle = '#aa66ce';
+              c.stroke();
+              if (code.data) {
+                let data = lzstring.decompressFromBase64(code.data);
+                onData(data);
+              }
+            }
+          });
       }
       if (stop) return;
+      // setTimeout(tick, 1000 / 5);
       requestAnimationFrame(tick);
     };
     devices.getUserMedia({ video: { facingMode: 'environment' } }).then(stream => {
@@ -67,6 +101,7 @@ const WebVideo = ({ onData }) => {
       stop = true;
       if (video && video.srcObject) {
         video.srcObject.getTracks().forEach(track => track.stop());
+        video.srcObject = null;
       }
     };
   }, [devices, onData]);
@@ -123,9 +158,7 @@ const NotFoundPage = props => {
         <section>
           <h2>Heres all your Blathadex Data</h2>
           <div style={{ margin: 'auto' }} dangerouslySetInnerHTML={{ __html: QrTag }} />
-          <div>
-            {/* <input type='file' label='Restore Data' /> */}
-          </div>
+          <div>{/* <input type='file' label='Restore Data' /> */}</div>
           <WebVideo onData={onData} />
         </section>
       )}

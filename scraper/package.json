@@ -1,0 +1,17 @@
+{
+  "name": "critterpedia-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node fetch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.uniqby": "^4.7.0",
+    "puppeteer": "^2.1.1",
+    "yargs": "^16.2.0"
+  }
+}

@@ -1,19 +1,17 @@
+import useAppContext, { updateFilter, updateSort } from 'app/context';
+import { motion } from 'framer-motion';
+import bells from 'images/inline/bagOfBells.svg';
+import bug from 'images/inline/bug.svg';
+import catchesCheck from 'images/inline/catchesCheck.svg';
+import fish from 'images/inline/fish.svg';
+import northernHemisphere from 'images/inline/northernHemisphere.svg';
+import order from 'images/inline/order.svg';
+import southernHemisphere from 'images/inline/southernHemisphere.svg';
 import React, { useState } from 'react';
+import Switcher from './Switcher';
 import ToggleImage from './ToggleImage';
 
-import bug from 'images/inline/bug.svg';
-import fish from 'images/inline/fish.svg';
-import catchesCheck from 'images/inline/catchesCheck.svg';
-import southernHemisphere from 'images/inline/southernHemisphere.svg';
-import northernHemisphere from 'images/inline/northernHemisphere.svg';
-import bells from 'images/inline/bagOfBells.svg';
-import useAppContext, { updateFilter, updateSort } from 'app/context';
-import Switcher from './Switcher';
 
-import FilterIcon from 'images/inline/filter.svg';
-import SortIcon from 'images/inline/sort.svg';
-import SettingsIcon from 'images/inline/settings.svg';
-import { AnimatePresence, motion } from 'framer-motion';
 
 const navTrayMotion = {
   initial: { height: 0 },
@@ -65,6 +63,12 @@ export const Sort = ({ sort, dispatch }) => (
           label='My Catches'
           checked={sort === 'caught'}
           onChange={() => dispatch(updateSort('caught'))}
+        />
+        <ToggleImage
+          Svg={order}
+          label='Order'
+          checked={sort === 'no'}
+          onChange={() => dispatch(updateSort('no'))}
         />
       </div>
     </div>

@@ -300,9 +300,8 @@ export const Image = ({ src, ...rest }) => {
 
 export const blockImage = `
   childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid_withWebp_tracedSVG
-              }
-            }
-
+    fluid {
+      ...GatsbyImageSharpFluid_withWebp_tracedSVG
+    }
+  }
 `;

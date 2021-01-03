@@ -1,5 +1,5 @@
 import classnames from 'classnames';
-import { navigate } from 'gatsby';
+import { Link, navigate } from 'gatsby';
 import React, { useCallback } from 'react';
 import { useSelectedContext } from 'app/context';
 import { createImgSrc, createCritterLink } from 'app/utils';
@@ -9,7 +9,7 @@ import { useLongPressable } from '../LongPressableDiv';
 import './critter.scss';
 import Img from 'gatsby-image';
 
-export const CritterImage = ({ type, name, image, style, ...rest }) =>
+export const CritterImage = ({ type, name, image, style = {}, ...rest }) =>
   image ? (
     <Img
       fluid={{ ...image.childImageSharp.fluid }}
@@ -49,7 +49,9 @@ export const CritterBlock = critter => {
       data-selected={!!~selected.indexOf(critter.id)}
       className={classnames('critter block', { caught, leaving })}
     >
-      <div className='stack'>
+      <div style={{ color: 'black'}} className='stack'>
+        <Link to={createCritterLink(critter)} />
+        {critter.no}
         <CritterImage image={critter.image} type={type} name={name} />
         {caught && <Checkmark className='badge bottom left' />}
         {leaving && <WarningIcon className='badge top right overhang' />}
