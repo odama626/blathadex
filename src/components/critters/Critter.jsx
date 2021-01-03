@@ -49,9 +49,8 @@ export const CritterBlock = critter => {
       data-selected={!!~selected.indexOf(critter.id)}
       className={classnames('critter block', { caught, leaving })}
     >
-      <div style={{ color: 'black'}} className='stack'>
+      <div className='stack'>
         <Link to={createCritterLink(critter)} />
-        {critter.no}
         <CritterImage image={critter.image} type={type} name={name} />
         {caught && <Checkmark className='badge bottom left' />}
         {leaving && <WarningIcon className='badge top right overhang' />}
