@@ -18,6 +18,7 @@ import { getCritterLocation } from 'app/node-shared';
 import RarityIcon from 'images/inline/rarityIcon.svg';
 import QuoteBefore from 'images/inline/quoteBefore.svg';
 import QuoteAfter from 'images/inline/quoteAfter.svg';
+import useAppContext from 'app/context';
 
 function pluralize(word) {
   if (word.toLowerCase() === 'fish') return word;
@@ -77,6 +78,8 @@ export default function CritterPage({ pageContext }) {
   let has = isCritterAvailableInMonth(date, critter);
   let nextMonth = isCritterAvailableInMonth(date.plus({ months: 1 }), critter);
   let warning = has && !nextMonth;
+  const [{ filter }] = useAppContext();
+  console.log({ filter });
 
   useEffect(() => {
     db.caught.get({ type, no }).then(result => setCaught(!!result));
@@ -170,9 +173,10 @@ export default function CritterPage({ pageContext }) {
           </div>
         </section>
         <section>
-          <h3 style={{ marginTop: '16px', textAlign: 'start' }}>Seasonality</h3>
+          <h3 style={{ marginTop: '16px', textAlign: 'start' }}>{capitalize(filter.hemisphere)} Seasonality</h3>
           <div className='date container'>
             <MonthRange
+              hemisphere={filter.hemisphere}
               ranges={[
                 [critter.smonth, critter.emonth],
                 [critter.smonth2, critter.emonth2],

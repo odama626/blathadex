@@ -18,19 +18,27 @@ const months = [
   'Dec',
 ];
 
-export const MonthRange = ({ ranges = [] }) => {
+export const MonthRange = ({ hemisphere, ranges = [] }) => {
   let date = DateTime.local();
+  let adjustedRanges = ranges;
+  console.log({ ranges });
+  if (hemisphere === 'southern') {
+    // adjustedRanges
+    adjustedRanges = ranges.map(([start, end]) =>
+      start === null ? [null, null] : [(start + 6) % 13, (end + 6) % 12]
+    );
+  }
+  console.log({ hemisphere, adjustedRanges });
   let classes = months.map((_, i) => {
-    let matches = ranges.filter(
-      range =>
-        range[0] !== null && inMonthsInclusive({ month: i + 1 }, ...range)
+    let matches = adjustedRanges.filter(
+      range => range[0] !== null && inMonthsInclusive({ month: i + 1 }, ...range)
     ).length;
     let names = [];
     if (matches) names.push('active');
     if (matches === 1) {
-      if (~ranges.map(r => r[0]).indexOf(i + 1)) {
+      if (~adjustedRanges.map(r => r[0]).indexOf(i + 1)) {
         names.push('first');
-      } else if (~ranges.map(r => r[1]).indexOf(i + 1)) {
+      } else if (~adjustedRanges.map(r => r[1]).indexOf(i + 1)) {
         names.push('last');
       }
     }
