@@ -8,7 +8,6 @@ import Img from 'gatsby-image';
 export const DiyImage = ({ diy, style, ...rest }) => {
   const [src, setSrc] = useState(createImgSrc(diy, true));
   const { image } = diy;
-  console.log({ rest, style})
   if (image) {
     return <Img fluid={image?.childImageSharp?.fluid} style={style} imgStyle={style} {...rest} />
   }

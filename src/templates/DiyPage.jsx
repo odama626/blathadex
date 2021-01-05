@@ -111,7 +111,6 @@ export default function DiyPage({ pageContext }) {
                     }}
                   >
                     <span>{capitalize(material.ingredient)}</span>
-                    {console.log({ material })}
                     <DiyImage
                       style={{ height: '35px' }}
                       diy={{ image: material.image, name: capitalize(material.ingredient), type: material.type }}

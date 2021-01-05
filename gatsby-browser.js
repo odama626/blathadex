@@ -30,9 +30,7 @@ const LocalStorageWrapper = ({ children }) => {
 export const wrapRootElement = ({ element }) => {
   return (
     <ContextProvider>
-      <div >
         <LocalStorageWrapper>{element}</LocalStorageWrapper>
-      </div>
     </ContextProvider>
   );
 };
