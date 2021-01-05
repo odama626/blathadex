@@ -10,6 +10,20 @@ export const getSpreadImage = (api, layout) => `${api}${layout && layout.url}`;
 export const convertLineBreaks = text =>
   text.split('\n\n').map((paragraph, key) => <p key={key}>{paragraph}</p>);
 
+export function convertCritterToHemisphere(critter, hemisphere) {
+  const converted = { ...critter };
+  if (hemisphere === 'southern') {
+    converted.smonth = (converted.smonth + 6) % 13;
+    converted.emonth = (converted.emonth + 6) % 12;
+    if (converted.smonth2) {
+      converted.smonth2 = (converted.smonth2 + 6) % 13;
+      converted.emonth2 = (converted.emonth2 + 6) % 12;
+    }
+  }
+  console.log({ hemisphere, converted })
+  return converted;
+}
+
 export const lock = () => {
   let scrollOffset = window.pageYOffset;
   let overflow = document.body.style.overflow;

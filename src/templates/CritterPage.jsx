@@ -5,7 +5,7 @@ import LocationIcon from 'images/inline/locationIcon.svg';
 import { DateTime } from 'luxon';
 import React, { useEffect, useState, useMemo } from 'react';
 import db from 'app/database';
-import { capitalize, isCritterAvailableInMonth } from 'app/utils';
+import { capitalize, convertCritterToHemisphere, isCritterAvailableInMonth } from 'app/utils';
 import BottomNav from 'components/BottomNav/BottomNav';
 import Checkbox from 'components/Checkbox';
 import { CritterImage, CritterCollection } from 'components/critters/Critter';
@@ -71,15 +71,15 @@ function ShadowImage({ size }) {
 }
 
 export default function CritterPage({ pageContext }) {
-  const { critter, similar = [] } = pageContext;
+  const { similar = [] } = pageContext;
+  const [{ filter }] = useAppContext();
+  const critter = convertCritterToHemisphere(pageContext.critter, filter.hemisphere)
   const { name, desc, bells, type, no, loc, rarity, quote, shadow } = critter;
   const [caught, setCaught] = useState(false);
   let date = DateTime.local();
   let has = isCritterAvailableInMonth(date, critter);
   let nextMonth = isCritterAvailableInMonth(date.plus({ months: 1 }), critter);
   let warning = has && !nextMonth;
-  const [{ filter }] = useAppContext();
-  console.log({ filter });
 
   useEffect(() => {
     db.caught.get({ type, no }).then(result => setCaught(!!result));
@@ -97,11 +97,11 @@ export default function CritterPage({ pageContext }) {
   const similarCritters = useMemo(
     () =>
       sortby(
-        similar.filter(c => c.id !== critter.id && isCritterAvailableInMonth(DateTime.local(), c)),
+        similar.filter(c => c.id !== critter.id && isCritterAvailableInMonth(DateTime.local(), convertCritterToHemisphere(c, filter.hemisphere))),
         ['bells'],
         ['desc']
       ),
-    [critter, similar, date.hour]
+    [critter, similar, date.hour, filter.hemisphere]
   );
 
   const size = getSize(shadow);
@@ -176,7 +176,6 @@ export default function CritterPage({ pageContext }) {
           <h3 style={{ marginTop: '16px', textAlign: 'start' }}>{capitalize(filter.hemisphere)} Seasonality</h3>
           <div className='date container'>
             <MonthRange
-              hemisphere={filter.hemisphere}
               ranges={[
                 [critter.smonth, critter.emonth],
                 [critter.smonth2, critter.emonth2],
