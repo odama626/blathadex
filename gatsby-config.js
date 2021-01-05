@@ -12,7 +12,7 @@ module.exports = {
     `gatsby-optional-chaining`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sqip`,
-    `gatsby-plugin-webpack-bundle-analyzer`,
+    { resolve: `gatsby-plugin-webpack-bundle-analyzer`, options: { analyzerPort: 8001 } },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,14 +1,30 @@
+import ItemBlock from 'components/ItemBlock';
 import Layout from 'components/layout';
 import SEO from 'components/seo';
-import { graphql, Link } from 'gatsby';
-import Icon from 'images/inline/Icon404.svg';
-import React from 'react';
-import ItemBlock from 'components/ItemBlock';
+import { graphql } from 'gatsby';
+import React, { useState } from 'react';
+import SearchButton from '../images/inline/searchButton.svg';
+import BackButton from '../images/inline/back.svg';
+import SearchOverlay from 'components/Search';
 
 const FlowersPage = ({ flowers }) => {
+  const [searchOpen, setSearchOpen] = useState(false);
   return (
-    <Layout>
+    <Layout
+    actions={
+        <div data-desktop style={{ display: 'flex', alignItems: 'center', height: '100%'}}>
+        <div data-desktop>
+          {searchOpen ? (
+            <BackButton style={{ color: 'white', cursor: 'pointer' }} onClick={() => setSearchOpen(false)} />
+          ) : (
+            <SearchButton style={{ cursor: 'pointer'}} onClick={() => setSearchOpen(true)} />
+          )}
+        </div>
+        </div>
+      }>
       <SEO title='Flowers' />
+      {searchOpen && <div className="shade" onClick={() => setSearchOpen(false)} />}
+      {searchOpen && <SearchOverlay showResults attached />}
       <section>
         <h2>Flowers</h2>
         <div className='grid'>
@@ -30,9 +46,17 @@ export const query = graphql`
     allFlowersJson {
       edges {
         node {
+          id
           type
           name
           genus
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              }
+            }
+          }
         }
       }
     }

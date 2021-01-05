@@ -8,10 +8,9 @@ import northernHemisphere from 'images/inline/northernHemisphere.svg';
 import order from 'images/inline/order.svg';
 import southernHemisphere from 'images/inline/southernHemisphere.svg';
 import React, { useState } from 'react';
+import { FAB_BUTTON } from './BottomNav/BottomNav';
 import Switcher from './Switcher';
 import ToggleImage from './ToggleImage';
-
-
 
 const navTrayMotion = {
   initial: { height: 0 },
@@ -19,8 +18,8 @@ const navTrayMotion = {
   exit: { height: 0 },
 };
 
-export const Filter = ({ toggleFilter, filter, dispatch }) => (
-  <motion.div {...navTrayMotion}>
+export const Filter = ({ toggleFilter, filter, dispatch, desktop = false }) => (
+  <motion.div {...navTrayMotion} {...(desktop ? { initial: false } : {})}>
     <div className='bottom nav tray'>
       <div className='title'>Select to show or hide...</div>
       <div className='section'>
@@ -47,8 +46,8 @@ export const Filter = ({ toggleFilter, filter, dispatch }) => (
   </motion.div>
 );
 
-export const Sort = ({ sort, dispatch }) => (
-  <motion.div {...navTrayMotion}>
+export const Sort = ({ sort, dispatch, desktop = false }) => (
+  <motion.div {...navTrayMotion} {...(desktop ? { initial: false } : {})}>
     <div className='bottom nav tray'>
       <div className='title'>Sort by...</div>
       <div className='section'>
@@ -75,8 +74,8 @@ export const Sort = ({ sort, dispatch }) => (
   </motion.div>
 );
 
-export const Settings = ({ filter, dispatch }) => (
-  <motion.div {...navTrayMotion}>
+export const Settings = ({ filter, dispatch, desktop = false }) => (
+  <motion.div {...navTrayMotion} {...(desktop ? { initial: false } : {})}>
     <div className='bottom nav tray'>
       <div className='title'>Select your Hemisphere</div>
       <div className='section'>
@@ -113,44 +112,10 @@ export default function FilterWidget(props) {
   return (
     <>
       <nav data-desktop className='bottom'>
-        <Filter
-          toggleFilter={toggleFilter}
-          filter={filter}
-          dispatch={dispatch}
-        />
-        <Sort sort={state.sort} dispatch={dispatch} />
-        <Settings filter={filter} dispatch={dispatch} />
+        <Filter desktop toggleFilter={toggleFilter} filter={filter} dispatch={dispatch} />
+        <Sort desktop sort={state.sort} dispatch={dispatch} />
+        <Settings desktop filter={filter} dispatch={dispatch} />
       </nav>
-      {/* {menu !== '' && <div className='shade' onClick={toggleMenu('')} />}
-      <nav data-mobile className='bottom'>
-        <header>
-          <FilterIcon
-            onClick={toggleMenu('filter')}
-            className={menu === 'filter' ? 'active' : ''}
-          />
-          <SortIcon
-            onClick={toggleMenu('sort')}
-            className={menu === 'sort' ? 'active' : ''}
-          />
-          <SettingsIcon
-            onClick={toggleMenu('settings')}
-            className={menu === 'settings' ? 'active' : ''}
-          />
-        </header>
-        <AnimatePresence>
-          {menu === 'filter' && (
-            <Filter
-              toggleFilter={toggleFilter}
-              filter={filter}
-              dispatch={dispatch}
-            />
-          )}
-          {menu === 'sort' && <Sort sort={state.sort} dispatch={dispatch} />}
-          {menu === 'settings' && (
-            <Settings filter={filter} dispatch={dispatch} />
-          )}
-        </AnimatePresence>
-      </nav> */}
     </>
   );
 }

@@ -29,6 +29,8 @@ const SearchResultsPage = props => {
         <div className='grid'>
           {results.map(result => (
             <div
+              tabIndex={0}
+              role='button'
               key={result.label}
               className='critter block'
               onClick={() => navigate(result.link)}

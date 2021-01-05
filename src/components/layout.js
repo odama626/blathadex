@@ -12,7 +12,7 @@ import Header from './header';
 import './layout.css';
 import Nav from './Nav';
 
-const Layout = ({ children, actions, navBar }) => {
+const Layout = ({ children, actions = undefined, navBar= undefined }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {

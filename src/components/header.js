@@ -20,7 +20,7 @@ const Header = ({ siteTitle, actions, open, setOpen }) => {
           }}
         >
           <Hamburger
-            style={{ color: 'white', marginRight: '20px' }}
+            style={{ color: 'white', marginRight: '20px', cursor: 'pointer' }}
             onClick={() => setOpen(!open)}
           />
           <h1 style={{ margin: 0 }}>

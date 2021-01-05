@@ -23,14 +23,13 @@ export const CritterImage = ({ type, name, image, style = {}, ...rest }) =>
   );
 
 export const CritterBlock = critter => {
-  const { name, type, caught, leaving, allowSelect } = critter;
+  const { name, type, caught, leaving, allowSelect, loading } = critter;
   const { selected, toggle } = useSelectedContext();
 
   const handleClick = useCallback(
     e => {
       if (!selected.length) {
         navigate(createCritterLink(critter));
-        // navigate(`/critters/${critter.name.toLowerCase().replace(' ', '-')}`)
       } else {
         toggle(critter);
       }
@@ -47,7 +46,7 @@ export const CritterBlock = critter => {
     <button
       {...lpProps}
       data-selected={!!~selected.indexOf(critter.id)}
-      className={classnames('critter block', { caught, leaving })}
+      className={classnames('critter block', { caught, leaving, loading })}
     >
       <div className='stack'>
         <Link to={createCritterLink(critter)} />
@@ -65,6 +64,7 @@ export const CritterCollection = ({
   splitCaught,
   multiSelect,
   leaving = [],
+  loading
 }) => {
   let caughtCritters = !caught
     ? []
@@ -82,6 +82,7 @@ export const CritterCollection = ({
     <>
       {topCritters.map(critter => (
         <CritterBlock
+          loading={loading}
           allowSelect={multiSelect}
           key={critter.id}
           {...critter}
@@ -92,6 +93,7 @@ export const CritterCollection = ({
       {splitCaught &&
         caughtCritters.map(critter => (
           <CritterBlock
+            loading={loading}
             key={critter.id}
             {...critter}
             caught

@@ -1,23 +1,35 @@
-import { DiyBlock } from 'components/diy/Diy';
+import ItemBlock from 'components/ItemBlock';
+import SearchOverlay from 'components/Search';
 import { graphql } from 'gatsby';
 import React, { useState } from 'react';
+import BottomNav, { FAB_BUTTON } from '../components/BottomNav/BottomNav';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import BottomNav, { FAB_BUTTON } from '../components/BottomNav/BottomNav';
-import SearchOverlay from 'components/Search';
-import ItemBlock from 'components/ItemBlock';
-import { blockImage } from 'app/utils';
+import SearchButton from '../images/inline/searchButton.svg';
+import BackButton from '../images/inline/back.svg';
 
 const DiyList = ({ recipes }) => {
   const [searchOpen, setSearchOpen] = useState(false);
   return (
-    <Layout>
-      <SEO title='DIY Recipes' />
-      {searchOpen && <div className='shade' onClick={() => setSearchOpen(false)} />}
+    <Layout
+      actions={
+        <div data-desktop style={{ display: 'flex', alignItems: 'center', height: '100%'}}>
+        <div data-desktop>
+          {searchOpen ? (
+            <BackButton style={{ color: 'white', cursor: 'pointer' }} onClick={() => setSearchOpen(false)} />
+          ) : (
+            <SearchButton style={{ cursor: 'pointer'}} onClick={() => setSearchOpen(true)} />
+          )}
+        </div>
+        </div>
+      }
+    >
+      <SEO title="DIY Recipes" />
+      {searchOpen && <div className="shade" onClick={() => setSearchOpen(false)} />}
       {searchOpen && <SearchOverlay showResults attached />}
       <section>
         <h2>DIY Recipes</h2>
-        <div className='grid'>
+        <div className="grid">
           {recipes.map(recipe => (
             <ItemBlock key={recipe.id} item={recipe} />
           ))}

@@ -1,17 +1,17 @@
+import db from 'app/database';
+import Checkbox from 'components/Checkbox';
 import { DiyBlock, DiyImage } from 'components/diy/Diy';
-import { Link, navigate, withPrefix } from 'gatsby';
+import { motion } from 'framer-motion';
+import { Link, navigate } from 'gatsby';
+import Bells from 'images/inline/bagOfBells.svg';
+import LocationIcon from 'images/inline/locationIcon.svg';
 import Pattern from 'images/inline/pattern.svg';
+import ToDiyButton from 'images/inline/ToDiyButton.svg';
 import React, { Fragment, useEffect, useState } from 'react';
+import { capitalize, createImgSrc } from '../app/utils';
 import BottomNav from '../components/BottomNav/BottomNav';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import { createImgSrc, capitalize } from '../app/utils';
-import ToDiyButton from 'images/inline/ToDiyButton.svg';
-import { motion } from 'framer-motion';
-import Bells from 'images/inline/bagOfBells.svg';
-import Checkbox from 'components/Checkbox';
-import db from 'app/database';
-import LocationIcon from 'images/inline/locationIcon.svg';
 
 const ObjectSizeImage = ({ size, ...rest }) => {
   return <img {...rest} alt={size} src={createImgSrc({ type: 'object_size', name: size }, true)} />;

@@ -10,6 +10,8 @@ import React, { useEffect, useLayoutEffect } from 'react';
 import useAppContext, { ContextProvider } from './src/app/context';
 import { loadLocally, saveLocally } from './src/app/utils';
 
+// document.body.dataset.theme = 'dark';
+
 const LocalStorageWrapper = ({ children }) => {
   const [state, dispatch] = useAppContext();
 
@@ -28,7 +30,9 @@ const LocalStorageWrapper = ({ children }) => {
 export const wrapRootElement = ({ element }) => {
   return (
     <ContextProvider>
-      <LocalStorageWrapper>{element}</LocalStorageWrapper>
+      <div >
+        <LocalStorageWrapper>{element}</LocalStorageWrapper>
+      </div>
     </ContextProvider>
   );
 };

@@ -38,38 +38,35 @@ export default function BottomNav(props) {
       case 'right':
         return [sizing.width - padding - fabRadius - cutoutWidth, padding];
       case 'left':
-        return [
-          padding + fabRadius + cutoutWidth,
-          (padding + fabRadius + cutoutWidth) * 2,
-        ];
+        return [padding + fabRadius + cutoutWidth, (padding + fabRadius + cutoutWidth) * 2];
       case 'center':
         return [sizing.width / 2 + cutoutWidth];
     }
   }, [fabPosition, sizing, cutoutWidth]);
 
   return (
-    <nav className='bottom' data-mobile>
+    <nav className="bottom" data-mobile>
       <svg
         style={{ display: 'block' }}
         data-mobile
         width={sizing.width}
-        height='112'
+        height="112"
         viewBox={`0 0 ${sizing.width} 112`}
-        fill='none'
-        xmlns='http://www.w3.org/2000/svg'
-        preserveAspectRatio='none'
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
       >
         <defs>
-          <mask id='fab-slot'>
-            <rect width='100%' height='100%' fill='white' y='10' />
+          <mask id="fab-slot">
+            <rect width="100%" height="100%" fill="white" y="10" />
             <AnimatePresence>
               <motion.circle
-                initial={{ r: 0 }}
+                initial={false}
                 animate={{ r: 40, y: collapsed ? -65 : 0 }}
-                r='0'
+                r="0"
                 cx={fabXPosition}
-                cy='47'
-                fill='black'
+                cy="47"
+                fill="black"
               />
             </AnimatePresence>
           </mask>
@@ -78,25 +75,23 @@ export default function BottomNav(props) {
         <motion.g animate={{ y: collapsed ? 65 : 0 }}>
           <motion.rect
             width={sizing.width}
-            y='47'
-            height='80'
-            fill='var(--primary)'
-            mask='url(#fab-slot)'
+            y="47"
+            height="80"
+            fill="var(--primary)"
+            mask="url(#fab-slot)"
           />
           <foreignObject
             style={{ overflow: 'visible' }}
             x={drawerXPosition}
             y={overhangActions ? 20 : 47}
-            width={
-              sizing.width - (padding + cutoutWidth + fabRadius) * 2 - padding
-            }
-            height='80'
+            width={sizing.width - (padding + cutoutWidth + fabRadius) * 2 - padding}
+            height="80"
           >
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: scrollDelta <= 0 ? 1 : 0 }}
               exit={{ opacity: 0 }}
-              className='actions'
+              className="actions"
             >
               {actions}
             </motion.div>
@@ -105,7 +100,7 @@ export default function BottomNav(props) {
         <g transform={`translate(${fabXPosition - fabRadius} 14)`}>
           <AnimatePresence>
             <motion.g
-              initial={{ scale: 0 }}
+              initial={false}
               animate={{
                 scale: 1,
                 y: collapsed ? 79 - padding - cutoutWidth - fabRadius : 0,
@@ -113,11 +108,11 @@ export default function BottomNav(props) {
               exit={{ scale: 0 }}
               whileTap={{ scale: 0.8 }}
               onClick={onFabClick}
-              className='fab inset'
+              className="fab inset"
             >
-              <circle cx='33' cy='33' r='33' filter='url(#fabshadow)' />
+              <circle cx="33" cy="33" r="33" filter="url(#fabshadow)" />
 
-              <path d={fabIconPath} fill='currentColor' />
+              <path d={fabIconPath} fill="currentColor" />
             </motion.g>
           </AnimatePresence>
         </g>
@@ -131,37 +126,25 @@ function SvgDefs() {
   return (
     <>
       <filter
-        id='fabshadow'
-        x='0'
-        y='0'
-        width='74'
-        height='74'
-        filterUnits='userSpaceOnUse'
-        colorInterpolationFilters='sRGB'
+        id="fabshadow"
+        x="0"
+        y="0"
+        width="74"
+        height="74"
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood floodOpacity='0' result='BackgroundImageFix' />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
-          in='SourceAlpha'
-          type='matrix'
-          values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
         />
-        <feOffset dy='4' />
-        <feGaussianBlur stdDeviation='2' />
-        <feColorMatrix
-          type='matrix'
-          values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0'
-        />
-        <feBlend
-          mode='normal'
-          in2='BackgroundImageFix'
-          result='effect1_dropShadow'
-        />
-        <feBlend
-          mode='normal'
-          in='SourceGraphic'
-          in2='effect1_dropShadow'
-          result='shape'
-        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
       </filter>
     </>
   );

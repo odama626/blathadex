@@ -49,7 +49,7 @@ export default function AboutPage({ data }) {
         <p />
         <p>
           If you want to help out and contribute the app is hosted on github at{' '}
-          <a href="https://github.com/omarzion/blathadex">omarzion/blathadex</a>
+          <a target='__blank' href="https://github.com/odama626/blathadex">odama626/blathadex</a>
         </p>
       </section>
     </Layout>

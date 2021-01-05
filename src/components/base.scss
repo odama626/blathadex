@@ -5,6 +5,9 @@
   --accent-outline: #74cde9;
   --accent-background: #bbefff;
 
+  --site-background: f2f7ff;
+  --section-background: white;
+
   --error: #ed4b92;
 
   --success: #00b905;
@@ -39,6 +42,50 @@
   --pattern-animation-dur: 60s;
 }
 
+[data-theme="dark"] {
+  --background: rgb(24, 26, 27);
+  --primary: rgb(28, 68, 146);
+  --accent: #cbdaf5;
+  --accent-outline: #74cde9;
+  --accent-background: #bbefff;
+
+  --site-background: rgb(28, 30, 31);
+  --section-background: var(--background);
+
+  --error: #ed4b92;
+
+  --success: #00b905;
+  --success-outline: #71d084;
+  --success-background: #eafaed;
+
+  --basic-outline: #cccccc;
+  --basic-background: #eee;
+  --basic: #cccccc;
+
+  --secondary: #aa66ce;
+  --secondary-hover: #d085f9;
+  --secondary-click: #53276a;
+
+  --calendar-accent: var(--secondary);
+  --calendar-dark: var(--secondary-click);
+  --calendar: white;
+
+  --header-background: var(--primary);
+  --border-radius: 10px;
+  --max-site-width: 966px;
+
+  --hover-shadow: 0px 0px 4px var(--primary);
+  --section-shadow: 0px 0px 6px rgba(28, 68, 146, 0.14);
+  --item-shadow: 0px 0px 6px rgba(20, 20, 20, 0.13);
+
+  --pattern-background: var(--accent-background);
+  --pattern-color-1: rgba(83, 130, 222, 0.12);
+  --pattern-color-2: rgba(83, 130, 222, 0.12);
+  --pattern-animation-from: 0 0;
+  --pattern-animation-to: 1000 -1000;
+  --pattern-animation-dur: 60s;
+}
+
 section {
   margin: 18px;
   margin-bottom: 21px;
@@ -47,11 +94,12 @@ section {
   padding: 16px;
   color: var(--primary);
   text-align: center;
-  background-color: white;
+  background-color: var(--section-background);
 }
 
 body {
   padding-bottom: 10em;
+  background-color: var(--site-background);
 }
 
 .grid {
@@ -676,4 +724,38 @@ section.quote {
   border-radius: 4px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.loading {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  animation-timing-function: linear;
+  background: #dddddd;
+  background-image: -webkit-gradient(
+    linear,
+    left center,
+    right center,
+    from(#dddddd),
+    color-stop(0.2, #f5f5f5),
+    color-stop(0.4, #e5e5e5),
+    to(#dddddd)
+  );
+  background-repeat: repeat;
+  background-size: 1000px 104px;
+  height: 104px;
+  position: relative;
+  * {
+    visibility: hidden;
+  }
+}
+
+@keyframes wave {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
 }

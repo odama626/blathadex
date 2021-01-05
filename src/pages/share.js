@@ -12,15 +12,6 @@ import { navigate } from 'gatsby';
 // require('@tensorflow/tfjs-backend-webgl');
 // const cocoSsd = require('@tensorflow-models/coco-ssd');
 
-// async function predict(img) {
-//   const model = await cocoSsd.load({
-//     modelUrl: '/tfmodel/model.json',
-//   });
-//   const predictions = await model.detect(img);
-//   console.log({ predictions });
-//   return predictions;
-// }
-
 const WebVideo = ({ onData }) => {
   const canvasRef = useRef();
   const devices = typeof navigator !== 'undefined' && navigator.mediaDevices;
@@ -35,6 +26,11 @@ const WebVideo = ({ onData }) => {
     const canvas = canvasRef.current;
     const c = canvas.getContext('2d');
 
+    // const loadModel = cocoSsd
+    //   .load()
+    //   .catch(console.error);
+    const loadJsqr = import('jsqr');
+
     const tick = () => {
       if (video.readyState === video.HAVE_ENOUGH_DATA) {
         canvas.width = video.videoWidth;
@@ -42,25 +38,35 @@ const WebVideo = ({ onData }) => {
         c.drawImage(video, 0, 0, canvas.width, canvas.height);
         let imageData = c.getImageData(0, 0, canvas.width, canvas.height);
 
-        // predict(imageData).then(predictions => {
-        //   predictions.forEach(prediction => {
-        //     const b = prediction.bbox;
-        //     c.beginPath();
-        //     c.moveTo(b[0], b[1]);
-        //     c.lineTo(b[0]+ b[2], b[1]);
-        //     c.lineTo(b[0] + b[2], b[1] + b[3]);
-        //     c.lineTo(b[0], b[1] + b[3]);
-        //     c.lineTo(b[0], b[1]);
-        //     c.font = '24px sans-serif';
-        //     c.fillText(prediction.class, b[0] + 20, b[1] + 20);
-        //     c.lineWidth = 4;
-        //     c.strokeWidth = '#aa66ce';
-        //     c.stroke();
-        //     // c.endPath();
-        //   });
-        // });
+        console.log('tick');
 
-        import('jsqr')
+        // loadModel
+        //   .then(
+        //     async model =>
+        //       await model.detect(imageData).then(predictions => {
+        //         predictions.forEach(prediction => {
+        //           const b = prediction.bbox;
+        //           c.beginPath();
+        //           c.moveTo(b[0], b[1]);
+        //           c.lineTo(b[0] + b[2], b[1]);
+        //           c.lineTo(b[0] + b[2], b[1] + b[3]);
+        //           c.lineTo(b[0], b[1] + b[3]);
+        //           c.lineTo(b[0], b[1]);
+        //           c.font = '24px sans-serif';
+        //           c.fillText(prediction.class, b[0] + 20, b[1] + 20);
+        //           c.lineWidth = 4;
+        //           c.strokeWidth = '#aa66ce';
+        //           c.stroke();
+        //           // c.endPath();
+        //         });
+        //       })
+        //   )
+        //   .then(
+        //     () => !stop && requestAnimationFrame(tick),
+        //     e => !stop && requestAnimationFrame(tick)
+        //   );
+
+        loadJsqr
           .then(module => module.default)
           .then(jsqr => {
             const code = jsqr(imageData.data, imageData.width, imageData.height, {
@@ -84,16 +90,20 @@ const WebVideo = ({ onData }) => {
                 onData(data);
               }
             }
+            !stop && requestAnimationFrame(tick);
           });
+      } else {
+        requestAnimationFrame(tick);
       }
       if (stop) return;
       // setTimeout(tick, 1000 / 5);
-      requestAnimationFrame(tick);
+      // requestAnimationFrame(tick);
     };
     devices.getUserMedia({ video: { facingMode: 'environment' } }).then(stream => {
       video.srcObject = stream;
       video.setAttribute('playsinline', true);
       video.play();
+      console.log('start tick');
       requestAnimationFrame(tick);
     });
 
@@ -121,8 +131,10 @@ const NotFoundPage = props => {
       const qr = qrcode(0, 'L');
 
       let data = JSON.stringify({
-        c: caught.map(c => `${c.type[0]}${c.no}`).join(''),
+        c: Array.from(new Set(caught.map(c => `${c.type[0]}${c.no}`))).join(''),
       });
+
+      console.log({ data })
 
       const compressed = lzstring.compressToBase64(data);
       qr.addData(compressed);
@@ -133,6 +145,7 @@ const NotFoundPage = props => {
 
   const onData = str => {
     const data = JSON.parse(str);
+    console.log({ data });
     const caught = data.c
       .replace(/(\d+)([a-zA-Z])/g, '$1,$2')
       .replace(/([a-zA-Z])(\d+)/g, '$1=$2')
@@ -153,7 +166,7 @@ const NotFoundPage = props => {
 
   return (
     <Layout>
-      <SEO title='Data' />
+      <SEO title="Data" />
       {!data.critters && (
         <section>
           <h2>Heres all your Blathadex Data</h2>
@@ -163,24 +176,40 @@ const NotFoundPage = props => {
         </section>
       )}
       {data.critters && (
-        <section>
-          <h2>Do you want to save this?</h2>
-          <div className='grid'>
-            {data.critters.map(critter => (
-              <CritterBlock key={critter.id} {...critter} caught />
-            ))}
-          </div>
-          <nav data-mobile className='bottom'>
-            <header>
-              <button className='error' onClick={() => navigate('/')}>
-                Cancel
-              </button>
-              <button className='success' onClick={onSave}>
-                Save
-              </button>
-            </header>
+        <>
+          <nav data-desktop className="bottom">
+            <div className="bottom nav tray">
+              <div className="title">Would you like to save these {data.critters.length} critters to your account?</div>
+              <div className="section" style={{ display: 'flex', gap: '20px'}}>
+                <button className="error" onClick={() => navigate('/')}>
+                  Cancel
+                </button>
+                <button className="success" onClick={onSave}>
+                  Save
+                </button>
+              </div>
+            </div>
           </nav>
-        </section>
+          <section>
+            <h2 data-mobile>Do you want to save this?</h2>
+            <h2 data-desktop>This is what we found in the QR</h2>
+            <div className="grid">
+              {data.critters.map((critter, i) => (
+                <CritterBlock key={i} {...critter} caught />
+              ))}
+            </div>
+            <nav data-mobile className="bottom">
+              <header>
+                <button className="error" onClick={() => navigate('/')}>
+                  Cancel
+                </button>
+                <button className="success" onClick={onSave}>
+                  Save
+                </button>
+              </header>
+            </nav>
+          </section>
+        </>
       )}
     </Layout>
   );
@@ -193,10 +222,10 @@ export const query = graphql`
     allCrittersJson {
       edges {
         node {
+          id
           bells
           name
           no
-          id
           etime
           etime2
           smonth
@@ -209,6 +238,13 @@ export const query = graphql`
           emonth2
           emonth
           desc
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              }
+            }
+          }
         }
       }
     }

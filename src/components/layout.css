@@ -6,7 +6,6 @@ html {
 }
 body {
   margin: 0;
-  background-color: #f2f7ff;
   color: var(--primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

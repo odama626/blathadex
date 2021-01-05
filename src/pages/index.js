@@ -20,6 +20,8 @@ import SettingsIcon from 'images/inline/settings.svg';
 import { AnimatePresence } from 'framer-motion';
 import { useScrollListener } from 'app/hooks';
 import SearchOverlay from 'components/Search';
+import SearchButton from '../images/inline/searchButton.svg';
+import BackButton from '../images/inline/back.svg';
 
 export default function IndexPageContainer(props) {
   const availableCritters = useMemo(() => props.data.allCrittersJson.edges.map(edge => edge.node), [
@@ -110,7 +112,14 @@ function IndexPage({ sectionGroups, critters }) {
   return (
     <Layout
       actions={
-        <div>
+        <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+          <div data-desktop>
+            {menu === 'search' ? (
+              <BackButton style={{ color: 'white', cursor: 'pointer' }} onClick={toggleMenu('')} />
+            ) : (
+              <SearchButton style={{ cursor: 'pointer' }} onClick={toggleMenu('search')} />
+            )}
+          </div>
           <Switcher
             options={[
               { value: 'day', label: 'Day', Svg: DaySvg },
@@ -123,8 +132,8 @@ function IndexPage({ sectionGroups, critters }) {
       }
       navBar={<></>}
     >
-      <SEO title='Blathadex' />
-      {menu !== '' && <div className='shade' onClick={toggleMenu('')} />}
+      <SEO title="Blathadex" />
+      {menu !== '' && <div className="shade" onClick={toggleMenu('')} />}
       {menu === 'search' && <SearchOverlay attached showResults />}
       <FilterWidget />
       <BottomNav
@@ -169,6 +178,7 @@ function IndexPage({ sectionGroups, critters }) {
         .map((section, i) => (
           <Section name={section.section} key={i}>
             <CritterCollection
+              loading={loading}
               multiSelect
               critters={section.critters}
               leaving={section.leaving}

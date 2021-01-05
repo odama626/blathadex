@@ -1,4 +1,4 @@
-const critters = require(`../blathadex/src/data/diy.json`);
+const critters = require(`../src/data/flowers.json`);
 const { writeJsonFile } = require('./src/utils');
 
 const output = critters.map(critter => {
@@ -9,4 +9,4 @@ const output = critters.map(critter => {
   }
 });
 
-writeJsonFile(`../blathadex/src/data/diy.json`, output)
+writeJsonFile(`../src/data/flowers.json`, output)

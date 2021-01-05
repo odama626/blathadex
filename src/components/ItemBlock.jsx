@@ -22,7 +22,7 @@ function Image({ item, ...rest }) {
   return <img {...rest} alt={item.name} src={src} onError={() => setSrc(diy404Src)} />;
 }
 
-export default function Block({ item, showName }) {
+export default function Block({ item, showName = undefined }) {
   return (
     <Link to={createLink(item)} style={{ textDecoration: 'none' }}>
       <div className='critter block'>

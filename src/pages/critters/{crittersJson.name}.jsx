@@ -42,6 +42,7 @@ export const query = graphql`
     }
     allCrittersJson {
       nodes {
+        id
         name
         bells
         no
