@@ -20,7 +20,6 @@ export function convertCritterToHemisphere(critter, hemisphere) {
       converted.emonth2 = (converted.emonth2 + 6) % 12;
     }
   }
-  console.log({ hemisphere, converted })
   return converted;
 }
 
