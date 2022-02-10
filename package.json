@@ -38,7 +38,7 @@
     "lodash.throttle": "^4.1.1",
     "luxon": "^1.25.0",
     "lz-string": "^1.4.4",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.2",
     "qrcode-generator": "^1.4.4",
     "react": "^17.0.1",
